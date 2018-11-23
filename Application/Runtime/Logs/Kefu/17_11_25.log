@@ -1,0 +1,25 @@
+[ 2017-11-25T11:09:48+08:00 ] 58.59.0.246 /index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ComsysController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0005s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('61','首先要做好客服这个岗位，做好服务，做好销售。让更多的疝气人群在我们产品的帮助下，缓解疝气。作为销售，要做到明天比今天做的好，下月比这个月做的好，明年比今年做的好，一步一个脚印，慢慢登峰。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('62','弘扬乐艾企业文化，让更多的人健康，让更多的的快乐。做好自己的本质工作，为乐艾争取更高的企业评价，喂乐艾争取更多的社会资源，把乐艾的产品推广到每一个需要的人的手上，让他们，他们的家人朋友都了解到乐艾的产品，都了解到乐艾。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('63','愿景：做全球最好的产品，为健康护航
+团结高效诚信激情，
+让更多的人健康，让更多的人快乐，以人为本，与员工共发展。
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('64','印章使用申请表') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('65','加班申请表，加班，调休') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('73','2%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('75','济南乐艾生物技术有限公司，张总') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('112','公出表') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('113','2天，3天') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('114','200') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('115','满7,普通200,主管300，经理500，总监级800，总经理1000') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('116','一个月') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('117','10%') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0003s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('14','裴娇','1','试题一','42','1146,1147,1148,1149,1150,1151,1152,1153,1154,1155,1156,1157,1158','0','42') [ RunTime:0.0002s ]
+

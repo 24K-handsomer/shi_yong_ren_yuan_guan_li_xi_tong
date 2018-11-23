@@ -1,0 +1,50 @@
+[ 2017-07-21T10:07:19+08:00 ] 58.56.25.158 /index.php/Admin/Person/practice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `practice`='1' WHERE ( uid='10' ) [ RunTime:0.0002s ]
+
+[ 2017-07-21T10:07:24+08:00 ] 58.56.25.158 /index.php/Admin/Person/practice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `practice`='0' WHERE ( uid='10' ) [ RunTime:0.0002s ]
+
+[ 2017-07-21T10:17:52+08:00 ] 58.56.25.158 /index.php/Admin/Peomanager/addgroup
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+SQL: SHOW COLUMNS FROM `group` [ RunTime:0.0005s ]
+SQL: INSERT INTO `group` (`group_name`) VALUES ('母婴') [ RunTime:0.0002s ]
+
+[ 2017-07-21T11:00:14+08:00 ] 58.56.25.158 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: UPDATE `user` SET `test1`='15' WHERE ( uid='14' ) [ RunTime:0.0002s ]
+
+[ 2017-07-21T11:06:50+08:00 ] 58.56.25.158 /index.php/Admin/Person/updategrade2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0005s ]
+SQL: SELECT `grade1` FROM `grade` WHERE ( gid = 19 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `grade` SET `grade1`='2',`grade2`='90',`isgrade2`='1',`grade`='92' WHERE ( gid = 19 ) [ RunTime:0.0002s ]
+
+[ 2017-07-21T11:08:38+08:00 ] 58.56.25.158 /index.php/Admin/Person/practice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: UPDATE `user` SET `practice`='1' WHERE ( uid='14' ) [ RunTime:0.0002s ]
+
+[ 2017-07-21T11:35:10+08:00 ] 58.56.25.158 /index.php/Admin/Person/practice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: UPDATE `user` SET `practice`='0' WHERE ( uid='14' ) [ RunTime:0.0003s ]
+

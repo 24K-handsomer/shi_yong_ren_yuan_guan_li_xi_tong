@@ -1,0 +1,28 @@
+[ 2018-04-21T10:24:13+08:00 ] 58.56.25.158 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 139 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0004s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('139','') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('140','结节，丘疹，囊肿，脓包，聚合') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('141','多发于面部，为细小的白色脂栓，表现为半球形的白色小包，质硬，无自觉症状') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('142','构成不同，粉刺由油脂和角质组成，痤疮由死掉的细菌和身体分泌物组成，粉刺不去注意，才会发展为痤疮。
+频率不同，粉刺一般人有过，痤疮不常见
+发病原因不同，粉刺由于作息，清洁不当造成
+症状表现不同，粉刺分为白头和黑头粉刺，痤疮表现为红肿，丘疹') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('143','锯棕榈提取物，黑醋栗脂油，黑醋栗花青素，番茄红素，锌
+每天两次，每次两粒，分为早中晚饭后半小时服用
+经期停用，孕期和哺乳期禁用，血压偏低及大型手术术后禁用') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('145','1700,2350,
+2000,3400') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('146','好的，产品的效果决定了价格，现在用**元调理你的肌肤痘痘，对于你今后生活和工作都有帮助，不要只看眼前。如果后期使用其他产品无效可以随时微信联系我帮你调理肌肤。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('147','工作氛围较为轻松但是销量较有压力，应多学习话术及病理知识，做好客户分析。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('148','囊肿，脓包') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('149','未满18周岁没有经济能力，及年龄大的客户。100粒/瓶，轻度痘痘每天4粒，中重度痘痘每天6粒，经济压力上对于客户较小且安全性更高。') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('13','林洪冠','2','痘痘国外组新员工考核试题','0','1894,1895,1896,1897,1898,1899,1900,1901,1902,1903','0','0') [ RunTime:0.0002s ]
+

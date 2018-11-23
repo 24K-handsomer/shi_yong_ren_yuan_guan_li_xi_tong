@@ -1,0 +1,86 @@
+[ 2018-06-17T10:48:14+08:00 ] 58.59.0.246 /index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 152 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ComsysController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0003s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('61','我的岗位是客服岗位，首先要做的是了解产品知识，熟悉与客户的聊天技巧，与优秀员工多交流，促使自己业绩提升，踏实认真的做好自己分内的工作，提升自己业绩，熟悉公司的各项管理制度，争取做到产品主管职位') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('62','服从上级领导安排，积极主动，踏实、认真做好分内事情，和同事互帮互助，为公司发展尽一份力量') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('63','愿景：做全球最好的产品，为健康护航
+核心价值观：团结、高效、诚信、激情 
+宗旨：让更多的人开心，让更多的人快乐，以人为本，与员工共发展') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('68','7天   30天') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('69','50元') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('71','旷工半日') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('72','百分之1') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('73','百分之2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('74','三庆世纪财富中心A3 区  ') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('75','济南乐艾生物技术有限公司    张丽洁') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('113','一天    两天') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('115','30天   200元    300元    600元    5000元   10000元') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('116','30天') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('14','陈燕','1','最新制度考试','44','2043,2044,2045,2046,2047,2048,2049,2050,2051,2052,2053,2054,2055','0','44') [ RunTime:0.0002s ]
+
+[ 2018-06-17T14:30:44+08:00 ] 58.56.25.158 /index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 153 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ComsysController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0004s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('61','月工资在一万以上，在济南有一个自己的小房子。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('62','做好自己本职工作，努力进取，创造更好的业绩。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('63','企业愿景：做全球最好的产品,为健康保驾护航
+乐艾的情怀:品为魄，善做魂，赢天下，创未来
+宗旨：让更多的人健康，让更多的人快乐。以人为本，与员工共发展。
+核心价值观：团结、高效、诚信、激情。
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('68','7           30') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('69','50') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('71','第二类迟到早退，每次扣罚月度工资的2%，并予以口头警告') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('72','1%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('73','2%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('74','山东省济南市高新区三庆财富中心B2   603') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('75','济南乐艾生物技术有限公司    张丽洁') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('113','1     2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('115','30       200   300   600   800      2000') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('116','30') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('17','王毅帆','1','最新制度考试','38','2056,2057,2058,2059,2060,2061,2062,2063,2064,2065,2066,2067,2068','0','38') [ RunTime:0.0002s ]
+
+[ 2018-06-17T14:33:28+08:00 ] 58.56.25.158 /index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 154 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ComsysController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0003s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('61','做好自己负责的产品，做好业绩，多多学习，未来争取自己可以负责新的产品') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('62','做好本职工作，做好业绩，在良好的公司氛围中与大家一块携手共进。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('63','1.乐艾使命：做全球最好的产品，为健康护航
+2.企业的核心价值观：团结、高效、诚信、激情。
+3.企业的发展宗旨：让更多的人健康，让更多的人快乐。以人为本，与员工共发展。
+4.乐艾的情怀:品为魄，善做魂，赢天下，创未来
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('68','7   30') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('69','50') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('71','第二类迟到早退，每次扣罚月度工资的2%，并予以口头警告
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('72','1%') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('73','2%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('74','山东省济南市高新区三庆财富中心B2   603') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('75','济南乐艾生物技术有限公司    张丽洁') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('113','1  2 ') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('115','30     200  300  600 800  2000') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('116','30') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('17','梁漫','1','最新制度考试','38','2069,2070,2071,2072,2073,2074,2075,2076,2077,2078,2079,2080,2081','0','38') [ RunTime:0.0002s ]
+

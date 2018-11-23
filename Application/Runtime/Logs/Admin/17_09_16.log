@@ -1,0 +1,37 @@
+[ 2017-09-16T09:02:06+08:00 ] 58.59.25.134 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: UPDATE `user` SET `test2`='18' WHERE ( uid='34' ) [ RunTime:0.0081s ]
+
+[ 2017-09-16T10:05:38+08:00 ] 58.59.25.134 /index.php/Admin/Person/updategrade2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0006s ]
+SQL: SELECT `grade1` FROM `grade` WHERE ( gid = 47 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `grade` SET `grade1`='0',`grade2`='85',`isgrade2`='1',`grade`='85' WHERE ( gid = 47 ) [ RunTime:0.0002s ]
+
+[ 2017-09-16T10:21:22+08:00 ] 58.59.25.134 /index.php/Admin/Person/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `status`='0' WHERE ( uid='33' ) [ RunTime:0.0067s ]
+
+[ 2017-09-16T10:21:28+08:00 ] 58.59.25.134 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `test1`='19' WHERE ( uid='34' ) [ RunTime:0.0127s ]
+
+[ 2017-09-16T10:48:13+08:00 ] 58.59.25.134 /index.php/Admin/Person/updategrade2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0006s ]
+SQL: SELECT `grade1` FROM `grade` WHERE ( gid = 48 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `grade` SET `grade1`='44',`grade2`='49',`isgrade2`='1',`grade`='93' WHERE ( gid = 48 ) [ RunTime:0.0002s ]
+

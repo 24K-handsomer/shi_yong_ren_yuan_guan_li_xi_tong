@@ -1,0 +1,35 @@
+[ 2018-03-31T10:44:54+08:00 ] 58.56.25.158 /index.php/Home/Index/isexam
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Home/Controller/IndexController.class.php 第 148 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `isexam`='1' WHERE ( uid = 117 ) [ RunTime:0.0169s ]
+
+[ 2018-03-31T11:24:28+08:00 ] 58.56.25.158 /index.php/Home/Index/isexam
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Home/Controller/IndexController.class.php 第 148 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: UPDATE `user` SET `isexam`='1' WHERE ( uid = 118 ) [ RunTime:0.0189s ]
+
+[ 2018-03-31T11:27:07+08:00 ] 58.56.25.158 /index.php/Home/Index/isexam
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Home/Controller/IndexController.class.php 第 148 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: UPDATE `user` SET `isexam`='0' WHERE ( uid = 118 ) [ RunTime:0.0075s ]
+
+[ 2018-03-31T11:35:54+08:00 ] 58.56.25.158 /index.php/Home/Index/isexam
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Home/Controller/IndexController.class.php 第 148 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `isexam`='0' WHERE ( uid = 117 ) [ RunTime:0.0074s ]
+
+[ 2018-03-31T16:10:58+08:00 ] 58.59.0.246 /index.php/Ahttp://47.89.17.127:82/dmin/Index/filelist.html
+ERR: 无法加载控制器:Ahttp:
+

@@ -1,0 +1,451 @@
+[ 2018-04-16T14:31:09+08:00 ] 58.56.25.158 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 127 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0172s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('210','外观表现：潮红，红血丝，红肿，色素沉着，皮肤萎缩，多毛，脱皮，红斑，毛孔粗大情况严重时会出现丘疹，脓包，流脓结痂。遇热更加严重
+自感表现：皮肤敏感，干燥，脱皮，灼热，刺痛皮肤各种不适等。') [ RunTime:0.0144s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('211','1激素是机体免疫能力失衡。
+2激素是皮肤免疫屏障受损。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('212','2瓶 1200 复购1100
+4瓶 2000 复购1900
+6瓶 2700 复购2550
+8瓶 3400 复购3200') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('213','主要含有专利成分，其他包含赖氨酸，酪氨酸，黄芪，蒲公英根，洋菝葜，紫锥花，女贞果，植物纤维素，植物硬脂酸镁，磷酸钙，硅和硅酸钙，维A 维E 锌和硒等。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('214','主要的专利成分有效的对抗皮肤敏感反应，镇定肌肤，消肿止痒，去除面部红血丝，丘疹 增强血液循环重塑肌肤免疫屏障同时促进皮肤新陈代谢增强机体免疫能力，恢复因激素所受损的皮肤角质层，减少色素沉着，提高皮肤免疫力，从源头解决皮肤敏感问题。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('215','一天2次 每次三粒，饭后半小时温水送服。
+DH不适用于孕妇，老人，及心脏病高血压的人群
+14岁以下的减量使用。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('216','1中药:    中药调理周期长，需要半年时间，长期服用中药会有副作用。
+2外用化妆品:   外用化妆品和护肤品没有修复皮肤的效果，如刺激性大的护肤品会使情况更糟糕。
+3裸脸： 长期不洗脸 首先不卫生其次不洗脸可能会引起别的皮肤问题出现。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('217','1 禁辛辣刺激，海鲜牛羊肉，韭菜，芒果，菠萝等敏感食物，浓茶，咖啡，酒类情绪影响及精神压力都会影响恢复。
+2 禁止用一切含有激素的护肤品（包含酒精，果酸，水杨酸，高岭土等护肤品）
+3 外出注意防护，（如 风，寒，日晒会使情况加重）外出戴口罩，夏天注意防晒。
+4 避免磨砂，按摩，去角质，泥膜等护肤方式，避免桑拿，热敷，冷敷。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('218','1. 面部是否感到干燥，紧绷。
+2. 遇热是否潮红加重。
+3. 是否使用激素产品？') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('219','美国DH，采用过硬品质原料，国际领先技术，纯天然成分提取，拥有三项专利，并且美国天然产品协会认证，美国国家食品药品监督局认证，美国工厂质量环境（GMP）认证。美国原瓶原装进口，具有安全性和权威性，在美国畅销26年 2015年底引进中国，彻底从源头解决皮肤敏感问题。') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0005s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('13','王文超','2','激素脸基础知识考核','10','1794,1795,1796,1797,1798,1799,1800,1801,1802,1803','0','10') [ RunTime:0.0002s ]
+
+[ 2018-04-16T14:41:59+08:00 ] 58.59.0.246 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 137 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0004s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('190','外因;过敏原（花粉，粉尘····）
+内因：免疫力紊乱，机体抗敏能力不足细胞膜损伤形成的过敏体质接触到过敏原之后细胞释放大量的炎性组胺物质，导致过敏！   ') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('191','抗敏营养胶囊是纯植物提取的口服胶囊制剂，是专门为过敏人群研
+发的，是从黑醋栗中提取的高活性脂肪酸。可以调节反复过敏反应
+，调节人体免疫机制紊乱，修复细胞膜损伤。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('192','纯植物提取安全无刺激，不含激素  100%纯天然萃取，无副作用。技术先进，高活性。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('193','每天三次 每次2粒早晚饭前饭后服用
+适用于5-70岁的人群，5-10岁刺破胶囊混合于食物中服用
+孕期禁用
+10岁以上  直接服用 
+如患者有在服用它药物  间隔1小时左右服用') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('194','老师已经给你分析过了，过敏反复发作主要因自身免疫力降低、抗敏能力不足遇到外界过敏原刺激时身体释放大量的炎性组胺物质所引起。服用维安喜抗敏营养胶囊可以通过调节人体免疫机制紊乱，修复细胞膜损伤，有效的调理机体反复过敏的现象。同时服用VC、钙片提升免疫辅助调理效果非常好，（发反馈图片）') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('195','接触性过敏，日光性过敏，化妆品过敏，换季性皮肤过敏') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('196','呼吸困难    恶心 呕吐') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('197','这的产品可以暂时性的缓解过敏的症状不能根本上扭转过敏体质，会导致反复发作') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('198','1瓶1200  2瓶2400 三瓶3600') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('199','我：你好，我是张老师，是有皮肤方面的问题需要咨询吗？
+客户：是的，最近脸上过敏，又红又痒的
+我:好的，年龄多大了，男士女士？
+客户：30岁的女性
+我：过敏的现象出现的频繁吗
+客户：经常在换季的时候过敏
+我：你这种情况一般属于换季性过敏，老师这里很多人和你的情况类似
+客户：每年春季比较厉害
+我：恩，发一下面部照片我帮你看一下
+') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0005s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('12','张娇芸','2','抗敏营养胶囊产品知识测试','0','1804,1805,1806,1807,1808,1809,1810,1811,1812,1813','0','0') [ RunTime:0.0004s ]
+
+[ 2018-04-16T14:46:05+08:00 ] 58.59.0.246 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 134 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0003s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('190','过敏形成的   内因是，免疫力紊乱，机体抗敏能力不足，细胞膜损伤，形成的过敏体质，接触到过敏原之后细胞释放大量的炎性组胺物  质，导致过敏  ，
+                  外因是:1氧化压力，2：皮肤屏障受损3：角化压力') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('191',' 从黑醋栗中提取的三种高活性脂肪酸Y亚麻酸，SDA和ALA协同作用，可以调节人体免疫机制紊乱，修复细胞膜损伤，有效的调理反复过敏。
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('192','抗敏营养胶囊是纯植物提取的，由超黑醋栗提取的三种高活性脂肪酸，协同作用，提高身体免疫力，从而扭转过敏体质，安全性高，没有副作用
+临床上常用的过敏药物，扑尔敏，西替利嗪，苯海拉明，氯雷他定等这些都是组织胺制剂，可以暂时性缓解过敏的症状，并不能扭转过敏体质，长期服用会有依赖，并且过敏会反复发作。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('193','5-10岁，刺破胶囊，混入食物中一起服用
+10岁以上，直接口服，都是一日三次，一次2粒、
+注意事项：在服用其他药物同时，服用抗敏营养胶囊的时候，要逐渐减量，慢慢断开服用
+                严重器官性（心脏、肝）疾病者禁止服用；服用期间，不要吃辛辣刺激食物
+
+
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('194','效果是不用担心的，咱们的营养抗敏胶囊是经过其他顾客的效果验证的，不然的话也不会这么多人前来咨询调理【附带几张调理顾客的反馈截图】你看这几个，过敏情况都比较要严重，现在已经调理的不错了。建议你也及时调理，及时扭转过敏体质') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('195','  1：干燥性皮肤过敏，:2：油性皮肤过敏:3：压力性皮肤过敏:4：永久性皮肤过敏') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('196','过敏如果是发生在咽喉，发生咽喉肿痛，呼吸道感染  ，可能会引发窒息死亡   ') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('197','西替利嗪就是属于阻胺类制剂。服用之后见效非常快，刚开始使用会感觉症状减轻，只是起到一个暂时缓解症状的作用。如果长期服用身体会对其产生依赖性也会有一定的副作用，建议你这边后期还是减少服用次数') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('198','一瓶1200
+两瓶2400
+三瓶3600优惠后2550
+4瓶4800
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('199','顾客：这个有副作用吗？我：咱们这个抗敏营养胶囊是纯植物提取的，对于咱们人体是没有任何的副作用的，这点可以放心
+顾客：效果真的有这么好吗？我：【发几张调理好转反馈截图】这是其他顾客的调理反馈，你可以看一下，开始过敏的症状都是比你还严重很多的，现在经过一段时间的调理，恢复的都不错，你可以放心调理，后期老师都是会跟踪指导的
+顾客：那多久可以看到效果啊？我：咱们人体都是有代谢循环周期的，像你这个情况老师建议你3个月为一个调理周期，服用一个月的时候，症状会逐渐缓解，一个周期下来会过敏体质有很明显的改善
+顾客：要吃这么久的时间啊？我：咱们的过敏体质形成是经过很久时间的，并且比较顽固，肯定是需要时间周期去调理好的。而且不是一下完全扭转的，服用一瓶就能看到效果，建议你按照周期调理') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0003s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('12','彭雪芳','2','抗敏营养胶囊产品知识测试','0','1814,1815,1816,1817,1818,1819,1820,1821,1822,1823','0','0') [ RunTime:0.0002s ]
+
+[ 2018-04-16T14:47:08+08:00 ] 58.59.0.246 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 135 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0003s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('190','外因：饮食、气候、吸入物，接触过敏物质等。
+内因：机体免疫能力低下，大量自由基肥大细胞产生氧化破坏是过敏的外因。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('191','抗敏营养胶囊是纯植物提取的口服胶囊制剂，是专门为过敏人群研
+发的，是从黑醋栗中提取的高活性脂肪酸。可以调节反复过敏反应
+，调节人体免疫机制紊乱，修复细胞膜损伤。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('192','是纯植物萃取的口服胶囊制剂，三倍强度，高活性。100%纯天然萃取，无副作用。技术先进，高活性。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('193','适用人群5-70周岁。5-10岁的刺破胶囊外壁，混入食物中服用。10岁以上直接服用，每日三次，每次两粒，饭前、饭后30分钟服用。注意事项：存放在阴凉干燥处，没有紫外线照射的地方，放在儿童接触不到的地方。如患者有服用抗组胺类药物，不要立马停掉，后期可与维安喜抗敏营养胶囊进行服用。后期逐渐减量直到停止。若有严重器官病的（心脏、肝）应立即停用。饮食应注意：辛辣刺激的食物不要吃，例如海鲜等') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('194','可以发一些好转的截图给患者，发患者官方网站进行了解。最后留下电话方便后期的追踪联系。也可以加上一些自己的话，例如老师从事过敏咨询十余年了，如果那样，老师也不会推荐给你，更不会有患者介绍朋友，家人来老师这里调理的，后期老师给你走南关街一份适合你体质的饮食注意事项发你，有助于调理。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('195','干燥型皮肤过敏症，油性皮肤过敏症，压力型皮肤过敏症，永久性皮肤过敏症。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('196','长期应用激素类药物，可出现肥胖、满月脸、皮肤变薄、肌无力、浮肿、恶心、呕吐、痤疮等严重后果。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('197','恩，这些都是抗组胺类药物，都含有激素成分。这些都只能暂时缓解病症，并不能从根本上进行调理，长时间服用会给身体带来严重依赖性。这样一来增加了肌肤的严重性，皮肤的调理时间也相应的增加。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('198','1瓶1200元，2瓶2400。3瓶3600,3瓶优惠后2550元。4瓶4800') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('199','老师：你好，请问是有过敏方面的问题要向老师咨询吗？
+顾客：是的，老师。
+老师：多大年龄，大概有多长时间了？
+顾客：26了，有两年时间了，该怎么办呢老师？
+老师：老师需要先了解你的情况后，再给你一个全面的调理方案。
+老师：是经常性的吗，发病频繁吗？
+顾客：是的，老师，经常痒，还有红疹子，严重的时候还会红肿。
+老师：恩，这样吧，你拍下图片发老师给你详细看下。
+顾客：好的，稍等。
+老师：恩，从图片上看，已经挺严重了
+顾客：是的
+老师：期间有服用其他过敏性的产品吗？
+顾客：有的，西替利嗪，扑尔敏，服用了好多，当时还挺管用，后来就不行了。
+老师：恩，是的，这些都是抗组胺类产品，都含有大量激素，只是暂时性缓解，后期还是会反复的，而且长时间服用激素类的产品，还会产生依赖性，这样也加重了肌肤的并发症，调理的时间也加长了。
+顾客：哦，原来是这样啊。
+顾客：老师那我应该怎么办呢？
+老师：你的情况时间也不短了，已经2年时间了，已经比较顽固了，老师推荐你服用维安喜抗敏营养胶囊。
+老师：是纯植物萃取的，没有任何副作用，品质保证
+顾客：多少钱，服用多长时间？
+老师：。。钱。你的情况建议是2-3个月为一个调理期。') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0003s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('12','景翠芳','2','抗敏营养胶囊产品知识测试','0','1824,1825,1826,1827,1828,1829,1830,1831,1832,1833','0','0') [ RunTime:0.0002s ]
+
+[ 2018-04-16T14:47:40+08:00 ] 58.59.0.246 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 136 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0003s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('190','由于免疫紊乱，机体抗敏能力不足，细胞膜损伤，形成过敏体质，接触到过敏源后细胞释放大量炎性组胺物质，
+
+氧化压力，肌肤屏障受损，角质压力') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('191','抗敏营养胶囊是纯植物提取的口服胶囊制剂，是专门为过敏人群研
+发的
+主要成分是从黑醋栗中提取的高活性脂肪酸。
+可以调节反复过敏反应
+，调节人体免疫机制紊乱，修复细胞膜损伤。
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('192','抗敏营养胶囊是黑醋苏丽纯植物提取的高活性脂肪酸
+没有任何副作用
+调节人体免疫机制紊乱
+修复细胞膜损伤
+有效消除反复过敏') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('193','一日三次，一次两粒，饭前温水服用，
+5-10岁 刺破胶囊外壁  混入食物中服用
+10岁以上  直接服用 
+5岁以下，70岁以上禁服
+如有在服用它药物 
+ 间隔1小时左右服用
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('194','给客户发之前客户的反馈截图
+以及产品的官网
+多次强调产品只要按着老师指导
+类似他情况的都是反馈不错的') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('195','干燥性皮肤过敏症
+油性皮肤过敏症
+压力性皮肤过敏症
+永久性皮肤过敏症') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('196','并发症：
+向心性肥胖、满月脸、皮肤变薄、肌无力、浮肿、恶心、呕吐、痤疮等') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('197','这类是阻胺类制剂，见效很快，只是起到了暂缓止痒不适的作用，副作用大依赖性大，不宜长期服用，建议后期还是减少服用次数') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('198','1瓶1200元
+2瓶2400,
+3瓶3600优惠后2550,
+4瓶4800优惠后') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('199','A：老师，你这个抗敏胶囊真的管用吗
+’
+B：类似你情况的都是反馈不错的，后期老师会给你详细的指导，按着老师指导，像你现在的情况，服用一个月，皮肤痒，痛有减轻
+A：可以先付一半钱吗
+A:那我可以先试试吗，可以先付一部分定金吗
+B：这个是美国原瓶原装进口的，海关清关需要交关税，需全款
+A：老师，这个真的没有副作用吗
+B：没有的，抗敏胶囊是纯植物提取的口服胶囊制剂，没有任何副作用的
+
+
+') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('12','刘瑞婷','2','抗敏营养胶囊产品知识测试','0','1834,1835,1836,1837,1838,1839,1840,1841,1842,1843','0','0') [ RunTime:0.0002s ]
+
+[ 2018-04-16T14:47:57+08:00 ] 58.59.0.246 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 133 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0003s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('190','外因：气候，花粉，灰尘
+内因：免疫紊乱，机体抗敏能力不足，细胞膜损伤，接触到过敏源后细胞释放大量的炎性组胺物质，从而导致过敏反复发作') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('191','三种高活性脂肪酸协同作用下，提高免疫功能，另外作用于人体细胞膜，阻止细胞膜破裂释放炎性组胺物质，从而扭转过敏体质') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('192','抗敏营养胶囊是三种高活性脂肪酸协同作用下，扭转过敏体质，另外它是纯植物提取，安全性更高
+而其他抗敏药物虽然可以暂时缓解不适症状，但是长期服用会产生一定的依赖性，另外对于有些过敏不但没有效果，反而会引发更严重的皮肤炎症
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('193','5-10岁之间，刺破胶囊外壳，混入食物中服用
+10岁以上的直接温水送服，一天三次，一次两粒
+如果客户长期服用抗组胺类的药物，不要立即停用，应配合抗敏营养胶囊服用，逐渐减少量') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('194','效果都是万千患者共同使用反馈出来的，不是靠老师自己说(发一些调理好的患者反馈)，这个客户和你的情况类似，服用2.3个月就已经看到了明显的效果了') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('195','1.油腻性皮肤过敏
+2.干燥性肌肤过敏
+3.压力性
+4.永久性') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('196','会造成肠胃黏膜系统出现水肿，如果得不到及时的调理，危险情况会出现死亡  ') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('197','这些都是一些抗组胺类的药物，只能是起到一个缓解不适症状，另外对于有些过敏不但起不到作用，反而会加重皮肤炎症，长期服用会有一定的依赖性，产生抗体') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('198','一瓶1200
+两瓶2400
+三瓶2550
+四瓶4800') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('199','客户：我好好的，怎么会突然过敏呢
+老师：突然过敏就是免疫紊乱，抗敏能力不足，细胞膜损伤，遇到过敏原后容易释放炎性组胺物质，形成了反复过敏体质
+客户：那我现在应该怎么办呢？
+老师：很多和你情况类似的顾客都是服用抗敏营养胶囊调理的
+老师：可以提高免疫功能，修复受损的细胞膜，从而扭转你的过敏体质
+客户：有效果吗？需要服用多长时间呢？
+老师：效果不是靠老师自己说的，都是这么多的客户调理之后反馈的，服用抗敏营养胶囊另外搭配上维生素吸收效果会更明显，另外也需要自己配合合理的饮食') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('12','司盼盼','2','抗敏营养胶囊产品知识测试','0','1844,1845,1846,1847,1848,1849,1850,1851,1852,1853','0','0') [ RunTime:0.0002s ]
+
+[ 2018-04-16T14:50:18+08:00 ] 58.59.0.246 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+
+[ 2018-04-16T14:55:11+08:00 ] 58.59.0.246 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+
+[ 2018-04-16T14:56:50+08:00 ] 58.59.0.246 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+
+[ 2018-04-16T14:58:14+08:00 ] 58.59.0.246 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 129 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0003s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('190','分为内因和外因。内因：免疫系统紊乱，集体抗敏能力不足，细胞膜受损形成过敏体质。
+外因是接触到过敏原，包括阳光，花粉，异体蛋白，药物，化妆品等') [ RunTime:0.0003s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('191','抗敏营养胶囊富含GLA,ALA,SDA,可以缓解肌肤敏感症状，调理免疫系统，提高抗敏能力，修复受损细胞膜，调节过敏体质，恢复正常状态') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('192','目前常用抗敏药物多为抗组胺类，可以阻止部分组胺物质产生，缓解过敏，但效果有限，且对很多症状无效。比如西替利嗪，扑尔敏，氯雷他定等，会产生嗜睡，反应变慢等情况，长期服用对身体副作用较大，还会引起贫血和抗药性，导致效果减弱。外用药多为激素药，停用后会再次反复甚至加重，对身体有副作用。
+抗敏营养胶囊为纯植物萃取，没有依赖性，无副作用，根源调理敏感体质') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('193','一天三次，一次两粒，饭前或饭后半小时服用
+针对5-10岁患者刺破胶囊外皮掺到食物中服用，10-70岁患者直接服用。
+注意事项：坚持服用，如果在服用其他抗敏药物可逐渐减量，等症状消失后停用。饮食上多吃富含维生素C的食物，蔬菜，水果等。少吃海鲜，发物，油炸，烧烤等易过敏食物。针对面部有过敏情况的患者注意不要用热水洗脸，做好皮肤补水合理，减少化妆品品牌的更换。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('194','效果是经过无数临床实践和过敏人士亲身体验出来的，而且过敏体质有一定遗传性，必须尽快调理。抗敏营养胶囊对你的情况非常适用，可以调节免疫系统，恢复自身抗敏能力，修复受损的细胞膜，扭转你的抗敏体质。（发调理前后的对比图）') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('195','1，季节性皮肤过敏，换季是多发，皮肤出现干燥，红肿，丘疹等
+2.日光性过敏：长期受日光照射，出现发红，瘙痒，脱皮，水泡等
+3化妆品过敏
+4.接触性过敏，接触过敏源出现过敏') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('196','呼吸不畅，腹痛，胸闷，过敏性休克等，严重时会危及生命') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('197','这是过敏发生时的常用产品，属于抗组胺类，但相信你也能感受到，服用只能达到暂时缓解的作用，无法调理过敏体质，后期会反复复发，而且随着服用时间延长，效果也是越来越差的，服用过程中会出现精力下降，心慌犯困等情况，而且像是我们看不见的，肝肾压力，毒素堆积等也会不断加重。老师这里跟你情况类似的都是服用抗敏营养胶囊进行调理的，反馈非常好') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('198','一瓶1200，两瓶2400，三瓶3600，四瓶4800.老师这边建议你按照周期调理，一个周期是3瓶，优惠价2550') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('199','（做过基本沟通，女性，28岁，多部位过敏，要完照片）我：从照片上看过敏情况已经比较严重了，出现多长时间了，发作频繁吗？
+客：出现过几次，最近严重了。
+我：检查过过敏源吗？
+客：没有
+我：饮食方面吃海鲜发物，辛辣刺激的会有加重吗？
+客：不会
+我：接触花粉，灰尘，风沙，日照会加重吗？
+客：晒太阳会更严重
+我：有瘙痒，灼热，疼痛的感觉吗？
+客：有
+我：你的情况属于比较典型的日光性给皮肤过敏。
+主要是免疫系统紊乱，集体抗敏能力不足，细胞膜受损导致
+客：我在吃苯海拉明
+我：嗯，苯海拉明是比较常用的抗组胺类产品，见效较快，但只是暂时抑制，后期会不断复发，且有多种副作用
+客：是的
+我：你的情况需要扭转过敏体质才能恢复正常
+客：怎么做呢？
+我：推荐服用抗敏营养胶囊进行调理。
+是纯植物萃取的口服胶囊，可以缓解肌肤敏感症状，调理免疫系统，提高抗敏能力，修复受损细胞膜，扭转过敏体质，达到正常水平
+客：多少钱：
+我：按照周期服用，根据血液循环和皮肤代谢规律，一个周期是3个月，原件3600，现在活动优惠价2550.你的情况建议服用1-2个周期') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('12','董磊磊','2','抗敏营养胶囊产品知识测试','0','1854,1855,1856,1857,1858,1859,1860,1861,1862,1863','0','0') [ RunTime:0.0002s ]
+
+[ 2018-04-16T15:03:10+08:00 ] 58.59.0.246 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 128 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0003s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('76','机体免疫力降低，抗敏能力不足，遇到外界刺激时，机体会释放出炎性组胺物质引起的
+会发痒，一般以风团形式出现，呈红色或是苍白色，24小时内消退
+') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('77','接触性荨麻疹，人工性，日光性，寒冷性，胆碱性，运动性，压迫性') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('78','中药治疗，不能界定有效活性成分，也可能会有部分的中药成分引起过敏
+西药：激素类药膏和抗组胺类药物，能起到暂时性止痒，但是不能长期使用，会让机体产生依赖性
+') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('79','5到10岁，刺破胶囊壁，冲水吞服，一天三次，一次两粒
+10岁以上，一天3次，一次两粒，饭前饭后半小时服用
+原料致胜，品质极高，纯植物提取，100%纯天然，GMP生产，FDA认证，安全没有副作用
+') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('80','可以调节反复过敏反应，调节人体免疫机制紊乱，修复细胞膜损伤，帮助消退荨麻疹') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('81','好的，还有哪些方面我没有讲清楚吗，还有哪些方面的顾虑呢，像你现在的情况已经很久的时间了，建议你及时调理，早调理可以早消退') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('82','美国原瓶原装进口的，过海关的时候会产生手续费，所以必须全款，再发一些其他顾客转账的截图，和收货截图') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('83','那个产品我这有不少患者用过的，给我的反馈不是很理想，这个主要是抗组胺类的，一般不建议长期使用抗组胺类的，容易产生依赖性') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('84','顾客：你好，老师
+我：你好，请问你是有皮肤方面的问题吗
+顾客：是的，我这有荨麻疹的问题，我给你拍个图片看看
+我：好的
+顾客：图片
+我：只是胳膊上吗
+顾客：不是，其他地方也有
+我：多久了荨麻疹
+顾客：一年多了老师
+我：时间不短了，你现在是慢性荨麻疹了
+顾客：是的，老师
+我：发作后多久能够退下去
+顾客:一般晚上睡觉的时候起来后天亮的时候就消了，就是痒的厉害
+我:是的，荨麻疹的主要症状就是发痒
+我：多长时间发作一次
+顾客：第一次和第二次间隔了半年，这半年的时间经常起
+我：这期间采取什么调理措施了吗
+顾客：一开始吃了中药，前段时间吃了些西药
+我：嗯，一般抗组胺类的不建议长期吃，一开始有止痒的作用 ，但是长期下去，机体会产生依赖性
+顾客：我早不吃了
+我：你现在的情况主要是因为自身的免疫力下降，机体抗敏能力不足引起的，再加上免疫细胞受损，免疫系统紊乱，导致了荨麻疹的反复发作
+顾客：哦
+我:饮食休息怎么样
+顾客：喜欢吃辣的
+我：辣的凉的刺激的不要吃，不要喝酒
+顾客：嗯，知道了，你这边怎么治疗的
+我: 我这边像你这样情况的患者是用抗敏营养叫胶囊调理的
+顾客：能治好吗
+我：是的，可以的，抗敏营养胶囊可以调节反复过敏反应，调节人体免疫机制紊乱，修复细胞膜损伤，有效消除反复过敏，帮助消退荨麻疹
+顾客：多少钱
+我：像你现在的情况建议你先用一个周期调理
+顾客：一个周期是多久
+我：一个周期是3瓶3个月的量是3600元，优惠后2550元
+我：一个周期左右的时间会有出疹面积和出疹频率的明显减少
+顾客：哦，好的
+我：确认订购的话可以留下地址姓名电话帮你安排') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('138','一瓶1200元，2瓶2400元，3瓶原价3600，优惠后2550,元，4瓶4800,6瓶优惠后5100元') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('15','谢丹','2','维安喜基础知识测试','0','1864,1865,1866,1867,1868,1869,1870,1871,1872,1873','0','0') [ RunTime:0.0002s ]
+
+[ 2018-04-16T16:01:34+08:00 ] 58.59.0.246 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 130 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0005s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('76','原因：机体免疫力低下，抗敏免疫力不足受外界刺激时，身体释放大量的炎性组胺物质导致的。
+症状：首先会出现皮肤瘙痒，随后会出现很多风团，呈鲜红色或者苍白色，皮肤色，少数的会出现水肿性红斑，风团大小形状不一样，发作的时间也不一样。皮疹会反复发作。部分人可伴恶心，呕吐，头痛，头胀，腹痛，腹泻等症状，有的人还会出现胸闷，心慌、头晕，面色苍白，脉搏细弱，血压下降等全身症状
+') [ RunTime:0.0003s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('77','按时间可以分急性荨麻疹和慢性荨麻疹，
+详细可以分：胆碱性荨麻疹，人工性荨麻疹，日光性荨麻疹，寒凉性荨麻疹，压迫性荨麻疹，运动性荨麻疹，遗传性的荨麻疹，水源性荨麻疹，接触性荨麻疹，热性荨麻疹') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('78','1、中药有清热解毒的功效，见效慢疗程数长很多人坚持不下来，停用后会反复发作，
+2、西药只能暂时缓解止痒，依赖性比较强，越吃量越大
+3、抗组胺类制剂（扑尔敏，息斯敏，开瑞坦，非那根）可以暂时缓解控制，但是副作用大，对肠胃的刺激比较大，停用后会反复。
+4、激素类产品（皮炎王，皮康王，皮康霜，派瑞松，去炎松，氟轻松，乐肤液，肾上腺素，必可酮等）见效快副作用大，会造成肥胖，皮肤多毛的情况，抑制机体免疫力。激素类容易产生依赖性，长期服用会导致内分泌失调，骨质疏松。
+5、肥大类细胞稳定产品容易产生耐受性
+6、肚脐埋丸：只能表面消除荨麻疹，无法调理内脏。
+7、龟蛇粉主要是抗风湿，对中风口眼歪斜有效果。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('79','使用方法：一天三次一次两粒，饭前饭后半小时内用。5-10内需要刺破胶囊外壁放在食物里用，10以上可以直接服用的。如果还服用其他的一些药物的话，中间需要间隔一个小时的时间。
+抗敏营养胶囊优势：1、黑醋栗中提取的三种高活性脂肪酸2、纯植物提取对身体没有副作用，3、抗营养胶由GMP生产经过FDA认证。4、三倍强度 高效持久。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('80','抗敏营养胶囊具有调节机体免疫，修复受损细胞膜的作用，同时提升皮肤对外界抵御能力，避免机体出现反复过敏的现象。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('81','首先要问一下考虑哪一方面？一方面是效果，另一方面是价格，如果是担心效果的话可以从效果方面打消客户疑虑后继续引导客户订购，如果是价格方面的话，可以从价格方面给客户解释一下，接下来如果客户还是考虑的话，可以给客户发一下网址让客户详细的了解一下，然后把电话给客户说一下，后期有任何疑问需要可以随时微信电话私聊我。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('82','首先需要发一些转账截图，收货截图。发一些转账截图，微信都是实名认证的，转账后都有转账记录，有一定的法律效力，老师的手机号码是XXX可以随时微信，电话私聊我，后期我也会随时指导你使用的。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('83','我这边也听客户说过使用过XXX产品效果不理想后又来咨询老师的，抗敏营养胶囊06年美国上市，2012年引进国内，经过大量临床验证效果不错，有很多跟你类似情况在老师这边调理到正常人的体制。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('84','A:你好，我是刘老师你也是有皮肤方面的问题需要咨询吗？
+B:我想了解一下，
+A：是你本人还是家人，多大了？
+B:本人
+A:荨麻疹多长时间了？
+B:两三年了
+A：有发作时候的图片吗？发我看一下
+B:好的
+A:是全身还是局部的？早晚严重还是？
+B:局部的，晚上会严重一些
+A:夜间抑制过敏介质释放功能减弱，人体机能减弱，人血流缓慢，肌肤缺乏营养，造成晚上发作严重。之前用什么方法调理的？
+B:吃过中药，还有扑尔敏，息斯敏，效果都不好
+A:中药有清热解毒的功效，见效慢疗程数长很多人坚持不下来，停用后会反复发作,扑尔敏息斯敏属于抗组胺类制剂，可以暂时缓解控制，但是副作用大。
+B：是的那怎么办？
+A:平时保持良好心态，清淡饮食，像你这种情况是可以用抗敏营养胶囊来调理一下。
+B：保健品吗？
+A：不是的，是一款口服的胶囊制剂，纯植物提取的对身体没有副作用
+B:有效果吗？
+A:抗敏营养胶囊06年美国上市，2012年引进国内，经过大量临床验证效果不错，有很多跟你类似情况的通过调理皮肤正常了
+B：多少钱
+A：现在订购可以给你按照活动价格原价是3500优惠后是2550
+B：怎么用？
+A:口服的胶囊制剂，一天三次一次两粒饭前半小时内用。
+B：我考虑一下
+A:主要考虑哪方面？
+B:都有
+A:发一些效果截图，
+B:货到付款吗？
+A:美国原瓶原装进口的，海关清关需要付全款后交易才能进行，否则交易无法正常进行的。
+B：付款不发货怎么办？
+A:不会的，发一些收货截图，微信都是实名认证的，转账后都有转账记录，有一定的法律效力，老师的手机号码是XXX可以随时微信，电话私聊我，后期我也会随时指导你使用的
+B:那我先拿两瓶试试吧？
+A：像你这种情况建议你按周期来调理，') [ RunTime:0.0003s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('138','一瓶是1200.
+两瓶是2400
+三瓶原价是3500现在订购优惠后是2550
+四瓶4600
+六瓶5100
+') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0005s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('15','刘秀','2','维安喜基础知识测试','0','1874,1875,1876,1877,1878,1879,1880,1881,1882,1883','0','0') [ RunTime:0.0003s ]
+

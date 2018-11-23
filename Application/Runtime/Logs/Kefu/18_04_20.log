@@ -1,0 +1,35 @@
+[ 2018-04-20T10:33:09+08:00 ] 58.56.25.158 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 138 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0099s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('139','红肿型 囊肿型 聚合型') [ RunTime:0.0201s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('140','结节型痘痘 多发于两颊呈浅红色或暗红色，有的显著隆起，形成半球形或圆锥形。
+丘疹型痘痘 高出皮肤的局限性突起，小如针头，大如黄豆一般会冒白尖。
+囊肿型痘痘 看上去红肿，里面有脓液，但是不冒白尖，有时会有浓汁流出。
+脓包型痘痘 丘疹演变而来，先变成豌豆大的水泡，约1 -2 日演变成脓包。
+') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('141','是青春痘的一种，是在皮肤里还没有探出头的粉刺。主要是死掉的细菌和分泌物所致，多发于面部，为皮下脂栓。表现为米粒大小的半球形白色小包，质硬，无自觉症状。
+闭合性的粉刺主要是毛囊皮脂腺被角质细胞堵塞，角化物和皮质充塞集中，与外界不相通，从而形成闭合性粉刺。
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('142','粉刺是由油脂和角质组成，痤疮是由死掉的细菌和身体的分泌物组成。
+发生的频率不同
+痤疮是内分泌失调，雄性激素分泌过多或者油脂分泌不畅引起的慢性炎症，而粉刺与皮肤清洁不彻底，熬夜遗传有关。
+症状表现不同，粉刺为白头和黑头粉刺；痤疮主要为红肿型 囊肿型 群聚型青春痘
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('143','黑醋栗 一天2次，一次两粒，早晚饭后半小时服用，经期停用。
+孕妇和哺乳期的禁用、12岁以下的不能用、心脏病和刚做过重大手术的禁用。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('145','1700 2350 4300
+2000  3400') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('146','本产品是全球顶级的祛痘产品，是由根源上清除痤疮，和其他的产品不一样，本产品把平衡内分泌放在了首位，而且能保护天然皮脂腺，预防炎症，防止抗氧，而且本产品经过了美国天然产品协会NPA认证，采用高品质原料国内领先技术、纯成分成分提取。如果只考虑价格的话，无法清除皮肤的痘痘会对你以后得到生活和工作都有影响，这款产品能从根源上去使皮肤恢复正常的状态是非常划算的。
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('147','进去这个公司了解了企业的文化、制度、和员工福利、专业知识，有一种家的氛围，同事之间和睦相处对人也非常好。我感觉来到这个公司会把员工当成家人，而且我也会努力的去融入这个大家庭，好好地工作，也为自己去打拼出一份让自己引以为豪的事业。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('148','囊肿型痘痘   脓包型痘痘 ') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('149','Dh钻石祛痘的成分是赖氨酸，孕妇和哺乳期的不能用。钻石祛痘的规格主要成分是赖氨酸，使用的方法根据痘痘的分级来服用，如果客户皮肤留下痘坑痘印主要是用来修复肌肤，安酷颜的主要成分是黑醋栗，是主要治疗闭合性粉刺的产品能从根源上清除痤疮。') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0118s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('13','刘文博','2','痘痘国外组新员工考核试题','0','1884,1885,1886,1887,1888,1889,1890,1891,1892,1893','0','0') [ RunTime:0.0002s ]
+

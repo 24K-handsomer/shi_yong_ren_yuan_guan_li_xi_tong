@@ -1,0 +1,35 @@
+[ 2017-11-01T14:28:04+08:00 ] 58.59.0.246 /index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ComsysController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0309s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('61','1：每月制定一个小目标，一步一步去完成。
+2：半年内可以达到自己满意的收入.5000+
+3：立足本行业，谋求更高发展，不论是岗位还是收入都可以有更高的提升
+4：五年内能够成为行家
+现在做的就是沉下心来打基础。不断调整自己，保持静心、细心、耐心，专心，乐观自信地对待工作生活。
+
+') [ RunTime:0.0144s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('62','1：把乐艾每一位同事当做自己的家人去对待
+2：尽快适应公司环境，企业文化，管理方式，与公司同事多去聊天
+3：尽自己最大所能为公司创造更多的价值
+4：积极对待每一件事') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('63','企业愿景：做全球最好的产品，为健康护航
+企业核心价值观：团结 高效 诚信 激情
+发展宗旨：让更多得人健康，让更多得人快了。以人为本，与员工共同发展
+情怀：品为魄，善作魂。赢天下，创未来') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('64','印章及证件使用，申请人根据需要填写印章申请单                                                             __。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('65','周末及假日加班者, 由部门负责人填写员工加班申请单，报行政部。加班可以选择发放工资或调休，调休需到行政部报备，经允许后方可调休，否则按旷工处理。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('73','凡迟到、早退在10-30分钟以内者，每人次罚款月度工资的1%，在当月工资中扣除。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('75','公司全称：济南乐艾生物技术有限公司
+总经理：韦昆') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('112','员工因公外出，应先填写公出单，由部门经理签字批准，转行政部核查登记') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('113','普通员工请假1-2天，需提前2天申请，请假2天以上，需提前3天申请。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('114','除病假外，性质不同的假期不得连续申请，如婚假与事假等；法定假日前后三天不得连续请假（包括年假、婚假等特殊假期），国家法定节假日前后三天内与法定假期连续请假的，除扣除当日薪资外，按照50元/每天进行扣款。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('115','员工凡入职满天，都享有转介绍新员工的权利；转介绍的新员工（客服岗位除外）入职一个月的奖励：普通员工200、转正300主管300，转正500、经理级600、总监级(副总经理级)800、转正1200总经理级人员2000，转正3000') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('116','年假必须提前30天（一个月）进行申请') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('117','旷工的员工在其旷工期间各种工资、津贴等均予以停发，且每日扣罚当月工资总额10%。') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0005s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('11','程玉琦','1','试题一','32','997,998,999,1000,1001,1002,1003,1004,1005,1006,1007,1008,1009','0','32') [ RunTime:0.0002s ]
+

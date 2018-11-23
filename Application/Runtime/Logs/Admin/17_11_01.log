@@ -1,0 +1,43 @@
+[ 2017-11-01T13:53:07+08:00 ] 58.59.0.246 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `test1`='19' WHERE ( uid='62' ) [ RunTime:0.0096s ]
+
+[ 2017-11-01T14:35:32+08:00 ] 58.59.0.246 /index.php/Admin/Person/updategrade2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0005s ]
+SQL: SELECT `grade1` FROM `grade` WHERE ( gid = 96 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `grade` SET `grade1`='32',`grade2`='48',`isgrade2`='1',`grade`='80' WHERE ( gid = 96 ) [ RunTime:0.0002s ]
+
+[ 2017-11-01T15:41:01+08:00 ] 58.59.0.246 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `proknowledge`='21,19,6' WHERE ( uid='62' ) [ RunTime:0.0058s ]
+
+[ 2017-11-01T15:41:35+08:00 ] 58.59.0.246 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `speechcase`='22,20,18' WHERE ( uid='62' ) [ RunTime:0.0062s ]
+
+[ 2017-11-01T15:47:54+08:00 ] 58.59.0.246 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `proknowledge`='23,21,19,6' WHERE ( uid='62' ) [ RunTime:0.0063s ]
+
+[ 2017-11-01T15:48:00+08:00 ] 58.59.0.246 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `speechcase`='24,22,20,18' WHERE ( uid='62' ) [ RunTime:0.0061s ]
+

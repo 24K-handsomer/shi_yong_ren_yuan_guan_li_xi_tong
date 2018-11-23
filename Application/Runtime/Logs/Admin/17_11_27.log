@@ -1,0 +1,43 @@
+[ 2017-11-27T10:15:19+08:00 ] 58.59.0.246 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `test1`='19' WHERE ( uid='72' ) [ RunTime:0.0072s ]
+
+[ 2017-11-27T10:15:23+08:00 ] 58.59.0.246 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `test1`='19' WHERE ( uid='72' ) [ RunTime:0.0065s ]
+
+[ 2017-11-27T10:16:41+08:00 ] 58.59.0.246 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `test1`='19' WHERE ( uid='72' ) [ RunTime:0.0058s ]
+
+[ 2017-11-27T11:56:19+08:00 ] 58.56.25.158 /index.php/Admin/Person/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `status`='0' WHERE ( uid='77' ) [ RunTime:0.0062s ]
+
+[ 2017-11-27T15:00:54+08:00 ] 58.59.0.246 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `test1`='19' WHERE ( uid='73' ) [ RunTime:0.0079s ]
+
+[ 2017-11-27T16:46:12+08:00 ] 58.59.0.246 /index.php/Admin/Person/updategrade2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0005s ]
+SQL: SELECT `grade1` FROM `grade` WHERE ( gid = 113 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `grade` SET `grade1`='42',`grade2`='44',`isgrade2`='1',`grade`='86' WHERE ( gid = 113 ) [ RunTime:0.0002s ]
+

@@ -1,0 +1,44 @@
+[ 2017-11-17T09:50:25+08:00 ] 58.59.0.246 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `test2`='18' WHERE ( uid='71' ) [ RunTime:0.0061s ]
+
+[ 2017-11-17T13:06:53+08:00 ] 58.59.0.246 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: UPDATE `user` SET `proknowledge`='7' WHERE ( uid='72' ) [ RunTime:0.0058s ]
+
+[ 2017-11-17T13:07:12+08:00 ] 58.59.0.246 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `speechcase`='10' WHERE ( uid='72' ) [ RunTime:0.0157s ]
+
+[ 2017-11-17T13:15:33+08:00 ] 58.59.0.246 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `test2`='18,17' WHERE ( uid='71' ) [ RunTime:0.0066s ]
+
+[ 2017-11-17T15:45:45+08:00 ] 58.59.0.246 /index.php/Admin/Person/updategrade2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0007s ]
+SQL: SELECT `grade1` FROM `grade` WHERE ( gid = 102 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `grade` SET `grade1`='0',`grade2`='76',`isgrade2`='1',`grade`='76' WHERE ( gid = 102 ) [ RunTime:0.0003s ]
+
+[ 2017-11-17T15:47:18+08:00 ] 58.59.0.246 /index.php/Admin/Person/updategrade2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0005s ]
+SQL: SELECT `grade1` FROM `grade` WHERE ( gid = 101 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `grade` SET `grade1`='0',`grade2`='71.5',`isgrade2`='1',`grade`='71.5' WHERE ( gid = 101 ) [ RunTime:0.0002s ]
+

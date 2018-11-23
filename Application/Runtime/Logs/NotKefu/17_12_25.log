@@ -1,0 +1,28 @@
+[ 2017-12-25T11:21:43+08:00 ] 58.56.25.158 /index.php/NotKefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 87 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/NotKefu/Controller/ComsysController.class.php 第 122 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0004s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('61','踏实的做好自己的本职工作在基础上，在工作中，会向高手请教，研究些新技术，提高自己的技术水平，让自己在五年中做到web前段高级工程师') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('62','在做好自己分内的工作的基础上，多与其他员工交流，多请教一下新的知识，有共同奋斗的目标，培养集体主义精神，活跃员工，增进员工间感情') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('63','企业愿景：做全球最好的产品，为健康护航
+企业的核心价值观：团结、高效、诚信、激情。
+企业的发展宗旨：让更多的人健康，让更多的人快乐。以人为本，与员工共发展。
+企业的情怀:品为魄，善做魂，赢天下，创未来') [ RunTime:0.0004s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('68','7   30') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('69','50') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('71','旷工，依照旷工管理细则进行处理。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('72','1%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('73','2%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('74','济南市高新区三庆世纪财富中心B2座603') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('75','  济南乐艾生物技术有限公司    张丽洁') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('113','2      3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('115','7        200    300      500     1000    1500') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('116','一个月') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0003s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('16','张金铭','1','最新制度考试','40','1396,1397,1398,1399,1400,1401,1402,1403,1404,1405,1406,1407,1408','0','40') [ RunTime:0.0002s ]
+

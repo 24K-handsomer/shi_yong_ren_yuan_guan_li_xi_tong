@@ -1,0 +1,21 @@
+[ 2018-03-14T12:48:47+08:00 ] 58.59.0.246 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `speechcase`='20,18,0' WHERE ( uid='108' ) [ RunTime:0.0085s ]
+
+[ 2018-03-14T13:15:55+08:00 ] 58.59.0.246 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: UPDATE `user` SET `speechcase`='20,0' WHERE ( uid='113' ) [ RunTime:0.0106s ]
+
+[ 2018-03-14T13:15:56+08:00 ] 58.59.0.246 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: UPDATE `user` SET `speechcase`='20,0' WHERE ( uid='113' ) [ RunTime:0.0068s ]
+

@@ -1,0 +1,42 @@
+[ 2017-08-31T09:59:15+08:00 ] 58.56.25.158 /index.php/Admin/Peomanager/addgroup
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `group` [ RunTime:0.0004s ]
+SQL: INSERT INTO `group` (`group_name`) VALUES ('其他') [ RunTime:0.0002s ]
+
+[ 2017-08-31T10:36:53+08:00 ] 58.56.25.158 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `test1`='19' WHERE ( uid='19' ) [ RunTime:0.0072s ]
+
+[ 2017-08-31T15:51:09+08:00 ] 58.59.25.134 /index.php/Admin/Person/chang
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `proknowledge`='0' WHERE ( uid='21' ) [ RunTime:0.0059s ]
+
+[ 2017-08-31T15:51:10+08:00 ] 58.59.25.134 /index.php/Admin/Person/chang
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `proknowledge`='1' WHERE ( uid='21' ) [ RunTime:0.0058s ]
+
+[ 2017-08-31T15:51:17+08:00 ] 58.59.25.134 /index.php/Admin/Person/chang
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `speechcase`='0' WHERE ( uid='21' ) [ RunTime:0.0083s ]
+
+[ 2017-08-31T15:51:18+08:00 ] 58.59.25.134 /index.php/Admin/Person/chang
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `speechcase`='1' WHERE ( uid='21' ) [ RunTime:0.0193s ]
+

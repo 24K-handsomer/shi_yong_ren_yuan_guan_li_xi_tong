@@ -1,0 +1,70 @@
+<extend name="Public/base"/>
+<block name="style">
+	<script type="text/javascript" src='__PUBLIC__/ueditorpro/ueditor.config.js'></script>
+    <script type="text/javascript" src='__PUBLIC__/ueditorpro/ueditor.all.min.js'></script>
+    <script type="text/javascript" src='__PUBLIC__/ueditorpro/lang/zh-cn/zh-cn.js'></script>
+	<link rel="stylesheet" type="text/css" href="__CSS__/index.css">
+</block>
+<block name="nav">
+	<span>公司资料提交发布</span>
+</block>
+<block name="body">
+	<div id="body">
+	<form name='MyForm' id='MyForm' method='POST' action="__CONTROLLER__/update" >
+		<input type="hidden" name="id" value="{$file.id}">
+		<div id="row">
+	        <div id="rowname">&nbsp;标&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;题：</div>
+	        <input type="text" name="title" id="title" value="{$file.title}">
+	    </div>
+	    <div id="row">
+	        <div id="rowname">&nbsp;发&nbsp;布&nbsp;者：</div>
+	        <input type="text" name="author" id="author" value="{$file.author}">
+	    </div>
+	    <div id="row">
+	        <span>文件类型：</span>
+	        <select name="filetype">
+	            <foreach name="filetype" item="v" >
+	            	<if condition="$v.fileid == $file['filetype']">
+	            		<option selected="selected" value ="{$v.fileid}">{$v.filename}</option>
+	            	<else />
+	            		<option value ="{$v.fileid}">{$v.filename}</option>
+	            	</if>
+	            </foreach>
+	        </select>
+	    </div>
+        <div id="row-other">
+		    <div id="rowname">具体内容</div>
+	        <input name="content" type="hidden" id="content">
+	        <script id="editor" name="editor" type="text/plain" style="height:400px">
+	        	{$file.content}
+	        </script>
+		</div>
+	    <div id="sub">
+	        <button onclick="submitEditor()"/>提交</button>
+	    </div>
+	</form>
+	<button onclick="getneirong()"/>查看内容</button>
+	</div>
+</block>
+<block name="script">
+<script type="text/javascript">
+    //实例化编辑器
+    var ue = UE.getEditor('editor',{
+    	scaleEnabled:true
+    });
+    
+    //提交方法
+    function submitEditor()    {
+        //此处以非空为例
+        if(ue.hasContents()){
+            ue.sync();       //同步内容(内容里的图片)
+            document.MyForm.content.value=ue.getContent();
+            document.MyForm.submit();
+        }
+    }
+    function getneirong(){
+    	alert(ue.getContent());
+    }
+</script>
+</block>
+</extend>

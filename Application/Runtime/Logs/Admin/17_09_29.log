@@ -1,0 +1,7 @@
+[ 2017-09-29T16:07:11+08:00 ] 58.59.25.134 /index.php/Admin/Person/chang
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `proknowledge`='1' WHERE ( uid='43' ) [ RunTime:0.0071s ]
+

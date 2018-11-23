@@ -1,0 +1,8 @@
+[ 2017-07-27T13:15:38+08:00 ] 123.151.64.201 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-07-27T13:24:53+08:00 ] 61.151.228.22 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+

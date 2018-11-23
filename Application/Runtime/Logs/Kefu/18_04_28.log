@@ -1,0 +1,27 @@
+[ 2018-04-28T15:14:45+08:00 ] 58.59.0.246 /index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 142 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ComsysController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0006s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('61','学习掌握好相关知识，做好网络客服的本职工作，完成公司规定的任务，希望能在本部门得到晋升与发展。自己的薪资收入能够增加。') [ RunTime:0.0221s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('62','作为乐艾的客服人员，有责任让更多的人知道我们的产品，让更多的人使用我们的产品，尤其是作为母婴产品组，作为宝宝便秘方面的专家，给宝妈们提供更多的指导与意见，给我们的顾客带去健康的生活理念，让更多的宝宝获得健康，让更多的人快乐。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('63','企业愿景：做全球最好的产品，为健康护航。
+企业核心价值观：团结、高效、诚信、激情。
+企业的发展宗旨：让更多的人健康，让更多的人快乐，以人为本，与员工共同发展。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('68','7,30') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('69','50') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('71','旷工') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('72','1%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('73','2%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('74','山东济南高新区三庆·世纪财富中心A3座3楼315') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('75','济南乐艾生物技术有限公司') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('113','1,2，') [ RunTime:0.0003s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('115','30,200,300,600,800,2000') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('116','30') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0007s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('11','刘彦','1','最新制度考试','46','1943,1944,1945,1946,1947,1948,1949,1950,1951,1952,1953,1954,1955','0','46') [ RunTime:0.0002s ]
+

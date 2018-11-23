@@ -1,0 +1,35 @@
+[ 2017-09-06T16:18:46+08:00 ] 58.59.25.134 /index.php/Admin/Person/chang
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `proknowledge`='1' WHERE ( uid='23' ) [ RunTime:0.0063s ]
+
+[ 2017-09-06T16:18:48+08:00 ] 58.59.25.134 /index.php/Admin/Person/chang
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `proknowledge`='0' WHERE ( uid='23' ) [ RunTime:0.0069s ]
+
+[ 2017-09-06T16:19:53+08:00 ] 58.59.25.134 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: UPDATE `user` SET `test1`='19' WHERE ( uid='22' ) [ RunTime:0.0068s ]
+
+[ 2017-09-06T16:23:38+08:00 ] 58.59.25.134 /index.php/Admin/Person/chang
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: UPDATE `user` SET `proknowledge`='1' WHERE ( uid='23' ) [ RunTime:0.0135s ]
+
+[ 2017-09-06T16:23:42+08:00 ] 58.59.25.134 /index.php/Admin/Person/chang
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: UPDATE `user` SET `speechcase`='1' WHERE ( uid='23' ) [ RunTime:0.0084s ]
+

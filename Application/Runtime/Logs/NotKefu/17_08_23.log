@@ -1,0 +1,28 @@
+[ 2017-08-23T14:48:27+08:00 ] 58.56.25.158 /index.php/NotKefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/NotKefu/Controller/ComsysController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0005s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('61','第一年：成为业内推广领先者。
+第二年到第三年：做产品。
+第四年到第五年：成立分公司。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('62','1。做好本职工作，提高技能。
+2.做好团队配合。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('63','一、企业愿景：做全球最好的产品，为健康护航
+    二、企业的核心价值观：团结、高效、诚信、激情。
+    三、企业的发展宗旨：让更多的人健康，让更多的人快乐。以人为本，与员工共发展。
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('64','《用印申请单》') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('65','《加班通知单》加班调休 发放加班工资') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('73','2%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('75','济南乐艾生物技术有限公司 张丽洁') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('112','《公出单》') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('113','2 3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('114','200') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('115','7 200 300 600 800 2000') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('116','30') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('117','10%') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('11','刘光伟','1','试题一','21','55,56,57,58,59,60,61,62,63,64,65,66,67','0','21') [ RunTime:0.0002s ]
+

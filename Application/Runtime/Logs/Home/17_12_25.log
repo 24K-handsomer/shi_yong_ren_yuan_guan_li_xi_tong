@@ -1,0 +1,48 @@
+[ 2017-12-25T10:15:24+08:00 ] 58.56.25.158 /index.php/Home/Index/isexam
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Home/Controller/IndexController.class.php 第 148 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `isexam`='1' WHERE ( uid = 87 ) [ RunTime:0.0064s ]
+
+[ 2017-12-25T10:16:04+08:00 ] 58.56.25.158 /index.php/Home/Index/isexam
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Home/Controller/IndexController.class.php 第 148 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `isexam`='1' WHERE ( uid = 87 ) [ RunTime:0.0067s ]
+
+[ 2017-12-25T10:32:58+08:00 ] 58.56.25.158 /index.php/Home/Index/isexam
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Home/Controller/IndexController.class.php 第 148 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `isexam`='1' WHERE ( uid = 87 ) [ RunTime:0.0063s ]
+
+[ 2017-12-25T11:21:31+08:00 ] 58.56.25.158 /index.php/Home/Index/isexam
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Home/Controller/IndexController.class.php 第 148 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `isexam`='0' WHERE ( uid = 87 ) [ RunTime:0.0064s ]
+
+[ 2017-12-25T15:04:00+08:00 ] 58.56.25.158 /index.php/Home/Index/isexam
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Home/Controller/IndexController.class.php 第 148 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `isexam`='1' WHERE ( uid = 87 ) [ RunTime:0.0091s ]
+
+[ 2017-12-25T15:04:45+08:00 ] 58.56.25.158 /index.php/Home/Index/isexam
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Home/Controller/IndexController.class.php 第 148 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `isexam`='1' WHERE ( uid = 87 ) [ RunTime:0.0218s ]
+

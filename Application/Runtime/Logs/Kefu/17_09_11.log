@@ -1,0 +1,146 @@
+[ 2017-09-11T08:51:14+08:00 ] 106.120.161.68 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-11T08:51:15+08:00 ] 182.118.20.158 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-11T08:51:15+08:00 ] 182.118.20.152 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-11T08:51:28+08:00 ] 101.199.108.119 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-11T08:52:01+08:00 ] 182.118.20.145 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-11T08:52:34+08:00 ] 171.13.14.133 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-11T08:57:01+08:00 ] 106.120.161.68 /index.php/Kefu/Speechcase/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 4 and `group` =  ) LIMIT 1  
+
+[ 2017-09-11T08:57:01+08:00 ] 171.13.14.145 /index.php/Kefu/Speechcase/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 4 and `group` =  ) LIMIT 1  
+
+[ 2017-09-11T08:57:01+08:00 ] 171.13.14.145 /index.php/Kefu/Speechcase/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 4 and `group` =  ) LIMIT 1  
+
+[ 2017-09-11T08:57:17+08:00 ] 101.199.108.52 /index.php/Kefu/Speechcase/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 4 and `group` =  ) LIMIT 1  
+
+[ 2017-09-11T08:57:50+08:00 ] 182.118.20.152 /index.php/Kefu/Speechcase/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 4 and `group` =  ) LIMIT 1  
+
+[ 2017-09-11T08:57:59+08:00 ] 182.118.20.152 /index.php/Kefu/Speechcase/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 4 and `group` =  ) LIMIT 1  
+
+[ 2017-09-11T08:57:59+08:00 ] 106.120.160.109 /index.php/Kefu/Comsys/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-09-11T08:57:59+08:00 ] 171.13.14.145 /index.php/Kefu/Comsys/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-09-11T08:57:59+08:00 ] 171.13.14.134 /index.php/Kefu/Comsys/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-09-11T08:58:01+08:00 ] 182.118.20.145 /index.php/Kefu/Speechcase/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 4 and `group` =  ) LIMIT 1  
+
+[ 2017-09-11T08:58:19+08:00 ] 220.181.132.200 /index.php/Kefu/Comsys/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-09-11T08:58:52+08:00 ] 182.118.20.155 /index.php/Kefu/Comsys/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-09-11T08:59:25+08:00 ] 182.118.20.155 /index.php/Kefu/Comsys/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-09-11T08:59:25+08:00 ] 171.13.14.145 /index.php/Kefu/Comsys/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-09-11T13:28:02+08:00 ] 101.226.125.105 /index.php/Kefu/Comsys/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-09-11T14:09:03+08:00 ] 58.59.25.134 /index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ComsysController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0005s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('61','刚开始还有点不太习惯，经过了几天的培训慢慢的也就适应了，首先我认为最重要的就是踏实学习有积极性，
+第一年我会拿出50%的工资来回馈父母，孝敬他们。
+第二年我可能会攒点钱，报个自考本。
+接下来的几年我可能会更加突破自己，去面对每一个困难，积极地应对，然后再买一个属于自己的房子。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('62','要有一个好的心态，踏实、积极向上、努力学习。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('63','愿景：做全球最好的产品，为健康护航
+核心价值观：团结、高效、诚信、激情
+宗旨：让更多的人健康，让更多的人快乐，以人为本，以员工共发展
+ 情怀：品为魄、善作魂，赢天下、 创未来') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('64','《印章使用登记表》') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('65','《加班申请表》 加班   调休') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('73','2%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('75','《济南乐艾生物技术有限公司》  王丽洁') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('112','《员工出工单》') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('113','2  ：3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('114','200') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('115','7、200、300、600、800、2000') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('116','30') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('117','1%') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('11','张玉','1','试题一','40','193,194,195,196,197,198,199,200,201,202,203,204,205','0','40') [ RunTime:0.0002s ]
+
+[ 2017-09-11T14:09:57+08:00 ] 101.226.99.196 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-11T14:26:50+08:00 ] 58.59.25.134 /index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ComsysController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0005s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('61','答：我想成为这个领域的专业人士，1-2年之间，在目前的工作岗位上沉淀下来，积累最起码的工作经验。3-5年的时间，成为一个在自己的专业方面能够独当一面的人，成为一名专业化人士，在工作中有创新与发展，为公司带来更大的价值。') [ RunTime:0.0095s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('62','答：我认为最基本的就是做好本职工作，要肯于吃苦，善于学习，为公司创利润。把乐艾需要我做什么，改变为我为乐艾出一份力。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('63','答：企业愿景：做全球最好的产品，为健康护航。
+企业的核心价值观：团结、高效、诚信、‘激情。
+企业的发展宗旨：让更多的人健康，让更多的人快乐。以人为本，与员工共发展。
+乐艾的情怀：品为魄，善作魂，赢天下，创未来。') [ RunTime:0.0003s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('64','【用印申请单】') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('65','【加班通知单】
+加班调休
+发放加班工资') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('73','2%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('75','济南乐艾生物技术有限公司
+张丽洁') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('112','【公出单】') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('113','2
+3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('114','200') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('115','7
+200,300,600,800.2000.') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('116','30') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('117','10%') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0005s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('11','王宁','1','试题一','46','206,207,208,209,210,211,212,213,214,215,216,217,218','0','46') [ RunTime:0.0002s ]
+

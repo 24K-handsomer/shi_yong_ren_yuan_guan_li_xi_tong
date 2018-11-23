@@ -1,0 +1,169 @@
+[ 2018-04-14T14:28:56+08:00 ] 58.59.0.246 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `test2`='0' WHERE ( uid='129' ) [ RunTime:0.0066s ]
+
+[ 2018-04-14T14:33:30+08:00 ] 58.59.0.246 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `test1`='27' WHERE ( uid='123' ) [ RunTime:0.0178s ]
+
+[ 2018-04-14T14:49:14+08:00 ] 58.59.0.246 /index.php/Admin/Test/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0006s ]
+SQL: UPDATE `question` SET `status`='0' WHERE ( id='189' ) [ RunTime:0.0003s ]
+
+[ 2018-04-14T14:49:16+08:00 ] 58.59.0.246 /index.php/Admin/Test/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0005s ]
+SQL: UPDATE `question` SET `status`='1' WHERE ( id='189' ) [ RunTime:0.0002s ]
+
+[ 2018-04-14T14:56:44+08:00 ] 58.59.0.246 /index.php/Admin/Person/updategrade2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0005s ]
+SQL: SELECT `grade1` FROM `grade` WHERE ( gid = 160 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `grade` SET `grade1`='42',`grade2`='41',`isgrade2`='1',`grade`='83' WHERE ( gid = 160 ) [ RunTime:0.0003s ]
+
+[ 2018-04-14T15:06:41+08:00 ] 58.59.0.246 /index.php/Admin/Paper/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+SQL: SHOW COLUMNS FROM `paper` [ RunTime:0.0006s ]
+SQL: UPDATE `paper` SET `status`='0' WHERE ( pid='37' ) [ RunTime:0.0002s ]
+
+[ 2018-04-14T15:06:45+08:00 ] 58.59.0.246 /index.php/Admin/Paper/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: SHOW COLUMNS FROM `paper` [ RunTime:0.0007s ]
+SQL: UPDATE `paper` SET `status`='1' WHERE ( pid='37' ) [ RunTime:0.0002s ]
+
+[ 2018-04-14T15:08:42+08:00 ] 58.59.0.246 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `proknowledge`='11' WHERE ( uid='129' ) [ RunTime:0.0105s ]
+
+[ 2018-04-14T15:08:51+08:00 ] 58.59.0.246 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: UPDATE `user` SET `test2`='37' WHERE ( uid='129' ) [ RunTime:0.0083s ]
+
+[ 2018-04-14T15:09:19+08:00 ] 58.59.0.246 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: UPDATE `user` SET `test2`='37' WHERE ( uid='129' ) [ RunTime:0.0083s ]
+
+[ 2018-04-14T15:09:43+08:00 ] 58.59.0.246 /index.php/Admin/Paper/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+SQL: SHOW COLUMNS FROM `paper` [ RunTime:0.0005s ]
+SQL: UPDATE `paper` SET `status`='0' WHERE ( pid='37' ) [ RunTime:0.0002s ]
+
+[ 2018-04-14T15:09:46+08:00 ] 58.59.0.246 /index.php/Admin/Paper/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+SQL: SHOW COLUMNS FROM `paper` [ RunTime:0.0005s ]
+SQL: UPDATE `paper` SET `status`='1' WHERE ( pid='37' ) [ RunTime:0.0002s ]
+
+[ 2018-04-14T15:11:00+08:00 ] 58.59.0.246 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: UPDATE `user` SET `test2`='0' WHERE ( uid='129' ) [ RunTime:0.0077s ]
+
+[ 2018-04-14T15:11:04+08:00 ] 58.59.0.246 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: UPDATE `user` SET `test2`='37' WHERE ( uid='129' ) [ RunTime:0.0079s ]
+
+[ 2018-04-14T15:11:21+08:00 ] 58.59.0.246 /index.php/Admin/Person/practice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: UPDATE `user` SET `practice`='1' WHERE ( uid='129' ) [ RunTime:0.0080s ]
+
+[ 2018-04-14T15:11:29+08:00 ] 58.59.0.246 /index.php/Admin/Person/practice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: UPDATE `user` SET `practice`='0' WHERE ( uid='129' ) [ RunTime:0.0065s ]
+
+[ 2018-04-14T15:12:17+08:00 ] 58.59.0.246 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `test2`='37' WHERE ( uid='129' ) [ RunTime:0.0216s ]
+
+[ 2018-04-14T15:13:24+08:00 ] 58.59.0.246 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `test2`='37' WHERE ( uid='129' ) [ RunTime:0.0080s ]
+
+[ 2018-04-14T15:17:28+08:00 ] 58.59.0.246 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: UPDATE `user` SET `test2`='37' WHERE ( uid='129' ) [ RunTime:0.0078s ]
+
+[ 2018-04-14T15:17:35+08:00 ] 58.59.0.246 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `test2`='37' WHERE ( uid='129' ) [ RunTime:0.0077s ]
+
+[ 2018-04-14T15:19:02+08:00 ] 58.59.0.246 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `test2`='38' WHERE ( uid='129' ) [ RunTime:0.0071s ]
+
+[ 2018-04-14T15:19:27+08:00 ] 58.59.0.246 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: UPDATE `user` SET `test2`='38' WHERE ( uid='129' ) [ RunTime:0.0062s ]
+
+[ 2018-04-14T15:20:11+08:00 ] 58.59.0.246 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: UPDATE `user` SET `test2`='38' WHERE ( uid='129' ) [ RunTime:0.0089s ]
+
+[ 2018-04-14T15:21:42+08:00 ] 58.59.0.246 /index.php/Admin/Paper/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `paper` [ RunTime:0.0005s ]
+SQL: UPDATE `paper` SET `status`='0' WHERE ( pid='37' ) [ RunTime:0.0003s ]
+

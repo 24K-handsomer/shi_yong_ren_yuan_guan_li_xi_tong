@@ -1,0 +1,65 @@
+[ 2017-09-14T10:32:09+08:00 ] 58.56.25.158 /index.php/Kefu/Growth/
+ERR: 非法操作:index
+
+[ 2017-09-14T10:32:19+08:00 ] 61.151.218.119 /index.php/Kefu/Growth
+ERR: 非法操作:index
+
+[ 2017-09-14T10:32:21+08:00 ] 101.226.33.228 /index.php/kefu/growth
+ERR: 非法操作:index
+
+[ 2017-09-14T16:58:37+08:00 ] 58.59.25.134 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0005s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('76','自身机体免疫力下降，抗敏能力不足引起的。受到外界过敏源刺激释放大量的炎性物质组胺，从而出现瘙痒，风团的过敏反应
+') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('77','接触性荨麻疹，寒性荨麻疹，热性荨麻疹，划痕性荨麻疹，人工性荨麻疹，胆碱性荨麻疹，日光性荨麻疹，压迫性荨麻疹，运动性荨麻疹
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('78','中药治疗，西药治疗，抗组胺药物治疗。中药治疗不能准确界定有效活性成分，是药三分毒，部分中药也会引起过敏反应的。抗组胺的药物只是治标不治本，无法从根源扭转过敏体质') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('79','每天三次  每次两粒。是一款纯天然无激素的抗过敏的胶囊，每一粒胶囊中含有的高活性脂肪酸是其他产品的3倍，服用后能更快的减缓过敏反应，修复细胞膜损伤，提高机体免疫力，从根源解决过敏问题。
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('80','补充GLA、SDA、ALA——合成足量的前列腺素E1——缓和前列腺素E2的发炎作用——同时前列腺素E1具有调节人体免疫系统、皮肤系统的作用，从而根源增强人体免疫功能，根除荨麻疹4每天三次  每次两粒。是一款纯天然无激素的抗过敏的胶囊，每一粒胶囊中含有的高活性脂肪酸是其他产品的3倍，服用后能更快的减缓过敏反应，修复细胞膜损伤，提高机体免疫力，从根源解决过敏问题。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('81','您是考虑效果吗？如果考虑效果的话是完全不用担心，维安喜超黑醋栗胶囊经过11年临床验证，美国公立医院90%以上推荐使用，早在咱们老师这边调理早康复。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('82','美国工厂直邮是需要全款支付，正规进口产品都是没有开通货到付款程序的，而且咱们的微信都是实名认证的 ，微信号也是手机号，有什么问题都是可以打电话直接联系到我的。你看您是微信转账还是支付宝付款呢。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('83','我们这款产品是世界上唯一一款安全无激素的专业从根源上扭转过敏体质 从而根治荨麻疹的，所以您在我们这边调理是比较安全，有效的。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('84','您好，我是刘老师您是有荨麻疹的问题要咨询吗？是的。是风团还是小疙瘩？风团。有荨麻疹出疹时的照片吗？有。多久发作一次？每隔几天就一次，过一会就消下去了。像您这种情况属于比较严重的了，之前有调理过吗？有，摸过药膏。嗯 药膏类的药都是一些抗组胺的药物，只是治标不治本的，无法根本扭转过敏体质的问题，所以还是会出现反复的情况。像您这种情况就特别适合咱们这款美国进口的维安喜超黑醋栗过敏胶囊，是专门针对过敏人群研发，从黑醋栗种子中提取3种高活性脂肪酸，这种高活性脂肪酸可作用于人体细胞膜，保证身体各个细胞功能正常发挥，消除体内过敏炎症，扭转过敏体质，根源解决过敏问题从不复发。多少钱？一瓶1100元三十天的用量。2个周期是2瓶60天的永用量，像您这种情况建议用两个周期，一个周期治疗一个周期巩固。好的。您是支付宝付款还是微信付款。微信转账。到账后发货。') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0003s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('15','张甜甜','2','荨麻疹基本知识测试','0','279,280,281,282,283,284,285,286,287','0','0') [ RunTime:0.0002s ]
+
+[ 2017-09-14T17:17:29+08:00 ] 58.59.25.134 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0004s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('76','自身机体免疫力下降，抗敏能力不足引起的。受到外界过敏源刺激释放大量的炎性物质组胺，从而出现瘙痒，风团的过敏反应
+') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('77','接触性荨麻疹，寒性荨麻疹，热性荨麻疹，划痕性荨麻疹，人工性荨麻疹，胆碱性荨麻疹，日光性荨麻疹，压迫性荨麻疹，运动性荨麻疹
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('78','中药治疗，西药治疗，抗组胺药物治疗。中药治疗不能准确界定有效活性成分，是药三分毒，部分中药也会引起过敏反应的。抗组胺的药物只是治标不治本，无法从根源扭转过敏体质。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('79','每天三次  每次两粒。是一款纯天然无激素的抗过敏的胶囊，每一粒胶囊中含有的高活性脂肪酸是其他产品的3倍，服用后能更快的减缓过敏反应，修复细胞膜损伤，提高机体免疫力，从根源解决过敏问题。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('80','补充GLA、SDA、ALA——合成足量的前列腺素E1——缓和前列腺素E2的发炎作用——同时前列腺素E1具有调节人体免疫系统、皮肤系统的作用，从而根源增强人体免疫功能，根除荨麻疹4每天三次  每次两粒。是一款纯天然无激素的抗过敏的胶囊，每一粒胶囊中含有的高活性脂肪酸是其他产品的3倍，服用后能更快的减缓过敏反应，修复细胞膜损伤，提高机体免疫力，从根源解决过敏问题。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('81','您是考虑效果吗？如果考虑效果的话效果可以完全不用担心，维安喜经过11年临床验证，美国公立医院90%以上推荐使用，后期咱们这边的老师也会一直跟踪指导，直到康复，完全放心就可以。
+
+之前向您这样的患者我这边接待过好多，他们都是在咱们老师这边调理好的，一直都没有复发，还给介绍亲戚朋友来调理。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('82','美国工厂直邮是需要全款支付，正规进口产品都是没有开通货到付款程序的，而且咱们的微信都是实名认证的 ，微信号也是手机号，有什么问题都是可以打电话直接联系到我的。你看您是微信转账还是支付宝付款呢。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('83','我们这款产品是世界上唯一一款安全无激素的专业从根源上扭转过敏体质 从而根治荨麻疹的，所以您在我们这边调理是比较安全，有效的。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('84','您好，我是刘老师您是有荨麻疹的问题要咨询吗？
+是的。是风团还是小疙瘩？
+风团。有荨麻疹出疹时的照片吗？
+有。多久发作一次？
+每隔几天就一次，过一会就消下去了。
+像您这种情况属于比较严重的了，之前有调理过吗？
+有，摸过药膏。
+嗯 药膏类的药都是一些抗组胺的药物，只是治标不治本的，无法根本扭转过敏体质的问题，所以还是会出现反复的情况。像您这种情况就特别适合咱们这款美国进口的维安喜超黑醋栗过敏胶囊，是专门针对过敏人群研发，从黑醋栗种子中提取3种高活性脂肪酸，这种高活性脂肪酸可作用于人体细胞膜，保证身体各个细胞功能正常发挥，消除体内过敏炎症，扭转过敏体质，根源解决过敏问题从不复发。
+多少钱？
+一瓶1100元三十天的用量。2个周期是2瓶60天的永用量，像您这种情况建议用两个周期，一个周期治疗一个周期巩固。
+好的。
+您是支付宝付款还是微信付款。
+微信转账。到账后发货。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('138','一瓶1100  2瓶最低1800   3瓶最低2500   4瓶最低3000   6瓶最低4500') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('15','张甜甜','2','维安喜基础知识测试','0','288,289,290,291,292,293,294,295,296,297','0','0') [ RunTime:0.0002s ]
+

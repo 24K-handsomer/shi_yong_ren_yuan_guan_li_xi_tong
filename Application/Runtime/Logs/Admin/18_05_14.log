@@ -1,0 +1,22 @@
+[ 2018-05-14T09:29:28+08:00 ] 58.56.25.158 /index.php/Admin/Admin/isexam
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Admin/Controller/AdminController.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: UPDATE `user` SET `isexam`='0' WHERE ( uid = 147 ) [ RunTime:0.0061s ]
+
+[ 2018-05-14T09:29:56+08:00 ] 58.56.25.158 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `test1`='27,0' WHERE ( uid='147' ) [ RunTime:0.0074s ]
+
+[ 2018-05-14T09:30:08+08:00 ] 58.56.25.158 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: UPDATE `user` SET `test1`='27' WHERE ( uid='148' ) [ RunTime:0.0058s ]
+

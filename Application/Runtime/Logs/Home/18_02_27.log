@@ -1,0 +1,63 @@
+[ 2018-02-27T05:58:13+08:00 ] 121.196.210.85 /index.php/Home/.git/config
+ERR: 无法加载控制器:.git
+
+[ 2018-02-27T05:58:13+08:00 ] 121.196.210.85 /index.php/Home/.DS_Store
+ERR: 无法加载控制器:.DS_Store
+
+[ 2018-02-27T05:58:13+08:00 ] 121.196.210.85 /index.php/Home/www.zip
+ERR: 无法加载控制器:Www.zip
+
+[ 2018-02-27T05:58:13+08:00 ] 121.196.210.85 /index.php/Home/.svn/entries
+ERR: 无法加载控制器:.svn
+
+[ 2018-02-27T05:58:13+08:00 ] 121.196.210.85 /index.php/Home/.svn/wc.db
+ERR: 无法加载控制器:.svn
+
+[ 2018-02-27T05:58:13+08:00 ] 121.196.210.85 /index.php/Home/.git/index
+ERR: 无法加载控制器:.git
+
+[ 2018-02-27T05:58:13+08:00 ] 121.196.210.85 /index.php/Home/www.tar.gz
+ERR: 无法加载控制器:Www.tar.gz
+
+[ 2018-02-27T05:58:13+08:00 ] 121.196.210.85 /index.php/Home/Index/.git/config
+ERR: 非法操作:.git
+
+[ 2018-02-27T05:58:14+08:00 ] 121.196.210.85 /index.php/Home/Index/.DS_Store
+ERR: 非法操作:.DS_Store
+
+[ 2018-02-27T05:58:14+08:00 ] 121.196.210.85 /index.php/Home/Index/www.zip
+ERR: 非法操作:www.zip
+
+[ 2018-02-27T05:58:14+08:00 ] 121.196.210.85 /index.php/Home/Index/.svn/entries
+ERR: 非法操作:.svn
+
+[ 2018-02-27T05:58:14+08:00 ] 121.196.210.85 /index.php/Home/Index/.svn/wc.db
+ERR: 非法操作:.svn
+
+[ 2018-02-27T05:58:14+08:00 ] 121.196.210.85 /index.php/Home/Index/.git/index
+ERR: 非法操作:.git
+
+[ 2018-02-27T05:58:14+08:00 ] 121.196.210.85 /index.php/Home/Index/www.tar.gz
+ERR: 非法操作:www.tar.gz
+
+[ 2018-02-27T05:58:14+08:00 ] 121.196.210.85 /index.php/.git/config
+ERR: 无法加载控制器:.git
+
+[ 2018-02-27T05:58:14+08:00 ] 121.196.210.85 /index.php/.DS_Store
+ERR: 无法加载控制器:.DS_Store
+
+[ 2018-02-27T05:58:14+08:00 ] 121.196.210.85 /index.php/www.zip
+ERR: 无法加载控制器:Www.zip
+
+[ 2018-02-27T05:58:14+08:00 ] 121.196.210.85 /index.php/.svn/entries
+ERR: 无法加载控制器:.svn
+
+[ 2018-02-27T05:58:14+08:00 ] 121.196.210.85 /index.php/.svn/wc.db
+ERR: 无法加载控制器:.svn
+
+[ 2018-02-27T05:58:15+08:00 ] 121.196.210.85 /index.php/.git/index
+ERR: 无法加载控制器:.git
+
+[ 2018-02-27T05:58:15+08:00 ] 121.196.210.85 /index.php/www.tar.gz
+ERR: 无法加载控制器:Www.tar.gz
+

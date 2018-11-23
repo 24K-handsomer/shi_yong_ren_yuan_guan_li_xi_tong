@@ -1,0 +1,7 @@
+[ 2017-04-11T13:12:04+08:00 ] ::1 /tp3.2.3/index.php/Admin/Index/filelist
+ERR: 1054:Unknown column 'tile' in 'field list'
+ [ SQL语句 ] : SELECT `id`,`tile`,`author`,`filetype`,`createtime` FROM `file` ORDER BY createtime desc LIMIT 0,10  
+
+[ 2017-04-11T16:30:28+08:00 ] ::1 /tp3.2.3/index.php/Admin/Index/showfile?id=3
+ERR: 模板不存在:./Application/Admin/View/Index/showfile.html.html
+

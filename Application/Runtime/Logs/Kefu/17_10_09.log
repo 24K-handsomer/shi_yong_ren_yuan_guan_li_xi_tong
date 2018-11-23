@@ -1,0 +1,68 @@
+[ 2017-10-09T08:49:43+08:00 ] 106.120.161.68 /index.php/Kefu/Comsys/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-10-09T08:49:44+08:00 ] 171.13.14.151 /index.php/Kefu/Comsys/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-10-09T08:49:44+08:00 ] 182.118.20.155 /index.php/Kefu/Comsys/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-10-09T08:50:02+08:00 ] 220.181.132.192 /index.php/Kefu/Comsys/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-10-09T08:50:04+08:00 ] 106.120.160.109 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-10-09T08:50:04+08:00 ] 182.118.20.143 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-10-09T08:50:04+08:00 ] 182.118.20.155 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-10-09T08:50:19+08:00 ] 220.181.132.199 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-10-09T08:50:19+08:00 ] 182.118.20.150 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-10-09T08:50:22+08:00 ] 171.13.14.151 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-10-09T08:50:35+08:00 ] 182.118.20.150 /index.php/Kefu/Comsys/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-10-09T08:50:55+08:00 ] 171.13.14.151 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-10-09T08:51:08+08:00 ] 171.13.14.133 /index.php/Kefu/Comsys/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-10-09T08:51:09+08:00 ] 171.13.14.133 /index.php/Kefu/Comsys/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-10-09T10:44:37+08:00 ] 58.59.25.134 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-10-09T10:58:59+08:00 ] 58.59.25.134 /index.php/Kefu/Speechcase/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 4 and `group` =  ) LIMIT 1  
+
+[ 2017-10-09T10:59:05+08:00 ] 58.59.25.134 /index.php/Kefu/Speechcase/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 4 and `group` =  ) LIMIT 1  
+

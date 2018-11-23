@@ -1,0 +1,27 @@
+[ 2017-10-24T10:49:14+08:00 ] 58.56.25.158 /index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ComsysController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0198s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('61','第一年，认真学习其他老老客服的聊天方式，借鉴一下他们的聊天记录，充实一下自己的
+第二年，有了自己一定的顾客之后，顾客找聊得一些家常话也要回复，这样以后复购的时候会轻松容易
+第三年，扩充自己的知识，如果了解工作以后压力不大的话打算报考会计学，充实一下自己
+第四年，可能会升职，可能还是客服。
+第五年，还没想好。
+') [ RunTime:0.0004s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('62','及时跟踪客户，认真对待每个新客户让这些人成为老顾客，及时跟进老顾客，让他对我们产有信任感，方便于第二次复购。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('63','乐：快乐 艾：爱') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('64','用印申请单') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('65','加班通知单，工作日加班，休息日加班，法定节假日加班') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('73','扣除月度工资的百分之二') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('75','济南乐艾生物技术有限公司') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('112','特殊原因签到表') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('113','提前两天，提前3天') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('114','200元') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('115','7天； 普通：200 ，主管：300 , 经理：600，总监：800，总经理：2000') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('116','一个月') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('117','百分之十') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('13','许晓','1','试题一','36','931,932,933,934,935,936,937,938,939,940,941,942,943','0','36') [ RunTime:0.0002s ]
+

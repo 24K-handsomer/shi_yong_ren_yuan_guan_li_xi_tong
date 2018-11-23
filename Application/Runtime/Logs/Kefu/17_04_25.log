@@ -1,0 +1,59 @@
+[ 2017-04-25T09:53:57+08:00 ] ::1 /tp3.2.3/index.php/Kefu/Index/logout
+ERR: 无法加载控制器:Index
+
+[ 2017-04-25T09:55:09+08:00 ] ::1 /tp3.2.3/index.php/Kefu/Comsys/Home/Index/logout
+ERR: 非法操作:Home
+
+[ 2017-04-25T10:31:14+08:00 ] ::1 /tp3.2.3/index.php/Kefu/Comsys/test
+ERR: 非法操作:test
+
+[ 2017-04-25T10:31:19+08:00 ] ::1 /tp3.2.3/index.php/Kefu/Comsys/test
+ERR: 非法操作:test
+
+[ 2017-04-25T17:49:03+08:00 ] ::1 /tp3.2.3/index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:addgrade
+
+[ 2017-04-25T17:53:18+08:00 ] ::1 /tp3.2.3/index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-25T17:53:24+08:00 ] ::1 /tp3.2.3/index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-25T17:57:12+08:00 ] ::1 /tp3.2.3/index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' D:\phpStudy\WWW\tp3.2.3\Application\Kefu\Controller\ComsysController.class.php 第 118 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-25T18:29:43+08:00 ] ::1 /tp3.2.3/index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' D:\phpStudy\WWW\tp3.2.3\Application\Kefu\Controller\ComsysController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\phpStudy\WWW\tp3.2.3\Application\Kefu\Controller\ComsysController.class.php 第 122 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\phpStudy\WWW\tp3.2.3\Application\Kefu\Controller\ComsysController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0010s ]
+SQL: INSERT INTO `grade` (`uname`,`filetype`,`grade1`,`grade2`) VALUES ('吴邪','1','2','') [ RunTime:0.0020s ]
+
+[ 2017-04-25T18:31:44+08:00 ] ::1 /tp3.2.3/index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' D:\phpStudy\WWW\tp3.2.3\Application\Kefu\Controller\ComsysController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\phpStudy\WWW\tp3.2.3\Application\Kefu\Controller\ComsysController.class.php 第 122 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' D:\phpStudy\WWW\tp3.2.3\Application\Kefu\Controller\ComsysController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0010s ]
+SQL: INSERT INTO `grade` (`uname`,`filetype`,`pname`,`grade1`,`grade2`) VALUES ('0','1','公司制度17-4-20','2','') [ RunTime:0.0000s ]
+

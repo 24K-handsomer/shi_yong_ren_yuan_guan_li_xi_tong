@@ -1,0 +1,59 @@
+[ 2018-03-02T10:29:33+08:00 ] 58.56.25.158 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: UPDATE `user` SET `proknowledge`='16,0' WHERE ( uid='97' ) [ RunTime:0.0084s ]
+
+[ 2018-03-02T10:29:40+08:00 ] 58.56.25.158 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: UPDATE `user` SET `test2`='31,0' WHERE ( uid='97' ) [ RunTime:0.0078s ]
+
+[ 2018-03-02T10:53:27+08:00 ] 58.56.25.158 /index.php/Admin/Admin/isexam
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Admin/Controller/AdminController.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `isexam`='0' WHERE ( uid = 97 ) [ RunTime:0.0058s ]
+
+[ 2018-03-02T11:52:59+08:00 ] 58.56.25.158 /index.php/Admin/Person/updategrade2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0006s ]
+SQL: SELECT `grade1` FROM `grade` WHERE ( gid = 137 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `grade` SET `grade1`='0',`grade2`='71',`isgrade2`='1',`grade`='71' WHERE ( gid = 137 ) [ RunTime:0.0002s ]
+
+[ 2018-03-02T15:58:48+08:00 ] 58.56.25.158 /index.php/Admin/Paper/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `paper` [ RunTime:0.0006s ]
+SQL: UPDATE `paper` SET `status`='0' WHERE ( pid='25' ) [ RunTime:0.0003s ]
+
+[ 2018-03-02T16:03:04+08:00 ] 58.56.25.158 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `proknowledge`='16,0' WHERE ( uid='100' ) [ RunTime:0.0087s ]
+
+[ 2018-03-02T16:03:10+08:00 ] 58.56.25.158 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `test2`='31,0' WHERE ( uid='100' ) [ RunTime:0.0072s ]
+
+[ 2018-03-02T17:11:44+08:00 ] 58.56.25.158 /index.php/Admin/Person/updategrade2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0006s ]
+SQL: SELECT `grade1` FROM `grade` WHERE ( gid = 138 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `grade` SET `grade1`='0',`grade2`='77',`isgrade2`='1',`grade`='77' WHERE ( gid = 138 ) [ RunTime:0.0002s ]
+

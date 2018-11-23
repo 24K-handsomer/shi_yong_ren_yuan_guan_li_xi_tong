@@ -1,0 +1,23 @@
+[ 2017-10-17T09:17:27+08:00 ] 58.59.25.134 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `test2`='18,17' WHERE ( uid='48' ) [ RunTime:0.0134s ]
+
+[ 2017-10-17T10:54:00+08:00 ] 58.59.25.134 /index.php/Admin/Person/updategrade2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0006s ]
+SQL: SELECT `grade1` FROM `grade` WHERE ( gid = 75 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `grade` SET `grade1`='0',`grade2`='81',`isgrade2`='1',`grade`='81' WHERE ( gid = 75 ) [ RunTime:0.0003s ]
+
+[ 2017-10-17T15:36:02+08:00 ] 58.59.25.134 /index.php/Admin/Person/updategrade2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0005s ]
+SQL: SELECT `grade1` FROM `grade` WHERE ( gid = 76 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `grade` SET `grade1`='0',`grade2`='79.5',`isgrade2`='1',`grade`='79.5' WHERE ( gid = 76 ) [ RunTime:0.0002s ]
+

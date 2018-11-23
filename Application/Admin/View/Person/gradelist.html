@@ -1,0 +1,123 @@
+<extend name="Public/base"/>
+<block name="style">
+	<link rel="stylesheet" type="text/css" href="__CSS__/filelist.css">
+</block>
+<block name="nav">
+	<span>成绩列表</span>
+</block>
+<block name="body">
+	<div id="row">
+	<form name='MyForm' id='MyForm' method='GET' action="__CONTROLLER__/gradelist" style="padding-bottom:10px; " >
+        <span>实习客服姓名：</span>
+        <input type="text" name="uname">
+        <input type="submit" name="" value="搜索">
+    </form>
+    <form name='MyForm' id='MyForm' method='GET' action="__CONTROLLER__/gradelistgroup" >
+        <span>搜索部门小组：</span>
+        <select name="group">
+        	<foreach name="grouplist" item="vg">
+				<option value="{$vg.group_id}">{$vg.group_name}</option>
+			</foreach>
+        </select>
+        <input type="submit" name="" value="搜索">
+    </form>
+    </div>
+	<table border="1" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+			<td>姓名</td>
+			<td>试卷类型</td>
+			<td>试卷名字</td>
+			<td>选择判断题得分</td>
+			<td>简答题得分</td>
+			<td>总分</td>
+		</tr>
+
+		<?php $i=($p-1)*$limit+1; ?>
+		<foreach name="list" item="v">
+			<tr id="">
+				<td><?php echo $i++; ?></td>
+				<td>{$v.uname}</td>
+				<td>
+				<foreach name="filetype" item="vv">
+					<if condition="$v.filetype == $vv['fileid']">
+						{$vv.filename}
+					</if>
+				</foreach>
+				</td>
+				<td>{$v.pname}</td>
+				<td>{$v.grade1}</td>
+				<td>
+				<if condition="$v.isgrade2 == 1">
+					{$v.grade2}
+				<else />
+					<input type="submit" name="pigai" ps="{$v.grade2}" gid="{$v.gid}" value="批改">
+				</if>
+				</td>
+				<td>{$v.grade}</td>
+			</tr>
+		</foreach>
+
+	</table>
+	<div id="page">{$show}</div>
+</block>
+<block name="script">
+<script type="text/javascript">
+ 	$("input[name='pigai']").click(function() {
+ 		var gid = $(this).attr("gid");
+		var ps = $(this).attr("ps");
+		show(gid,ps);
+	});
+</script>
+<script type="text/javascript" src="__LAYUI__/layui.js"></script>
+<script type="text/javascript">
+	function show(gid,ps) {
+		layui.use('layer', function(){
+		    var layer = layui.layer;
+		    var index = layer.open({
+			    type: 2,
+			    title: '请勾选',
+			    shadeClose: true,
+			    shade: 0.4,
+			    area: ['1000px','600px'],
+			    content: '__CONTROLLER__/gradeselect?grade2='+ps, //iframe的url
+			    btn: '确认',yes: function (index, layero) {
+			    	var frame = layer.getChildFrame('body', index);
+			    	var checkbox=frame.find("#shu");
+			    	var shu = checkbox.html();
+			    	updategrade2(gid,shu);
+			    	layer.close(index);
+			    }
+			});
+		});
+	}
+
+
+	function updategrade2(gid,shu){
+		var id = gid;
+		var su = shu;
+		$.ajax({
+			url:"__CONTROLLER__/updategrade2",
+			data:{gid:id,grade2:su},
+			type:"POST",
+			dataType:"JSON",
+			success:function (data) {
+				var z=data['z'];
+				switch (z) {
+					case 0:
+						alert("批改失败！");
+						break;
+					case 1:
+						window.location.reload();
+						break;
+					default:
+						alert("抱歉，后台未接收到传出去的值");
+						break;
+				
+				}
+			}
+		});
+	}
+</script>
+</block>
+</extend>

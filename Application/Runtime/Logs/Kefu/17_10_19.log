@@ -1,0 +1,191 @@
+[ 2017-10-19T10:14:28+08:00 ] 58.56.25.158 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0124s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('118','') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('119','1结节型痤疮  
+2 丘疹型痤疮  
+3 囊肿型痤疮  
+4 一般由丘疹演变而来，先演变成豌豆大小的水泡，约1-2日演变成脓包
+7 聚合型痤疮  
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('120','委托方 ：济南乐艾生物科技有限公司
+被委托方：天津美之路有限公司
+净含量 10mg 片   10片') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('121','早上用修护晚上用祛痘，10到15分钟不用清洗面部 然后正常的涂抹水乳。
+有内服也有外用的，根治痘痘。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('122','是青春痘的一种，也就是在皮肤没有探出头的粉刺。是死掉的细菌和皮肤分泌组组成的，主要发于面部，是白色半球小包，无自觉症状。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('123','1.1600 2. 2980 3.1600 4. 4700 5.2400 6. 4300   7. 5500   8.     9.') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('124','成分：锯棕榈提取物，黑醋栗籽油，黑醋栗花青素，番茄红素，锌等。
+使用方法：1日3次，早中晚饭后半小时 一粒。
+禁忌：孕妇 孕期 12岁以下 不适合用，有心脏病 血压低 近期做过大型手术不得使用
+
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('125','目前没有收到产品无效的反馈，是全球顶级的祛痘产品，连续畅销10多年，已经治好了很多闭合性粉刺患者，比你严重的都治好了，你这个也是没有问题的。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('126','这个产品主要是靠老顾客，所以证明是很好用，有些时候护肤品确实没有专业祛痘的做的好
+主动发一些生活的朋友圈，让大家记得我，跟进老顾客，还有一种刚开始加好友可能对这个不太信任，努力让她相信。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('127','1.丘疹型痤疮2.结节型痤疮') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('13','许晓','2','痘痘组新员工基础知识考核','0','806,807,808,809,810,811,812,813,814,815','0','0') [ RunTime:0.0002s ]
+
+[ 2017-10-19T11:01:01+08:00 ] 58.59.25.134 /index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ComsysController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0005s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('61','答：在工作期间做好自己的本职工作，三个月内完成一个工作目标10万的业绩，在五年内要增加自己的学识，学习一些生存法则，因为公司是属于孵化平台，争取五年内能够独立带领团队
+') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('62','答:我在了解了乐艾之后，认为平台还是非常不错的，平台发展的前景非常好，我认为我能够做的就是做好自己的本职工作，然后为公司发展，为同时谋福利，为自己争人生。
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('63','答：乐艾意思就是快乐，大爱。
+      激情 忠诚  信心  团结') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('64','《公司证件使用申请表》') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('65','《员工加班申请表》    调休或') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('73','2%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('75','济南乐艾生物技术有限公司   ') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('112','《员工外出申请表》') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('113','2        3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('114','200') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('115','7 200  300  500  700  1000') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('116','20') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('117','10%') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('14','于洪斌','1','试题一','40','816,817,818,819,820,821,822,823,824,825,826,827,828','0','40') [ RunTime:0.0002s ]
+
+[ 2017-10-19T11:38:52+08:00 ] 58.56.25.158 /index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ComsysController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0005s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('61','') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('62','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('63','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('64','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('65','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('73','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('75','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('112','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('113','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('114','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('115','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('116','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('117','') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0003s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('11','赵诗涛','1','试题一','22','855,856,857,858,859,860,861,862,863,864,865,866,867','0','22') [ RunTime:0.0002s ]
+
+[ 2017-10-19T14:54:32+08:00 ] 58.59.25.134 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0006s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('100','答：
+原因：小儿疝气主要是因为孩子肠道菌群，孩子发育不完全没有完全闭合，腹壁较薄，腹内压较高导致的（咳嗽 打喷嚏等）
+症状：主要表现是腹股沟疝，脐疝。
+    ') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('101','答：影响孩子的消化系统（导致孩子消化系统发育慢）
+      孩子抵抗力下降（孩子吃的食物没有完全消化吸收，营养跟不上自然会造成孩子的抵抗力比较弱）
+      影响孩子的生殖发育') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('102','答：   1.多种益生菌黄金配比
+          2.MRS培养基保证高活性 
+          3.天然有机物确保安全性
+          4.提高宝宝的自愈能力') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('103','答：改善孩子肠道菌群，降低孩子腹压。
+      主要是通过改善肠道菌群，降低孩子腹内压力，增强孩子腹壁，提高孩子的自愈力。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('104','答: 主要成分是鼠李糖乳杆菌和罗伊氏乳杆菌') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('105','答:1. 0-5岁的腹股沟疝，脐疝的婴幼儿，可改善婴儿肠道，降低腹压，增强腹壁
+    2.鞘膜积液，钳顿者禁用
+    3.在使用抗生素的人群，在使用抗生素2个小时以后才可以服用，因为有些抗生素是不分菌种的') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('106','答：舒善菌是美国知名益生菌品牌下的复合益生菌，在美国已经上市十多年，帮助美国10多万小儿疝气患者摆脱疝气的困扰。舒善菌主要成分是鼠李糖乳杆菌和罗伊氏乳杆菌，这两种乳杆菌都有着非常长时间的研究和检验，是经得起考察的。2015年舒善菌进入中国，根据用过的患者反馈，效果还是非常不错的，有的患者用上一周多就有明显的效果。
+我们是美国在大陆的唯一授权官方服务中心，有美国授权书，我们是不做任何其他授权的') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('107','答：舒善菌在美国上市10多年，效果是非常不错的，已经被国际上多个国家引进，我国也于2015年引进的舒善菌，自2015年引进舒善菌以来，已经帮助很多孩子摆脱疝气困扰，康复率是非常高的，以往用过的患者反馈说，孩子一般是一周多就会有明显的效果，一个疗程孩子疝气基本消失，2个疗程孩子基本康复。
+咱们聊了这么多了，你应该是信任我的，如果不信任我们可能聊这么多吗，产品的效果您不用担心，咱这边不是个人微商，您也不用担心给了钱人没了，网络现在盗2诈3是受国家法律保护的，有了这些保证，产品对孩子又有效果，您还犹豫什么呢') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('108','答：产品都是一份价钱一分货，相信您孩子疝气也不是一天两天了，您也应该给孩子做过些治疗，舒善菌是属于保守治疗，不仅在保守治疗，还是手术治疗方面，舒善菌都是最好最佳的选择，产品效果和疝气原理都给您讲了，您感觉给孩子手术或是吃那些西药效果会更好吗？不要只看一时，长久来看，长期吃药或是长期治疗都是一个无底洞，虽然舒善菌价格昂贵，但效果在那摆着，谁也不希望自己的孩子受罪是不?') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('109','答：不可以。舒善菌都是美国直邮，不是咱这边发货的，咱这边只是美国在大陆的官方授权服务中心，发货还是在美国的，都是货到付款的。您不用害怕上当受骗，因为咱这边不是个人微商，网络现在盗2诈3是受国家法律保护的，有了国家法律保护，您还怕什么。再者说，有那么多患者都是康复了的，我也不会单单骗您一人吧') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('110','答：好，毕竟是孩子的问题，不是小事，商量考虑好再下决定，我已经跟您说过小儿疝气的病理和危害，单单是孩子以前用的那些方法是无法从根本上治疗的，手术也不太建议，毕竟孩子还小，改善孩子肠道菌群问题，减小腹压，这是根本，腹壁孩子还会再发育，会自愈的。舒善菌针对孩子病情，是保守治疗最佳方案') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('111','a：我家宝宝才1岁3个月，发现宝宝有脐疝，怎么治疗呢
+b:  您好，怎么称呼您，孩子脐疝多长时间了，都采取过什么治疗方法呢
+a: 宝宝脐疝有1个多月了，不大，有大拇指那么大，就是在当地医院拿了些药，后来有人推荐疝气带，用了几天，没啥效果
+b: 孩子是早产儿吗
+a: 不是，是满月生的
+b:那孩子除了母乳有没有喝过奶粉什么的呢
+a:就是在6个多月时，开始搭配奶粉给宝宝喝，这根奶粉有关系吗
+b: 向您孩子这样的情况，现在是越来越多了，孩子太小，消化系统还没完全发育好，对一些食物消化不太好，孩子现在主要是肠道出现了问题，导致腹内压升高，解决孩子疝气问题跟大人还不一样，孩子主要是解决了肠道问题，减小腹压就可以，宝宝比较小，有很强的自愈能力
+a:那您说，孩子具体怎么办才好呢，宝宝最近吃饭也比较少，有点便秘
+b:您先不要着急怎么治疗，我先了解清楚孩子情况，跟您说清楚疝气的病情病理，这样您之后也好照应孩子
+b:孩子吃饭不太好，主要是跟肠道消化有关，长期这样会影响孩子生长生殖发育，造成孩子免疫力较差。 孩子平躺的时候疝囊可以收缩回去吗
+a:是可以收缩的，平时一天出现几次，带着疝气带看不见，应该没有出现，但是昨天拿下疝气带，又出现了好几次，好像比以前还大了
+b:疝气带主要是应用的物理挤压的方法，指标不治本，没有解决孩子肠道菌群问题，只是像治疗大人疝气一样，是解决不了孩子根本问题的
+b:下面，我给您解释一下疝气的病理      （先提交了）
+') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('14','于洪斌','2','舒善菌基本知识测试','0','881,882,883,884,885,886,887,888,889,890,891,892','0','0') [ RunTime:0.0002s ]
+
+[ 2017-10-19T16:57:59+08:00 ] 58.59.25.134 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0004s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('85','答：疝气是腹腔内的组织或者器官脱离了原来的位置，通过缝隙，缺陷或者薄弱的地方进入另一部位.主要有腹股沟直疝，脐疝，切口疝，手术复发疝等
+   症状：') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('86','答：疝气主要的治疗方法有：疝气带疝气裤    普通手术法      疝补片手术法      疝气帖
+  1.疝气带疝气裤       这主要是应用的物理挤压法，利用力的挤压，把疝囊压缩回去。此方法虽然比较方便简单，但是无法增加腹壁厚度，更无法增加腹壁弹性
+  2.普通手术法：普通手术就是将周围的组织拉缩，进行缝补，此法虽可缓解于一时，但是将本来就薄弱的周围组织，进行拉伸，以后再遇见腹内压增高的情况，疝气还是容易复发，根据跟踪调查，手术复发的几率高达36%
+  3.疝补片手术法：  此方法是现在最为先进的手术法，疝补片手术法虽然成功弥补了普通手术法的部分缺陷，但确没有改变腹壁的弹性，腹压升高，还是容易复发
+  4.疝气贴：疝气帖主要是通过散热来软化疝囊，却无法消除疝块，收到的效果也是微乎其微
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('87','答：小儿疝气主要是孩子肠道菌群导致孩子腹内压升高，由于孩子腹壁没有完全发育好，孩子就容易出现疝气
+    小儿疝气主要是通过平衡孩子肠道菌群，降低孩子腹压，让孩子自行修复腹壁，因为孩子的自我修复能力还是比较强的
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('88','答：1.降低腹压  收缩腹囊
+       2.收缩腹块 恢复疝口
+       3.修复腹壁  加强营养
+       4.增强腹壁自愈力 防止反复
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('89','答：主要成分有山楂  茴香  柑橘子   乌药   香附子  山胡椒  马尾藻  桃仁  荔枝核   泽泻  延胡索等') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('90','答：1.美国原装进口 
+       2.活性持久
+       3.原料致胜
+       4.安全纯天然
+       5.国际认证') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('91','答：您这个情况，不建议您手术，普通手术的话，就是将疝气部位组织强行拉拢，进行缝补，一般会留下一道疤痕，而且手术的复发率是非常高的，高达36%。腹腔镜手术一般是有四个切口，手术是无法改善您腹壁的弹性的，所以容易复发。我也跟您说过疝气的病理，腹壁营养素是完全可以改善您这疝气的，是可以通过增强腹壁厚度，增强腹壁弹性来改善您这疝气，只有这样，以后即使腹压增高，疝气也不会复发，只治标不治本的话，是很容易复发的。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('92','答：鞘膜积液  钳顿患者禁用
+       5-75岁疝气患者
+       注意一天三次饭前口服，避免与抗生素同时使用
+      有心脏病 ，肾病等高危人群禁用') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('93','答：我是单位在线咨询医师，产品您可以放心，是在美国上市十多年的产品，因为效果非常好，被国际多个国家引进，我国最近两年也引进来，我们这边是美国在大陆的唯一官方授权中心，产品都是经过生产商检验，又经过我国海关检验了的，是完全值得信赖专业消除疝气的产品
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('94','答：用过效果不错的有很多，毕竟产品进入中国不是一天两天了，但是我们有维护患者隐私的义务，不能随随便便将患者信息透露出去，当然，您也一样，也不会将您的信息透露出去，您可以放心。产品效果也不是谁说了就有效果的，您得亲自用一下，才知道产品的效果，您说是吧
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('95','答：市面上没有卖的，至少中国药店里是没有卖的。我们这边是美国在大陆的唯一授权，不做任何其他授权，毕竟刚进入中国，在中国属于刚刚起步的产品，产品在美国市场已经接受了十几年的检验，而且被多个国家引进，至少可以说明产品效果和安全是没有问题的') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('96','答：咱这边不是个人微商，是济南乐艾生物技术有限公司，我是单位在线咨询医师，我们这边是大陆唯一拿到美国授权的公司，产品安全效果方面您可以放心，财产安全您也不必担心，因为我国法律明确指出网络的盗二诈三，所以如果出现您付款后没有发货，是完全可以用法律保护自己的') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('97','答：好，您先考虑，和家人商量一下，以往患者都是会商量一下，家人都是支持的。您这疝气时间也不算短了，这疝气就是安装在人身上的一颗炸弹，危害我已经跟您说过了，治疗方案我都告诉您了，具体怎么治疗是您决定。及早治疗，选择正确的方案是可以避免很多不必要的麻烦的
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('98','答：产品在美国上市十几年，在中国也有两年了，还没有出现没有效果的患者，如果不针对您这病症，我也不会推荐给您的。在国内外上百万的患者用着都有效果，难道您用着就没有效果吗？可能是有的效果可能慢，但都有效果的，这个您可以放心的') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('99','（接上段）
+b:宝宝疝气的直接原因还是腹壁较薄，（图），就像这个图中一样，跟患者讲述那几种治疗方法和利弊，重点是讲舒善菌的有的而那些方法没有的优点
+a:您这么一说，就有点明白这疝气是啥了，之前在医院老听疝气，疝气，根本就不告诉是怎么回事就给开药方，治疗
+a：孩子既然这样的话，用那个舒善菌就可以是吗
+B：可以的，不过我建议您再配备一套安全带，这样效果会更好，像孩子这样，手术是强烈不建议的
+a：那好，老师，您那边是有舒善菌和安全带是吗，听您讲了原理，就感觉您这产品应该不错，是吧
+B:讲产品效果，安全性那一段，我们这边是没有舒善菌的，都是美国直邮的，我们只是美国在大陆的官方服务中心，您可以在我们这边订购，我们通知给您发货的
+b：您先把您的地址和身份证发过来，我给您备注一下
+a：产品价格是多少啊，我家宝宝这种情况得吃多长时间
+a:地址：济南历城华信路石榴园小区6号楼
+  身份证：371525199504125318
+  手机号 ：18340058986
+b:根据以往患者反馈，7天疝囊会明显变软，配有疝气带辅助治疗，2个疗程基本就不会复发了，2个疗程+疝气带，原价多少，给您怎么优惠，优惠多少，说清即可
+a:好贵啊，我家是农村的，能不能便宜点
+b:产品可以保证安全和效果，价格~
+a:那我考虑一下，晚上答复您
+B：好，您先考虑，和家人商量一下，以往患者都是会商量一下，家人都是支持的。您这疝气时间也不算短了，这疝气就是安装在人身上的一颗炸弹，危害我已经跟您说过了，治疗方案我都告诉您了，具体怎么治疗是您决定。及早治疗，选择正确的方案是可以避免很多不必要的麻烦的
+B：（晚上）晚上好，您和家人商量的怎么样，有什么不明白的可以再咨询我，随时为您解答
+') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('14','于洪斌','2','腹壁营养素基本知识测试','0','893,894,895,896,897,898,899,900,901,902,903,904,905,906,907','0','0') [ RunTime:0.0002s ]
+

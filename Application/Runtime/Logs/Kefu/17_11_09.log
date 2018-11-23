@@ -1,0 +1,27 @@
+[ 2017-11-09T16:14:29+08:00 ] 58.56.25.158 /index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ComsysController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0078s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('61','首先就是了解产品业务，做好销售，创造好的业绩，不想当将军不是好业务，在保证收入同时争取晋升机会。') [ RunTime:0.0267s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('62','做好本职工作，好好的团结同事，做出业绩，为公司及个人增加收益，') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('63','分为四向.
+1、企业愿景（乐艾使命）：做全球最好的产品，为健康护航
+2、企业的核心价值观：团结、高效、诚信、激情。
+3、企业的发展宗旨：让更多的人健康，让更多的人快乐。以人为本，与员工共发展。
+4、乐艾的情怀:品为魄，善做魂，赢天下，创未来') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('64','印章及证件使用申请人须在使用前需详细填写《用印申请单》，经相关上级审核并经过印章所有人审批后方可登记使用；因印章保管人未严格履行登记手续，私自允许加盖印章导致印章使用不当造成损失的，印章保管人承担连带责任。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('65','《加班通知单》员工在节假日加班  公司规定的休息日加班') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('73','2%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('75','济南乐艾生物技术有限公司
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('112','《出差报备书》') [ RunTime:0.0003s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('113','2天，3天') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('114','200元') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('115','7天200元,300元，600元，800元，2000元') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('116','15天') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('117','200元') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0043s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('13','刘岩','1','试题一','36','1020,1021,1022,1023,1024,1025,1026,1027,1028,1029,1030,1031,1032','0','36') [ RunTime:0.0004s ]
+

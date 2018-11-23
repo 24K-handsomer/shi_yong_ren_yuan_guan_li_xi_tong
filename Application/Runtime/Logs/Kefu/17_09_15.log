@@ -1,0 +1,225 @@
+[ 2017-09-15T10:20:23+08:00 ] 58.56.25.158 /index.php/Kefu/Growth/
+ERR: 非法操作:index
+
+[ 2017-09-15T10:20:53+08:00 ] 58.56.25.158 /index.php/Kefu/Growth/
+ERR: 非法操作:index
+
+[ 2017-09-15T10:21:43+08:00 ] 123.151.64.201 /index.php/Kefu/Proknowledge/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-09-15T10:21:47+08:00 ] 101.226.33.221 /index.php/kefu/proknowledge/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-09-15T10:22:29+08:00 ] 58.59.25.134 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0010s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('85','有脐疝、腹股沟直疝、斜疝、切口疝、手术复发疝、白线疝、股疝等。
+常见腹股沟疝表现为腹股沟区可以看到或摸到肿块，平卧后可回复。其他如大肠、阑尾、等可能脱出。女性则以卵巢脱出较多，因此常可摸到似拇指大、较硬且多半有压痛的肿块。') [ RunTime:0.0272s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('86','疝气带 疝气裤（通过对疝块部位的挤压固定使凸起的疝块回复，疝气带或者疝气裤无法修复受损的腹壁，对于疝块凸起，渐大，偏坠等很难起到有效的祛除及控制作用，不能从源头上消除疝气）
+传统手术（通过将缺损周围组织强行拉拢、缝补来改善疝气，1个大切口约6-8厘米，住院7-10天，容易留疤，而且因为腹壁没有被修复，容易反复，反复率高达36%）
+') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('87','疝气是小儿的多发病，腹壁薄弱，哭闹腹内压增高，压迫小肠，肠道菌群失衡是主要原因。
+针对小儿疝气，平衡肠道菌群，提高自愈力，降低腹内压，修复腹壁可以，外敷腹壁营养素。
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('88','1.降低腹压 收缩疝囊（腹壁营养素迅速进入人体血液循环，消除疝气肿块，软化疝囊，快速降低过高的腹压。使凸起、偏坠的疝块快速收缩复位）
+2.复位疝块  闭合疝口（疝块回收入腹腔后，会在腹壁营养素的调理运作下返回原来所在位置，防止腹腔内器官的错乱，并促使疝口破损经膜细胞快速修复。并在腹壁营养素不断强化下，增强腹壁厚度和韧度，使疝口永久性闭合）
+3.修复腹壁 加强供养（疝气形成的主要原因是腹壁膜过于薄弱，腹壁营养素过修复腹壁网膜细胞自愈力，修复腹壁网膜细胞，增强人体血液对腹壁的供养能力，使薄弱的腹壁组织不断增厚，弹性加强，彻底祛除疝气不反复）
+4.增强腹壁自愈力  防止反复（ 腹壁营养素中的高活性物质就有极强的增强腹壁网膜细胞自愈力的能力，通过活性物质的不断作用，腹壁营养素可以增强腹壁自愈力，增强腹壁弹性，当腹压再次升高时，疝气也不会反复）
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('89','山楂、茴香、柑橘子、荔枝核、桃仁、延胡索、泽泻、乌药、马尾藻、香附子、山胡椒') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('90','活性持久（腹壁营养素采用国际先进的智能酸碱缓控释技术，能顺利躲过胃酸侵蚀，安全进入小肠，靶向消除疝块，修复受损腹壁的网膜细胞，改善疝气）
+原料致胜（精选世界著名产地的高活性种子，低温萃取研发，提炼出种子种的小分子多肽，同步修复腹壁，恢复腹壁弹性，缩小疝块）
+安全纯天然（腹壁营养素原料全部采用纯天然有机种子为原材，没有任何化学添加，经20年实效验证，对人体没有任何副作用，老人孩子也可放心使用）
+国际认证（腹壁营养素目前在美国、英国、中国、日本等多个国家均有销售，而且是美国FDA认证的疝气调养佳剂）') [ RunTime:0.0003s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('91','疝气手术的原理非常简单，就是通过缝补的方法来补住薄弱点，但是当体内腹压增高的情况下，缝补的薄弱点可能再次鼓出疝气，复发率很高疝气的病根是腹壁薄弱缺损，所以从根本上修复腹壁才是关键。
+') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('92','5到70岁  注意：高热等时禁用腹壁营养素。平时多注意休息，多吃水果蔬菜防止便秘，不要吃辛辣刺激生冷跟容易胀气的食物，避免剧烈运动，保持好的心情，尽量少生气
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('93','我是美国腹壁营养素驻中国的健康顾问，每一瓶都有防伪码，可以在官网查询真伪，确保正品。
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('94','所有的患者病历案例都是保密的，不可能公开的') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('95','我们是腹壁营养素在中国的授权代理，因为腹壁营养素去年才引进中国，所以国内目前只有济南的一壶天连锁药店有售，其他地区还没进入药店，毕竟进药店是需要一系列费用的，我们不希望把这些费用平摊在消费者身上。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('96','我是美国腹壁营养素驻中国的健康顾问，不是微商。我能理解你的心情，很多患者刚开始来也是这样，后期用了腹壁修复素都调理好了，这个你放心就行。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('97','疝气对身体的影响很大，随着疝气的加重，疝气的鼓包会越来越大并且会伴有涨疼下坠感，并且会影响人的消化系统，容易造成便秘，食欲不振，消化不良，对前列腺，生育都有很大的影响，疝气后期容易造成小肠跟梗塞和坏死就只能进行手术了，建议尽早调理。
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('98','腹壁营养素已经在美国上市16年了，效果反馈一直非常好，不然不会挤掉60%的疝气手术，实验证实，腹壁营养素对98%以上的疝气都有效果，不会到了咱身上没有效果的。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('99','我:你好，是给本人还是给家人咨询疝气的问题？
+顾客：家人
+我：今年多大年龄？  性别？
+顾客：六岁，男孩
+我：疝囊在大腿根部还是阴囊两侧？鼓起的包块有鸡蛋还是核桃大？
+顾客：大腿根，核桃大
+我：平躺或者休息时疝囊能回去吗？
+顾客：躺着能回去
+我：有坠胀或疼痛的感觉吗？
+顾客：有，平时一站着他就不舒服
+我：去医院检查过了吗 ？
+顾客：检查过了医生说是疝气，要手术
+顾客：孩子还小不想让他手术
+我：疝气是小孩的多发疾病，主要是腹壁膜发育不完善、过薄，腹壁供养能力不足，再加上哭闹或者咳嗽、便秘、剧烈运动等等外力就会使腹内压增高，压迫小肠从薄弱处漏出，从而形成疝气。
+我：疝气手术的原理非常简单，就是通过缝补的方法来补住薄弱点，但是当体内腹压增高的情况下，缝补的薄弱点可能再次鼓出疝气，复发率很高疝气的病根是腹壁薄弱缺损，所以从根本上修复腹壁才是关键。
+顾客：这个严重吗？
+我：及时调理没有问题的
+顾客：怎么调理
+我：孩子情况可以用美国原装进口的PCK腹壁营养素调理，是纯植物的，没有任何副作用，很多
+不足月的宝宝都在调理，这个尽管放心就行，孩子是外敷的
+顾客：腹壁营养素去哪买？
+我：我们是美国腹壁营养素驻中国唯一的健康顾问，我可以安排给您发货。
+顾客：多少钱？
+我：1个周期   3瓶30天  1800元  每日3餐前空腹各服用一次，每次2粒 。
+我：你家宝宝用一个周期完全调好是没问题的，但是长期不恢复，嵌顿了，想修复也没机会了，手术，全麻，孩子受罪，复发高
+顾客：真的能吃好吗？
+我：是的，国内都这样除了手术没有别的办法
+我：手术复发率太高，所以才引进修复素
+我：你的情况绝对没有任何问题
+顾客：我就怕用完没效果
+我：我能理解你的心情，很多患者刚开始来也是这样，后期都能调理好了，这个你放心就行，孩子这么小，咱都是做父母的，不适合宝宝用，不会让你们用的。
+我：截图
+我：截图
+我：截图
+我：截图
+我：这是一个63岁的患者，用了一个周期的效果，孩子这么小，吸收程度肯定比大人要好。
+我 :你就放心吧
+顾客:好吧 我相信你 给我来一个周期的吧
+我：谢谢你相信我
+我；能货到付款吗?
+我：我们都是款到发货的，留一下地址名字和电话，付款后立马发货。因为是美国直邮，需
+要海关严格检验合格后，从深圳保税区直接发货，没有经过二次转接，保证正品和效果
+顾客：好吧
+顾客：  转账1800
+我：你发一下姓名地址联系方式还有身份证号，我好尽快安排给你发货
+顾客：怎么还要身份证号
+我：需要提供收件人本人的身份证号码，海关清关需要，这是国家规定，购买进口产品都这样
+顾客：哦哦
+顾客：谢谢
+我：不客气，都是为了孩子。
+我：希望孩子早日康复') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0005s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('14','张强','2','腹壁营养素基本知识测试','0','298,299,300,301,302,303,304,305,306,307,308,309,310,311,312','0','0') [ RunTime:0.0002s ]
+
+[ 2017-09-15T10:22:30+08:00 ] 58.59.25.134 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0004s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('85','分类：脐疝、腹股沟直疝、斜疝、切口疝、手术复发疝、白线疝、股疝等
+下腹坠胀，腹痛，便秘，食欲不振，吸收功能差，易疲劳') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('86','传统手术：切口4-6厘米，住院7-10天，容易留疤，没有从根本上修复腹壁，容易复发，复发率高达36%。
+疝气带、疝气裤:通过物理方法进行挤压固定，使凸起的疝块回复，无法修复腹壁，对凸起偏坠的疝囊没有消除和控制的作用，不能从源头消除疝气。
+疝补片修复术：通过腹腔镜完成疝气补片，有2-4个切口，缺点无法改善腹壁弹性。
+疝气贴：通过疏通散热改善疝气，无法消除疝块，对腹壁的修复为零。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('87','小儿疝气主要是因为先天发育不足，腹壁发育不完善，过薄，加上小孩哭闹咳嗽使腹内压增高，压迫小肠从薄弱处流出形成疝气。疝气是小孩的多发病，疝气影响患者的消化系统，从而出现下腹坠胀，胀痛，便秘，食欲不振，吸收差体质下降等症状。
+小儿疝气应对方法：平衡肠道菌群，外敷腹壁营养素，修复腹壁，疝气带辅助治疗。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('88','降低腹压 收缩疝囊
+腹壁营养素迅速进入人体血液循环，行气活血，消除疝气肿块，软化疝囊，快速降低过高的腹压。使凸起、偏坠的疝块快速收缩复位。
+复位疝块  闭合疝口
+疝块回收入腹腔后，会在腹壁营养素的调理运作下返回原来所在位置，防止腹腔内器官的错乱，并促使疝口破损经膜细胞快速修复。愈合疝口。并在腹壁营养素不断强化下，增强腹壁厚度和韧度，使疝口永久性闭合。
+修复腹壁 加强供养
+疝气形成的主要原因是腹壁膜过于薄弱，腹壁营养素过修复腹壁网膜细胞自愈力，修复腹壁网膜细胞，增强人体血液对腹壁的供养能力，使薄弱的腹壁组织不断增厚，弹性加强，彻底祛除疝气不反复。
+增强腹壁自愈力  防止反复
+ 腹壁营养素中的高活性物质就有极强的增强腹壁网膜细胞自愈力的能力，通过活性物质的不断作用，腹壁营养素可以增强腹壁自愈力，增强腹壁弹性，当腹压再次升高时，疝气也不会反复。
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('89','山楂、茴香、柑橘子、荔枝核、桃仁、延胡索、泽泻、乌药、马尾藻、香附子、山胡椒。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('90','美国原装进口，活性持久，原料致胜，安全纯天然，国际认证') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('91','传统手术通过将缺损周围组织强行拉拢、缝补来改善疝气，1个大切口约6-8厘米，住院7-10天，容易留疤，而且因为腹壁没有被修复，容易反复，反复率高达36%。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('92','患有疝气疾病且没有嵌顿，积液70岁以内的患者
+注意事项：平时多注意休息，多吃水果蔬菜防止便秘，不要吃辛辣刺激生冷跟容易胀气的食物，避免剧烈运动，保持好的心情，尽量少生气。（胀气的食物有豆类 红薯 芋头 西兰花等）使用方法每天三餐前15-30分钟空腹服用，高热时禁止服用。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('93','我是中国区健康顾问，我们是美国官方授权代理，每一瓶都有防伪码，可以在官网查询真伪，确保正品。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('94','根据以往患者的反馈，在服用一个疗程以后，疝囊变软，疝气带来的坠胀感逐渐消失，我们对所有的顾客的信息都是保密的不可以泄露客户信息的。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('95','我们是中国区的授权代理，因为腹壁营养素去年才引进中国，所以还没有全面进入药店，你可以官网订购，我们负责给您安排发货。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('96','我们不是微商是腹壁营养素中国区的授权代理，现在微信都是实名认证，我如果是骗子，不早就被举报了吗，怎么还能在这跟您沟通，可以给您看以往顾客的反馈。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('97','您是对产品还是价格有什么顾虑吗，疝气对身体危害很大，后期耽误发生嵌顿就要手术了，复发率高，身体还受罪，费用也是上万了') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('98','腹壁营养素在美国经历了16年的考验，效果反映都很好，挤掉了美国60%疝气手术，实验证实，腹壁营养素对98%以上的疝气都有效果，不会到了咱身上没有效果的。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('99','客服：您好，请问是有疝气方面的问题要咨询吗？
+顾客：嗯是的
+客服：请问是自己咨询还是帮家人咨询？
+顾客：帮家人，我孩子得了疝气
+客服：请问是男孩女孩，多大了？疝气多长时间了
+顾客：男孩，今年七岁，一年了
+客服：去医院检查过了吗？
+顾客：检查过了。说的是腹股沟直疝，要动手术
+客服：疝囊在大腿根部还是阴囊两侧？鼓起的包块有鸡蛋还是核桃大？
+顾客：在大腿根部，鼓起来核桃大小
+客服：平躺或休息时疝囊能回去吗？
+顾客：能回去
+客服：有坠胀或疼痛的感觉吗？
+顾客：站着的时候有疼痛感
+客服：现在孩子疝囊还可以回纳，建议保守治疗
+顾客：怎么保守治疗？不做手术能治好？
+客服：这种情况建议使用美国进口的善活素进行调理修复
+顾客：善活素是什么？能治好？
+客服：善活素是一种纯植物的腹壁营养素，是从根本上修复缺损薄弱的腹壁，使腹壁不断增厚，弹性增强，腹壁缺损薄弱恢复，从而使疝气不再反复发作
+客服：疝气的病根是腹壁缺损薄弱，所以从根本上修复腹壁才是关键，这种情况不需要手术，保守调理就可以
+顾客：善活素哪里有卖的？
+客服：我们是中国区的授权代理，因为腹壁营养素去年才引进中国，所以还没有全面进入药店，你可以官网订购，我们负责给您安排发货。
+顾客：你是卖药的？
+客服：我是腹壁营养素中国区健康顾问
+客户：这个药吃了安全吗？小孩子用安全吗？
+客服：是纯植物的，没有任何副作用，很多不足月的宝宝都在调理，这个尽管放心就行
+客户：怎么保证是正品？
+客服：我们是美国官方授权代理，每一瓶都有防伪码，可以在官网查询真伪，确保正品。
+客户：那吃多少能治好？
+客服：一般用到10-20天左右，疝囊自身变小变软，疝囊掉下来的次数明显减少，疝气带来的肿胀、疼痛等不适感大大缓解减轻，效果就比较明显了
+客服：根据您的症状服用1-2周期效果就非常明显了
+顾客：多少钱？
+客服：1个周期   2瓶60天 1300元
+顾客：这么贵
+') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('14','何姝璇','2','腹壁营养素基本知识测试','0','313,314,315,316,317,318,319,320,321,322,323,324,325,326,327','0','0') [ RunTime:0.0002s ]
+
+[ 2017-09-15T10:51:13+08:00 ] 58.56.25.158 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0006s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('118','1.结节型痘痘2.丘疹型痘痘3.囊肿型痘痘4.脓包型痘痘5.聚合型痘痘') [ RunTime:0.0003s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('119','三度四级：1级轻度，以粉刺为主，有少量的丘疹和脓疱，总病灶数少于30个
+                2级中度，除粉刺外，有中等数量的丘疹和脓疱，总病灶数在31-50个之间
+                3级中度，除粉刺外，有大量的丘疹和脓疱，偶见大的炎性皮损，分布广泛，总病灶数在51-100个之间，结节/囊肿数小于3个
+                4级重度，表现为结节/囊肿型痤疮和聚合型痤疮，大多有疼痛并形成囊肿和窦道，总病灶数在100个以上，结节/囊肿数 3个以上') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('120','委托方：济南乐艾生物技术有限公司  
+被委托方：天津美之道化妆品有限公司
+净含量：20mg/片*10片') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('121','多酚提苏活力片修护型特含寡肽-1，牛奶氨基酸类，水解珍珠等提取物，具有丰富的营养精华并促进皮肤新陈代谢，增强皮肤细胞的活力和皮肤弹性，修复皮肤腺细胞，不再长痘痘。光果甘草，银耳，芍药等提取物 渗透性强，可以深入皮肤内部并保持高活性，抑制黑色素形成过程中的多种酶的活性，抑制多巴色素的互变和DHICA氧化酶的活性，抑制黑色素，消融黑色素。达到祛痘消印的双重作用。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('122','闭合性粉刺也是青春痘的一种，也就是还在皮肤内还没有探出头的粉刺，主要是由死掉的细菌和身体分泌物组成，多发于面部，为细小的皮下脂栓，表现为米粒大小的半球形白色小包，质硬，无自觉症状。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('123','1. 12盒1500   2.  24盒  2800  3. 9盒 1400    4.  36盒  4500   5.      1600            6. 6瓶4200   7.  8瓶 5500  8. 4瓶 1800  9. 8瓶 3200    ') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('124','成分：锯棕榈提取物，黑醋栗籽油，黑醋栗花青素，番茄红素，锌等。
+使用方法：一天三次，一次一片，早中晚饭后半小时服用，经期停用。孕妇和哺乳期，15岁以下不合适用，其他如血压过低，心脏病，刚做过大型手   术或其他严重系统性疾病的。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('125','目前还没有收到无效的反馈，是全球顶级的祛痘产品，连续畅销18年，进入中国5年，已经调理好了很多像你一样的闭合性粉刺和痤疮的患者，比你严重的都可以调理好，你也是没有问题的。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('126','安酷颜和DH钻石祛痘是很好的内用调理的祛痘产品，多酚提苏活力片是外用产品，搭配使用可以更好的祛痘 根源调理 改善皮肤健康。粉刺和痤疮的人群很多，好的产品就需要让更多的人使用到。在工作中，自身要更加深入了解产品，掌握痘痘方面的知识，做到专业，更好的为顾客提供优秀的服务，替顾客排忧解难，做出好的业绩。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('127','1.丘疹型痘痘  2.脓包型痘痘 ') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0005s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('13','林令强','2','痘痘组新员工基础知识考核','0','328,329,330,331,332,333,334,335,336,337','0','0') [ RunTime:0.0002s ]
+
+[ 2017-09-15T13:50:08+08:00 ] 58.56.25.158 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0005s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('118','闭合性粉刺和痤疮') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('119','分为结节性痤疮、丘疹性痤疮、囊肿型痤疮、脓包型痤疮、聚合性痤疮') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('120','委托方：济南乐艾生物技术有限公司
+被委托方：天津美之路化妆品有限公司
+净含量：20mg/片*10片') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('121','多酚提苏活力分子能够深入皮肤深层具有高活性') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('122','闭合性粉刺也是痘痘的一种，是皮肤下未探出头的粉刺，是由死掉的细菌和身体分泌物组成，形状为白色半球形小包，质硬。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('123','1、1500   2、     3、1400    4、4500    5、1500   6、4200   7、5500     ') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('124','成分：锯棕榈提取素、黑醋栗籽油、黑醋栗花青素、番茄红素、锌等
+使用方法：1次1粒，一天三次。早中晚饭后半小时服用
+禁忌：经期停用；’孕妇、哺乳期以及15岁以下禁止服用；先天性疾病，做过大型手术禁用') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('125','目前我们还没有收到没有效果的反馈，我们是专业的祛痘产品，在国外已经畅行18年了，进入中国也有5年了。有很多比您严重的患者在我们这也都治疗成功了，您是肯定没问题的') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('126','公司是一家专注于化妆品，护肤类的专业团队。公司领导及员工一直贯彻团结、高效、诚信、激情的核心价值观。  在以后的工作中要制定自己的目标，向着自己的目标不断努力和学习，多向同事请教问题，交流问题。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('127','1.丘疹性痘痘
+2.结节性痘痘') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('13','魏铮','2','痘痘组新员工基础知识考核','0','338,339,340,341,342,343,344,345,346,347','0','0') [ RunTime:0.0001s ]
+

@@ -1,0 +1,28 @@
+[ 2018-03-28T16:11:57+08:00 ] 58.56.25.158 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 118 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0004s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('154','①6瓶 2700、2550 ②4瓶 2000、1900 ③2瓶  1200、1100  ④12瓶5000、4700  ⑤10瓶 4200、3900    ⑥8瓶 3400、3200 ') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('155','洗脸、冷热刺激和高温日晒，饮食习惯，外部环境恶劣引等因素。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('156','初期：红斑期    颜面中部  鼻部 鼻部两侧出现红色小痘 皮肤油性过大 皮脂油性外溢
+中期：丘疹脓疱期   初期未得到好的治疗 出现反复导致 肌肤免疫下降出现丘疹、脓疱
+后期：鼻赘期    鼻部变异 出现增生组织') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('157','中药调理的话 治疗时间长 效果不明显  长期服用中药导致女士经期缩短
+外用产品的话 只能是短时间的见到效果 但是易反复 外用药品多为抗生素产品  长时间使用会导致产生抗体 更难以得到好的治疗。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('158','通过内服调理身体内分泌，使皮肤固有免疫、皮脂腺、毛细血管功能异常恢复正常，从而肌肤在面对微生物、外界刺激的影响下恢复正常，从源头缓解皮肤免疫抗敏能力、皮脂腺异常活跃、毛细血管扩张的敏感问题。
+以纯天然草本植物精华搭配营养元素，使肌肤固有免疫免疫、皮脂异常活跃、毛细血管扩张的敏感问题得到恢复，另含有紫锥花、女贞果、洋菝葜等纯天然植物搭配使肌肤角质层得到修复，从源头使肌肤抗敏能力提高。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('159','酒糟鼻注意事项：禁辛辣 油腻 海鲜 烟酒 甜品 等食物；避免熬夜，避免长时间的高温日晒、环境恶劣、寒冷等外部环境。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('160','和客户说明产品的作用，说明病情如果不及时治疗可能会影响生活、学习、工作。严重的情况会导致心理问题。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('161','内服  每天6粒 每次3粒 饭后半小时温水送服；  14岁以下减半  每天4粒  每次2粒 饭后半小时温水送服。
+
+不适合孕妇及哺乳期的人，还有血压高低、心脏病患者不适合使用') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('162','皮肤暗淡、情绪紊乱、抗敏免疫力下降，皮脂油性溢出，睡眠质量下降。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('163','病情状况，出现这种症状已经多长时间了，之前用什么方法治疗过，治疗的效果怎么样，有没有用过DH这个产品。') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0007s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('13','刘国财','2','酒糟鼻组新员工知识考核','0','1724,1725,1726,1727,1728,1729,1730,1731,1732,1733','0','0') [ RunTime:0.0003s ]
+

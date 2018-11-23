@@ -1,0 +1,54 @@
+<extend name="Public/base"/>
+<block name="style-top">
+	<link rel="stylesheet" type="text/css" href="__LAYUI__/css/layui.css">
+</block>
+<block name="style">
+	<link rel="stylesheet" type="text/css" href="__CSS__/addtest.css">
+	<style type="text/css">
+		#table-top{
+			text-align: center;
+		}
+	</style>
+</block>
+<block name="nav">
+	<span>{$task.uname}任务操作</span>
+</block>
+<block name="body">
+	<div id="row">给{$task.uname}添加任务</div>
+	<form action="__CONTROLLER__/addtask" method="post">
+		<input type="hidden" name="uid" value="{$task.uid}">
+		<if condition="$task['task7']==0">
+			<input type="hidden" name="start" value="1">
+		</if>
+		<div id="row">
+			<span>&nbsp;&nbsp;7天任务：</span>
+			<input type="text" name="7task" value="{$task.task7}">
+		</div>
+		<div id="row">
+			<span>14天任务：</span>
+			<input type="text" name="14task" value="{$task.task14}">
+		</div>
+		<div id="row">
+			<span>21天任务：</span>
+			<input type="text" name="21task" value="{$task.task21}">
+		</div>
+		<div id="row">
+			<span>30天任务：</span>
+			<input type="text" name="30task" value="{$task.task30}">
+		</div>
+		<div id="table-top">
+			
+			<input type="submit" name="" value="提交">
+		</div>
+	</form>
+	
+	<div id="iframe">
+		<if condition="$task['task7'] != 0">
+			<iframe src="__APP__/Kefu/Growth/taskshow?uid={$task.uid}"></iframe>
+		</if>
+	</div>
+</block>
+<block name="script">
+
+</block>
+</extend>

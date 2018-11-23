@@ -1,0 +1,84 @@
+body,h1,h2,h3,p,ul,ol,form,fieldset,figure,a{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family:"微软雅黑";
+	background-color: #FFFFFF;
+}
+ul,ol{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+img {
+	display: block;
+	max-width: 100%;
+}
+
+body{
+	background: url("");
+}
+#biaoti{
+	background-color: #ffffff;
+	font-size: 30px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+}
+#jiemian{
+	width: 450px;
+	margin: 0 auto;
+	margin-top:150px;
+	background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #C7C7C7; 
+}
+#jiemian>h1{
+	padding-left: 110px;
+}
+#name,#pwd,#yzm{
+	margin:10px 0px; 
+}
+#yzm{
+	display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    display: -webkit-box;
+    -webkit-box-pack: start;
+    -webkit-box-align: center;
+    
+    display: -moz-box;
+	-moz-box-pack:start;
+	-moz-box-align: center;
+	
+	display: -ms-flexbox;
+	-ms-flex-pack:start;
+	-ms-flex-align: center; 
+}
+#yzm>img{
+	border: 1px solid red;
+    margin-left: 9px;
+}
+#jiemian>form>input{
+	    
+}
+
+
+.loginBtn {
+    width: 271px;
+    height: 44px;
+    line-height: 44px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    background-color:#8D8DBD;
+    border-radius: 100% 100%;
+}
+
+
+.register{
+}

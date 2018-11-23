@@ -1,0 +1,15 @@
+[ 2018-07-13T15:18:53+08:00 ] 58.56.25.158 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001349s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `test2`='43,0' WHERE ( uid='156' ) [ RunTime:0.0077s ]
+
+[ 2018-07-13T16:19:13+08:00 ] 58.56.25.158 /index.php/Admin/Person/updategrade2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0006s ]
+SQL: SELECT `grade1` FROM `grade` WHERE ( gid = 186 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `grade` SET `grade1`='0',`grade2`='92',`isgrade2`='1',`grade`='92' WHERE ( gid = 186 ) [ RunTime:0.0002s ]
+

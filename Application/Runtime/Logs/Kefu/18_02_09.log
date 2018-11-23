@@ -1,0 +1,22 @@
+[ 2018-02-09T13:48:14+08:00 ] 58.56.25.158 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 96 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0239s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('139','粉刺、丘疹、脓包、结节、囊肿') [ RunTime:0.0367s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('140','分为3级  分别是轻度、中度、重度。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('141','闭合性粉刺是痘痘的一种，也就是还在皮肤里还未探出头的粉刺，由死掉的细菌和身体分泌物组成。多发于面部，为细小的皮下脂栓，表现为米粒大小的半球状白色小包，质硬，无自觉症状。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('142','1，构成不同 2，发生频率不同 3，发病原因不同 4，症状表现不同') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('143','锯棕榈提取物，黑醋栗籽油，黑醋栗花青素，番茄红素，锌等。服用方法为1天2次，1次2片，早晚饭后半小时服用，经期停用。禁忌：孕妇、十二岁以下的儿童不能使用，还有其他刚做过大型手术的、有心脏病的不能使用。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('145','安酷颜1500、2100、3500             钻石祛痘2000、3400') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('146','你好，您可以考虑价格方面的问题，但是我想说的是，您的皮肤可不会留给您太多时间去犹豫，面部问题越早调理越好，如果拖延，则会导致病情恶化。所以，我还是建议您尽快决定，让您的皮肤早日焕发光彩。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('147','来到公司的这几天，给我最大的感触就是同事们之间相处的非常好，不管是在生活中还是在工作中，大家都以一种轻松愉快的方式来相处。而且同事们在工作上也非常努力，不管是哪个同事如果在与客户沟通中遇到问题，其他同事都会积极的去帮助。在我以后的工作中，我也会去积极和同事们沟通，在工作上自己努力，同时也多向同事们请教，早日做出业绩。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('148','1，囊肿型 2，脓包型') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('149','18岁以下没有经济能力的人。钻石祛痘的规格是每瓶100粒。钻石祛痘与安酷颜的不同之处是  钻石祛痘是美国原装进口，安酷颜是我们自己的生产团队进行生产') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0007s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('13','姜宁宁','2','痘痘国外组新员工考核试题','0','1487,1488,1489,1490,1491,1492,1493,1494,1495,1496','0','0') [ RunTime:0.0002s ]
+

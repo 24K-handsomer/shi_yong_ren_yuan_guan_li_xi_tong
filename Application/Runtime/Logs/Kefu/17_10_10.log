@@ -1,0 +1,25 @@
+[ 2017-10-10T14:49:00+08:00 ] 58.59.25.134 /index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ComsysController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0184s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('61','想成为母婴领域专业化人士，现在初步的计划1-2年之内能够通过的职位沉淀下来，3-5年时间成为一个在自己专业方面能够独挡一面的人，承担责任，发现问题，解决问题。') [ RunTime:0.0078s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('62','和所有的同事保持亲密融洽的合作关系，保持良好的工作 作风，踏踏实实做事，实实在在做人，用工作成绩证实自己。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('63','     企业愿景：做全球最好的产品，为健康护航
+     企业的核心价值观：团结、高效、诚信、激情。
+     企业的发展宗旨：让更多的人健康，让更多的人快乐。以人为本，与员工共发展。
+') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('64','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('65','加班通知单 工作日加班、休息日加班和法定节假日加班。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('73','2％') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('75','济南乐艾生物技术有限公司企业文化 张丽洁') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('112','公出单') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('113','2天  3天') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('114','200') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('115','7天 通员工：200 主管300、经理级600、总监级(副总经理级) 800、总经理级人员2000') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('116','1个月') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('117','10％') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('11','冯云','1','试题一','32','607,608,609,610,611,612,613,614,615,616,617,618,619','0','32') [ RunTime:0.0002s ]
+

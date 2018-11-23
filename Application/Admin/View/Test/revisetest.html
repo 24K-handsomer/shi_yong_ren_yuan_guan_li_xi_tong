@@ -1,0 +1,293 @@
+<extend name="Public/base"/>
+<block name="style">
+	<link rel="stylesheet" type="text/css" href="__CSS__/addtest.css">
+</block>
+<block name="nav">
+	<span>编辑修改试题</span>
+</block>
+<block name="body">
+	<div id="row">编辑试题</div>
+	<div id="table-top">
+	<form action="__CONTROLLER__/update" method="post">
+		<input type="hidden" name="id" value="{$question.id}">
+		<span>考试类别1:</span>
+		<select name="fileid" id="fileid">
+            <foreach name="filetype" item="v" >
+		        <if condition="$v.fileid == $question['filetype']">
+		        	<option selected="selected" value ="{$v.fileid}">{$v.filename}</option>
+		        <else />
+		        	<option value ="{$v.fileid}">{$v.filename}</option>
+		        </if>
+            </foreach>
+        </select>
+        <span>考试类别2:</span>
+        <select name="typeid" id="typeid">
+            <foreach name="questiontype" item="vv" >
+            	<if condition="$vv.typeid == $question['type']">
+					<option selected="selected" value ="{$vv.typeid}">{$vv.tyname}</option>
+            	<else />
+            		<option value ="{$vv.typeid}">{$vv.tyname}</option>
+            	</if>
+            </foreach>
+        </select>
+        <table border="1" cellpadding="0" cellspacing="0">
+        	<tr>
+        		<td>题目内容</td>
+        		<td>
+        			<textarea name="content">{$question.question}</textarea>
+        		</td>
+        	</tr>
+
+        </table>
+	</form>
+	</div>
+</block>
+<block name="script">
+<script type="text/javascript">
+$(function(){
+	
+	xuanxiang();
+
+
+	//判断问题类型
+	function xuanxiang(){
+		var typeid = {$question.type};
+		switch (typeid) {
+
+			case 1: //选择题
+				selectnumber();
+				showselect_1();
+				answer();
+				break;
+			case 2: //判断题
+				panduan();
+				answer2();
+				break;
+			case 5: //多选题
+				duoxuannumber();
+				showselect_2();
+				duoxuananswer();
+				break;
+			default: //3.简答题
+				jianda();
+				break;
+		}
+	}
+
+	//选择题选项数目
+	function selectnumber(){
+		var str = "<tr><td>选项数目：</td><td><select name='shumu' id='shumu'>";
+		var shumu = {$question.selectnumber};
+		for (var i=4;i>=1;i--) {
+			if (i == shumu) {
+				str += "<option selected='selected' value ='"+i+"'>"+i+"</option>";
+			}
+			else{
+				str += "<option value ='"+i+"'>"+i+"</option>";
+			}
+		}
+		str += "</select></td></tr>";
+		$("textarea[name='content']").parent().parent().after(str);
+	}
+	//选择题的各选项内容
+	function showselect_1() {
+		var shumu = {$question.selectnumber};
+		var str1 = "";
+		var select = "{$question.select}";
+		var arr = select.split("|");
+		for(var i=1; i<=shumu; i++){
+			if(i == 1){
+				str1 += "<tr><td rowspan='"+shumu+"'>选项</td><td><input type='radio' name='select' value='"+i+"'>:<input type='text' name='select1' id='"+i+"' value='"+arr[i-1]+"'></td></tr>";
+			}
+			else{
+				str1 += "<tr><td><input type='radio' name='select' value='"+i+"'>:<input type='text' name='select"+i+"' id='"+i+"' value='"+arr[i-1]+"'></td></tr>";
+			}
+		}
+		str1 += "<tr><td></td><td><input type='submit' name='' value='提交'></td></tr>";
+		$("select[name='shumu']").parent().parent().after(str1);
+	}
+	//判断选择题的答案
+	function answer(){
+		var answer = "{$question.answer}";
+		var cd = $("input[name='select']").length;
+		for (var j=1;j<=cd;j++) {
+			if(j == answer) {
+				$("input[name='select']").eq(j-1).attr("checked","checked");
+			}
+		}
+	}
+
+
+	//多选题
+	function duoxuannumber(){
+		var str = "<tr><td>选项数目：</td><td><select name='duoxuan' id='duoxuan'>";
+		var shumu = {$question.selectnumber};
+		for (var i=4;i>=1;i--) {
+			if (i == shumu) {
+				str += "<option selected='selected' value ='"+i+"'>"+i+"</option>";
+			}
+			else{
+				str += "<option value ='"+i+"'>"+i+"</option>";
+			}
+		}
+		str += "</select></td></tr>";
+		$("textarea[name='content']").parent().parent().after(str);
+	}
+	//多选题各选项内容
+	function showselect_2() {
+		var shumu = {$question.selectnumber};
+		var str1 = "";
+		var select = "{$question.select}";
+		var arr = select.split("|");
+		for(var i=1; i<=shumu; i++){
+			if(i == 1){
+				str1 += "<tr><td rowspan='"+shumu+"'>选项</td><td><input type='checkbox' class='checkboxid' name='checkbox1' value='"+i+"'>:<input type='text' name='select1' id='"+i+"' value='"+arr[i-1]+"'></td></tr>";
+			}
+			else{
+				str1 += "<tr><td><input type='checkbox' class='checkboxid' name='checkbox"+i+"' value='"+i+"'>:<input type='text' name='select"+i+"' id='"+i+"' value='"+arr[i-1]+"'></td></tr>";
+			}
+		}
+		str1 += "<tr><td><input type='hidden' name='answer' value='' ></td><td><input type='submit' name='' value='提交'></td></tr>";
+		$("select[name='duoxuan']").parent().parent().after(str1);
+	}
+	//判断多选题答案
+	function duoxuananswer(){
+		var answer = "{$question.answer}";
+		var arr1 = answer.split("|");
+		var cd = $(".checkboxid");
+		for (var j=0;j<cd.length;j++) {
+			for (var z=0; z < arr1.length; z++) {
+				if (cd.eq(j).val() == arr1[z]) {
+					cd.eq(j).prop("checked","checked");
+				}
+			}
+		}
+	}
+
+
+	//判断题类型
+	function panduan(){
+		var str = "<tr><td>选项答案：</td><td>";
+		str += "<input type='radio' name='panduan' id='panduan' value='1' >对<span>&nbsp;&nbsp;&nbsp;&nbsp;</span><input type='radio' name='panduan' id='panduan' value='0' >错</td></tr>";
+		str += "<tr><td></td><td><input type='submit' name='' value='提交'></td></tr>";
+		$("textarea[name='content']").parent().parent().after(str);
+	}
+	function answer2(){
+		var answer = "{$question.answer}";
+		var cd = $("input[name='panduan']");
+		for (var i = 0; i < cd.length; i++) {
+			if (cd.eq(i).val() == answer) {
+				cd.eq(i).attr("checked","checked");
+			}
+		}
+	}
+
+	//简答题
+	function jianda(){
+		var answer = "{$question.answer}";
+		var str = "<tr><td>参考答案</td><td><textarea name='answer' id='answer'>"+answer+"</textarea></td></tr>";
+		str += "<tr><td></td><td><input type='submit' name='' value='提交'></td></tr>";
+		$("textarea[name='content']").parent().parent().after(str);
+	}
+
+
+	/*确认试题类型*/
+	$("#typeid").change(function(){
+		$("textarea[name='content']").parent().parent().nextAll().empty();
+		var typeid=$("#typeid").val();
+		show(typeid);
+	});
+	//修改试题类型
+	function show(typeid) {
+		var str = "";
+		if(typeid == 1){
+			str += "<tr><td>选项数目：</td><td><select name='shumu' id='shumu'><option value ='4'>4</option><option value ='3'>3</option><option value ='2'>2</option><option value ='1'>1</option></select></td></tr>";
+			str += "<tr><td rowspan='4'>选项</td><td><input type='radio' name='select' value='1'>:<input type='text' name='select1' id='1'></td></tr>";
+			str += "<tr><td><input type='radio' name='select' value='2'>:<input type='text' name='select2' id='2'></td></tr>";
+			str += "<tr><td><input type='radio' name='select' value='3'>:<input type='text' name='select2' id='3'></td></tr>";
+			str += "<tr><td><input type='radio' name='select' value='4'>:<input type='text' name='select2' id='4'></td></tr>";
+			str += "<tr><td></td><td><input type='submit' name='' value='提交'></td></tr>";
+
+		}
+		else if(typeid == 2){
+			str += "<tr><td>选项答案：</td><td>";
+			str += "<input type='radio' name='panduan' id='panduan' value='1' >对<span>&nbsp;&nbsp;&nbsp;&nbsp;</span><input type='radio' name='panduan' id='panduan' value='0' >错</td></tr>";
+			str += "<tr><td></td><td><input type='submit' name='' value='提交'></td></tr>";
+		}
+		else if(typeid == 3){
+			str += "<tr><td>参考答案</td><td><textarea name='answer' id='answer'></textarea></td></tr>";
+			str += "<tr><td></td><td><input type='submit' name='' value='提交'></td></tr>";
+		}
+		else if(typeid == 5){  //多选题
+			str += "<tr><td>选项数目：</td><td><select name='duoxuan' id='duoxuan'><option value ='4'>4</option><option value ='3'>3</option><option value ='2'>2</option><option value ='1'>1</option></select></td></tr>";
+			str += "<tr><td rowspan='4'>选项</td><td><input type='checkbox' class='checkboxid' name='checkbox1' value='1'>:<input type='text' name='select1' id='1'></td></tr>";
+			str += "<tr><td><input type='checkbox' class='checkboxid' name='checkbox2' value='2'>:<input type='text' name='select2' id='2'></td></tr>";
+			str += "<tr><td><input type='checkbox' class='checkboxid' name='checkbox3' value='3'>:<input type='text' name='select3' id='3'></td></tr>";
+			str += "<tr><td><input type='checkbox' class='checkboxid' name='checkbox4' value='4'>:<input type='text' name='select4' id='4'></td></tr>";
+			str += "<tr><td><input type='hidden' name='answer' value='' ></td><td><input type='submit' name='' value='提交'></td></tr>";
+		}
+		else{
+			alert("注意：不能选择‘所有’！");
+		}
+
+		$("textarea[name='content']").parent().parent().after(str);
+	}
+
+	/*选择题确认选项数目*/
+	$(document).on("change","#shumu",function(){
+		$("#shumu").parent().parent().nextAll().empty();
+		var shumu=$("#shumu").val();
+		showselect(shumu);
+	});
+
+	function showselect(shumu) {
+		var str1 = "";
+		for(var i=1; i<=shumu; i++){
+			if(i == 1){
+				str1 += "<tr><td rowspan='"+shumu+"'>选项</td><td><input type='radio' name='select' value='"+i+"'>:<input type='text' name='select1' id='"+i+"' value=''></td></tr>";
+			}
+			else{
+				str1 += "<tr><td><input type='radio' name='select' value='"+i+"'>:<input type='text' name='select"+i+"' id='"+i+"' value=''></td></tr>";
+			}
+		}
+		str1 += "<tr><td></td><td><input type='submit' name='' value='提交'></td></tr>";
+		$("#shumu").parent().parent().after(str1);
+	}
+
+
+	/*多选题确认数目*/
+	$(document).on("change","#duoxuan",function(){
+		$("#duoxuan").parent().parent().nextAll().empty();
+		var shumu=$("#duoxuan").val();
+		showcheckbox(shumu);
+	});
+	/*多选题确认选中*/
+	$(document).on("change",".checkboxid",function(){
+		var str = "";
+		var checkbox = $(".checkboxid");
+		for (var i = 0; i < checkbox.length; i++) {
+			if (checkbox.eq(i).prop("checked")) {
+				str += checkbox.eq(i).val() + "|";
+			}
+		}
+		str = str.substring(0,str.length-1);
+		$("input[name='answer']").val(str);
+	});
+	function showcheckbox(shumu) {
+		var str1 = "";
+		for(var i=1; i<=shumu; i++){
+			if(i == 1){
+				str1 += "<tr><td rowspan='"+shumu+"'>选项</td><td><input type='checkbox' class='checkboxid' name='checkbox1' value='"+i+"'>:<input type='text' name='select1' id='"+i+"' value=''></td></tr>";
+			}
+			else{
+				str1 += "<tr><td><input type='checkbox' class='checkboxid' name='checkbox"+i+"' value='"+i+"'>:<input type='text' name='select"+i+"' id='"+i+"' value=''></td></tr>";
+			}
+		}
+		str1 += "<tr><td><input type='hidden' name='answer' value='' ></td><td><input type='submit' name='' value='提交'></td></tr>";
+		$("#duoxuan").parent().parent().after(str1);
+	}
+
+})
+</script>
+</block>
+</extend>

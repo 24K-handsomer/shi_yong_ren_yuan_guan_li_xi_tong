@@ -1,0 +1,23 @@
+[ 2017-12-07T17:00:41+08:00 ] 58.56.25.158 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 84 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0004s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('118','1，闭合性粉刺也称白头粉刺,2、痤疮') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('119','轻度：1级有少量的粉刺，丘疹，病灶数少于30个，中度：2级有中量的粉刺，丘疹，病灶数31-50个，3级有大量粉刺，脓包，结节少于3个，病灶数51-100个。重度：4级有大量脓包，囊肿，结节大于三个。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('120','委托方：山东乐艾生物有限公司
+被委托方：天津美之路化妆品有限公司') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('121','修复敏感肌肤，祛除红黑痘印。收缩毛孔，平滑肌肤，降低肌肤年龄。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('122','闭合性粉刺也称为白头粉刺，是在皮肤里面还没有冒出头的粉刺，是由坏死的细菌和身体的分泌物组成。表现为乳白色半球形白色小包，质硬，无自主症状。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('123','祛痘活力片12盒1600元，24盒2980。修护活力片9盒1600元，36盒4700元。安酷颜2瓶+6盒祛痘活力片1700+900=2600元。安酷颜6瓶4300元。安酷颜8瓶5700元。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('124','安酷颜成分黑醋栗：一次两粒，一天两次，早晚服用，饭后半小时服用。孕妇，心脏病患者，刚做完大型手术患者禁用。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('125','你有疑虑十分正常的。但是你放心，我们的产品都是是外国进口的，通过了国家认证的，在国内已经销售了七八年了，这个产品是通过外抹加内服来双向治疗痤疮的，已经从根源性彻底治愈了很多痤疮患者，所以说，效果你完全不同担心，你先把地址和钱打过来，老师好尽快给你安排发货。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('126','我会在领导和同事们的帮助下，利用自己所学的产品知识来解答患者的疑虑，帮助患者修复受损肌肤，祛除黑红痘印，让患者保持平滑的肌肤，降低患者肌肤年龄，使患者用了我们的产品能永葆青春。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('127','丘疹型痤疮；结节型痤疮') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('13','张凤翔','2','痘痘组新员工基础知识考核','0','1363,1364,1365,1366,1367,1368,1369,1370,1371,1372','0','0') [ RunTime:0.0002s ]
+

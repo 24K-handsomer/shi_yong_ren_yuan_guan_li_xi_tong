@@ -1,0 +1,33 @@
+[ 2018-03-16T17:15:17+08:00 ] 58.59.0.246 /index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 110 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ComsysController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0037s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('61','1、加快熟悉各项工作，尽快出单
+2、用任何可想到的办法提升业绩，通过试用期
+3、希望能做团队中业绩领头羊') [ RunTime:0.0687s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('62','1、相信    相信公司的产品，相信团队的领导，相信努力与回报
+2、跟随    跟随公司的脚步，跟随团队的行动
+3、带着正能量把产品推广出去，提升业绩
+') [ RunTime:0.0003s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('63','公司愿景：做全球最好的产品，为健康护航
+公司价值观：高效，激情，团结，诚信
+情怀：品为魄，善做行，赢天下，创未来
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('68','7天  30天   ') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('69','50元') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('71','第三类，旷工处理') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('72','1%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('73','2%') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('74','三庆财富中心A2-3楼') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('75','济南乐艾生物技术有限公司，张丽洁') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('113','1    2   ') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('115','30天      100   200    500   800     ') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('116','30') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0006s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('11','尹雷青','1','最新制度考试','28','1662,1663,1664,1665,1666,1667,1668,1669,1670,1671,1672,1673,1674','0','28') [ RunTime:0.0002s ]
+

@@ -1,0 +1,14 @@
+[ 2017-04-18T16:58:06+08:00 ] ::1 /tp3.2.3/index.php/Admin/Test/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0010s ]
+SQL: UPDATE `question` SET `status`='0' WHERE ( id='17' ) [ RunTime:0.0010s ]
+
+[ 2017-04-18T16:58:08+08:00 ] ::1 /tp3.2.3/index.php/Admin/Test/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0010s ]
+SQL: UPDATE `question` SET `status`='1' WHERE ( id='17' ) [ RunTime:0.0000s ]
+

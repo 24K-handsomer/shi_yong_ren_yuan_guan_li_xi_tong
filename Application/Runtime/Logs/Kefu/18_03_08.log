@@ -1,0 +1,23 @@
+[ 2018-03-08T10:45:05+08:00 ] 58.56.25.158 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 106 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0003s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('118','丘疹型痤疮 脓包型痤疮 结节型痤疮 囊肿型痤疮') [ RunTime:0.0006s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('119','轻度1级 中度2级与3级 重度4级') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('120','发病原因不同 发病频率不同 构成不同 表型不同') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('122','闭合性粉刺是痘痘一种 多发于面部 是身体死掉的细菌和身体分泌物组成，表现为米粒大小 质硬') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('146','给客户反馈用户效果图 叫客户明白这是真实有效真实存在的良好效果，使客户真正明白皮肤修养的重要性与紧急性是刻不容缓的，如果当天客户依然犹豫不决，应在适当的下一时间紧跟客户 与客户多聊天 真正的去了解客户的内心想法 做到知己知彼') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('147','首先入职本公司，工作氛围很好很轻松，组长，同事热心积极的帮助，给我带来很大的信心！会尽最大的努力 用最短的时间全身心投入到这份工作 用最快的时间去掌握工作技巧') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('148','第一种是丘疹型痤疮  第二种是脓包型痤疮') [ RunTime:0.0003s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('151','第一种组合套装是1000 第二种组合套装是1700 第三种组合套装是4300 第四种产品价格是1600 第五种产品价格是2600') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('152','委托方是 济南艾乐生物科技有限公司
+被委托方是 天津美之路化妆品有限公司') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('153','迅速疏通堵塞毛孔 增强皮肤免疫') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0003s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('13','胡永泰','2','痘痘国内组新员工考核','0','1550,1551,1552,1553,1554,1555,1556,1557,1558,1559','0','0') [ RunTime:0.0002s ]
+

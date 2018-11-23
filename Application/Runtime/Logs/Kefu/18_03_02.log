@@ -1,0 +1,58 @@
+[ 2018-03-02T11:47:16+08:00 ] 58.56.25.158 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 97 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0003s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('118','丘疹型痤疮 脓包型痤疮 结节型痤疮  囊肿型痤疮') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('119','一级（轻度）粉刺为主，少量丘疹和脓包，总病灶数在30个以下 二级（中度）少量粉刺 ，丘疹和脓包，总病灶数31-50个 三级（中度）大量丘疹和脓包 总病灶数51-100个 四级（重度）丘疹和脓包为主，总病灶数100个以上') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('120','1构成不同，粉刺由皮脂和油脂组成，痤疮是由死掉的细菌和身体分泌物组成 2发生频率不同，粉刺发生频率较高  3发病原因不同，痤疮是由内分泌失调、雄性激素分泌过多、油脂分泌不畅等原因，粉刺是与清洁不彻底，情绪 饮水 环境等原因引起的  4症状表现不同，粉刺表现为白头粉刺和黑头粉刺 痤疮表现为红肿型、囊肿型和群聚型青春痘') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('122','是痘痘的一种，也就是还没有漏出头的粉刺，是由死掉的细菌和身体分秘物组成，多发于面部，表现为米粒状半圆形白色小包 至硬 无自觉症状') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('146','爱美之心人皆有之 一分钱一分货 况且用在脸上的东西绝对不能用差的，产品质量这一点你放心就好，我们都是可以保证的，价格方面我们也会给你们优惠到最低 让你们用的放心买的舒心') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('147','公司氛围很好，人也好 年龄无代沟好交流，而且每天都确定个小目标挺不错的 知道一天在这干什么 为什么奋斗；接下来我首先要跟老员工学习各种交流话术 还有产品知识 为与客户交流打下基础。主动加客户 联系慰问客户 主动为客户解答分析 每天给自己定个小目标一步一步朝着目标努力') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('148','脓包型痤疮') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('151','1,1100元  2,1800元  3,4500元 4，2856元 5,5184元') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('152','济南乐艾生物有限公司      山东省济南市高新区宁路西侧世纪财富中心AB座1-602') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('153','修护敏感肌肤，祛除红黑痘印。1选用牛奶类氨基酸等提取物中具有超强渗透力。收缩毛孔，修护敏感肌肤2代替防腐剂，亲肤性安全性，避免了防腐剂对肌肤的伤害3采用先进的超强速冷干燥技术，它的修复能力是普通技术修复能力的10倍 ，提高成分活性，对敏感肌肤和痘坑痘印有良好的修复作用') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('13','李文秀','2','痘痘国内组新员工考核','0','1507,1508,1509,1510,1511,1512,1513,1514,1515,1516','0','0') [ RunTime:0.0002s ]
+
+[ 2018-03-02T16:58:22+08:00 ] 58.56.25.158 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001361s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 100 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0006s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('118','1.闭合性粉刺2.痘痘') [ RunTime:0.0003s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('119','1.粉刺为主，少量丘疹和脓包，病灶数少于30个
+2粉刺为主，中量丘疹和脓包，病灶数31个之50个
+3.变现为粉刺除外，大量的丘疹和脓包，偶见大的皮肤炎损，病灶数50~100个，结节少于3个
+4.结节囊肿型痤疮或聚合性痤疮，有痛感，有囊肿和痘道，病灶数大于100，结节囊肿大于3个') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('120','1.构成不同粉刺是由角质和油脂组成，痤疮是由死亡的细菌和身体分泌物组成，粉刺不加以重视，严重时变成痤疮
+2.发病频率不同，粉刺发病率很高，一般人都有经历，痤疮发病率比较低，一般内分泌失调，心情不好，粉刺不加以重视，很容易引起痤疮
+3.发病原因不同，痤疮是内分泌失调，雄性激素分泌旺盛或者是体脂排出不畅引起的慢性皮肤病，粉刺是遗传，化妆品，熬夜，气候冷热交替，或使用避孕药引起的
+4.临床表现不同，粉刺分为白头粉刺和黑头粉刺，痤疮主要表现为红肿型，囊肿型和聚合性痤疮') [ RunTime:0.0003s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('122','闭合性粉刺是痘痘的一种，也就是在皮肤下面还没有冒出头的粉刺，主要是由死亡的细菌和身体分泌物组成，多发于面部，质硬，无自觉的白色米粒状球形') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('146','详细介绍产品的配方功效，告诉客户一分价钱一分货，充分阐述产品的优点，如果该产品有优惠活动，积极主动向客户介绍，为客户提供优质的服务。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('147','真实的感受就是有凝聚力团结性，有冲劲，给人一种蓬勃向上的积极有生命力感觉。
+努力融入新的大家庭，积极主动的工作，为自己和团队的目标添砖加瓦。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('148','囊肿型痤疮
+红肿型痤疮') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('151','1.1100
+2.1800
+3.4500
+4.1600
+5.2200') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('152','委托方：济南乐艾生物技术有限公司
+被委托方：天津美之路化妆品有限公司
+净含量：20mg/片*10') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('153','修复敏感肌肤，收缩毛孔，平滑肌肤，富含多种营养精华，促进皮肤新陈代谢，有助于皮肤细胞的修复和重生。') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0007s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('13','吴亚彬','2','痘痘国内组新员工考核','0','1517,1518,1519,1520,1521,1522,1523,1524,1525,1526','0','0') [ RunTime:0.0002s ]
+

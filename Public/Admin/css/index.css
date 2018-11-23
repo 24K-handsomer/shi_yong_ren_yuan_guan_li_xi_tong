@@ -1,0 +1,23 @@
+#row{
+	display: flex;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+#row-other{
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+#row-other>#rowname{
+	padding-bottom:8px;
+}
+#sub{
+	text-align: center;
+}
+#sub>button{
+	width: 100px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 13%;
+    background-color: darkgray;
+}

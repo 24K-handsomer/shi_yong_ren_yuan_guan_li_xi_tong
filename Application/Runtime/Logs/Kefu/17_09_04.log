@@ -1,0 +1,99 @@
+[ 2017-09-04T08:54:41+08:00 ] 106.120.160.109 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-04T08:54:41+08:00 ] 182.118.20.149 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-04T08:54:41+08:00 ] 182.118.20.146 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-04T08:54:57+08:00 ] 220.181.132.200 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-04T08:55:30+08:00 ] 182.118.20.146 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-04T08:56:03+08:00 ] 171.13.14.147 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-04T08:56:03+08:00 ] 171.13.14.132 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-04T09:16:42+08:00 ] 106.120.161.68 /index.php/Kefu/Speechcase/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 4 and `group` =  ) LIMIT 1  
+
+[ 2017-09-04T09:16:42+08:00 ] 171.13.14.134 /index.php/Kefu/Speechcase/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 4 and `group` =  ) LIMIT 1  
+
+[ 2017-09-04T09:16:42+08:00 ] 182.118.20.149 /index.php/Kefu/Speechcase/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 4 and `group` =  ) LIMIT 1  
+
+[ 2017-09-04T09:17:12+08:00 ] 101.199.108.53 /index.php/Kefu/Speechcase/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 4 and `group` =  ) LIMIT 1  
+
+[ 2017-09-04T09:17:49+08:00 ] 171.13.14.134 /index.php/Kefu/Speechcase/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 4 and `group` =  ) LIMIT 1  
+
+[ 2017-09-04T09:17:49+08:00 ] 182.118.20.149 /index.php/Kefu/Speechcase/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 4 and `group` =  ) LIMIT 1  
+
+[ 2017-09-04T09:18:07+08:00 ] 171.13.14.151 /index.php/Kefu/Speechcase/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 4 and `group` =  ) LIMIT 1  
+
+[ 2017-09-04T14:50:18+08:00 ] 58.59.25.134 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0163s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('100','原因：小儿疝气不仅由于腹内压升高，腹壁薄，而且还和肠道菌失衡有关，小儿疝气是外科常见一种症状，主要表现为幼儿出生后不久，在腹股沟部位存在可复性肿块，最早在2-3个月时出现，也有发现晚的直到1-2岁才发生，男性发病是女性的10倍，而且早产儿发病率则更高，还有可能发生于肚脐及两侧。') [ RunTime:0.0309s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('101','1，影响泌尿生殖系统，由于与孩子生殖系统很近不及时治疗影响孩子以后的生长发育。2，降低宝宝的免疫力，疝气导致孩子生长发育缓慢，吸收不好，大大减低孩子的免疫力，3，影响消化系统，宝宝吸收不好免疫力低下，营养不吸收导致营养不良，出现胀气，便秘等症状') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('102','1，黄金配比比例，2，提高宝宝自愈力，3，RMS菌群提高益生菌活性，4，天然有机成分确保安全。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('103','舒善菌是有鼠李糖乳杆菌和罗伊式乳杆菌采用黄金益生菌配方配比，专门针对小儿疝气研制的，具有调理婴幼儿肠道菌群环境，改善消化系统的作用，可以减轻胀气、加速肠道排空、降低腹内压，而且舒善菌中的鼠李糖乳杆菌具有较强的肠道黏着率，可以促进细胞分裂，增强腹壁厚度与弹性，对小儿疝气有显著效果。          ') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('104','鼠李糖乳杆菌和罗伊式乳杆菌') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('105','1，小儿疝气的腹股沟疝气和脐疝患者，2，鞘膜积液和嵌顿患者不能服用舒善菌，3，询问患者有没有心脏和肝病，由于新生儿五脏发育尚未稳固，4，服用抗生素的患者要在间隔2个小时以后才能服用舒善菌，避免抗生素杀伤活性益生菌。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('106','舒善菌是于2002年由最顶尖的小儿益生菌上产厂家UPSPRing，也是迪斯贝尔旗下的复合益生菌生产，已经经过80次临床验证，7000多次的随时不定性的抽检，在美国已经使用广泛使用15年。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('107','效果是用后亲身体会的，也不是我们说出来的，舒善菌在美国已经让小儿疝气患者60%都摆脱手术的困扰，舒善菌具有调理婴幼儿肠道菌群环境，改善消化系统的作用，可以减轻胀气、加速肠道排空、降低腹内压，而且舒善菌中的鼠李糖乳杆菌具有较强的肠道黏着率，可以促进细胞分裂，增强腹壁厚度与弹性，对小儿疝气有显著效果。          ') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('108','我们全部是从厂家直接发货，统一价格，关键是能尽快摆脱孩子的目前病症的困扰这是花多少钱都买不来的') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('109','完全理解你的想法，主要我们是从厂家发货必须要把款打到厂家才能发，不是我们收你的款，这一点请您放心。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('110','您看您好考虑什么那，目前孩子情况已经很严峻了一旦出现嵌顿或者在严重了，那遭罪的不是你和孩子吗对吧，及早治疗摆脱困扰不必什么都好，都是做家长的肯定希望孩子赶紧好起来对吧，再说你考虑只是耽误了孩子的病情。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('111','A:你好我们这里是全国疝气咨询中心的，请问您有什么咨询的？B:嗯，A：请把情况给我说一下（患者是谁，性别，年龄，患病时间，疝囊症状，位置，大小，是否治疗过），转入产品') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0006s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('14','秦娜娜','2','舒善菌基本知识测试','0','94,95,96,97,98,99,100,101,102,103,104,105','0','0') [ RunTime:0.0002s ]
+
+[ 2017-09-04T17:22:05+08:00 ] 58.59.25.134 /index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ComsysController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0005s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('61','首先熟悉公司的所有规章制度产品知识，争取早日取得更好的业绩，做好本职工作，争取早本公司薪水早日破万元，未来五年也没有什么很大的职业规划，就是能够做好自己的本质工作的同时，更多的预存一笔资金供自己以后想做什么就做什么，更希望能在本公司实现更高的自我价值。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('62','做好自己的同时还要为公司创造更高的利润，以及维护公司的形象。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('63','公司愿景：做全球最好的产品，为健康护航，核心价值观：团结、高效、诚信、激情，公司发展宗旨：让更多人健康，让更多人快乐，以人为本，与员工共发展。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('64','2份') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('65','加班通知单，调休或报酬') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('73','1%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('75','济南乐艾生物技术有限公司      张洁丽') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('112','公出申请单') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('113','2天，3天') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('114','100') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('115','7天，200元，300元，500元，800元，1000以上') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('116','30天') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('117','20%') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0003s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('14','秦娜娜','1','试题一','38','106,107,108,109,110,111,112,113,114,115,116,117,118','0','38') [ RunTime:0.0001s ]
+

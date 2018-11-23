@@ -1,0 +1,24 @@
+[ 2017-11-23T10:46:09+08:00 ] 58.59.0.246 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0092s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('76','致病原因:机体免疫能力下降，抗病能力不足。
+症状表现：皮肤瘙痒、出现风团呈鲜红色或苍白状、反复发作、消失后与正常皮肤无异、风团广泛发生不局限一处，部分患者会头痛、恶心、并伴有腹泻、腹痛等症状。') [ RunTime:0.0659s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('77','血清性荨麻疹、人工性荨麻疹、接触性荨麻疹、胆碱能性荨麻疹、寒冷性荨麻疹、热性荨麻疹、运动性荨麻疹、压迫性荨麻疹、日光性荨麻疹') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('78','中药治疗、抗组胺药物
+中药缺乏现代工程技术并且中药成分容易引起过敏
+抗组胺类药物有一定止痒作用对肝肾有损害不能根除且容易让患者产生依赖') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('79','使用方法：一日三次 一次两粒 饭前饭后30分钟温水冲服
+产品优势：1、高含量、使用效果明显 2、高新技术萃取、高活性、吸收更快捷 3、十一年临床经验验证 4、安全无副作用 
+5、权威认证 6、高品质原料') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('80','作用机理：补充GAL ALA SDA 提高人体免疫系统增强体质，从而对抗荨麻疹。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('81','维安喜上市11年，由美国国立研究院研究，坚持以天然健康的自然疗法替代传统方法，且原料品质高，100%原材料提取，安全无副作用并且另经11年临床经验验证 权威认证 提早治疗而且调节起来难度也小，早日调理恢复不是更好吗。 ') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('82','美国工厂直邮需要全款支付且正规进口产品都没有开通货到付款，微信都是经过官方认证的，微信号也都是手机号有什么问题可以直接电话沟通。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('83','您看到的市面大多产品都是抗组胺类药物，只是在一定程度缓解瘙痒并不能根除，长时间服用对药物产生依赖后期您也会发现。维安喜则是以天然健康的治疗理念去提高人体免疫力从而增强体质，从根本上治愈荨麻疹。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('84','你好，我是专业调理荨麻疹的XX老师，请问您这边是想咨询荨麻疹的问题吗？是的    今年多大了，性别以及荨麻疹现在是什么症状？  25 男 起风团皮肤瘙痒  有没有过敏史？有  患荨麻疹多长时间了？一年左右      平时是怎样治疗荨麻疹的？服用西药并涂抹药膏 ') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('138','1、1200  2、2400  3、3600  4、4600  5、6600') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0005s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('12','张永超','2','维安喜基础知识测试','0','1099,1100,1101,1102,1103,1104,1105,1106,1107,1108','0','0') [ RunTime:0.0002s ]
+

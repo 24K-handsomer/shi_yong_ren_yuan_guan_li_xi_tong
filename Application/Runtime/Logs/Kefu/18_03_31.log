@@ -1,0 +1,68 @@
+[ 2018-03-31T11:27:11+08:00 ] 58.56.25.158 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 118 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0168s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('139','囊肿型、脓疱型、丘疹型、聚合性、结节型。') [ RunTime:0.0586s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('140','4级  轻度 中度 中重度 重度') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('141','闭合性粉刺也就是青春痘的一种，也就是还在皮肤里还没有“探出头”的粉刺，主要是由死掉的细菌和身体内分泌物组成，多发于面部，为细小的皮下脂栓，表现为米粒大小的半球状白色小泡，质硬，无自觉症状。 
+') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('142','1.构成不同，粉刺主要是由皮脂和角质组成，痤疮是由死掉的细菌和身体内分泌物组成；2.发生频率不同，粉刺发生频率很高，一般人曾经都有过粉刺，是一种正常现象；痤疮发生频率不是很高，如果粉刺不注意，就会发生痤疮；3.发病原因不同，痤疮主要是内分泌失调、雄性激素分泌过多或者皮脂腺分泌不畅引起的皮肤炎症。粉刺多为皮肤清洁不彻底、遗传、辛辣刺激、气温冷热交替等原因引起。4.症状表现不同，粉刺多为白头粉刺和黑头粉刺，痤疮为囊肿型、红肿型，群聚型痘痘。 
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('143','主要成分：锯棕榈提取物、黑醋栗籽油、黑醋栗花青素、番茄红素、锌等    使用方法：1天2次，1次2粒，饭后半小时服用       禁忌：孕妇及哺乳期、12岁以下不适合，血压过低，心脏病，刚做过大型手术等其他严重系统性疾病不适合') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('145','安酷颜2瓶1700  3瓶 2350 6瓶4300    DH 4瓶2000  8瓶3400 
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('146','现在这个价格是我们活动的价格，活动马上结束了，活动结束之后会恢复到原价。产品可能价格稍微高点，但是和产品的治疗效果成正比的。 
+') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('147','公司是电子商务类型的销售模式，主要是通过网络和电话模式销售；感受：公司员工都比较年轻，气氛比较活跃。      我会积极的融入到这个大家庭中成为其中的一员，多和大家沟通达到公司的宗旨：团结、高效、诚信、合作.') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('148','1.囊肿型痘痘 2脓疱型痘痘 
+') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('149','钻石祛痘 客户没有心脏病、血压高低。不是孕妇哺乳期的客户   钻石100粒装 灰色粉末胶囊    安酷颜 120粒  黑醋栗胶囊    
+') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0006s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('13','刘国财','2','痘痘国外组新员工考核试题','0','1734,1735,1736,1737,1738,1739,1740,1741,1742,1743','0','0') [ RunTime:0.0002s ]
+
+[ 2018-03-31T11:35:58+08:00 ] 58.56.25.158 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 117 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0004s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('139','闭合性粉刺，黑头粉刺（开放性粉刺），痤疮（痘痘）') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('140','轻度：1级（轻度）：粉刺为主，有少量的丘疹和脓疱，总病灶数少于30个；
+中度：2级（中度）：除粉刺外，有中等量的丘疹和脓疱，总病灶数在31～50之间；
+3级（中度）：除粉刺外，大量丘疹和脓疱，偶见大的炎性皮损，分布广泛，总病灶数在51～100之间；
+重度：4级（重度）：为结节/囊肿性痘痘或聚合性痘痘，多数有疼痛感，总病灶数在100个以上。
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('141','闭合性粉刺是痘痘的一种，也就是还在皮肤里还没有“冒出头”的粉刺。它主要是由死掉的细菌和身体分泌物组成。多发于面部，为细小的皮下脂栓，为米粒大小的半球形白色小包，质硬，无自觉症状。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('142','在构成方面：粉刺由油脂和角质组成，痘痘由由死掉的细菌和身体分泌物组成，粉刺不去注意会演变成痘痘；
+在发生频率方面：粉刺的发生频率很高，一般人都会遇到粉刺，这属于正常现象，但痘痘的发生率不高，只有当体内内分泌失调或者心情不好，不重视粉刺时，会演变成痘痘。
+在发病原因方面：粉刺是由于皮肤表面清洁不干净或熬夜、气候冷热交替或使用避孕药等因素导致，而痘痘是由于内分泌失调，雄性激素分泌旺盛或者是油脂分泌不畅引起的慢性炎症。
+在症状表现方面：粉刺主要表现为白头粉刺和黑头粉刺;痘痘主要表现为红肿型、囊肿型和群聚型青春痘。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('143','成分：锯棕榈提取物，黑醋栗籽油，黑醋栗花青素，番茄红素和锌等。安酷颜的所有成分都是经过第三方认证以保证质量安全。
+使用方法：一天2次，一次2粒，早晚饭后半小时温水服用，经期停用。
+禁忌：孕妇及哺乳期，12岁以下儿童禁止使用，患有高低血压、心脏病及刚做过大型手术的禁止使用。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('145','安酷颜2瓶：1700  3瓶：2350  6瓶：4300
+钻石祛痘4瓶：2000  8瓶：3400') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('146','1,。先从效果方面入手：告知客户我们推荐的产品引进中国已经两年了，效果和安全方面是可以放心，没有好的效果的话早就被市场淘汰了，再说了老师调理的朋友又不止你一个，不可能别人使用后有效果，就你没有效果的。
+2.告知客户价格高的原因：价格高低完全取决于你对自己形象的重视程度，毕竟美国原装进口的，产品的价格和价值是成正比的，效果方面是其他人实实在在反馈出来的，效果再好，你不尝试，也是没有办法恢复的，而且痘痘发展到后期是很难修复好的，所以建议你及时调理比较好。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('147','认知感受：从客户角度出发，为客户推荐我们的产品，告知客户我们产品的功效，真正帮助客服由内而外改善肌肤问题。
+我会：在工作中与老员工多交流，咨询工作中遇到的问题，多借鉴有经验员工的优点，弥补自己的不足；还有尽快熟悉自己的业务知识。
+在对待客户方面：售前多沟通，了解客户情况，为客户推荐适合的产品，告知平时注意事项，并做好售后工作，时时询问使用效果。多与新客户沟通，定期维护老客户。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('148','1.囊肿型痘痘
+2.脓包型痘痘') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('149','钻石祛痘满足的条件：18周岁以下没有经济能力的儿童，除孕妇哺乳期和心脏病等重大疾病的不建议使用，
+钻石祛痘的规格：主要含有专利成分：含有赖氨酸、酪氨酸、黄芪、蒲公英根、洋菝葜、紫锥花、女贞果、硅和硅酸钙；另外含有维A、维E、锌。
+剂型：胶囊、100粒/瓶。服用方法：中度一天4粒，早晚各2粒，饭后半小时服用，重度一天6粒，早晚各3粒，饭后半小时服用。
+不同：所含成分不同。
+') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('13','刘立新','2','痘痘国外组新员工考核试题','0','1744,1745,1746,1747,1748,1749,1750,1751,1752,1753','0','0') [ RunTime:0.0002s ]
+

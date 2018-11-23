@@ -1,0 +1,40 @@
+[ 2017-11-15T10:33:57+08:00 ] 58.56.25.158 /index.php/NotKefu/Growth/
+ERR: 非法操作:index
+
+[ 2017-11-15T10:34:01+08:00 ] 58.56.25.158 /index.php/NotKefu/Growth/
+ERR: 非法操作:index
+
+[ 2017-11-15T10:34:04+08:00 ] 58.56.25.158 /index.php/NotKefu/Growth/
+ERR: 非法操作:index
+
+[ 2017-11-15T10:34:06+08:00 ] 58.56.25.158 /index.php/NotKefu/Growth/
+ERR: 非法操作:index
+
+[ 2017-11-15T11:16:53+08:00 ] 58.56.25.158 /index.php/NotKefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/NotKefu/Controller/ComsysController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0121s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('61','第一年：学习基础的文案策划知识，平时翻阅相关书籍，提高在这一领域的专业能力
+第二年：在提升本分工作能力的同时，学习一定的文案策划有联系的领域知识，比如ps，平面设计，AE,AI等等
+第三年：综合学到的知识，往创意总监方向努力，开始涉猎简单的视频制作，影视后期，更好的开发脑洞
+第四年：在不影响的工作的情况下，业余爱好学一下广告文案策划，因为广告商业性强，文字提炼要求高，对产品策划有益
+第五年：争取线上线下策划能力同时具备，争取可以独立领导队伍进行产品策划推广') [ RunTime:0.0147s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('62','深入了解产品特点，分析市场为策划做准备，提高自身知识素养 ，培养更专业的文案策划能力和良好的团队协作能力，增强自己的沟通能力') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('63','为健康护航，传播爱心，乐是快乐的意思，艾是爱的谐音
+愿景是做全球最大的健康品牌
+团结高效热情协作') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('64','公物使用申请书') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('65','加班公示申请书                     调休，领取加班工资') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('73','2%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('75','济南乐艾生物技术有限公司     张总') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('112','因公外出申请书') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('113','2       ，    3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('114','200') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('115','7，100,200,300,400,500') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('116',',7') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('117','10%') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('16','张云竹','1','试题一','40','1046,1047,1048,1049,1050,1051,1052,1053,1054,1055,1056,1057,1058','0','40') [ RunTime:0.0002s ]
+

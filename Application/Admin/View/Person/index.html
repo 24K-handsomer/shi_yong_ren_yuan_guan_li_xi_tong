@@ -1,0 +1,439 @@
+<extend name="Public/base"/>
+
+<block name="style">
+	<link rel="stylesheet" type="text/css" href="__CSS__/filelist.css">
+	<!-- 客服人员列表css引用 资料列表css -->  
+</block>
+<block name="nav">
+	<span>实习客服人员列表</span>
+</block>
+<block name="body">
+	<div id="row">
+	<form name='MyForm' id='MyForm' method='GET' action="__CONTROLLER__/index" style ="padding-bottom:10px;">
+        <span>搜&nbsp;&nbsp;&nbsp;索&nbsp;&nbsp;人&nbsp;&nbsp;名：</span>
+        <input type="text" name="uname" placeholder="输入人名">
+        <input type="submit" name="" value="搜索">
+    </form>
+    
+	<form name='MyForm' id='MyForm' method='GET' action="__CONTROLLER__/selectgroup" >
+        <span>搜索部门小组：</span>
+        <select name="group">
+        	<foreach name="grouplist" item="vg">
+				<option value="{$vg.group_id}">{$vg.group_name}</option>
+			</foreach>
+        </select>
+        <input type="submit" name="" value="搜索">
+    </form>
+    </div>
+
+
+	<table border="1" cellpadding="0" cellspacing="0">
+		<caption>实习客服人员列表</caption>
+		<tr>
+			<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+			<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+			<td>姓名</td>
+			<td>密码</td>
+			<td>部组名</td>
+			<td>公司制度测试</td>
+			<td>产品知识</td>
+			<td>产品知识测试</td>
+			<td>销售技巧</td>
+			<td>销售技巧测试</td>
+			<td>话术案例</td>
+			<td>话术对练功能</td>
+			<td>朋友圈展示</td>
+			<td>创建时间</td>
+			<td>操作</td>
+		</tr>
+
+		<?php $i=($p-1)*$limit+1; $j=0; ?>
+		<foreach name="list" item="v3">
+		<tr>
+			<td>
+				<input type="checkbox" name="checkboxid" xu="<?php echo ++$j; ?>" ps="{$v3.uid}">
+			</td>
+			<td><?php echo $i++; ?></td>
+			<td>
+				<if condition="$v3.isexam == 1">
+					<a class="isexam" ps="{$v3.uid}" style="color: red;cursor: pointer;">{$v3.uname}</a>
+				<else />
+					{$v3.uname}
+				</if>
+				
+			</td>
+			<td>
+				{$v3.pwd}
+			</td>
+			<td>
+				<foreach name="grouplist" item="vg">
+					<if condition="$vg.group_id == $v3['group']">
+						{$vg.group_name}
+					</if>
+				</foreach>
+			</td>
+			<td>
+				<if condition="$v3.test1 == 0">
+					<input class="add" type="submit" name="test1" xu="<?php echo $j; ?>" ps="{$v3.uid}" test="{$v3.test1}" value="开通">
+				<else />
+					<input class="add" type="submit" name="test1" xu="<?php echo $j; ?>" ps="{$v3.uid}" test="{$v3.test1}" value="添加">
+				</if>
+			</td>
+			<td>
+				<if condition="$v3.proknowledge == 0">
+					<input class="chang" type="submit" name="proknowledge" xu="<?php echo $j; ?>" ps="{$v3.uid}"  test="{$v3.proknowledge}" value="启用">
+				<else />
+					<input class="chang" type="submit" name="proknowledge" xu="<?php echo $j; ?>" ps="{$v3.uid}"  test="{$v3.proknowledge}" value="添加">
+				</if>
+			</td>
+			<td>
+				<if condition="$v3.test2 == 0">
+					<input class="add" type="submit" name="test2" xu="<?php echo $j; ?>" ps="{$v3.uid}" test="{$v3.test2}" value="开通">
+				<else />
+					<input class="add" type="submit" name="test2" xu="<?php echo $j; ?>" ps="{$v3.uid}" test="{$v3.test2}" value="添加">
+				</if>
+			</td>
+			<td>
+				<if condition="$v3.sellskills == 0">
+					<input class="chang" type="submit" name="sellskills" xu="<?php echo $j; ?>" ps="{$v3.uid}"  test="{$v3.sellskills}" value="启用">
+				<else />
+					<input class="chang" type="submit" name="sellskills" xu="<?php echo $j; ?>" ps="{$v3.uid}"  test="{$v3.sellskills}" value="添加">
+				</if>
+			</td>
+			<td>
+				<if condition="$v3.test3 == 0">
+					<input class="add" type="submit" name="test3" xu="<?php echo $j; ?>" ps="{$v3.uid}" test="{$v3.test3}" value="开通">
+				<else />
+					<input class="add" type="submit" name="test3" xu="<?php echo $j; ?>" ps="{$v3.uid}" test="{$v3.test3}" value="添加">
+				</if>
+			</td>
+			<td>
+				<if condition="$v3.speechcase == 0">
+					<input class="chang" type="submit" name="speechcase" xu="<?php echo $j; ?>" ps="{$v3.uid}"  test="{$v3.speechcase}" value="启用">
+				<else />
+					<input class="chang" type="submit" name="speechcase" xu="<?php echo $j; ?>" ps="{$v3.uid}"  test="{$v3.speechcase}" value="添加">
+				</if>
+			</td>
+			<td>
+				<if condition="$v3.practice == 0">
+					<input type="submit" name="practice" xu="<?php echo $j; ?>" ps="{$v3.uid}" test="{$v3.practice}" value="开通">
+				<else />
+					<input type="submit" name="practice" xu="<?php echo $j; ?>" ps="{$v3.uid}" test="{$v3.practice}" value="关闭">
+				</if>
+			</td>
+			<td>
+				<if condition="$v3.friend == 0">
+					<input class="chang" type="submit" name="friend" xu="<?php echo $j; ?>" ps="{$v3.uid}"  test="{$v3.friend}" value="启用">
+				<else />
+					<input class="chang" type="submit" name="friend" xu="<?php echo $j; ?>" ps="{$v3.uid}"  test="{$v3.friend}" value="添加">
+				</if>
+			</td>
+			<td>{$v3.crtime}</td>
+			<td>
+				<a href="__CONTROLLER__/task?id={$v3.uid}">查看</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+				<a href="">编辑</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+				<if condition="$v3.status == 1">
+				<input type="submit" class="status" name="status" xu="<?php echo $j ?>" ps="{$v3.uid}" status="{$v3.status}" value="禁用">
+				<else />
+				<input type="submit" class="status" name="status" xu="<?php echo $j ?>" ps="{$v3.uid}" status="{$v3.status}" value="启用">
+				</if>
+			</td>
+		</tr>
+		</foreach>
+		<tr>
+			<td>
+				<input type="submit" name="all" value="全选" >
+			</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>
+				<input type="submit" name="add1" value="添加试题">
+			</td>
+			<td></td>
+			<td>
+				<input type="submit" name="add2" value="添加试题">
+			</td>
+			<td></td>
+			<td>
+				<input type="submit" name="add3" value="添加试题">
+			</td>
+			<td></td>
+			<td>
+				<input type="submit" name="on4" value="开通" >
+				<input type="submit" name="off4" value="关闭">
+			</td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+	<div id="page">{$show}</div>
+</block>
+<block name="script">
+<script type="text/javascript">
+ $(function(){
+
+ 	//人员状态
+ 	$("input[name='status']").click(function(){
+ 		var st=$(this).attr("status");
+ 		var ps=$(this).attr("ps");
+ 		var xu=$(this).attr("xu")-1;
+ 		$.ajax({
+ 			url:"__CONTROLLER__/status",
+ 			data:{status:st,id:ps},
+ 			type:"POST",
+ 			dataType:"JSON",
+ 			success:function (data) {
+ 				//console.log(data);
+ 				var z=data['z'];
+ 				var sta=data['status'];
+ 				switch (z) {
+ 					case 0:
+ 						alert("未修改成功！");
+ 						break;
+ 					case 1:
+ 						if(sta == 1){
+ 							$("input[name='status']").eq(xu).attr("status",sta);
+ 							$("input[name='status']").eq(xu).val("禁用");
+ 						}
+ 						else{
+ 							$("input[name='status']").eq(xu).attr("status",sta);
+ 							$("input[name='status']").eq(xu).val("启用");
+ 						}
+ 						break;
+ 					default:
+ 						alert("抱歉，后台未接收到传出去的值");
+ 						break;
+ 				}
+ 			}
+ 		});
+ 	});
+
+
+ 	//开通话术对练
+ 	$("input[name='practice']").click(function(){
+ 		var st=$(this).attr("test");  //practice值，1或0
+ 		var ps=$(this).attr("ps");    //uid
+ 		var xu=$(this).attr("xu")-1;  //第几个
+ 		
+ 		$.ajax({
+ 			url:"__CONTROLLER__/practice",
+ 			data:{practice:st,id:ps},
+ 			type:"POST",
+ 			dataType:"JSON",
+ 			success:function (data) {
+ 				//console.log(data);
+ 				var z=data['z'];
+ 				var sta=data['practice'];
+ 				switch (z) {
+ 					case 0:
+ 						alert("未修改成功！");
+ 						break;
+ 					case 1:
+ 						if(sta == 1){
+ 							var str ="请使用“账号:广宇07  密码:ABCabc666”登录百度商桥客户端为该实习客服添加一个新的普通客服账号！或联系技术人员进行配置添加！！";
+ 							alert(str);
+ 							
+ 							$("input[name='practice']").eq(xu).attr("test",sta);
+ 							$("input[name='practice']").eq(xu).val("关闭");
+ 						}
+ 						else{
+ 							$("input[name='practice']").eq(xu).attr("test",sta);
+ 							$("input[name='practice']").eq(xu).val("开通");
+ 						}
+ 						break;
+ 					default:
+ 						alert("抱歉，后台未接收到传出去的值");
+ 						break;
+ 				}
+ 			}
+ 		});
+ 	});
+
+
+ 	//产品知识、销售技巧、话术案例、朋友圈展示等开通关闭
+ 	$(".chang").click(function(){
+ 		var te=$(this).attr("test"); //用户的test里的内容
+ 		var ps=$(this).attr("ps");  //用户的uid
+ 		var name=$(this).attr("name"); //存着proknowledge,或sellskills,或speechcase,或friend
+ 		var xu=$(this).attr("xu")-1;
+
+ 		/*$.ajax({
+ 			url:"__CONTROLLER__/chang",
+ 			data:{id:ps,keyname:name,keyvalue:te},
+ 			type:"POST",
+ 			dataType:"JSON",
+ 			success:function (data) {
+ 				//console.log(data);
+ 				var z=data['z'];
+ 				var sta=data['keyvalue'];
+ 				switch (z) {
+ 					case 0:
+ 						alert("未修改成功！");
+ 						break;
+ 					case 1:
+ 						var a = "input[name='"+name+"']";
+ 						if(sta == 1){
+ 							$(a).eq(xu).attr("test",sta);
+ 							$(a).eq(xu).val("关闭");
+ 						}
+ 						else{
+ 							$(a).eq(xu).attr("test",sta);
+ 							$(a).eq(xu).val("启用");
+ 						}
+ 						break;
+ 					default:
+ 						alert("抱歉，后台未接收到传出去的值");
+ 						break;
+ 				}
+ 			}
+ 		});*/
+
+
+ 		layui.use('layer', function(){
+		    var layer = layui.layer;
+		    var index = layer.open({
+			    type: 2,
+			    title: '请勾选',
+			    shadeClose: true,
+			    shade: 0.4,
+			    area: '400px',
+			    content: '__CONTROLLER__/selectfile?name='+name+'&test='+te, //iframe的url
+			    btn: '确认',yes: function (index, layero) {
+			    	var frame = layer.getChildFrame('body', index);
+			    	var checkbox=frame.find(".checkboxid");
+			    	var str = "";
+			    	for (var i = 0; i < checkbox.length; i++) {
+			    		if (checkbox.eq(i).prop("checked")) {
+			    			str += checkbox.eq(i).val()+",";
+			    		}
+			    	}
+			    	
+			    	str = str.substring(0,str.length-1);
+
+			    	//console.log(name,ps,str);
+			    	if(str.length > 0){
+			    		addtest(name,ps,str,xu);
+			    	}
+			    	layer.close(index);
+			    }
+			});
+		});
+ 		
+ 	});
+
+
+ 	//公司制度测试 思路：点击之后跳出弹窗，并选择要添加的试卷
+ 	$(".add").click(function(){
+ 		var te=$(this).attr("test"); //用户的test里的内容
+ 		var ps=$(this).attr("ps");  //用户的uid
+ 		var name=$(this).attr("name"); //存着test1,或test2,或test3
+ 		var xu=$(this).attr("xu")-1;
+ 		show(name,te,ps,xu);
+ 	});
+
+
+ 	//从“正在考试中”，解锁出来
+ 	$(".isexam").click(function(){
+ 		alert("该人员正在考试中，你确定把他从“考试中”解锁出来");
+ 		var ps = $(this).attr("ps"); //用户的uid
+ 		var a = $(this).parent("td");
+ 		var name = $(this).text();
+
+		$.ajax({
+			url:"__APP__/Admin/Admin/isexam",
+			data:{uid:ps},
+			type:"POST",
+			dataType:"JSON",
+			success:function(data){
+				var z = data["z"];
+				if(z == 1){
+					a.html(name);
+					console.log("一切OK，静等结果");
+				}
+				else if(z == 0) {
+					console.log("请告知管理员，考试成绩未输入数据库");
+				}
+				else{
+					console.log("数据未传入后台服务器，出现bug！");
+				}
+			}
+		});
+ 	});
+
+ });
+</script>
+<script type="text/javascript" src="__LAYUI__/layui.js"></script>
+<script type="text/javascript">
+function show(name,te,ps,xu) {
+	layui.use('layer', function(){
+	    var layer = layui.layer;
+	    var index = layer.open({
+		    type: 2,
+		    title: '请勾选',
+		    shadeClose: true,
+		    shade: 0.4,
+		    area: '400px',
+		    content: '__CONTROLLER__/select?name='+name+'&test='+te, //iframe的url
+		    btn: '确认',yes: function (index, layero) {
+		    	var frame = layer.getChildFrame('body', index);
+		    	var checkbox=frame.find(".checkboxid");
+		    	var str = "";
+		    	for (var i = 0; i < checkbox.length; i++) {
+		    		if (checkbox.eq(i).prop("checked")) {
+		    			str += checkbox.eq(i).val()+",";
+		    		}
+		    	}
+		    	
+		    	str = str.substring(0,str.length-1);
+
+		    	//console.log(name,ps,str);
+		    	if(str.length > 0){
+		    		addtest(name,ps,str,xu);
+		    	}
+		    	layer.close(index);
+		    }
+		});
+	});
+}
+
+function addtest(name,ps,str,xu){
+	var zd = name;
+	var id = ps;
+	var test = str;
+	$.ajax({
+		url:"__CONTROLLER__/addtest",
+		data:{uid:id,zd:zd,test:test},
+		type:"POST",
+		dataType:"JSON",
+		success:function (data) {
+			var z=data['z'];
+			switch (z) {
+				case 0:
+					alert("添加失败");
+					break;
+				case 1:
+					var a = "input[name='"+zd+"']";
+					$(a).eq(xu).attr("test",data['test']);
+					switch (data['test']) {
+						case '0':
+							$(a).eq(xu).val("启用");
+							break;
+						default:
+							$(a).eq(xu).val("添加");
+							alert("ok");
+							break;
+					}
+					break;
+				default:
+					alert("抱歉，后台未接收到传出去的值");
+					break;
+			}
+		}
+	});
+}
+</script>
+</block>
+</extend>

@@ -1,0 +1,69 @@
+[ 2017-04-27T11:15:11+08:00 ] ::1 /tp3.2.3/index.php/Kefu/Growth/gradelist
+ERR: 1054:Unknown column '吴邪' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `grade` WHERE ( uname = 吴邪 ) LIMIT 1  
+
+[ 2017-04-27T11:47:44+08:00 ] ::1 /tp3.2.3/index.php/Kefu/Growth/orderlist
+ERR: 模板不存在:./Application/Kefu/View/Growth/orderlist.html
+
+[ 2017-04-27T13:05:39+08:00 ] ::1 /tp3.2.3/index.php/Kefu/Growth/addorder
+ERR: 非法操作:addorder
+
+[ 2017-04-27T13:38:17+08:00 ] ::1 /tp3.2.3/index.php/Kefu/Growth/deleteorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0020s ]
+SQL: DELETE FROM `order` WHERE ( oid = 1 ) [ RunTime:0.0030s ]
+
+[ 2017-04-27T13:39:19+08:00 ] ::1 /tp3.2.3/index.php/Kefu/Growth/deleteorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0010s ]
+SQL: DELETE FROM `order` WHERE ( oid = 2 ) [ RunTime:0.0000s ]
+
+[ 2017-04-27T13:43:30+08:00 ] ::1 /tp3.2.3/index.php/Kefu/Growth/orderlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `order` WHERE ( uid =  ) LIMIT 1  
+
+[ 2017-04-27T15:48:45+08:00 ] ::1 /tp3.2.3/index.php/Kefu/Growth/deleteorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0010s ]
+SQL: DELETE FROM `order` WHERE ( oid = 3 ) [ RunTime:0.0010s ]
+
+[ 2017-04-27T16:46:43+08:00 ] ::1 /tp3.2.3/index.php/Kefu/Growth/taskshow?uid=1
+ERR: _STORAGE_WRITE_ERROR_:./Application/Runtime/Cache/Kefu/2017-05-27 15:51:25bdaac4d04bc2cc797b7326eeded11cc1.php
+
+[ 2017-04-27T17:06:34+08:00 ] ::1 /tp3.2.3/index.php/Kefu/Growth/taskshow?uid=1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BETWEEN 2017-04-27 15:51:25 AND 2017-05-04 15:51:25) ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT SUM(money) AS tp_sum FROM `order` WHERE ( uid = 1 AND (BETWEEN 2017-04-27 15:51:25 AND 2017-05-04 15:51:25) ) LIMIT 1  
+
+[ 2017-04-27T17:11:46+08:00 ] ::1 /tp3.2.3/index.php/Kefu/Growth/taskshow?uid=1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '15:51:25 AND 2017-05-04 15:51:25) ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT SUM(money) AS tp_sum FROM `order` WHERE ( uid = 1 AND ('crtime' BETWEEN 2017-04-27 15:51:25 AND 2017-05-04 15:51:25) ) LIMIT 1  
+
+[ 2017-04-27T17:33:39+08:00 ] ::1 /tp3.2.3/index.php/Kefu/Growth/taskshow?uid=1
+ERR: 模板不存在:./Application/Kefu/View/Growth/taskshow.html
+
+[ 2017-04-27T17:53:25+08:00 ] ::1 /tp3.2.3/index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' D:\phpStudy\WWW\tp3.2.3\Application\Kefu\Controller\ComsysController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0030s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('3','测试产品！！！！！！') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0020s ]
+SQL: INSERT INTO `grade` (`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('吴邪','1','公司制度培训测试2017-4-8','3','8','0','3') [ RunTime:0.0000s ]
+
+[ 2017-04-27T17:54:04+08:00 ] ::1 /tp3.2.3/index.php/Kefu/Growth/deleteorder
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0010s ]
+SQL: DELETE FROM `order` WHERE ( oid = 4 ) [ RunTime:0.0000s ]
+
+[ 2017-04-27T18:38:08+08:00 ] ::1 /tp3.2.3/index.php/kefu/
+ERR: 无法加载控制器:Index
+

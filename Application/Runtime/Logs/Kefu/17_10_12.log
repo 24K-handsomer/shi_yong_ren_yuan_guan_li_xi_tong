@@ -1,0 +1,101 @@
+[ 2017-10-12T11:39:42+08:00 ] 101.226.33.206 /index.php/Kefu/Speechcase/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 4 and `group` =  ) LIMIT 1  
+
+[ 2017-10-12T14:49:22+08:00 ] 58.59.25.134 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-10-12T14:49:26+08:00 ] 58.59.25.134 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-10-12T14:49:31+08:00 ] 58.59.25.134 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-10-12T14:51:30+08:00 ] 58.59.25.134 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-10-12T15:03:35+08:00 ] 58.59.25.134 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0005s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('100','婴儿现在处于生长发育的关键时期，各器官和组织没有发育完善容易出现疝气，小儿疝气是由于肠道菌群失衡导致的婴儿腹壁细胞变薄，腹壁弹性弱引起的，小儿疝气主要出现在婴儿的腹沟股处，肚脐处，腹沟股疝：主要是小儿在站立时，在小儿的腹沟股处有一个块状的突起，在平躺时腹沟股处的疝气块会消失，返回到腹内。脐疝：婴儿的肚脐处有块状的突起。') [ RunTime:0.0138s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('101','小儿疝气严重影响孩子的消化系统，导致婴儿消化不良，无法吸收食物中的营养，同时还会导致呕吐，胀气等不良症状，消化系统不好就会影响孩子的发育，影响身体健康。
+小儿疝气还会影响到孩子的免疫系统，孩子消化系统不好，导致无法获得充足的营养，进而影响免疫系统的发育，免疫系统不好，孩子容易感冒，发烧等出现各类疾病，对孩子造成很大伤害
+除以上症状，小儿疝气还会影响孩子的泌尿生殖系统，因为疝气的发生部位和泌尿生殖系统非常近，进而影响生殖器官的的发育，严重的会导致孩子的生育能力丧失。所以一定要引起注意。
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('102','舒善菌是由多种益生菌按黄金比例混合而成，其中主要包括鼠李糖乳杆菌和罗伊氏乳杆菌，罗伊氏乳杆菌是全世界研究最广泛的益生菌，它能够有效的平衡肠道菌群，减少孩子腹部胀气，呕吐，同时还会减少腹腔压力，增加腹壁厚度。鼠李糖乳杆菌同样可以改善肠道菌群平衡，减少腹腔压力，同时鼠李糖乳杆菌肠道附着力很强，能够快速修复腹壁细胞，增加腹壁厚度，消除疝气。
+舒善菌的益生菌群是有mrs培养，菌群活性极强。
+舒善菌安全可靠：舒善菌富含植物多种植物高活性成分，不含化学和激素物质，而且由美国FDA认证，') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('103','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('104','舒善菌主要有鼠李糖乳杆菌和罗伊氏乳杆菌，同时还有多种高活性物质') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('105','舒善菌适合0—5岁的婴儿使用，主要是有肠道菌群失衡导致的，腹部压力大，腹壁薄弱引起的。
+鞘膜积液和不适用
+婴儿有没有其他病史
+不能和抗生素一起服用') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('106','舒善菌有美国农业FDA认证，很安全，而且在美国使10万宝宝拜托疝气的困扰，效果非常好，') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('107','在美国，经过十几年的使用使10万宝宝拜托疝气的困扰，效果非常好，美国宝妈力推。很多使用者差不过一周之内见效，一个月痊愈，如果你不相信，可以看我朋友全的宝妈反馈。效果好不好，患者说了才算。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('108','我们这是最优惠价格了，价格和效果是成比例的，我们可不敢用便宜的给孩子使用。虽然舒善菌有点高，不过效果非常好，其他便宜的也许要用一年才见效，而舒善菌差不多一周就见效，一个月就能痊愈，既能减少时间，又见效快，你为啥不试试呢') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('109','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('110','根据孩子的症状，孩子的情况不能在拖着了，如果不治疗，疝气会不能回纳，严重') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('111','') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('14','许春雨','2','舒善菌基本知识测试','0','620,621,622,623,624,625,626,627,628,629,630,631','0','0') [ RunTime:0.0002s ]
+
+[ 2017-10-12T15:24:16+08:00 ] 101.226.66.193 /index.php/kefu/proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-10-12T16:02:08+08:00 ] 58.59.25.134 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0005s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('85','') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('86','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('87','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('88','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('89','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('90','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('91','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('92','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('93','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('94','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('95','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('96','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('97','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('98','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('99','') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('14','许春雨','2','腹壁营养素基本知识测试','0','632,633,634,635,636,637,638,639,640,641,642,643,644,645,646','0','0') [ RunTime:0.0002s ]
+
+[ 2017-10-12T16:03:32+08:00 ] 58.59.25.134 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0005s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('85','') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('86','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('87','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('88','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('89','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('90','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('91','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('92','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('93','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('94','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('95','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('96','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('97','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('98','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('99','') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('14','许春雨','2','腹壁营养素基本知识测试','0','647,648,649,650,651,652,653,654,655,656,657,658,659,660,661','0','0') [ RunTime:0.0002s ]
+

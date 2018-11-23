@@ -1,0 +1,56 @@
+[ 2018-07-27T09:20:41+08:00 ] 58.56.25.158 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `speechcase`='20,18,0' WHERE ( uid='160' ) [ RunTime:0.0103s ]
+
+[ 2018-07-27T09:20:46+08:00 ] 58.56.25.158 /index.php/Admin/Person/practice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `practice`='1' WHERE ( uid='160' ) [ RunTime:0.0081s ]
+
+[ 2018-07-27T09:20:58+08:00 ] 58.56.25.158 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: UPDATE `user` SET `speechcase`='20,18,0' WHERE ( uid='161' ) [ RunTime:0.0066s ]
+
+[ 2018-07-27T09:21:08+08:00 ] 58.56.25.158 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `speechcase`='20,18,0' WHERE ( uid='159' ) [ RunTime:0.0086s ]
+
+[ 2018-07-27T09:21:15+08:00 ] 58.56.25.158 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `speechcase`='20,18,0' WHERE ( uid='158' ) [ RunTime:0.0071s ]
+
+[ 2018-07-27T09:23:43+08:00 ] 58.56.25.158 /index.php/Admin/Person/practice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: UPDATE `user` SET `practice`='0' WHERE ( uid='160' ) [ RunTime:0.0249s ]
+
+[ 2018-07-27T09:23:52+08:00 ] 58.56.25.158 /index.php/Admin/Person/practice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: UPDATE `user` SET `practice`='1' WHERE ( uid='159' ) [ RunTime:0.0116s ]
+
+[ 2018-07-27T09:24:01+08:00 ] 58.56.25.158 /index.php/Admin/Person/practice
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `practice`='0' WHERE ( uid='159' ) [ RunTime:0.0090s ]
+

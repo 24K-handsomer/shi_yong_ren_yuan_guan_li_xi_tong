@@ -1,0 +1,21 @@
+[ 2018-02-08T15:05:02+08:00 ] 58.56.25.158 /index.php/Admin/Test/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0006s ]
+SQL: UPDATE `question` SET `status`='0' WHERE ( id='127' ) [ RunTime:0.0003s ]
+
+[ 2018-02-08T15:05:04+08:00 ] 58.56.25.158 /index.php/Admin/Test/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0005s ]
+SQL: UPDATE `question` SET `status`='1' WHERE ( id='127' ) [ RunTime:0.0002s ]
+
+[ 2018-02-08T15:10:34+08:00 ] 58.56.25.158 /index.php/Admin/Paper/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: SHOW COLUMNS FROM `paper` [ RunTime:0.0006s ]
+SQL: UPDATE `paper` SET `status`='0' WHERE ( pid='28' ) [ RunTime:0.0003s ]
+

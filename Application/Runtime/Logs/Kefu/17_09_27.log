@@ -1,0 +1,68 @@
+[ 2017-09-27T08:53:06+08:00 ] 58.59.25.134 /index.php/Kefu/Speechcase/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 4 and `group` =  ) LIMIT 1  
+
+[ 2017-09-27T09:44:36+08:00 ] 106.120.160.109 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-27T09:44:37+08:00 ] 182.118.20.143 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-27T09:44:37+08:00 ] 182.118.20.158 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-27T09:44:52+08:00 ] 220.181.132.198 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-27T09:45:25+08:00 ] 182.118.20.149 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-27T09:45:26+08:00 ] 182.118.20.149 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-27T09:45:28+08:00 ] 182.118.20.149 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-27T09:45:29+08:00 ] 182.118.20.149 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-27T11:13:50+08:00 ] 58.56.25.158 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0124s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('118','1丘疹型痘痘   2囊肿型痘痘      3脓包型痘痘     4红肿型痘痘      5聚合性痘痘') [ RunTime:0.0353s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('119','三度四级
+轻度一级：粉刺为主有少量的丘疹和脓包总病灶数少于30个
+中度二级：表现为除粉刺外有中等量的丘疹和脓包总病灶数在31-50之间
+中度三级：表现为除粉刺外有大量的丘疹和脓包 偶见有炎性皮损 分布广泛 总病灶数在51-100之间 结节少于3个
+重度四级：表现为囊肿型、脓包型痘痘   由疼痛引发的囊肿和窦道 总病灶数在100个以上 结节在3个以上') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('120','委托方：浙江
+被委托方：济南乐艾生物科技有限公司
+净含量：20mg*10片') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('121','多酚提苏活力片——杀灭痤疮杆菌——调节水油平衡——修复受损毛囊皮脂腺口堵塞——再生基底肌肤——恢复肌肤正常排毒——抑制黑色素、淡化痘印——敏感修复、改善皮肤纹理、美容养颜') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('122','闭合性粉刺是一种还没有“探出头”的粉刺，是由于死掉的细菌和身体的分泌物组成的， 多发于面部，为细小的皮下脂栓，表现为米粒大小的白色小包，质硬，无自觉性症状。
+闭合性粉刺是由于内分泌失调，体内雄性激素分泌过盛，毛囊皮脂腺口被角质堵塞，角化物和皮脂充塞其中，与外界不疏通，从而形成的闭合性粉刺。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('123','1.12盒1500元     2.24盒3100元        3.9盒1800元          4.36盒4400元     5.安酷颜2瓶6盒祛痘活力片1389元   6.安酷颜6瓶2520元  7.安酷颜8瓶3400元 ') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('124','成分：锯棕榈提取物、黑醋栗、黑醋栗花青素、番茄红素、锌等
+使用方法：一天三次、一次一粒、早中晚饭后半个小时后服用
+禁忌：12岁以下的、血压过低、有过大型手术的、孕妇禁用') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('125','答：目前没有收到无效的反馈，是全球最顶级的祛痘产品，畅销有18年的时间了，引进中国已经有5年的时间了，已经调理好了很多跟你一样有闭合性粉刺和痤疮的患者，比你严重的都调理好了，你也是没有问题
+答：DH钻石在美国已经畅销有27年的时间了，美国公立医院83%的皮肤科医生推荐使用，比你严重的都调理好了，你也是没有问题的') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('126','安酷颜：1.可以使天然皮脂腺生产 2.对抗预防感染 3.减少炎症 4.提供抗氧化保护（提供长时间的有效保护）
+多酚提苏活力片：有祛痘型跟修护型  修护型的机理 杀灭痤疮杆菌——调节水油平衡——修复受损毛囊皮脂腺口堵塞——再生基底肌肤——恢复肌肤正常排毒——抑制黑色素、淡化痘印——敏感修复、改善皮肤纹理、美容养颜
+感受：公司引进的这些祛痘产品都是全球最顶级的祛痘产品，而且是帮助有效的根源性的去除痤疮跟闭合性粉刺的使其不再反复复发，感觉效果应该不错
+落实到工作中：多去推荐 产品的功效、产品能打造的效果、产品的买点') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('127','1.丘疹型痘痘 2.红肿型痘痘') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0005s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('13','苗琳','2','痘痘组新员工基础知识考核','0','412,413,414,415,416,417,418,419,420,421','0','0') [ RunTime:0.0002s ]
+

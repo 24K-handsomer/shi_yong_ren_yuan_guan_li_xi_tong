@@ -1,0 +1,24 @@
+[ 2018-03-09T15:22:14+08:00 ] 58.56.25.158 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 109 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0003s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('139','粉刺，痘痘') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('140','丘疹型，结节型，囊肿型，脓包型，聚合性。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('141','闭合性粉刺属于青春痘的一种，是由死去的细菌和身体分泌物组成，多发于面部，为细小的脂栓，表现为米粒大小的白色小包，质硬。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('142','1.组成不同，闭合性粉刺由皮脂和角质组成， 痘痘由死去的细菌和身体分泌物组成，粉刺不去注意会变成痘痘。2.发生率不同，粉刺发生率高，一般人都会出现，正常现象。痘痘发生率不高，一般内分泌失调，情绪不好或不注意粉刺，痘痘会一夜之间出现。3.发生原因不同，痘痘是由于内分泌失调，雄性激素分泌过多或油脂分泌过多出现的慢性炎症。粉刺是由于清洁不彻底，心情，冷热交替，熬夜。4.症状表现不同，粉刺分为白头粉刺和黑头粉刺。痘痘分为红肿型，囊肿型，和群聚型。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('143','成分：锯棕榈提取物，黑醋栗籽油，黑醋栗花青素，番茄红，锌等。使用方法：一天两次，一次两片，早晚饭后半小时使用。禁忌：孕妇和哺乳期，12岁以下或其他严重系统性疾病不适合使用。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('145','安酷颜2瓶：1700.  3瓶：2350.  6瓶:4300.  钻石祛痘4瓶:2000.  8瓶：3400.
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('146','价格和效果是成正比的，市场上便宜的产品或许很多，真正有效果的微乎其微，选择一款正确的产品，价格肯定是要稍微高一点的，因为产品的成本也是很高的。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('147','乐艾公司是让员工快乐的有爱的工作，真正的解决客户的问题。实际工作中会认真的学习，积极地融入工作氛围。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('148','1.囊肿型痘痘。2，脓包型痘痘。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('149','18岁以下，经济条件不富裕。 钻石祛痘:100粒|瓶，轻度痘痘一天两次，一次两粒。重度痘痘一天两次，一次三粒。
+不同之处：价格相对便宜，产品成分不同。') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('13','宋海涛','2','痘痘国外组新员工考核试题','0','1560,1561,1562,1563,1564,1565,1566,1567,1568,1569','0','0') [ RunTime:0.0002s ]
+

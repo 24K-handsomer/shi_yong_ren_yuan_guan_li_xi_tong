@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div>
+	<form action="__CONTROLLER__/zstupdate" method="post">
+		<span>姓名：</span>
+		<select name="uid">
+		    <foreach name="userlist" item="v" >
+		        <option value ="{$v.uid}">{$v.uname}</option>
+		    </foreach>
+		</select>
+		<span>&nbsp;&nbsp;</span>
+		<span>角色：</span>
+		<select name="u_role_id">
+		    <foreach name="rolelist" item="v2" >
+		        <option value ="{$v2.role_id}">{$v2.role_name}</option>
+		    </foreach>
+		</select>
+		<input type="submit" name="" value="更改">
+	</form>
+	</div>
+</body>
+</html>

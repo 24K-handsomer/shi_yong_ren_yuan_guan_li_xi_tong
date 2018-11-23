@@ -1,0 +1,101 @@
+[ 2017-09-13T10:16:30+08:00 ] 101.226.33.220 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-13T10:54:20+08:00 ] 58.56.25.158 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0150s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('128','2瓶950、4瓶1700、6瓶2390、8瓶3040、6瓶2390') [ RunTime:0.0004s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('129','1，内分泌失调是主要原因，酒糟鼻主要是由于内分泌失衡、鼻部毛细血管舒缩神经失调导致的肌肤抗敏能力不足。在此基础上螨虫寄生、细菌感染、嗜酒、吸烟、刺激性饮食、消化道功能紊乱、长期精神紧张等不良情绪以及长期作用于皮肤的冷热因素如高温工作、日晒、寒冷、风吹等均可诱发和加重本病。2主要是皮脂溢出、油脂分泌过盛的基础上，由于体内毒素淤积，血管舒缓神经功能失调，毛细血管长期扩张所致， 毛囊虫以及局部感染也是发病的重要因素     刺激性食物如辣椒、咖啡、茶等以及常说的发物牛羊肉和海鲜等，这些食物不仅会导致酒糟鼻加重，而且服用后皮疹加重的现象也会在多数患者的身上出现') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('130','1红斑期：鼻部阵发性潮红，毛孔粗大、大量黑头、红血丝，表面油腻发亮，部分存在持续瘙痒、灼热和疼痛感
+2丘疹脓包期：在初期的基础上，出现脓包、凹凸不平，鼻子表面有痘痘，丘疹甚至是疱疹。皮损的表现为红斑、毛细血管扩张以及有炎症的毛囊丘疹和脓包等，面部油脂较多，严重者鼻部会肿胀，重者呈草莓状
+3鼻赘期：组织增生，结缔组织增生，鼻部异常肥大，呈酱紫色或紫红色，表面凹凸不平') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('131','中药：作用慢，周期长，一般持续调理半年以上才会看到效果，而且中药是对症调理，长期服用会产生副作用，不少女性患者表示服用中药会导致月经减少
+外用药品：酒糟鼻主要是有内因导致的，外用药品治标不治本，只能起到一个缓解的作用，很容易复发。医院开的外用药膏多半是消炎杀菌的，很多都是抗生素会产生抗药性，不能长期使用') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('132','美国原装进口，专利配方，纯天然草本植物萃取，可以从根源有效调理内分泌，改善血液循环，修复受损的患处血管舒缓神经，使血管扩张恢复正常，消退丘疹脓包，其所含有的女贞果、洋菝葜、紫锥花等植物成分，可以修复肌肤角质层，提高肌肤的抗敏能力，达到使其不再复发的目的') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('133','不要手挤；避免熬夜；辛辣、海鲜、油腻、甜食、豆制品、牛羊肉等要忌口，避免烟酒；避免高温、寒冷、冷热刺激、湿热环境、风吹等各种外界的刺激，肌肤护理时应避免使用刺激性护肤品') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('134','我们的DH皮肤制剂是纯天然植物精华搭配营养元素，不仅可以改善患处鼻部潮红，还可以从根源有效调理内分泌，改善血液循环，修复受损的患处血管舒缓神经，使血管扩张恢复正常，消退丘疹脓包，其所含有的女贞果、洋菝葜、紫锥花等植物成分，可以修复肌肤角质层，提高肌肤的抗敏能力，达到使其不再复发的目的。所以效果这方面您是不用担心的') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('135','每天6粒，早晚各3粒，饭后半小时温水送服
+孕妇及哺乳期不能使用，其余血压过低、心脏病等疾病的不建议使用') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('136','脸部及下巴经常冒痘、肤色暗淡粗糙、肌肤抗敏能力下降（肌肤敏感）、色素沉着（色斑）、细纹、烦躁易怒胸闷，睡眠质量下降、头痛失眠多梦、月经不规律（包括痛经）、便秘、胃口不好、女性严重者影响怀孕') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('137','发病的原因：为什么会得酒糟鼻
+患者的工作环境、饮食、生活方面
+治疗：曾经做过什么治疗，然后针对他的症状做出治疗方案
+注意事项：在治疗中应该注意什么
+产品的效果如何，确保能够治好
+') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0005s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('13','管婷婷','2','酒糟鼻组新员工知识考核','0','259,260,261,262,263,264,265,266,267,268','0','0') [ RunTime:0.0002s ]
+
+[ 2017-09-13T11:08:05+08:00 ] 58.56.25.158 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0005s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('128','2瓶 1000复购950   4瓶1800复购1700   6瓶2520复购2390    8瓶3800 ') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('129','主要是内分泌失衡，鼻部毛细血管舒缩神经失调导致的肌肤抗敏能力不足，在此基础上螨虫寄生 细菌感染 嗜酒 抽烟 刺激性饮食消化道功能紊乱 长期精神紧张等不良情绪以及长期作用于皮肤的冷热因素如 高温工作 日晒 寒冷 风吹等均可诱发和加重本病
+主要在皮脂溢出 油脂分泌旺盛的基础上 由于体内毒素淤积 是患部血管舒缩神经功能失调，毛细血管长期扩张所致 毛囊虫和局部感染是发病的重要因素') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('130','红斑期：鼻部阵发性潮红，毛孔粗大  大量黑头 红血丝 表面油腻发亮  局部存在持续瘙痒 疼痛感
+丘疹脓包期：出现脓包 凹凸不平鼻子表面有痘痘 丘疹甚至疱疹 皮损表现为毛细血管扩张有炎症的毛囊和丘疹疱疹 面部油脂过多  严重者会肿胀 重者呈现草莓状
+鼻赘期：组织增生 结缔组织增生 鼻子异常肥大 呈酱紫色和紫红色 表面凹凸不平
+两颊 前额 下巴 呈对称状分部') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('131','中药：作用慢 时间长  一般要持续半年以上才会有明显效果 中药需要对症调理而且长期服用会有副作用  很多女性患者服用后会有月经减少出现
+外用药：治标不治本 只能起到一个缓解的作用 医院开的多是消炎杀菌的 很多都是抗生素会产生耐药性 不能长期使用') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('132','美国原装进口 专利配方  纯天然草本植物萃取 可以从根源有效调理内分泌改善血液循环 修复受损的血管舒缓神经 使毛细血管恢复正常 消退丘疹脓包 提高肌肤抗敏能力 是其不再复发') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('133','不要用手挤  避免熬夜，辛辣 油腻 甜食 豆制品  牛羊肉等要忌口  杜绝烟酒  避免高温 日晒 寒冷 风吹  湿热的刺激  避免使用刺激性护肤品') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('134',' 纯天然草本植物精华营养  能有效改善酒渣鼻修复受损血管舒缓神经 消退丘疹脓包 其中洋菝葜根 紫锥花  女贞果等可以提高肌肤质量 提高肌肤抗敏能力 使其不再复发能力 高品质原料  国际领先技术  纯天然成分提取  无化学成分 无激素  儿童 成人 老人均可服用  美国畅销27年获大量消费者及美国83%医院皮肤科医生推荐  2008 2009  2011  2016年获美国BN大奖  获三项高科技奖 美国天然产品协会认证 美国食品药品管理局认证  美国工厂环境质量认证') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('135','每天6粒 早晚各3粒 饭后半小时温水服用
+孕妇及哺乳期不建议用  血压过低 心脏病等其他疾病不建议用') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('136','脸部及下巴经常冒痘 皮肤暗淡粗糙 肌肤抗敏能力下降 肌肤敏感 色素沉着色斑 细纹 情绪暴躁易怒胸闷  睡眠质量下降 头疼失眠多梦  胃口不好 便秘   女性严重者影响怀孕') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('137','男性女性 年龄 多长时间  抽烟喝酒  睡眠质量  干什么工作 ') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('13','袁艳艳','2','酒糟鼻组新员工知识考核','0','269,270,271,272,273,274,275,276,277,278','0','0') [ RunTime:0.0002s ]
+
+[ 2017-09-13T11:14:19+08:00 ] 101.226.125.103 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-13T11:39:13+08:00 ] 106.120.160.109 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-13T11:39:13+08:00 ] 171.13.14.133 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-13T11:39:13+08:00 ] 171.13.14.148 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-13T11:39:36+08:00 ] 171.13.14.150 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-13T11:41:15+08:00 ] 106.120.160.109 /index.php/Kefu/Speechcase/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 4 and `group` =  ) LIMIT 1  
+
+[ 2017-09-13T11:41:15+08:00 ] 182.118.20.152 /index.php/Kefu/Speechcase/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 4 and `group` =  ) LIMIT 1  
+
+[ 2017-09-13T11:41:15+08:00 ] 182.118.20.155 /index.php/Kefu/Speechcase/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 4 and `group` =  ) LIMIT 1  
+
+[ 2017-09-13T11:41:24+08:00 ] 171.13.14.150 /index.php/Kefu/Speechcase/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 4 and `group` =  ) LIMIT 1  
+
+[ 2017-09-13T11:41:57+08:00 ] 182.118.20.144 /index.php/Kefu/Speechcase/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 4 and `group` =  ) LIMIT 1  
+
+[ 2017-09-13T11:41:58+08:00 ] 171.13.14.148 /index.php/Kefu/Speechcase/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 4 and `group` =  ) LIMIT 1  
+

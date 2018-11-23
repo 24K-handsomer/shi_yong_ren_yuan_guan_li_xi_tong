@@ -1,0 +1,127 @@
+[ 2018-07-30T10:51:03+08:00 ] 58.56.25.158 /index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 160 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ComsysController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0273s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('61','现在刚刚入职，首先在两年内我想丰富自己，将自己打造成母婴问题的专业人员，去服务宝妈和宝宝们。同时用自身业绩说话，证明自己是对公司有用的人。第三到四年，锻炼自己系统分析、组织协调能力，沉淀自我。第五年之后，我想成为一个团队的领导者，能够带领自己的团队，实现共同目标') [ RunTime:0.0484s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('62','现在而言，需要我成长为专业的客服人员，拥有专业的育婴知识还有专业的客服能力，为公司带来好的业绩，同时团结同事，做事高效，对工作充满激情，与公司共同发展') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('63','一、企业愿景：做全球最好的产品，为健康护航
+二、企业的核心价值观：团结、高效、诚信、激情。
+三、企业的发展宗旨：让更多的人健康，让更多的人快乐。以人为本，与员工共发展。
+四、乐艾的情怀:品为魄，善做魂，赢天下，创未来') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('68','7,30') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('69','50') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('71','旷工') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('72','1%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('73','2%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('74','山东省济南市历下区舜华路三庆世纪财富中心B2-603室') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('75','济南乐艾生物技术有限公司，张丽洁') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('113','2，3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('115','7,200,300，600，800,2000') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('116','30') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0006s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('11','刘倩','1','最新制度考试','36','2107,2108,2109,2110,2111,2112,2113,2114,2115,2116,2117,2118,2119','0','36') [ RunTime:0.0005s ]
+
+[ 2018-07-30T11:01:10+08:00 ] 58.56.25.158 /index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 159 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ComsysController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0003s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('61','第一年：先努力让自己通过前三个月的试用期，加强学习产品知识，后几个月达到出单的业绩
+第二年：给自己定下一个小目标，达到自己理想的业绩
+后三年：通过自己的努力一步一步往上走，可以领导一个团队。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('62','在了解乐艾，进入乐艾这个大家庭后，我不单单是一名客户人员，也绝不是一名销售人员。我要做的是以一名专家身份来服务我的客户，帮助他们解决各种困难烦恼。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('63','一：企业愿景：做全球最好的产品，为健康护航。
+二：企业的核心价值观：团结、高效、诚信、激情。
+三：企业的发展宗旨：让更多的人健康，让更多的人快乐。以人为本，与员工共发展。
+四：乐艾的情怀:品为魄，善做魂，赢天下，创未来。
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('68','7天
+30天') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('69','50元') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('71','旷工 依照旷工处理') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('72','1%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('73','2%') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('74','山东省济南市历下区舜华路三庆财富中心B座-603室') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('75','济南乐艾生物技术有限公司
+总经理:张丽洁') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('113','1天
+2天') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('115','30天
+普通员工：200元
+主管：300元
+经理级：600元
+总监级：800元
+总经理级人员：2000元') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('116','30天') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('11','仝燕','1','最新制度考试','38','2120,2121,2122,2123,2124,2125,2126,2127,2128,2129,2130,2131,2132','0','38') [ RunTime:0.0002s ]
+
+[ 2018-07-30T11:02:37+08:00 ] 58.56.25.158 /index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 161 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ComsysController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0003s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('61','在艾乐作为一名销售专员，我决定在刚入公司的一年中好好学习有关母婴的专业知识，　一个人精通一件事，哪怕是一项微不足道的技艺，只要做得比所有人都好，那么也能获得丰厚的奖赏。第二年钻研技巧，集中精神，坚韧不拔，将这门微不足道的技艺使得异常精湛，也将有益于人类并应为此得到报偿。在以后的三年内在继续向前辈学习的过程中，整理、总结出一套自己的特色。在第四年，进一步冲实自己，使自己有一个良好的开端，保持自己，坚持不懈，永不放弃。第五年，努力工作，晋升职位，为公司带来高效益，同时营造幸福美满的家庭生活。爱自己、爱家人，拥有自己稳定的朋友圈子。
+') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('62','通过一周的学习充分了解艾乐后我觉得我作为艾乐的一员，以后要更加严格要求自己，好好学习专业知识，以更优质的质量服务客户非常珍惜这次机会，工作中积极、主动、认真，努力学习业务知识，熟练业务流程和技能，来充实自己。在这里工作，不但能赚到报酬，而且还能学习到很多东西，比如公司的文化，比如做人、做事的原则等，这些都对我的成长很有帮助。我会在公司遵循公司的公司的规章制度，让自己尽快的适应生活  如今的市场是没有硝烟的战场，竞争非常激烈，不是个人与个人之间的竞争，而是团队与团队之间的竞争，一个团队是否优秀，并不取决于能力最强的队员，而是取决于能力最差的队员，希望我们的团队中每位同事都可以相互影响、相互学习、相互分享，不断提高自己，让我们创造更好的业绩，伴随着公司走向更加辉煌。
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('63','一、企业愿景：做全球最好的产品，为健康护航
+二、企业的核心价值观：团结、高效、诚信、激情。
+三、企业的发展宗旨：让更多的人健康，让更多的人快乐。以人为本，与员工共发展。
+四、乐艾的情怀:品为魄，善做魂，赢天下，创未来
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('68','7/30') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('69','50') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('71','旷工') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('72','1%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('73','2%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('74','高新区舜华路三庆财富中心B2-603
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('75','济南乐艾生物技术有限公司    /张丽洁
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('113','2/3
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('115','7/200/300/600/800/2000
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('116','30') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('11','曹泽敏','1','最新制度考试','42','2133,2134,2135,2136,2137,2138,2139,2140,2141,2142,2143,2144,2145','0','42') [ RunTime:0.0002s ]
+
+[ 2018-07-30T11:07:10+08:00 ] 58.56.25.158 /index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 158 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ComsysController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0003s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('61','有人常问自己以后的路应该怎么走？我的回答是走好每一步。对于未来五年的职业生涯规划有以下几点：1，只有正确的认识自己，才能给自己找到一个准确的定位。2，抓紧时间在现在的岗位上学习，扎实掌握相关的专业技能以及专业知识。3，拓宽自己的知识和技能，计划在五年内成为母婴方面的行家。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('62','融入乐艾大家庭后，应该以积极地工作心态和认真的学习态度去面对工作，在公司充分实现自己的价值，为公司带来好的收益，是我们为企业创造的价值高于企业给我们的报酬，与同事时常亲密沟通和谐相处。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('63','隶属平川嘉恒技术有限公司，以团结，高效，诚信，激情为企业核心价值观。以让更多的人健康，让更多的人快乐，以人为本，与员工共发展为企业发展宗旨。以品为魄，善作魂，赢天下，创未来为企业情怀。以全球最好的产品，为健康护航为企业使命优秀发展近二十年。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('68','7.30') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('69','50') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('71','旷工半日') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('72','1%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('73','2%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('74','山东省济南市高新区新宇路西侧世纪财富中心B座B-603') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('75','济南乐艾生物科技有限公司，张丽洁') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('113','1.2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('115','7.200.300.600.800.2000') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('116','30') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('11','安婧瑜','1','最新制度考试','40','2146,2147,2148,2149,2150,2151,2152,2153,2154,2155,2156,2157,2158','0','40') [ RunTime:0.0002s ]
+

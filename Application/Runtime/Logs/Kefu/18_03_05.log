@@ -1,0 +1,32 @@
+[ 2018-03-05T15:42:56+08:00 ] 58.56.25.158 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 107 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0089s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('154','6瓶首购2700 复购2550    4瓶首购2000 复购1900  2瓶首购1200 复购1100   12瓶首购5000 复购4700    10瓶首购4200复购3900   8瓶首购3400 复购3200') [ RunTime:0.0473s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('155','1酒糟鼻主要是内分泌失衡，鼻部毛细血管舒缩神经失调导致的肌肤抗敏能力不足，在此基础上螨虫寄生，细菌滋生，嗜酒，吸烟，冷然刺激，高温日晒等多种情况下，症状严重。
+2主要是皮脂分泌，油脂分泌旺盛的基础上，由于体内毒素过多，导致患处毛细血管扩张。毛囊虫和细菌病变
+是重要原因') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('156','1红斑期  鼻部发红，毛孔粗大，大量黑头，红血丝，表面油腻，部分出现瘙痒，灼热，疼痛的情况。
+2丘疹脓包期 在初期基础上，出现脓包，凹凸不平，丘疹和疱疹
+3鼻赘期  组织增生，结缔组织增生，鼻部肿胀，呈现酱紫色和大红色，表面凹凸不平') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('157','中药 调理见效慢，周期长，一般需要半年以上调理才有效果，而且中药需要对症调理，时间长了有副作用，根据患者的反馈咨询，很多女性患者反映喝中药导致月经减少
+外用产品  酒糟鼻是由内导致，外用产品治标不治本，只能起到缓解作用，一般医院开的外用药膏多是消炎杀菌，含有抗生素，时间长了产生抗药性。
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('158','美国原瓶进口，专利配方，纯天然草本植物，从源头调理内分泌，改善血液循环，修复受损患处血管舒缩神经，使毛细血管扩张恢复正常，消退丘疹脓包，平衡油脂，提高肌肤抗敏能力，防止复发') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('159','不要用手挤，辛辣 海鲜 油腻 甜食 豆制品 牛羊肉等要忌口，避免熬夜，冷热刺激，高温日晒等工作，不要使用刺激性护肤品。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('160','1精选优质原料 采用国外优质转基因植物，cGMP 国际化生产，严格把控每一个生产环节，保留大自然的活性成
+2国际先进技术 采用国外先进的植物萃取技术，全面保留了大量成分的活性，转化率高
+3纯天然成分提取  纯天然植物精粹，无任何化学添加，无激素，安全性高
+4美国天然产品协会（NPA）认证，美国国家食品和药品管理局(FDA)认证，美国工厂质量(GMP)认证。所有原料均采用纯天然草本植物，无激素。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('161','每天6粒，早晚各3粒，饭后半小时温水送服
+孕妇和哺乳期，血压过低，心脏病') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('162','脸部和下巴冒痘，皮肤暗淡，细纹，易暴躁，睡眠质量不好，月经不规律，女性严重者影响怀孕') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('163','1针对照片情况   2洗脸，冷热刺激后，高温日晒后出现的鼻部潮红') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0006s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('13','武九玲','2','酒糟鼻组新员工知识考核','0','1527,1528,1529,1530,1531,1532,1533,1534,1535,1536','0','0') [ RunTime:0.0002s ]
+

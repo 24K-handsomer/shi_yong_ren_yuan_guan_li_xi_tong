@@ -1,0 +1,41 @@
+[ 2018-03-01T14:01:04+08:00 ] 58.56.25.158 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 98 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0323s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('118','1.丘疹型
+2.脓包型
+3.结节型
+5.囊肿型') [ RunTime:0.0534s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('119','一级 （轻度）粉刺为主，少量丘疹，脓包，灶数少于30个
+二级（中度）除粉刺外，中量丘疹，脓包，总灶31~50
+三级（中度）除粉刺外，大量丘疹，脓包，总灶51~100，结节小于3个
+四级（重度）表现为结节囊肿性痤疮，有痛感，总灶100个以上，结节，囊肿在3个以上') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('120','1.构成不同（粉刺主要由于油脂和角质的问题，痘痘是由于死掉的细菌和身体分泌物组成）
+2.发生频率不同（粉刺发生率高，痘痘发生率低，是由于内分泌失调）
+3.发病原因不同（粉刺清洁不干净。痤疮内分泌失调。）
+4.症状表现不同（粉刺主要表现为白头粉刺，黑头粉刺。痘痘主要表现为红肿型，囊肿型，青春痘型）
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('122','是痘痘的一种，也就是皮肤里没有完全探出头的粉刺，主要是由于死掉的细菌和身体分泌物质组成，多发于面部，为细小皮下脂栓，表现为米粒大小半球形白色小包，质硬，无自觉症状。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('146','先问他能接受的价格，然后请教主管是否可以给他调整价格，如果不可以我们在回复他：老师，钱我们可以再挣，但是如果我们的肌肤问题因为钱的关系而耽搁了，那就是一辈子的事情，所以我们应该分清主次。在不可以可以给他少推荐几盒。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('147','公司主要是做护肤和祛痘方面的，同事之间很热情，很友好。之后落实后，跟同事搞好关系，向同事好好学习技巧，向自己的目标努力。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('148','1.囊肿型
+2.脓包型') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('151','1：原价：1100  复购：1000
+2：原价：9500
+3：原价：8956
+4：原价：1600  复购：1500
+5：原价：2600  复购：2400
+') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('152','委托方：济南乐艾生物技术有限公司
+被委托方：天津美之路化妆品有限公司
+净含量：一粒有20mg，一盒有10粒') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('153','成分：寡肽-1，牛奶氨基酸类，甘草类黄酮，水解珍珠。
+功效：修复敏感肌肤，祛除红黑痘印。收缩毛孔，光滑肌肤，修复敏感肌肤，促进皮肤新陈代谢，增加皮肤活力。') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0005s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('13','车晴晴','2','痘痘国内组新员工考核','0','1497,1498,1499,1500,1501,1502,1503,1504,1505,1506','0','0') [ RunTime:0.0004s ]
+

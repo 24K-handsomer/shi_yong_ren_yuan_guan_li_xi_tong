@@ -1,0 +1,117 @@
+[ 2018-04-12T11:49:22+08:00 ] 58.59.0.246 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 122 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0003s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('164','部位：腹部、大腿内侧、后腰双侧，前臂，臀部，胸部
+怀孕期间由于腹部彭隆和内分泌的作用使得弹力纤维和胶原纤维断裂，腹部和撑大部分就会出现粉红色或者紫色的长短不一，宽不一的纵形裂纹，生完宝宝后，纹路会逐渐变淡，变为白色或者银白的的瘢痕妊娠纹是皮肤变薄，真皮纤维断裂造成的，不经修是不会消失的。
+') [ RunTime:0.0101s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('165','由于怀孕期间受荷尔蒙的影响，受肾上腺分泌了大量的糖皮质激素，腹部肌肉和弹力纤维开始伸长，弹力纤维和胶原纤维的脆性增加，当腹部肌肉和弹力纤维的伸缩度达到一定限度的时候，腹部肌腱发生不同程度的分离，弹力纤维和胶原纤维就会不生不同程度的断裂，腹部就会出现宽窄不一长短不一的波纹状的花纹。随着时间，花纹会慢慢变淡，颜色变为白色或者银白色，这就是妊娠纹') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('166','生长纹：也是结缔组织的断裂造成的，首次出现时暗红色的逐渐变淡，变得柔软有光泽，大多是平行的纹路
+肥胖纹：是由于骨骼和肌肉或者脂肪体积增加过快，超过了皮肤的弹力限度，导致皮肤弹力纤维和胶原纤维的断裂。很多生长发育期的人即使长胖不是很明显也可能会出现这种纹路。在这个期间可以吃一些富含蛋白质的食物，增加皮肤弹性') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('167','是美国原装进口的产后祛除妊娠纹护理产品，经过20多年的科研，于2006年在美国上市，经过十多年的市场检验，他是一款专注于纤维再生的祛除妊娠纹膏体配方。采用美国高活性静压技术将金盏花，芦荟汁，天然可可脂，乳木果，金缕梅，迷迭香芒果黄油等按照完美黄金比配方，具有深层纤维生长，表层肌肤滋润的作用，经过了美国FDA和USDA双重认证，安全有效，直接作用于机体。采用天然农场养殖，甄选最优质原料，采用最科学的萃取技术。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('168','使用前先热敷几分钟，取足够量的涂抹于机体，边按摩边涂抹，一天使用两次，次数越多使用效果越好。不同部位有不同的按摩方法：腹部：双手放肚脐上，顺时针方向按摩5分钟以上
+臀部：有内往外，有下往上，按摩5分钟
+胸部：有乳房下往锁骨方向，5分钟
+腿部：膝盖到大腿内侧，5分钟
+') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('169','清除色素祛除纹路：迪斯维尔中的活性成分通过3-5天不断地按摩吸收，能够促进皮肤底层的血液循环和新陈代谢，不断地祛除色素和减轻纹路
+增强活性，优化渗透：活性成分在不断的渗透，从皮肤表层到达皮肤底层，催化纤维组织的再生机理，促进结缔组织的重建和弹性纤维的恢复。
+生成胶原，细胞增殖：对抗肌肤失调成分不断作用，结缔组织的细胞外间质中的重要组成成分于相关蛋白质符合物作用形成重要的维持皮肤的物质，促进胶原蛋白的生成
+断裂再生，紧致肌肤：将色素和陈旧细胞祛除后，迪斯维尔中的紧致滋润成分不断地作用，促进纤维细胞再生，加速老纤维代谢使肌肤恢复紧致润滑。
+') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('170','3-5天：通过这几天的按摩吸收，促进底层细胞血液循环和新陈代谢，色素和纹路逐渐变淡
+7-15天：去祛除纹路的同时，活性成分不断渗透，促进肌肤底层弹力纤维再生，促进胶原蛋白的生成
+15-30天：对抗肌肤失调成分不断作用，促进结缔组织的重建和弹性纤维的再生也在这个过程中完成。肌肤恢复到产前肌肤的80%。
+30-60天：紧致和滋润成分不断渗透，肌肤变得不断紧致和滋润，经过两个周期的调理，肌肤重新变得光滑内白，恢复少女肌肤魅力。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('171','原装进口：美国原装进口的专业祛除妊娠纹产品。biotegrity公司是经FDA授权批准的产后专业祛除妊娠纹产品，从原料的甄选到密封生产，严格把控每一个环节，打造最专业的祛除妊娠纹产品。从美国厂家直接发货，经过中国海关清关检验直接送到你手里。产品质量安全都有保障。
+原料100%纯天然：天然农场养殖甄选最优质的天然有机原料，采用最科学的萃取技术，进过FDA和USDA双重认证
+高活性高分解：活性成分不断作用加速分解陈旧纤维，促进纤维细胞再生，促进底层纤维细胞活性，维持皮肤平衡；而且还能护理皮肤表层，起到优化和稳定的作用') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('172','一分价钱一分货，如果您买一些10多块的产品，效果非常慢，差不多一年才能见效，加起来也要3000多。那迪斯维尔价格是稍微贵了点，单但是宝妈使用一盒效果就非常明显，即缩短了妊娠纹祛除时间，又变得美丽了，为什么不尝试呢？') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('173','上反馈图
+这是一些宝妈使用的效果反馈，还有在朋友圈也有很多额真实案例；至于联系方式是不能给你的，涉及到隐私问题，我们是不会泄露宝妈的隐私的，还请谅解') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('174','我们是美国厂家特聘的中国区妊娠纹咨询，我们的产品都是有美国厂家直接发货，经过香港海关清关检验直接送到你的手里。而且微信都是实名认证的，绑定手机号码的，你可以随时打电话找我，那你收到产品后我也会指导使用') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('175','你是考虑价格还是呢？价格的话，相比其他的产品，迪斯维尔不算贵，那咱买产品咱更注重的是效果，如果使用很多没有效果的话更让人闹心。效果呢，更不用说了，，很多宝妈反馈都说达到了与预期，至今还没有宝妈说效果不好得') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('176','市面上确实有很多产品只含有滋润成分，效果不好。那迪斯维尔含有纤维再生成分的，而且是按照细胞新陈代谢的周期进行修复的，使用过的宝妈都说反馈效果特别好。还没有说效果不好得。上效果图') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('177','你好，我是产后修复李老师.是有妊娠纹问题要做咨询吗？
+是
+你多大了？
+40
+纹路是什么颜色和形状的
+银白，波浪状
+
+你看一看看有没有接近的上图片
+有，发过图来
+根据你的描述，可以判断你这是典型的妊娠纹，是由于怀孕期间，腹部膨大和内分泌作用导致腹部弹力纤维和胶原纤维断裂造成的
+那如何修复？
+要去除，就要修复断裂的弹力纤维和胶原纤维，你这种情况的话可以使用美国原装进口的产后妊娠纹修复霜，他能从根本上促进底层细胞的吸收能力，促进纤维再生，修复受损的纤维，直接祛除妊娠纹。
+多长时间有效果
+你的情况的话，根据人体新城代谢的周期是20到28天，你使用20多天就会看到明显的变化
+这个怎么使用
+外用涂抹一天两次
+使用多长时间
+你的情况可以先用两个周期，两个周期左右就可以祛除妊娠纹了
+一个周期是多少
+一个周期是三瓶，一瓶可使用一个月左右
+那多少钱
+一个周期三瓶是1800，两个周期6瓶是3180，建议拿两个周期，价格比较优惠
+
+怎么购买
+我是美国厂家特聘的中国区妊娠纹官方咨询，可以直接帮你联系厂家下单，从美国出发经过中国海关清关检验，直接送达你手里
+怎么付款
+微信支付宝银行卡都可以
+我不放心
+微信都是实名认证的，绑定个人信息的，你打时候可以随时打电话找我，而且微信都会有转账记录的，这你可以放心
+
+不可以货到付款吗？
+中国海关三月份下文件说进口货物苏不可以在国内储存的，付款后我才能提交海关信息美国厂家才会发货。
+姓名电弧地址留一下，把你下单，帮你早日调理好
+好吧，信你一次
+转账
+宝妈提供一下身份证号码。现在海关信息都需要真实身份的
+
+好的，48小时后会出来快递单号，我会发给你，也会=一直跟踪物流，确保货物发到你手里
+产品来了后，联系我，指导使用，祝您早日修复好') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('14','代潇潇','2','迪斯唯尔基本知识测试','0','1754,1755,1756,1757,1758,1759,1760,1761,1762,1763,1764,1765,1766,1767','0','0') [ RunTime:0.0002s ]
+
+[ 2018-04-12T15:32:20+08:00 ] 58.59.0.246 /index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 122 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ComsysController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0003s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('61','1首先，做好自己本职工作，产品知识和话术熟练，把公司制度牢记，争取进快转正
+2按规定完成公司发布的任务，尽自己做大的努力去创造业绩
+3争取能有自己的一个小团队，带领更多优秀的人创造更多利润
+4去争取更大的进步空间和上升空间，多问问多想想，多思考，多总结') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('62','1在岗位上兢兢业业，工作认真严禁，有不懂得就问，严格遵守公司的规章制度，不违背公司规章制度。
+2服从上级安排，努力完成上级交代任务，
+3不传播负面言论，有积极乐观的态度
+4不骄不躁，有耐心，踏踏实实，善于检讨') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('63','团结，高效，诚信，激情
+做全球做的产品，为健康护航
+为了更多人的健康，为了更多人的快乐，以人为本，和员工共同发展
+品为魄。善作魂，赢天下，创未来') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('68','试用期需要提前7天，转正的30天，经上级主管同意后转人事报给总经理，同意后交接各种工作，办理辞职手续') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('69','50') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('71','旷工') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('72','1%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('73','2%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('74','三庆财富中心A3入口3楼，舜华路高新区管委会车站下车') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('75','济南乐艾生物技术有限公司
+北京平川嘉恒旗下，
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('113','1,3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('115','30,200,300,500,800,1000') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('116','30') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0003s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('14','代潇潇','1','最新制度考试','42','1768,1769,1770,1771,1772,1773,1774,1775,1776,1777,1778,1779,1780','0','42') [ RunTime:0.0002s ]
+

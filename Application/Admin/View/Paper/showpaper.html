@@ -1,0 +1,118 @@
+<extend name="Public/base"/>
+<block name="style-top">
+	<link rel="stylesheet" type="text/css" href="__LAYUI__/css/layui.css">
+</block>
+<block name="style">
+	<!-- <link rel="stylesheet" type="text/css" href="__CSS__/addtest.css"> -->
+</block>
+<block name="nav">
+	<span>查看试卷</span>
+</block>
+<block name="body">
+	<div>{$paper.pname}</div>
+	<div>
+		<div>一、选择题</div>
+		<ul>
+			<?php $i=1; ?>
+			<foreach name="list1" item="v1">
+				<li>
+					<div>
+						<span><?php echo $i++; ?>、</span>{$v1.question}
+					</div>
+					<div>
+						<?php
+							$select = explode('|',$v1['select']);
+							for($j=0;$j<count($select);$j++){
+								$k=$j+1;
+								if($k == $v1['answer']){
+									echo "<input type='radio' checked='checked' name='$v1[id]' value='$k'>".$select[$j]."<br/>";
+								}
+								else{
+									echo "<input type='radio' name='$v1[id]' value='$k'>".$select[$j]."<br/>";
+								}
+							}
+						?>
+					</div>
+
+				</li>
+			</foreach>
+		</ul>
+
+		<div>二、判断题</div>
+		<ul>
+			<foreach name="list2" item="v2">
+				<li>
+					<div>
+						<span><?php echo $i++; ?>、</span>{$v2.question}
+					</div>
+					<div>
+						<if condition="$v2.answer == 1">
+							<input type="radio" checked="checked" name="{$v2.id}" value="1">对
+							<span>&nbsp;&nbsp;</span>
+							<input type="radio" name="{$v2.id}" value="0">错
+						<else />
+							<input type="radio" name="{$v2.id}" value="1">对
+							<span>&nbsp;&nbsp;</span>
+							<input type="radio" checked="checked" name="{$v2.id}" value="0">错
+						</if>
+					</div>
+
+				</li>
+			</foreach>
+		</ul>
+
+		<div>三、多选题</div>
+		<ul>
+			<foreach name="list5" item="v5">
+				<li>
+					<div>
+						<span><?php echo $i++; ?>、</span>{$v5.question}
+					</div>
+					<div>
+						<?php
+							$select = explode('|',$v5['select']);
+							$answer = explode('|',$v5['answer']);
+							for ($j = 0; $j < count($select); $j++) {
+								$k = $j + 1;
+								$a = 0;
+								for ($z=0; $z < count($answer); $z++) {
+									if($k == $answer[$z]) {
+										echo "<input type='checkbox' checked='checked' name='$v5[id]' value='$k'>".$select[$j]."<br/>";
+										$a = 1;
+										break;
+									}
+								}
+								if($a == 0){
+									echo "<input type='checkbox' name='$v5[id]' value='$k'>".$select[$j]."<br/>";
+								}
+							}
+						?>
+					</div>
+
+				</li>
+			</foreach>
+		</ul>
+
+		<div>三、简答题</div>
+		<ul>
+			<foreach name="list3" item="v3">
+				<li>
+					<div>
+						<span><?php echo $i++; ?>、</span>{$v3.question}
+					</div>
+					<div>
+						<textarea name="{$v3.id}">{$v3.answer}</textarea>
+					</div>
+
+				</li>
+			</foreach>
+		</ul>
+
+	</div>
+</block>
+<block name="script">
+<script type="text/javascript">
+
+</script>
+</block>
+</extend>

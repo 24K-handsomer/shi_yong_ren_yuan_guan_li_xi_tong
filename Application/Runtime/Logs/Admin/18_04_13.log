@@ -1,0 +1,52 @@
+[ 2018-04-13T13:05:19+08:00 ] 58.59.0.246 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: UPDATE `user` SET `proknowledge`='19,0' WHERE ( uid='126' ) [ RunTime:0.0065s ]
+
+[ 2018-04-13T13:05:28+08:00 ] 58.59.0.246 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: UPDATE `user` SET `proknowledge`='19,0' WHERE ( uid='126' ) [ RunTime:0.0079s ]
+
+[ 2018-04-13T13:05:45+08:00 ] 58.59.0.246 /index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: UPDATE `user` SET `proknowledge`='19' WHERE ( uid='126' ) [ RunTime:0.0074s ]
+
+[ 2018-04-13T13:07:18+08:00 ] 58.59.0.246 /index.php/Admin/Test/upload
+ERR: 1048:Column 'answer' cannot be null
+ [ SQL语句 ] : INSERT INTO `question` (`filetype`,`type`,`group`,`question`,`answer`) VALUES ('2','3','12','1.过敏的发病原因（内因及外因）',NULL)
+
+[ 2018-04-13T13:07:20+08:00 ] 58.59.0.246 /index.php/Admin/Test/upload
+ERR: 1048:Column 'answer' cannot be null
+ [ SQL语句 ] : INSERT INTO `question` (`filetype`,`type`,`group`,`question`,`answer`) VALUES ('2','3','12','1.过敏的发病原因（内因及外因）',NULL)
+
+[ 2018-04-13T13:07:21+08:00 ] 58.59.0.246 /index.php/Admin/Test/upload
+ERR: 1048:Column 'answer' cannot be null
+ [ SQL语句 ] : INSERT INTO `question` (`filetype`,`type`,`group`,`question`,`answer`) VALUES ('2','3','12','1.过敏的发病原因（内因及外因）',NULL)
+
+[ 2018-04-13T13:07:22+08:00 ] 58.59.0.246 /index.php/Admin/Test/upload
+ERR: 1048:Column 'answer' cannot be null
+ [ SQL语句 ] : INSERT INTO `question` (`filetype`,`type`,`group`,`question`,`answer`) VALUES ('2','3','12','1.过敏的发病原因（内因及外因）',NULL)
+
+[ 2018-04-13T13:07:22+08:00 ] 58.59.0.246 /index.php/Admin/Test/upload
+ERR: 1048:Column 'answer' cannot be null
+ [ SQL语句 ] : INSERT INTO `question` (`filetype`,`type`,`group`,`question`,`answer`) VALUES ('2','3','12','1.过敏的发病原因（内因及外因）',NULL)
+
+[ 2018-04-13T13:07:22+08:00 ] 58.59.0.246 /index.php/Admin/Test/upload
+ERR: 1048:Column 'answer' cannot be null
+ [ SQL语句 ] : INSERT INTO `question` (`filetype`,`type`,`group`,`question`,`answer`) VALUES ('2','3','12','1.过敏的发病原因（内因及外因）',NULL)
+
+[ 2018-04-13T14:20:36+08:00 ] 58.59.0.246 /index.php/Admin/Person/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: UPDATE `user` SET `status`='0' WHERE ( uid='128' ) [ RunTime:0.0064s ]
+

@@ -1,0 +1,122 @@
+[ 2017-04-26T10:08:44+08:00 ] ::1 /tp3.2.3/index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' D:\phpStudy\WWW\tp3.2.3\Application\Kefu\Controller\ComsysController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0010s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('3','星期一n') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0010s ]
+SQL: INSERT INTO `grade` (`uname`,`filetype`,`pname`,`grade1`,`grade2`) VALUES ('0','1','公司制度17-4-20','2','1') [ RunTime:0.0000s ]
+
+[ 2017-04-26T10:18:28+08:00 ] ::1 /tp3.2.3/index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' D:\phpStudy\WWW\tp3.2.3\Application\Kefu\Controller\ComsysController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: val00 D:\phpStudy\WWW\tp3.2.3\Application\Kefu\Controller\ComsysController.class.php 第 126 行.
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('3',NULL) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0010s ]
+SQL: INSERT INTO `grade` (`uname`,`filetype`,`pname`,`grade1`,`grade2`) VALUES ('0','1','公司制度17-4-20','0','2') [ RunTime:0.0000s ]
+
+[ 2017-04-26T10:24:38+08:00 ] ::1 /tp3.2.3/index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' D:\phpStudy\WWW\tp3.2.3\Application\Kefu\Controller\ComsysController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: val00 D:\phpStudy\WWW\tp3.2.3\Application\Kefu\Controller\ComsysController.class.php 第 126 行.
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('3',NULL) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0010s ]
+SQL: INSERT INTO `grade` (`uname`,`filetype`,`pname`,`grade1`,`grade2`,`grade`) VALUES ('0','1','公司制度17-4-20','3','3','3') [ RunTime:0.0010s ]
+
+[ 2017-04-26T10:33:39+08:00 ] ::1 /tp3.2.3/index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' D:\phpStudy\WWW\tp3.2.3\Application\Kefu\Controller\ComsysController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: val00 D:\phpStudy\WWW\tp3.2.3\Application\Kefu\Controller\ComsysController.class.php 第 126 行.
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('3',NULL) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0010s ]
+SQL: INSERT INTO `grade` (`uname`,`filetype`,`pname`,`grade1`,`grade2`,`grade`) VALUES ('0','1','公司制度17-4-20','3','4','3') [ RunTime:0.0000s ]
+
+[ 2017-04-26T10:35:52+08:00 ] ::1 /tp3.2.3/index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' D:\phpStudy\WWW\tp3.2.3\Application\Kefu\Controller\ComsysController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: val00 D:\phpStudy\WWW\tp3.2.3\Application\Kefu\Controller\ComsysController.class.php 第 126 行.
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('3',NULL) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0010s ]
+SQL: INSERT INTO `grade` (`uname`,`filetype`,`pname`,`grade1`,`grade2`,`grade`) VALUES ('0','1','公司制度17-4-20','3','5','3') [ RunTime:0.0000s ]
+
+[ 2017-04-26T10:36:35+08:00 ] ::1 /tp3.2.3/index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' D:\phpStudy\WWW\tp3.2.3\Application\Kefu\Controller\ComsysController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0010s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('3','10:35 111 测试') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0010s ]
+SQL: INSERT INTO `grade` (`uname`,`filetype`,`pname`,`grade1`,`grade2`,`grade`) VALUES ('0','1','公司制度17-4-20','3','6','3') [ RunTime:0.0000s ]
+
+[ 2017-04-26T10:47:05+08:00 ] ::1 /tp3.2.3/index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' D:\phpStudy\WWW\tp3.2.3\Application\Kefu\Controller\ComsysController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0010s ]
+SQL: INSERT INTO `grade` (`uname`,`filetype`,`pname`,`grade1`,`grade2`,`grade`) VALUES ('0','1','制度4-20','1','0','1') [ RunTime:0.0000s ]
+
+[ 2017-04-26T10:55:08+08:00 ] ::1 /tp3.2.3/index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' D:\phpStudy\WWW\tp3.2.3\Application\Kefu\Controller\ComsysController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0010s ]
+SQL: INSERT INTO `grade` (`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('0','1','制度4-20','1','0','1','1') [ RunTime:0.0010s ]
+
+[ 2017-04-26T10:58:46+08:00 ] ::1 /tp3.2.3/index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' D:\phpStudy\WWW\tp3.2.3\Application\Kefu\Controller\ComsysController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0010s ]
+SQL: INSERT INTO `grade` (`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('0','1','制度4-20','1','0','1','1') [ RunTime:0.0000s ]
+
+[ 2017-04-26T11:39:20+08:00 ] ::1 /tp3.2.3/index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' D:\phpStudy\WWW\tp3.2.3\Application\Kefu\Controller\ComsysController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0010s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('3','婴儿宝') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0010s ]
+SQL: INSERT INTO `grade` (`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('0','1','公司制度培训测试2017-4-8','3','7','0','3') [ RunTime:0.0010s ]
+
+[ 2017-04-26T11:45:11+08:00 ] ::1 /tp3.2.3/index.php/Kefu/Proknowledge/paperstart?id=2
+ERR: 非法操作:paperstart
+
+[ 2017-04-26T11:51:26+08:00 ] ::1 /tp3.2.3/index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' D:\phpStudy\WWW\tp3.2.3\Application\Kefu\Controller\ProknowledgeController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0010s ]
+SQL: INSERT INTO `grade` (`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('吴邪','2','测试卷','2','0','1','2') [ RunTime:0.0000s ]
+
+[ 2017-04-26T12:02:12+08:00 ] ::1 /tp3.2.3/index.php/Kefu/Sellskills/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' D:\phpStudy\WWW\tp3.2.3\Application\Kefu\Controller\SellskillsController.class.php 第 119 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0010s ]
+SQL: INSERT INTO `grade` (`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('吴邪','3','销售技巧4-20','1','0','1','1') [ RunTime:0.0000s ]
+

@@ -1,0 +1,7 @@
+[ 2017-04-27T13:55:53+08:00 ] ::1 /tp3.2.3/index.php/Admin/Person/id=2
+ERR: 非法操作:id=2
+
+[ 2017-04-27T15:35:54+08:00 ] ::1 /tp3.2.3/index.php/Admin/Person/task?id=2
+ERR: 1054:Unknown column '14task' in 'field list'
+ [ SQL语句 ] : SELECT `uid`,`uname`,`task7`,`14task`,`21task`,`task30` FROM `user` WHERE ( uid = 2 ) LIMIT 1  
+

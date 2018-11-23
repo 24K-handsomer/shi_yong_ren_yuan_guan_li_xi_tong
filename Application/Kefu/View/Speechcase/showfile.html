@@ -1,0 +1,27 @@
+<extend name="Public/base"/>
+<block name="style">
+	<link rel="stylesheet" type="text/css" href="__CSS__/showfile.css">
+</block>
+<block name="nav">
+	<span>{$showfile.title}</span>
+</block>
+<block name="body">
+	<div id="title">{$showfile.title}</div>
+	<div id="row">
+		<span>{$showfile.author}</span>
+		&nbsp;&nbsp;&nbsp;&nbsp;
+		<span>{$showfile.createtime}</span>
+	</div>
+	<div id="content">
+	{$showfile.content}
+	</div>
+	<div id="sub">
+		<a href="__CONTROLLER__/index">返回目录</a>
+	</div>
+</block>
+<block name="script">
+<script type="text/javascript">
+ 
+</script>
+</block>
+</extend>

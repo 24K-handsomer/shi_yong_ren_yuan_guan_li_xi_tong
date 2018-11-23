@@ -1,0 +1,4 @@
+[ 2017-05-11T17:09:47+08:00 ] 58.56.25.158 /index.php/Admin/Test/upload
+ERR: 1048:Column 'answer' cannot be null
+ [ SQL语句 ] : INSERT INTO `question` (`filetype`,`type`,`group`,`question`,`selectnumber`,`select`,`answer`) VALUES ('1','1','1','女员工怀孕期间正常产检时间计入工作时间，怀孕3个月以上女员工每月产检频率为1次，临产前两个月为2-3次，每次产检时间不得超过__天','4','0.5|1|1.5|2',NULL)
+

@@ -1,0 +1,30 @@
+[ 2018-05-04T13:26:32+08:00 ] 58.56.25.158 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 146 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0241s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('118','1.结节性痘痘2.丘疹性痘痘3.囊肿型痘痘4.脓包型痘痘5.聚合性痘痘') [ RunTime:0.0480s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('119','1级（轻度），除粉刺外，少量的丘疹和脓包，病灶数少于30个
+2级（中度），除粉刺外，中量的丘疹和脓包，病灶数31-50个
+3级（中度），除粉刺外，大量的丘疹和脓包，偶尔有炎性皮损，病灶数51-100个，结节数少于三个
+4级（重度），除粉刺外，伴有囊肿、脓包、聚合性痘痘，病灶数100个以上，结节数大约三个') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('120','1.构成不同，粉刺是由油脂跟皮脂组成；痘痘是由死去的病菌和人体的分泌物组成
+2.发生的频率不同，粉刺的发生率很高，一般每个人得过；痘痘的发生率不高，一般在内分泌失调紊乱，心情不好不重视粉刺的时候，会突然冒出来
+3.产生的原因不同，粉刺一般是清洁不当，遗传，环境等因素引起的；痘痘是当内分泌紊乱，油脂分泌不畅引起的慢性炎症
+4.表现形式不同，粉刺一般表现为白头粉刺和黑头粉刺；痘痘表现为，囊肿、脓包、聚合性痘痘') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('122','定义：人体内分泌紊乱，毛囊内被角质细胞堵塞，角化物跟皮脂充塞其中，与外界不相通，毛囊内毒素代谢不出，从而形成闭合性粉刺') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('146','可以将 产品的主要成分的作用，价值跟客户说明；产品已经上市10年了，是经过了市场的考验有效果才能畅销的，里面的成分都是吸取的精华，用多少天可以保证什么样的效果，效果跟价格是成正比的') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('147','公司的工作氛围轻松愉悦，同事相处融洽，以后再实际工作中，会积极参与同事之间问题的讨论，相互帮助') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('148','1.囊肿型痘痘   2.脓包型痘痘') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('151','1.1100  2.1800  3.4500  4.1500 ') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('152','委托方：济南乐艾生物技术有限公司
+被委托方：天津美之路化妆品有限公司
+净含量：一盒10片，每片25mg') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('153','机理：里面的EGF寡肽-1可以促进细胞增殖分化，修复受损皮肤，牛奶氨基酸、甘草类黄酮等精华提取物可以增强细胞活性，加速细胞新陈代谢，从而去除红黑痘印') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0006s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('13','任超','2','痘痘国内组新员工考核','0','1969,1970,1971,1972,1973,1974,1975,1976,1977,1978','0','0') [ RunTime:0.0002s ]
+

@@ -1,0 +1,11 @@
+[ 2018-04-15T13:21:10+08:00 ] 58.59.0.246 /index.php/Home/Index/isexam
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Home/Controller/IndexController.class.php 第 148 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: UPDATE `user` SET `isexam`='1' WHERE ( uid = 130 ) [ RunTime:0.0069s ]
+
+[ 2018-04-15T15:32:23+08:00 ] 47.96.249.20 /index.php/explicit_not_exist_path
+ERR: 无法加载控制器:Explicit_not_exist_path
+

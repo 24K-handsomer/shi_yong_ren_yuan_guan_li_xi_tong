@@ -1,0 +1,22 @@
+[ 2017-09-06T16:55:25+08:00 ] 58.59.25.134 /index.php/NotKefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/NotKefu/Controller/ComsysController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0009s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('61','能够出色的完成自己的本职工作，希望在工作岗位上不断学习，通过自己的怒路，提升自己的专业技能及综合素质，成为乐艾一名优秀的员工，成为一名优秀资深的设计师。') [ RunTime:0.0099s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('62','积极，认真工作，不断学习，配合好各个部门的工作，促进并与公司共同发展。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('63','乐艾的愿景是做最好的产品，为健康护航。具有人文关怀，以人为本，希望让更多的人快乐，更多的人健康，与员工共同发展。具有团结、高效、诚信、激情的价值观，给人以快乐向上健康的氛围。让大家拥有一个温馨快乐的工作环境。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('64','印章使用申请表') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('65','加班通知单      调休') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('73','1%    ') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('75','乐艾生物技术有限公司   张艳丽') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('112','公出单') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('113','2天       3天') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('114','10%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('115','7天            200      300     600   800   1200') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('116','一个月') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('117','10%') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0006s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('16','吴振振','1','试题一','19','119,120,121,122,123,124,125,126,127,128,129,130,131','0','19') [ RunTime:0.0002s ]
+

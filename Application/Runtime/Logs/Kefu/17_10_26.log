@@ -1,0 +1,41 @@
+[ 2017-10-26T11:50:35+08:00 ] 58.59.0.246 /index.php/Kefu/Growth/
+ERR: 非法操作:index
+
+[ 2017-10-26T14:05:05+08:00 ] 58.59.0.246 /index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ComsysController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0129s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('61','答：我的五年职业生涯规划：首先是服务好每一个客户，了解客户真正的需求。其次希望通过自己的努力，来提升个人业绩。多向同事学习，找出他们的优点，同时改变自己的缺点。每个月给自己制定一个目标，向着制定的目标值去努力，我相信一份付出一份回报。我希望通过自己不懈的努力，能给家人带来更好的生活。') [ RunTime:0.0053s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('62','答：我认为乐艾需要我：坚持不懈的服务好每一个客户，真心实意的为客户解决问题，为每一个客户的健康负责。通过公司的宗旨让更多的人健康，让更多的人快乐。工作中努力，不懈怠，认真做好自己分内的事情，和同事之间做好团结和谐，不产生负面情绪，不消极对待问题，遇到事情沉着冷静、积极应对。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('63','答：公司的愿景：做全球最好的产品，为健康护航。
+核心价值观：诚信、高效、团结、激情
+发展宗旨：让更多的人健康，让更多的人快乐，以人为本，与员工共发展。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('64','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('65','答：填写《加班申请单》 
+加班可以选择调休或加班费') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('73','答：2%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('75','答：济南乐艾生物技术有限公司
+公司总经理为张丽洁') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('112','答：应先填写《公出单》。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('113','答：请假1-2天，需提前2天申请
+请假2天以上，需提前3天申请') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('114','答：200元') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('115','答：入职满7天
+普通员工200、主管300、经理级600、总监级800、总经理级2000') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('116','答：30天') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('117','答：10%') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('14','赵芮','1','试题一','36','957,958,959,960,961,962,963,964,965,966,967,968,969','0','36') [ RunTime:0.0001s ]
+
+[ 2017-10-26T15:01:53+08:00 ] 39.64.16.54 /index.php/Kefu/Growth/gradelist'%20or%201=%201
+ERR: 非法操作:gradelist' or 1= 1
+
+[ 2017-10-26T15:01:57+08:00 ] 39.64.16.54 /index.php/Kefu/Growth/gradelist'%20or%201=%201
+ERR: 非法操作:gradelist' or 1= 1
+
+[ 2017-10-26T15:04:31+08:00 ] 39.64.16.54 /index.php/Kefu/Comsys/showfile?id=%27%20or%20%271%27%20=%20%271%27
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''1'' ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id`,`title`,`author`,`filetype`,`content`,`createtime` FROM `file` WHERE ( id='' or '1' = '1'' ) LIMIT 1  
+

@@ -1,0 +1,77 @@
+<extend name="Public/base"/>
+<block name="style">
+	<link rel="stylesheet" type="text/css" href="__CSS__/showfile.css">
+</block>
+<block name="nav">
+	<span>{$showfile.title}</span>
+</block>
+<block name="body">
+	<div id="title">{$showfile.title}</div>
+	<div id="row">
+		<span>{$showfile.author}</span>
+		&nbsp;&nbsp;&nbsp;&nbsp;
+		<span>{$showfile.createtime}</span>
+	</div>
+	<div id="content">
+	{$showfile.content}
+	</div>
+	<div id="page" style="text-align: center;"></div>
+	<div id="sub">
+		<a href="__CONTROLLER__/filelist">返回目录</a>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="__CONTROLLER__/updatefile?id={$showfile.id}">编辑修改</a>
+	</div>
+</block>
+<block name="script">
+<script type="text/javascript">  
+    var pageCount = 1;//总页数  
+    var regExp = /_ueditor_page_break_tag_/;//根据某处字符来分页  
+    var regExp1 = "<hr>";//根据某处字符来分页
+    var saveContent;//用于保存分页数据  
+    var content, pageList;//保存全局ID  
+    
+    $(document).ready(function(){  
+        UeInitialize("#content","#page");  
+    });  
+    UeInitialize = function (id,page) {  
+        var cTxt = $(id).html();  
+        content = $(id);  
+        pageList = $(page);  
+        console.log(content);
+        if (cTxt !=null) {  
+          
+            saveContent = cTxt.split(regExp1);
+            pageCount = saveContent.length;  
+        }
+        if (cTxt != null && regExp.test(cTxt)) {  
+            saveContent = cTxt.split(regExp);   
+            pageCount = saveContent.length;  
+        }
+        window.UePageContent(1);  
+    };  
+      
+    UePageContent = function (pageIndex) {  
+    if (pageIndex >= 1 && pageIndex <= pageCount && saveContent != null && saveContent.length >= 0) {  
+        var pageHtml = pageList;  
+        if ((parseInt(pageIndex) - 1) <= saveContent.length) {  
+            content.html(saveContent[parseInt(pageIndex) - 1]);  
+        }  
+  
+        pageHtml.html("");  
+        var innHtml = "页数：" + pageIndex + "/" + pageCount;  
+        innHtml += "&nbsp;&nbsp;<a target='_self' href='javascript:UePageContent(1)'>首页</a>";  
+        if (pageIndex > 1) {  
+            innHtml += "&nbsp;&nbsp;<a target='_self' href='javascript:UePageContent(" + (parseInt(pageIndex) - 1) + ")'>上一页</a>";  
+        }  
+        if (pageIndex < pageCount) {  
+            innHtml += "&nbsp;&nbsp;<a target='_self' href='javascript:UePageContent(" + (parseInt(pageIndex) + 1) + ")'>下一页</a>";  
+        }  
+        innHtml += "&nbsp;&nbsp;<a target='_self' href='javascript:UePageContent(" + pageCount + ")'>末页</a>";  
+        pageHtml.html(innHtml);  
+        $('html, body').animate({scrollTop:0}, 10);
+    }  
+}  
+
+</script>
+</block>
+</extend>

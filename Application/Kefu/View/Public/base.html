@@ -1,0 +1,241 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>客服系统管理平台</title>
+    <block name="style-top"></block>
+    <!-- <link href="__ROOT__/Public/favicon.ico" type="image/x-icon" rel="shortcut icon"> -->
+    <link rel="stylesheet" type="text/css" href="__CSS__/base.css" media="all">
+    <!-- <link rel="stylesheet" type="text/css" href="__CSS__/common.css" media="all"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="__CSS__/module.css"> -->
+    <link rel="stylesheet" type="text/css" href="__CSS__/style.css" media="all">
+    <script type="text/javascript" src="__JS__/jquery-2.0.2.min.js"></script>
+    <block name="style"></block>
+    <!--<![endif]-->
+    
+</head>
+<body>
+    <!-- 头部 -->
+    <div class="header">
+        <!-- Logo -->
+        <span class="logo">实习客服</span>
+        <!-- /Logo -->
+
+        <!-- 主导航 -->
+        <ul class="main-nav">
+            <li><a href="">页面1</a></li>
+            <li><a href="">页面2</a></li>
+            <li><a href="">页面3</a></li>
+            <li><a href="">页面4</a></li>
+            <li><a href="">页面5</a></li>
+        </ul>
+        <!-- /主导航 -->
+
+        <!-- 用户栏 -->
+        <div class="user-bar">
+            <a href="javascript:;" class="user-entrance"><i class="icon-user"></i></a>
+            <ul class="nav-list user-menu hidden">
+                
+                <li class="manager">你好，<em title=""><?php echo session("uname"); ?></em></li>
+                <li><a href="">修改密码</a></li>
+                <li><a href="">修改昵称</a></li>
+                <li><a href="__APP__/Home/Index/logout">退出</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- /头部 -->
+
+    <!-- 边栏 -->
+    <div class="sidebar">
+        <!-- 子导航 -->
+        <block name="sidebar">
+            <div id="subnav" class="subnav">
+                
+                <h3><i class="icon icon-unfold"></i>公司制度</h3>
+                <ul class="side-sub-menu">
+                    <li>
+                        <a class="item" href="__MODULE__/Comsys/index" >公司制度培训资料</a>
+                    </li>
+                    <if condition="session('test1') != 0 ">
+                        <li>
+                            <a class="item" href="__MODULE__/Comsys/paperlist" >公司制度培训测试</a>
+                        </li>
+                    </if>
+                </ul>
+                
+                <if condition="session('proknowledge') != 0 or session('test2') != 0">
+                <h3><i class="icon icon-unfold"></i>产品知识</h3>
+                <ul class="side-sub-menu">
+                    <if condition="session('proknowledge') != 0 ">
+                        <li>
+                            <a class="item" href="__MODULE__/Proknowledge/index" >产品知识培训资料</a>
+                        </li>
+                    </if>
+                    <if condition="session('test2') != 0 ">
+                        <li>
+                            <a class="item" href="__MODULE__/Proknowledge/paperlist" >产品知识培训测试</a>
+                        </li>
+                    </if>
+                </ul>
+                </if>
+                
+                <if condition="session('sellskills') != 0 or session('test3') != 0">
+                <h3><i class="icon icon-unfold"></i>销售技巧</h3>
+                <ul class="side-sub-menu">
+                    <if condition="session('sellskills') != 0 ">
+                        <li>
+                            <a class="item" href="__MODULE__/Sellskills/index" >销售技巧培训资料</a>
+                        </li>
+                    </if>
+                    <if condition="session('test3') != 0 ">
+                        <li>
+                            <a class="item" href="__MODULE__/Sellskills/paperlist" >销售技巧培训测试</a>
+                        </li>
+                    </if>
+                </ul>
+                </if>
+
+                <if condition="session('speechcase') != 0 or session('practice') == 1">
+                <h3><i class="icon icon-unfold"></i>话术案例</h3>
+                <ul class="side-sub-menu">
+                    <if condition="session('speechcase') != 0">
+                        <li>
+                            <a class="item" href="__MODULE__/Speechcase/index" >话术案例培训资料</a>
+                        </li>
+                    </if>
+                    <if condition="session('practice') == 1">
+                        <li>
+                            <a class="item" href="__MODULE__/Speechcase/talking" >话术对练</a>
+                        </li>
+                    </if>
+                </ul>
+                </if>
+
+                <if condition="session('friend') != 0">
+                <h3><i class="icon icon-unfold"></i>朋友圈展示</h3>
+                <ul class="side-sub-menu">
+                    <li>
+                        <a class="item" href="__MODULE__/Friend/index" >朋友圈展示资料</a>
+                    </li>
+                </ul>
+                </if>
+
+                <h3><i class="icon icon-unfold"></i>成长任务</h3>
+                <ul class="side-sub-menu">
+                        <li>
+                            <a class="item" href="__MODULE__/Growth/gradelist" >成绩列表</a>
+                        </li>
+                    <if condition="session('task7') != 0" >
+                        <li>
+                            <a class="item" href="__MODULE__/Growth/orderlist" >订单列表</a>
+                        </li>
+                    </if>
+                </ul>
+                
+            </div>
+        </block>
+        <!-- /子导航 -->
+    </div>
+    <!-- /边栏 -->
+
+    <!-- 内容区 -->
+    <div id="main-content">
+        <!-- <div id="top-alert" class="fixed alert alert-error" style="display: none;">
+            <button class="close fixed" style="margin-top: 4px;">&times;</button>
+            <div class="alert-content">这是内容</div>
+        </div> -->
+        <div id="main" class="main">
+            
+            <div class="breadcrumb">
+                <span>您的位置:</span>
+                <block name="nav">
+                <span>{$v}</span>
+                <span><a href="{$k}">{$v}</a>&gt;</span>
+                </block>
+                
+            </div>
+            
+            <block name="body"> </block>
+        </div>
+        <div class="cont-ft">
+            <div class="copyright">
+                <div class="fl">艾乐生物客服训练培训系统</div>
+                <div class="fr">V1.0.170408</div>
+            </div>
+        </div>
+    </div>
+    <!-- /内容区 -->
+
+</body>
+<script type="text/javascript">
++function(){
+    var $window = $(window), $subnav = $("#subnav"), url;
+    $window.resize(function(){
+        $("#main").css("min-height", $window.height() - 130);
+    }).resize();
+
+    /* 左边菜单高亮 */
+    url = window.location.pathname + window.location.search;
+    url = url.replace(/(\/(p)\/\d+)|(&p=\d+)|(\/(id)\/\d+)|(&id=\d+)|(\/(group)\/\d+)|(&group=\d+)/, "");
+    $subnav.find("a[href='" + url + "']").parent().addClass("current");
+
+    /* 左边菜单显示收起 */
+    $("#subnav").on("click", "h3", function(){
+        var $this = $(this);
+        $this.find(".icon").toggleClass("icon-fold");
+        $this.next().slideToggle("fast").siblings(".side-sub-menu:visible").
+              prev("h3").find("i").addClass("icon-fold").end().end().hide();
+    });
+
+    $("#subnav h3 a").click(function(e){e.stopPropagation()});
+
+    /* 头部管理员菜单 */
+    $(".user-bar").mouseenter(function(){
+        var userMenu = $(this).children(".user-menu ");
+        userMenu.removeClass("hidden");
+        clearTimeout(userMenu.data("timeout"));
+    }).mouseleave(function(){
+        var userMenu = $(this).children(".user-menu");
+        userMenu.data("timeout") && clearTimeout(userMenu.data("timeout"));
+        userMenu.data("timeout", setTimeout(function(){userMenu.addClass("hidden")}, 100));
+    });
+
+    /* 表单获取焦点变色 */
+    $("form").on("focus", "input", function(){
+        $(this).addClass('focus');
+    }).on("blur","input",function(){
+                $(this).removeClass('focus');
+            });
+    $("form").on("focus", "textarea", function(){
+        $(this).closest('label').addClass('focus');
+    }).on("blur","textarea",function(){
+        $(this).closest('label').removeClass('focus');
+    });
+
+    // 导航栏超出窗口高度后的模拟滚动条
+    var sHeight = $(".sidebar").height();
+    var subHeight  = $(".subnav").height();
+    var diff = subHeight - sHeight; //250
+    var sub = $(".subnav");
+    if(diff > 0){
+        $(window).mousewheel(function(event, delta){
+            if(delta>0){
+                if(parseInt(sub.css('marginTop'))>-10){
+                    sub.css('marginTop','0px');
+                }else{
+                    sub.css('marginTop','+='+10);
+                }
+            }else{
+                if(parseInt(sub.css('marginTop'))<'-'+(diff-10)){
+                    sub.css('marginTop','-'+(diff-10));
+                }else{
+                    sub.css('marginTop','-='+10);
+                }
+            }
+        });
+    }
+}();
+</script>
+<block name="script"></block>
+</html>

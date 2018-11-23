@@ -1,0 +1,16 @@
+[ 2017-04-15T11:31:57+08:00 ] ::1 /tp3.2.3/index.php/Admin/Test/upload
+ERR: 1048:Column 'filetype' cannot be null
+ [ SQL语句 ] : INSERT INTO `question` (`selectnumber`,`select`,`answer`,`filetype`,`type`) VALUES ('4','0','2',NULL,'1')
+
+[ 2017-04-15T11:34:17+08:00 ] ::1 /tp3.2.3/index.php/Admin/Test/upload
+ERR: 1048:Column 'filetype' cannot be null
+ [ SQL语句 ] : INSERT INTO `question` (`filetype`,`type`,`question`,`selectnumber`,`select`,`answer`) VALUES (NULL,'1',NULL,'4','0','2')
+
+[ 2017-04-15T11:35:53+08:00 ] ::1 /tp3.2.3/index.php/Admin/Test/upload
+ERR: 1048:Column 'question' cannot be null
+ [ SQL语句 ] : INSERT INTO `question` (`filetype`,`type`,`question`,`selectnumber`,`select`,`answer`) VALUES ('2','1',NULL,'4','0','2')
+
+[ 2017-04-15T11:37:53+08:00 ] ::1 /tp3.2.3/index.php/Admin/Test/upload
+ERR: 1048:Column 'question' cannot be null
+ [ SQL语句 ] : INSERT INTO `question` (`filetype`,`type`,`question`,`selectnumber`,`select`,`answer`) VALUES ('2','1',NULL,'4','0','2')
+

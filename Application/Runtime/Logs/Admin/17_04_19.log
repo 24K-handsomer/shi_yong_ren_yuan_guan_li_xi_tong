@@ -1,0 +1,14 @@
+[ 2017-04-19T18:16:05+08:00 ] ::1 /tp3.2.3/index.php/Admin/Paper/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `paper` [ RunTime:0.0010s ]
+SQL: UPDATE `paper` SET `status`='0' WHERE ( pid='1' ) [ RunTime:0.0040s ]
+
+[ 2017-04-19T18:16:38+08:00 ] ::1 /tp3.2.3/index.php/Admin/Paper/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `paper` [ RunTime:0.0010s ]
+SQL: UPDATE `paper` SET `status`='1' WHERE ( pid='1' ) [ RunTime:0.0000s ]
+

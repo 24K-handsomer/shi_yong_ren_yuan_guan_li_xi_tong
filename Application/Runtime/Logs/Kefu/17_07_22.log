@@ -1,0 +1,10 @@
+[ 2017-07-22T11:09:01+08:00 ] 58.56.25.158 /index.php/Kefu/Growth/gradelist
+ERR: 1054:Unknown column 'uid' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `grade` WHERE ( uid = '5' ) LIMIT 1  
+
+[ 2017-07-22T11:36:19+08:00 ] 58.56.25.158 /index.php/Kefu/Comsys/index.html
+ERR: _STORAGE_WRITE_ERROR_:./Application/Runtime/Cache/Kefu/6691cff52951317df210047d70b97412.php
+
+[ 2017-07-22T11:52:03+08:00 ] 58.56.25.158 /index.php/Kefu/Comsys/index.html
+ERR: _STORAGE_WRITE_ERROR_:./Application/Runtime/Cache/Kefu/6691cff52951317df210047d70b97412.php
+

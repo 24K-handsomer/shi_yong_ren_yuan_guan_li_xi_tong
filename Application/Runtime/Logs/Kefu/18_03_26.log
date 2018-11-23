@@ -1,0 +1,56 @@
+[ 2018-03-26T14:10:11+08:00 ] 58.56.25.158 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 117 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0313s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('154','首购：6瓶： 2700 4瓶：2000 2瓶：1200 12瓶：5000 10瓶:4200 8瓶：3400
+复购：6瓶： 2550 4瓶：1900 2瓶：1100 12瓶：4700 10瓶:3900 8瓶：3200 ') [ RunTime:0.0646s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('155','内分泌失常是主要原因，主要是由于内分泌异常导致的肌肤固有免疫异常，毛细血管功能异常，皮脂腺异常活跃，从而使肌肤抗敏能力不足，毛细血管扩张，油脂分泌旺盛。在油脂分泌旺盛、肌肤抗敏能力差的基础上，由于长期外部刺激，使肌肤血管收缩功能失调，毛细血管长期扩张所致。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('156','红斑期，鼻部潮红，有大量黑头，毛细血管粗大，红血丝，油脂分泌旺盛，部分会持续瘙痒，位于颜面中部，鼻头、两颊、颏部、眉间等部位出现红斑，红斑期初为暂时性，在进食辛辣等刺激性食物时会出现灼热感，部分人会在鼻尖以两颊处出现毛细血管扩张现象，同时会有大量皮脂溢出。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('157',' 中药：作用慢，周期长。
+外用产品：各种护肤品；各种抗生素软膏、激素软膏等，很多外用产品是护肤美容或消炎杀菌，长期使用会产生抗体。 ') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('158','通过采用内服的方法，使肌肤的固有免疫，皮脂腺、毛细血管功能恢复正常，从而使肌肤在面对微生物和外部刺激时恢复正常，有效改善肌肤抗敏能力不足，毛细血管扩张，皮脂腺异常活跃的情况，从源头改善玫瑰痤疮，使皮肤问题不再反复。以纯天然草本植物精华搭配营养元素，不仅针对玫瑰痤疮能有效改善面部潮红，缓解毛细血管扩张，消除丘疹、脓胞等问题；而且含有的紫锥花、女贞果、洋菝葜等植物配方可以修复肌肤角质层，提高肌肤抗敏能力，使肌肤问题不再反复。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('159','注意事项:不要用手挤，不要吃辛辣、海鲜、甜食牛羊肉、油腻食物及豆制品，禁止嗜酒、吸烟、避免冷热刺激、高温日晒。
+') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('160','DH皮肤制剂有以下特点：1.高品质原料；2.国际领先技术；3.纯天然成分提取4.美国天然产品协会认证，美国食品与药品监督管理局，美国工厂质量环境认证；5.在美国获得了美国大量消费者以及皮肤专家的推测，期间荣获三项高科技专利。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('161','一天6片，早晚各3片，温水服用。
+1.14岁以下儿童减半；
+2.孕妇不建议食用，患有高低血压，心脏病等重大疾病者，不建议食用。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('162','内分泌紊乱主要表现在脸部及下巴经常冒痘，肌肤抗敏能力差，色斑、细纹、烦躁易怒胸闷、失眠多梦、月经不规律、便秘等。女性严重者影响怀孕。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('163',' 1.这种情况有多久了？2.平时吃辛辣刺激食物、海鲜、牛羊肉等食物吃得多吗？3.是否经常高温日晒？4.从事什么工作？5.有没有使用过其他产品？
+从饮食、工作、生活方面入手。') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0006s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('13','刘立新','2','酒糟鼻组新员工知识考核','0','1701,1702,1703,1704,1705,1706,1707,1708,1709,1710','0','0') [ RunTime:0.0002s ]
+
+[ 2018-03-26T15:54:17+08:00 ] 58.59.0.246 /index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 115 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ComsysController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0005s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('61','第一年：学习经验阶段，制定好每天的小目标，并努力达成。第二年：提升自我阶段，持续学习，当上小组长
+第三年：增加收入，每月收入要不能低于6k  第四年：力争当上主管，带小团队  第五年：把团队发展壮大，增加团队的战斗力') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('62','保持学习的心态，多学习老员工的工作经验。在工作中踏实勤奋，制定好工作目标，并努力去达成！') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('63','企业愿景：做全球最好的产品，为健康护航
+企业的核心价值观：团结、高效、诚信、激情
+企业的发展宗旨：让更多的人健康，让更多的人快乐。以人为本，与员工共发展。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('68','7；30') [ RunTime:0.0004s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('69','50') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('71','旷工') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('72','1%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('73','2%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('74','济南高新区三庆财富中心B2-6楼') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('75','济南乐艾生物科技有限公司   张丽洁') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('113','2；3') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('115','转正；200；300；600；800；2000') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('116','30') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0005s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('11','庄增昆','1','最新制度考试','34','1711,1712,1713,1714,1715,1716,1717,1718,1719,1720,1721,1722,1723','0','34') [ RunTime:0.0003s ]
+

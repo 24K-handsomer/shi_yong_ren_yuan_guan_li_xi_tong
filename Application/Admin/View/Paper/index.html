@@ -1,0 +1,101 @@
+<extend name="Public/base"/>
+<block name="style">
+	<link rel="stylesheet" type="text/css" href="__CSS__/filelist.css">
+	<!-- 试卷列表css引用 资料列表css -->  
+</block>
+<block name="nav">
+	<span>试卷列表</span>
+</block>
+<block name="body">
+	<div id="row">
+	<form name='MyForm' id='MyForm' method='GET' action="__CONTROLLER__/index" >
+        <span>试卷类型：</span>
+        <select name="fileid">
+            <foreach name="filetype" item="v" >
+                <option value ="{$v.fileid}">{$v.filename}</option>
+            </foreach>
+        </select>
+        <input type="submit" name="" value="搜索">
+    </form>
+    </div>
+
+	<table border="1" cellpadding="0" cellspacing="0">
+		<tr>
+			<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+			<td>试卷类型</td>
+			<td>试卷名</td>
+			<td>发布时间</td>
+			<td>操作</td>
+		</tr>
+
+		<?php $i=($p-1)*$limit+1; $j=0; ?>
+		<foreach name="list" item="v3">
+		<tr id="">
+			<td><?php echo $i++; ?></td>
+			<td>
+				<foreach name="filetype" item="v4">
+					<if condition="$v3.filetype == $v4['fileid']">
+						{$v4.filename}
+					</if>
+				</foreach>
+			</td>
+			<td>
+				{$v3.pname}
+			</td>
+			<td>{$v3.crtime}</td>
+			<td>
+				<a href="__CONTROLLER__/showpaper?id={$v3.pid}">查看</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+				<a href="">编辑</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+				<if condition="$v3.status == 1">
+				<input type="submit" class="status" name="status" xu="<?php echo ++$j ?>" ps="{$v3.pid}" status="{$v3.status}" value="禁用">
+				<else />
+				<input type="submit" class="status" name="status" xu="<?php echo ++$j ?>" ps="{$v3.pid}" status="{$v3.status}" value="启用">
+				</if>
+			</td>
+		</tr>
+		</foreach>
+
+	</table>
+	<div id="page">{$show}</div>
+</block>
+<block name="script">
+<script type="text/javascript">
+ $(function(){
+ 	$("input[name='status']").click(function(){
+ 		var st=$(this).attr("status");
+ 		var ps=$(this).attr("ps");
+ 		var xu=$(this).attr("xu")-1;
+ 		$.ajax({
+ 			url:"__CONTROLLER__/status",
+ 			data:{status:st,id:ps},
+ 			type:"POST",
+ 			dataType:"JSON",
+ 			success:function (data) {
+ 				//console.log(data);
+ 				var z=data['z'];
+ 				var sta=data['status'];
+ 				switch (z) {
+ 					case 0:
+ 						alert("未修改成功！");
+ 						break;
+ 					case 1:
+ 						if(sta == 1){
+ 							$("input[name='status']").eq(xu).attr("status",sta);
+ 							$("input[name='status']").eq(xu).val("禁用");
+ 						}
+ 						else{
+ 							$("input[name='status']").eq(xu).attr("status",sta);
+ 							$("input[name='status']").eq(xu).val("启用");
+ 						}
+ 						break;
+ 					default:
+ 						alert("抱歉，后台未接收到传出去的值");
+ 						break;
+ 				}
+ 			}
+ 		});
+ 	});
+ });
+</script>
+</block>
+</extend>

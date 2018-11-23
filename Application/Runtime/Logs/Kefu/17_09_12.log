@@ -1,0 +1,330 @@
+[ 2017-09-12T11:16:31+08:00 ] 106.120.161.68 /index.php/Kefu/Speechcase/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 4 and `group` =  ) LIMIT 1  
+
+[ 2017-09-12T11:16:32+08:00 ] 182.118.20.149 /index.php/Kefu/Speechcase/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 4 and `group` =  ) LIMIT 1  
+
+[ 2017-09-12T11:16:32+08:00 ] 182.118.20.146 /index.php/Kefu/Speechcase/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 4 and `group` =  ) LIMIT 1  
+
+[ 2017-09-12T11:17:10+08:00 ] 182.118.20.156 /index.php/Kefu/Speechcase/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 4 and `group` =  ) LIMIT 1  
+
+[ 2017-09-12T11:17:10+08:00 ] 171.13.14.146 /index.php/Kefu/Speechcase/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 4 and `group` =  ) LIMIT 1  
+
+[ 2017-09-12T11:17:22+08:00 ] 171.13.14.134 /index.php/Kefu/Speechcase/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 4 and `group` =  ) LIMIT 1  
+
+[ 2017-09-12T11:17:27+08:00 ] 171.13.14.134 /index.php/Kefu/Speechcase/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 4 and `group` =  ) LIMIT 1  
+
+[ 2017-09-12T11:21:20+08:00 ] 106.120.161.68 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-12T11:21:20+08:00 ] 182.118.20.146 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-12T11:21:20+08:00 ] 182.118.20.155 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-12T11:21:35+08:00 ] 101.199.112.50 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-12T11:21:40+08:00 ] 101.199.112.50 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-12T11:21:58+08:00 ] 182.118.20.146 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-12T11:21:58+08:00 ] 171.13.14.146 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-12T11:22:08+08:00 ] 171.13.14.151 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-12T11:22:17+08:00 ] 171.13.14.151 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-12T13:08:05+08:00 ] 106.120.160.109 /index.php/Kefu/Proknowledge/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-09-12T13:08:05+08:00 ] 171.13.14.145 /index.php/Kefu/Proknowledge/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-09-12T13:08:05+08:00 ] 171.13.14.149 /index.php/Kefu/Proknowledge/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-09-12T13:08:18+08:00 ] 220.181.132.194 /index.php/Kefu/Proknowledge/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-09-12T13:08:54+08:00 ] 171.13.14.145 /index.php/Kefu/Proknowledge/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-09-12T14:10:21+08:00 ] 106.120.160.109 /index.php/Kefu/Proknowledge/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-09-12T14:10:21+08:00 ] 171.13.14.146 /index.php/Kefu/Proknowledge/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-09-12T14:10:21+08:00 ] 171.13.14.146 /index.php/Kefu/Proknowledge/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-09-12T14:10:22+08:00 ] 106.120.160.109 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-12T14:10:22+08:00 ] 171.13.14.134 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-12T14:10:22+08:00 ] 171.13.14.149 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-12T14:10:36+08:00 ] 101.199.108.52 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-12T14:10:40+08:00 ] 220.181.132.194 /index.php/Kefu/Proknowledge/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-09-12T14:10:41+08:00 ] 171.13.14.146 /index.php/Kefu/Proknowledge/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-09-12T14:10:43+08:00 ] 171.13.14.146 /index.php/Kefu/Proknowledge/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-09-12T14:11:09+08:00 ] 171.13.14.149 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-12T14:11:16+08:00 ] 171.13.14.134 /index.php/Kefu/Proknowledge/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-09-12T14:11:42+08:00 ] 171.13.14.146 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-12T14:11:43+08:00 ] 171.13.14.146 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-12T14:13:19+08:00 ] 101.226.33.205 /index.php/Kefu/Proknowledge/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-09-12T14:19:29+08:00 ] 101.226.33.218 /index.php/Kefu/Proknowledge/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-09-12T15:09:14+08:00 ] 58.56.25.158 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0010s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('118','答：结节型痘痘、丘疹型痘痘、囊肿型痘痘、脓包型痘痘、聚合型痘痘。') [ RunTime:0.0004s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('119','答：1级轻度：粉刺为主，少量的丘疹和脓疱，总病灶数少于30个
+      2级中度：除粉刺外，中量的丘疹和脓包，总病灶数在31-50之间
+      3挤中度：除粉刺外，大量的丘疹和脓疱偶见大的炎性皮损，分布广泛，总病灶数在51-100之间，细节小于3 个
+      4级重度：结节性/囊肿型痤疮或聚合性痤疮，多数有疼痛，总病灶在100以上，结节/囊肿3个以上') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('120','答：委托方：济南乐艾生物技术有限公司
+      被委托方：天津美之路化妆品有限公司
+      净含量：20mg/片*10片') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('121','答：多酚提苏活力片（维护型）特含寡肽-1、牛奶氨基酸类、水解珍珠等提取物，富含多种营养精华促进皮肤新陈代谢，增强皮肤细胞活力和皮肤弹性，有利于皮肤细胞的修复再生，对痘印痘疤痘坑都有很好的修复作用，祛痘的同时能很好的祛印。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('122','答：闭合性粉刺也是青春痘的一种，也就是还在皮肤里没有“探出头”的粉刺。主要是由死掉的细菌和身体分泌物组成。多发于面部，为细小的皮下脂栓，形成米粒大小的半球形白色小包，质硬，无自觉症状。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('123','答：①1500  ②2880 ③1400 ④4500 ⑤2300 ⑥4200 ⑦5500 ⑧1800 ⑨3200') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('124','答：成分：锯棕榈提取物、黑醋栗籽油、黑醋栗花青素、番茄红素、锌等。
+      使用方法：一日3次，一次一粒，早中晚饭后半小时后服用。
+      禁忌：孕妇及哺乳期，15岁以下不适合使用。血压低，心脏病，大型手术等系统性疾病不能使用。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('125','答：目前没有收到无效的反馈，是全球顶级祛痘产品，连续畅销18年时间，进入我国5年时间已经调理好了很多和你一样的闭合性粉刺患者。比你严重的都调理恢复了，你也是没有问题的。
+DH钻石祛痘在美国已经连续畅销23年时间，美国公立医院83%皮肤科医生都在推荐使用。如果效果不好也不会进入中国的，比你严重的都调理过来了，你也是没有问题的。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('126','答：首先，对痘痘方面的产品知识有了一个初步认识，产品由美国进口，产品主要有多酚提苏祛痘型活力片、多酚提苏修复型活力片、多酚提苏面膜、安酷颜、DH等，了解了产品成分、使用方法、禁忌等方面。其次，经过几天对产品的了解，还是没有彻底的吃透产品知识，需要了解，学习的太多，自己的努力还是远远不够的，接下来还是要更深层次的去掌握产品知识，能更熟练地去跟客户讲解。那么，在今后，要用这些产品知识去说服客户，我感觉很困难，最重要的是要和客户沟通，要想成为客户的朋友，是需要时间的，要和顾客说明白产品，抓住客户的需求点，需要一次次的磨炼，学习，锻就成另一个自己，但是工作中重要的是态度，时刻保持勤奋、踏实。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('127','①丘疹型痘痘
+②结节型痘痘') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('13','邵琳琳','2','痘痘组新员工基础知识考核','0','219,220,221,222,223,224,225,226,227,228','0','0') [ RunTime:0.0002s ]
+
+[ 2017-09-12T15:12:41+08:00 ] 58.56.25.158 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0005s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('118','答：结节型痘痘；丘疹型痘痘；囊肿型痘痘；脓疱型痘痘；聚合型痘痘') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('119','1级（轻度）：粉刺为主，少量的丘疹和脓疱，总病灶数少于30个
+2级（中度）：除粉刺外，中量的丘疹和脓疱    总病灶31-50之间
+3级（中度）：除粉刺外，大量的丘疹和脓包，分布广泛，总病灶数在51-100之间，细节小于3个
+4级（重度）：结节型/囊肿型和聚合型痘痘，多数有疼痛，总病灶在100以上，结节/囊肿3个以上') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('120','委托方：济南乐艾生物技术有限公司
+被委托方：天津美之路化妆品有限公司
+净含量：20mg/片*10片') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('121','多酚提苏活力片祛痘型：
+痘印主要是痘痘发炎的色素沉淀，使张过痘痘的地方有红色和黑色的痘印痘坑，一般自己很难消除。多酚提苏活力片甄选银耳、光果甘草、芍药提取物。渗透性强，能深入皮肤内部高活性强。有效的抑制黑色素生产过程中的酶的活性，还可以抑制多巴色素的转变和DHICA抗氧化酶的活性。抑制黑色素。消融黑色素，具有祛痘和消印的作用。
+修护型的主要成分：寡肽-1，牛奶氨基酸，甘草黄酮，库拉索芦荟。有效的促进肌肤的新陈代谢。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('122','闭合性粉刺属于青春痘的一种，是长在皮肤里还没有“探出头”的粉刺，主要是由于死掉的细菌和自身的分泌物组成，多发于面部。有细小的脂肪栓，其形状是半球形白色小包，质硬，无自觉症状。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('123','①1500②2880③1400④4500⑤2300⑥4200⑦5500⑧1800⑨3200') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('124','成分：锯棕榈提取物，黑醋栗籽油、黑醋栗花青素、番茄红素、锌等。安酷颜所有成分都是由第三方认证已确保质量安全和功效。
+使用方法：一天三次，一次一片，早中晚后半小时后服用，经期停用。
+禁忌：孕妇和哺乳期，15以下不适合用，血压过低、心脏病、近期动过大型手术和严重系统化疾病。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('125','目前没有收到无效的反馈，全球顶级祛痘产品，连续畅销18年，进入中国5年，已经调理好了和你一样患有闭合性粉刺的患者，比你颜值的都恢复好了，你也是没有问题的。
+DH在美国连续畅销27年，美国的公立医院83%的皮肤科专辑啊都在推荐使用，没有效果也不会今日中国，比你严重的都调理过来了，你也是没有问题的。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('126','认识：安酷颜：、主要成分：锯棕榈提取物，黑醋栗子油。黑醋栗花青素、番茄红素、锌等。安酷颜所有成分都是由第三方认证已确保质量安全和功效、。
+DH、多酚提苏活力片（祛痘型、修复型）
+祛痘：光果甘草、芍药提取物、银耳提取物、修复：寡肽-1，牛奶氨基酸，甘草黄酮，库拉索芦荟。
+感受：主要祛痘，消除痘印，改善皮肤健康，预防感染。
+怎么做：我会积极的努力学习，多向身边的有经验的人多学习，要多学、多看、多问、多聊，多做总结。借取别人的经验，来总结自身的不足，凡事逃不过一个“勤”字。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('127','①丘疹型痘痘
+②结节型痘痘') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('13','鹿影','2','痘痘组新员工基础知识考核','0','229,230,231,232,233,234,235,236,237,238','0','0') [ RunTime:0.0002s ]
+
+[ 2017-09-12T15:13:49+08:00 ] 58.56.25.158 /index.php/Kefu/Growth/
+ERR: 非法操作:index
+
+[ 2017-09-12T15:13:59+08:00 ] 101.226.66.180 /index.php/Kefu/Growth
+ERR: 非法操作:index
+
+[ 2017-09-12T15:14:03+08:00 ] 101.226.79.182 /index.php/Kefu/Growth
+ERR: 非法操作:index
+
+[ 2017-09-12T15:35:28+08:00 ] 58.56.25.158 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0005s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('118','.丘疹型痘痘：丘疹薇搞出皮肤的局限性，小茹针头，大如黄豆，一般会冒白尖
+囊肿型痘痘：看上去红肿，里面有脓液，但是不冒白尖，有时会有浓汁流出
+脓疱型痘痘：由丘疹型演变而来，先演变成黄豆大的水泡，约1-2天演变成脓疱
+聚合型痘痘：聚合性痘痘是指患有两种以上的症状，有一定的皮损，起症状较为严重
+') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('119','三度四级
+轻度:
+一级主要以粉刺为主少量总病灶数不少于30
+中度 
+①少量粉刺为主，中等量丘疹很脓疱 ，总病灶不少于30-50个。
+②表现除粉刺外，大量的丘疹和脓疱，面积广泛，总病灶数5-100个结节小于三个。
+重度：表现为结节，囊肿型和聚合性痘痘，并伴发疼痛容易形成囊肿和窦道，总病灶在100个以上，结节和囊肿3个以上。
+') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('120','委托方：件乐艾商务技术有限公司
+被委托方：天津美之路化妆品有限公司
+净含量：20mg/片*10片
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('121','多酚提苏活力片去痘作用机理
+痘印是痘痘生长过程中所留下的色素沉淀，是痘痘生长的地方，留下黑色红色的痘印或疤痕一般很难自己消退，多酚提苏活力片甄选 芍药 光果甘草 银耳等优质成分渗透力强，进入皮肤内部并保持高活性，有能抑制黑色素的生长过程中的活性酶如酪氨酸酶 有能抑制多巴色素的互变和DHICA  的氧化酶，淡化黑色素，消融黑色素，在去痘印的修复过程中具有双重作用，
+多酚提苏活力片修护，包含寡肽-1 牛奶氨基酸 水解珍珠 等营养精华促进新陈代谢，提高皮肤细泡的活性力与弹性力，修复皮肤再生长，对多年的痘印痘坑疤痕也具有修护作用，对痘印和痘痘彻底清除。
+多酚提苏活力片的祛痘原理
+多酚提苏活力片专门针对痘痘研发的，于2008年上市，可以净化毛囊，将毛囊内的毒素垃圾排出来，杀灭痤疮杆菌，调节水油平衡，修复人体排毒管道“腺细胞”从根源上改善皮肤，修复腺细胞从此不再长痘痘，再生基底没去处痘印
+过程：多给、分提苏活力片——杀灭痤疮杆菌——调节水油平衡——修复毛囊脂腺导管——再生基底细胞——修复皮肤正常排毒能力——抑制黑色素，淡化痘印——敏感修复，改善肌肤纹理，美容养颜
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('122','闭合性粉刺是青春痘的一种，也就是在皮肤里还没有探出头的粉刺，他主要是由死掉的细菌和自身的分泌物组成的，多发于面部，为细小的脂肪栓，表现为半球形的白色小包，质硬，无自觉症状。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('123','①1500
+②2880
+③1400
+④4500
+⑤2300
+⑥4200
+⑦5500
+⑧1800
+⑨3200
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('124','主要成分：锯棕榈提取物，黑醋栗子油。黑醋栗花青素、番茄红素、锌等。安酷颜所有成分都是由第三方认证已确保质量安全和功效、。
+服用方法
+一日三次，一次一粒，早中晚后半小时服用，经期停用。
+产品：黑醋栗胶囊：90粒一瓶
+禁用：孕妇和哺乳期，15岁以下不适合于，血压过低，心脏病，动过大型手术和其他严重性系统疾病
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('125','①目前我们没有收到无效反馈，是全球顶级祛痘产品，连续畅销15年进入中国5年已经治愈很多像你一样的闭合性粉刺和痤疮患者，比你严重的都治愈了信心你也是没有问题的
+②DH：DH钻石祛痘产品在美国连续畅销27，美国公立医院的皮肤科医生83%的推荐产品，相信没有效果是不会进入中国的，进入中国5年已经调理好很多像你一样的闭合性粉刺和痤
+比你严重的都调理好了，你也是一样治愈的。
+
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('126','通过对治疗症状和产品的的了解，得知我们的产品成分和药效对于病症有根源的治疗作用，使我对本产品销售更有信心，希望它能帮助更多的人治疗病症。在今后的工作中通过服务客户解决客户问题，努力去把产品推销给更多的患者') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('127','1.丘疹型痘痘
+2.结节型痘痘
+') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('13','岳伟','2','痘痘组新员工基础知识考核','0','239,240,241,242,243,244,245,246,247,248','0','0') [ RunTime:0.0002s ]
+
+[ 2017-09-12T15:56:17+08:00 ] 58.56.25.158 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0005s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('118','结节型痘痘、丘疹型痘痘、囊肿型痘痘、脓包型痘痘、聚合型痘痘  ') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('119','三度四级
+轻度（1级）：常见为粉刺，少见丘疹和脓包，总病灶数少于30个；
+中度（2级）：除了粉刺外，还有少量的丘疹和脓包，总病灶数在31-50之间；
+中度（3级）：除粉刺外，还有中等量的丘疹和脓包，总病灶数在51-100之间，结节数少于3个；
+重度（4级）：除粉刺外还有大量的丘疹和脓包，有一定的皮损，伴随着疼痛，脓肿和窦道，情况比较严重。
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('120','委托方：济南乐艾生物科技有限公司
+被委托方：天津美之路化妆品有限公司
+净含量：20毫克*10片
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('121','多酚提苏活力片维护型富含寡肽-1、牛奶氨基酸类、水解珍珠等提取物，促进肌肤新陈代谢，增强皮肤细胞活性合弹力和肌肤弹性，修复皮肤细胞再生功能有助于细胞再生，修复基底细胞，抑制黑色素，消融黑色素，从而起到祛痘消印的效果。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('122','闭合性粉刺是青春痘的一种，它是存在于皮肤中还没探出头的粉刺，它是由死掉的细菌和身体的分泌物组成的，由于身体内内分泌失调造成的一系列症状，多发于面部，为细小的皮下脂栓，表现为米粒大小的白色小包，质硬，无明显症状。内分泌失衡导致的痤疮概率高达60%-70%（青少年或者是成年人），就像上面说的二氧睾酮的边安华就是引起60%-70%青少年合成年人出现闭合性粉刺的原因。现在对于皮肤的治疗都是外用药膏或者是湿巾，只能暂时的改变皮肤表层，不能提供持久有效的帮助。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('123','1、1800
+   2、2880
+   3、1400
+   4、4500
+   5、2300
+   6、4200
+   7、5500
+   8、1800
+   9、3200
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('124','锯棕榈提取物、黑醋栗籽油、黑醋栗花青素、番茄红素、锌等。
+使用方法：一天三次，一次一粒，早中晚饭后半小时后服用，经期停用。
+禁忌：孕妇及哺乳期，十五岁以下不适合用，心脏病、低血压者、刚做完大型手术、重大系统性疾病。
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('125','①目前是没有收到无效的反馈，安酷颜在美国已经连续畅销18年的时间，进入中国也有5年了，已经治好了很多闭合性粉刺和痤疮的患者，比你严重的都调理过来了，相信你也是没有问题的；
+②DH钻石祛痘在美国已经连续畅销28年的时间，美国公立医院83%的医生都在推荐使用，如果没有效果也不会进入中国，比你严重的都调理好了，你也是没有问题的。
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('126','采用科学的配方，纯天然的有效成分，由内而外改善肌肤，从根源上调节内分泌。安酷颜由美国GMP机构生产，原瓶原装进口。28天真正的从内而外改善肌肤问题，治疗内分泌失调的问题。
+多酚提苏活力片能很有效的消灭闭合性粉刺和痤疮，从内而外的改善肌肤。
+在以后的工作中，和顾客沟通时首先要肯定公司和产品的效果，然后耐心的和客户交流，勇于推单，敢于推大单。在以后的日常工作中要灵活的向客户推荐产品。
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('127','㈠丘疹型痘痘 ㈡结节型痘痘') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('13','任瑞','2','痘痘组新员工基础知识考核','0','249,250,251,252,253,254,255,256,257,258','0','0') [ RunTime:0.0002s ]
+
+[ 2017-09-12T16:00:53+08:00 ] 101.226.33.217 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-12T16:07:16+08:00 ] 101.226.89.121 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+

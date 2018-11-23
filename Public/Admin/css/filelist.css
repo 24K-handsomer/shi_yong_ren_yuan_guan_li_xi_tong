@@ -1,0 +1,112 @@
+/*分页显示*/
+.b-page {
+    background:#fff;
+    box-shadow:0 1px 2px 0 #e2e2e2
+ }
+ .b-page .page {
+    width:100%;
+    padding:30px 15px;
+    background:#fff;
+    text-align:center;
+    overflow:hidden
+ }
+ .b-page .page .first,.b-page .page .prev,.b-page .page .current,.b-page .page .num,.b-page .page .current,.b-page .page .next,.b-page .page .end {
+    padding:8px 16px;
+    margin:0 5px;
+    display:inline-block;
+    color:#008cba;
+    border:1px solid #f2f2f2;
+    border-radius:5px
+ }
+ .b-page .page .first:hover,.b-page .page .prev:hover,.b-page .page .current:hover,.b-page .page .num:hover,.b-page .page .current:hover,.b-page .page .next:hover,.b-page .page .end:hover {
+    text-decoration:none;
+    background:#f8f5f5
+ }
+ .b-page .page .current {
+    background-color:#008cba;
+    color:#fff;
+    border-radius:5px;
+    border:1px solid #008cba
+ }
+ .b-page .page .current:hover {
+    text-decoration:none;
+    background:#008cba
+ }
+ /*分页显示*/
+
+ #row{
+    padding-bottom: 15px;
+    padding-top: 8px;
+ }
+ table{
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+ }
+table>tbody>tr{
+    height: 32px;
+}
+ #page{
+    padding-top: 16px;
+    text-align: center;
+ }
+
+
+ /*试题列表*/
+.status{
+    width: 33px;
+    height: 24px;
+    font-size: 15px;
+    border-radius: 10%;
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    padding: 0px;
+    margin: 0px;
+    cursor: pointer;
+}
+.status[status="0"]{
+    border: 1px solid red;
+    color: red;
+}
+
+
+/*person index 用户列表*/
+.add,input[name='add1'],input[name='add2'],input[name='add3'],input[name='practice'],input[name='on4'],input[name='off4']{
+    min-width: 33px;
+    height: 24px;
+    font-size: 15px;
+    border-radius: 10%;
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    padding: 0px;
+    margin: 0px;
+    cursor: pointer;
+}
+.add[test='0'],input[test='0']{
+    border: 1px solid red;
+    color: red;
+}
+
+
+/*成绩列表*/
+input[name='pigai']{
+    width: 33px;
+    height: 24px;
+    font-size: 15px;
+    border-radius: 10%;
+    background-color: transparent;
+    border: 1px solid red;
+    color: red;
+    padding: 0px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+
+/*人员管理*/
+#tarow{
+    padding-bottom: 5px;
+    padding-top: 5px;
+}

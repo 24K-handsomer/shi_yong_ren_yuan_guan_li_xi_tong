@@ -1,0 +1,37 @@
+[ 2017-08-15T14:58:20+08:00 ] 58.56.25.158 /index.php/Kefu/Growth/
+ERR: 非法操作:index
+
+[ 2017-08-15T14:58:30+08:00 ] 101.226.33.238 /index.php/Kefu/Growth
+ERR: 非法操作:index
+
+[ 2017-08-15T15:05:55+08:00 ] 140.206.161.160 /index.php/Kefu/Growth
+ERR: 非法操作:index
+
+[ 2017-08-15T16:00:08+08:00 ] 101.226.65.107 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-08-15T16:00:10+08:00 ] 101.226.33.220 /index.php/Kefu/Sellskills/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 3 and `group` =  ) LIMIT 1  
+
+[ 2017-08-15T16:00:12+08:00 ] 101.226.89.116 /index.php/Kefu/Growth/orderlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `order` WHERE ( uid =  ) LIMIT 1  
+
+[ 2017-08-15T16:00:13+08:00 ] 101.226.33.217 /index.php/kefu/sellskills/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 3 and `group` =  ) LIMIT 1  
+
+[ 2017-08-15T16:00:17+08:00 ] 101.226.66.178 /index.php/kefu/growth/orderlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `order` WHERE ( uid =  ) LIMIT 1  
+
+[ 2017-08-15T16:03:39+08:00 ] 101.226.66.178 /index.php/kefu/growth/orderlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `order` WHERE ( uid =  ) LIMIT 1  
+
+[ 2017-08-15T16:11:11+08:00 ] 61.151.226.199 /index.php/kefu/growth/orderlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `order` WHERE ( uid =  ) LIMIT 1  
+

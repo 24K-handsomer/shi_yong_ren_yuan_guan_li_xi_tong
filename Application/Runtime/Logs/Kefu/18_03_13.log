@@ -1,0 +1,177 @@
+[ 2018-03-13T10:06:33+08:00 ] 58.56.25.158 /index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 106 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ComsysController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0003s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('61','自己应该坚持到底，在销售客服的职位上，取得更大的成绩，虚心接受学习公司老人师傅们的工作技巧与技能，用自己最快的时间去适应去熟练去喜欢这份工作，上坡路都是难得，庆幸的是走过这段上坡路，就看到了成功。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('62','坚持，虚心学习，有强大的团队意识，努力加强自己的工作水平，为公司奉献自己的一份努力与成绩。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('63','一、企业愿景（乐艾使命）：做全球最好的产品，为健康护航
+二、企业的核心价值观：团结、高效、诚信、激情。
+三、企业的发展宗旨：让更多的人健康，让更多的人快乐。以人为本，与员工共发展。
+四、乐艾的情怀:品为魄，善做魂，赢天下，创未来') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('68','前7天提出辞职申请。已转正员工需提前30天提出书面申请。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('69','50元的罚款。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('71','旷工。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('72','每人次罚款月度工资的1%。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('73','每人次罚款月度工资的2%。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('74','山东济南市高新区舜华路三庆世纪财富中心B2座603') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('75','济南乐艾生物技术有限公司。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('113','普通员工请假1-2天需提前1填申请。请假2天以上，需提前2天申请。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('115','员工凡入职转正后享有转介绍新员工的权利。   奖励：普通员工200元，主管300元，经理级600元，总监级800，总经理2000元等等奖励') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('116','必须提前30天进行申请。') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('13','胡永泰','1','最新制度考试','38','1595,1596,1597,1598,1599,1600,1601,1602,1603,1604,1605,1606,1607','0','38') [ RunTime:0.0002s ]
+
+[ 2018-03-13T10:06:47+08:00 ] 58.56.25.158 /index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 100 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ComsysController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0003s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('61','争取每个月完成自己的目标，努力工作，尽量争取升职加薪的机会，打算在年底买一辆车，在工作过程中要不断完善自己，为自己和团队的目标添砖加瓦，第二年的时候要努力挣钱，还车贷，打算在两年之内还清车贷，车贷还完以后还是要努力挣钱，争取在五年以内把房子和车子的钱攒够。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('62','为团队建设添砖加瓦，遵守公司的规章制度，努力完成公司规定的目标，团结同事，在自己能力范围内去帮助同事，呵护乐艾的企业文化。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('63','济南乐艾生物技术有限公司于2013年开始独立运营，主要以电子商务平台的开发和运营为主要渠道，拥有完整专业的品牌产品策划，推广团队以及丰富的品牌建设运营经验。
+让更多的人健康，让更多的人快乐，以人为本，与员工共同发展，是乐艾发展的宗旨，真诚为客户服务是乐艾永恒的追求。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('68','10天
+30天
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('69','50元') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('71','旷工') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('72','1%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('73','2%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('74','济南市高新国际会展中心三庆世纪财富中心B2座6楼603室') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('75','济南乐艾生物技术有限公司  张丽洁') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('113','3天
+7天') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('115','30天
+200元
+300元
+500元
+800元
+1000元') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('116','7天') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0005s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('13','吴亚彬','1','最新制度考试','30','1608,1609,1610,1611,1612,1613,1614,1615,1616,1617,1618,1619,1620','0','30') [ RunTime:0.0002s ]
+
+[ 2018-03-13T10:27:17+08:00 ] 58.59.0.246 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 103 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0003s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('85','疝气是指人体一部分组织或器官从人体缺损薄弱处进入另一部位从而形成疝气
+常见的疝气主要有腹股沟疝气  股疝  腹壁疝  脐疝  白线疝
+疝气的常见症状是可以看到或摸到肿块，女性则以卵巢突出较多') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('86','传统手术：通过将缺损周围组织强行拉拢缝补，周围组织会再次受损，腹壁没有被修复，容易复发
+疝气裤疝气带：通过物理挤压固定疝气部位，不能从根本上修复腹壁
+疝气贴：仅仅通过疏通散热，对疝气的部位的修复起不到一点作用') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('87','小儿疝气是由于小儿先天性腹壁薄弱，鞘状突为完全闭合
+应该给孩子使用腹壁营养素，由纯植物提取，没有任何添加，通过修复小儿薄弱的腹壁和增强腹壁的厚度来达到疝气不再反复') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('88','降低腹压收缩疝囊：腹壁营养素进入人体血液循环，消除疝气肿块，快速降低腹压，酸胀肿痛开始缓解减轻
+收复疝块闭合疝口：疝块回收入腹腔后，在营养素的调理运作下回到原来的位置，防止腹腔内器官的错乱，促进疝口的闭合，并在营养素的不断作用下增强腹壁的厚度和弹性，肿痛基本消失
+修复腹壁加强供养：疝气的主要原因是腹壁薄弱缺损，腹壁营养素通过修复缺损薄弱的腹壁，增强腹壁组织的自愈力和人体血液对腹壁的供养，使腹壁厚度不断增强，韧性增加，祛除疝气不反复
+增强腹壁自愈力防止反复：腹壁营养素中的高活性物质能够增强腹壁自愈力，使疝气不反复') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('89','山楂、茴香、柑橘子、荔枝核、桃仁、乌药、马尾藻、山胡椒、香附子、
+产品的效果和提取分离技术有很大的关系，用七重酶解技术提取这些原料中的高活性成分，实现腹壁营养素高速高效长效的作用') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('90','美国原装进口：美国FDA认证，超微萃取技术提取原料中的小分子多肽，能有效消除疝块
+活性持久：采用国际先进的只能酸碱缓控释技术，能躲过胃酸的侵蚀，安全进入小肠，靶向消除疝块，修复受损的网膜细胞，使疝气不反复
+原料致胜：采用著名产地的高活性种子，低温萃取研发，提取小分子多肽，增强腹壁弹性和厚度
+安全纯天然：没有任何化学激素物质的添加，老人小孩可以放心使用
+国际认证：GMP检验') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('91','形成疝气的主要原因是腹壁变薄弹性变弱。而传统手术是通过将受损周围组织强行拉拢，一个大切口约6-8厘米，周围组织会再次受损，并没有修复受损的腹壁，容易复发，补片手术是通过腹腔镜手术，有2-4个切口，当腹压再次升高时疝气还会出现，还可能出现排异反应') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('92','使用人群是疝气鸡蛋大小及以下和疝囊可以回纳入腹腔的人
+不能使用的人：70岁以上的老人、脑梗心梗肝腹水癌症患者、疝气嵌顿、鞘膜积液、疝气鹅蛋大小的
+高热时禁用腹部营养素') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('93','我是美国厂家外聘的健康顾问，负责中国区的疝气销售。我们是经过美国FDA认证授权的，经过了GMP检验和中国海关严格清关检验，而且经过了16年的市场检验，收到的反馈一直非常好，放心就好') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('94','腹壁营养素的反馈效果一直非常好，一般10-20天就能修复受损的腹壁，是疝囊变小变软，掉下来的次数也会明显变少 酸痛肿胀的感觉基本消失，腹壁的厚度和弹性不断加强，使疝气不反复') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('95','我们是美国厂家在中国唯一的授权，由美国厂家直邮发货，经中国海关严格清关检验的，所以药店里是没有的。腹壁营养素也经过了GMP严格检验，保证质量的放心就好') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('96','我是美国厂家外聘的健康顾问，负责中国区的疝气销售。腹壁营养素由美国PCK厂家生产，经过了FDA认证和GMP严格检验，并且从美国直邮发货，经过了中国海关严格清关才到达您的手中的，质量很有保证，放心就好。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('97','别因为自己的顾虑耽误了疝气的情况，时间越长，疝囊会越来越大，影响到消化系统和泌尿生殖系统，严重时会发生疝气嵌顿，进而造成肠梗阻和肠绞窄等危险的发生，趁着能保守调理修复，别错过机会。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('98','腹壁营养素的反馈效果一直非常好，3-5天腹壁营养素进入人体血液循环行气活血，消除疝气肿块，降低过高的腹压，酸痛肿胀的感觉明显减轻。10-15天开始修复受损的腹壁网膜细胞，疝囊开始变小变软，疝块掉下来的次数明显减少，肿痛的感觉基本消失，很多人的反馈都非常好，不可能到咱身上没有效果的。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('99','你好是给本人还是给家人咨询疝气问题，多大年龄了性别，疝囊在大腿根部还是在阴囊两侧，疝囊有鸡蛋大还是核桃大，平时躺着或休息时能回纳吗，发现疝气多长时间了，站立时有肿痛或坠胀的情况吗
+这种情况是典型的腹股沟疝气，随着年龄的增长，遇到久站久坐，咳嗽，使用外力等情况致使腹内压增高的情况，就会压迫小肠等组织从薄弱处突出形成疝气。
+疝气的主要原因是腹壁过于薄弱缺损，所以修复缺损薄弱的腹壁才是关键，这种情况保守调理修复就可以。
+这种情况建议你使用美国进口的腹壁营养素进行调理修复，腹壁营养素是由纯植物提取，通过修复受损的腹壁，使腹壁厚度和弹性增强，彻底去除疝气不反复。
+腹壁营养素的反馈效果非常好，一般10-20天就能修复受损的腹壁，是疝囊变小变软，掉下来的次数也会明显变少 酸痛肿胀的感觉基本消失，腹壁的厚度和弹性不断加强，使疝气不反复。
+
+
+') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0003s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('14','何丹','2','腹壁营养素基本知识测试','0','1621,1622,1623,1624,1625,1626,1627,1628,1629,1630,1631,1632,1633,1634,1635','0','0') [ RunTime:0.0002s ]
+
+[ 2018-03-13T17:29:59+08:00 ] 58.59.0.246 /index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 103 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ComsysController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0004s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('61','学习好客服工作的相关知识熟练产品知识和话术
+做到结合自己的话术和顾客聊天
+熟练和每一位客户交流
+可以自己独立应对客户') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('62','认真负责，对待顾客耐心热情，不浮躁') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('63','让更多的人健康让更多的人快乐，以人为本，与员工共发展') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('68','7   30') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('69','50') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('71','旷工') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('72','百分之一') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('73','百分之2') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('74','三庆财富中心A3座3楼') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('75','济南乐艾生物技术有限公司   张丽洁') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('113','1  3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('115','30   200  300  500  800') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('116','30天') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('14','何丹','1','最新制度考试','40','1636,1637,1638,1639,1640,1641,1642,1643,1644,1645,1646,1647,1648','0','40') [ RunTime:0.0002s ]
+
+[ 2018-03-13T17:38:44+08:00 ] 58.59.0.246 /index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 108 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ComsysController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0003s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('61','1.认真学习专业知识，不断钻研跟顾客沟通技巧，提高成交率
+2.培养学习、工作、生活能力，全面提高个人综合素质
+3.确定目标和路径，给自己定短期，长期目标') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('62','1.首先乐艾的环境让我感觉很亲切，没有拘束感，我会很快适应这里的工作环境
+2.这里的同事都很友善，相处起来很轻松，在以后的工作中我们会互帮互助
+3乐艾的工作模式很规整，我会在接下的来的时间里认真学习，尽快熟悉各种专业知识和工作流程') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('63','1企业愿景：做全球最好的产品，为健康护航
+
+2.企业的核心价值观：团结、高效、诚信、激情。
+
+3.企业的发展宗旨：让更多的人健康，让更多的人快乐。以人为本，与员工共发展。
+
+4.乐艾的情怀:品为魄，善做魂，赢天下，创未来
+') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('68','试用期需提前7天提出辞职申请，转正后需要提前30天提出书面申请') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('69','50元') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('71','旷工') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('72','1%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('73','2%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('74','山东省济南市高新区三庆世纪财富中心A3-3楼乐艾生物技术有限公司') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('75','济南乐艾生物技术有限公司  张丽洁') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('113','1天
+两天') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('115','30天，
+200/300/500/800、1000') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('116','提前一个月') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('11','罗会荣','1','最新制度考试','40','1649,1650,1651,1652,1653,1654,1655,1656,1657,1658,1659,1660,1661','0','40') [ RunTime:0.0002s ]
+

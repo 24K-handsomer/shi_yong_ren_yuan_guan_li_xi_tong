@@ -1,0 +1,31 @@
+[ 2017-10-25T16:00:40+08:00 ] 58.59.0.246 /index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ComsysController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0105s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('61','五年内说长不长 说短不短.要脚踏实地一步步来.希望在今后能年年突破自己.') [ RunTime:0.0191s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('62','首先做好本职工作.与同事团结.大家一起努力.') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('63','1.企业愿景 做全球最好的产品.为健康护航
+2.企业核心价值观 团结 高效 诚信 激情
+3.企业的总之发展 让更多的人健康快乐.以人为本 与员工共发展
+4.乐艾的情怀') [ RunTime:0.0004s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('64','印章及证件使用申请表') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('65','加班通知单. 加班需要一个小时后算起.') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('73','2%') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('75','济南乐艾生物技术有限公司  张丽洁') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('112','公出单.') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('113','普通员工请假1-2天 需要提前两天申请.请假两天以上.需要提前三天申请.') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('114','100') [ RunTime:0.0011s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('115','新制定好像是一个月.我看的目前制度是七天就有转介绍员工权利. 200 300 600 800 1000') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('116','提前30天申请') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('117','除了工资津贴等停发之外还有扣除每月薪资天数来扣除') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0005s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('11','李敏','1','试题一','32','944,945,946,947,948,949,950,951,952,953,954,955,956','0','32') [ RunTime:0.0012s ]
+
+[ 2017-10-25T16:08:04+08:00 ] 58.59.0.246 /index.php/Kefu/Growth/
+ERR: 非法操作:index
+
+[ 2017-10-25T16:08:09+08:00 ] 58.59.0.246 /index.php/Kefu/Growth/
+ERR: 非法操作:index
+

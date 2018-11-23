@@ -1,0 +1,145 @@
+[ 2017-04-26T10:45:37+08:00 ] ::1 /tp3.2.3/index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: UPDATE `user` SET `test1`='6,1' WHERE ( uid='1' ) [ RunTime:0.0010s ]
+
+[ 2017-04-26T11:54:05+08:00 ] ::1 /tp3.2.3/index.php/Admin/Person/addtest
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: UPDATE `user` SET `test3`='10' WHERE ( uid='1' ) [ RunTime:0.0000s ]
+
+[ 2017-04-26T14:09:52+08:00 ] ::1 /tp3.2.3/index.php/Admin/Person/grade
+ERR: 非法操作:grade
+
+[ 2017-04-26T14:10:30+08:00 ] ::1 /tp3.2.3/index.php/Admin/Person/id=2
+ERR: 非法操作:id=2
+
+[ 2017-04-26T14:55:50+08:00 ] ::1 /tp3.2.3/index.php/Admin/Person/grade
+ERR: 非法操作:grade
+
+[ 2017-04-26T14:56:18+08:00 ] ::1 /tp3.2.3/index.php/Admin/Person/grade
+ERR: 非法操作:grade
+
+[ 2017-04-26T14:56:48+08:00 ] ::1 /tp3.2.3/index.php/Admin/Person/grade
+ERR: 非法操作:grade
+
+[ 2017-04-26T17:14:47+08:00 ] ::1 /tp3.2.3/index.php/Admin/Person/gradeselect?grade2=7
+ERR: 模板不存在:./Application/Admin/View/Person/gradeselect.html
+
+[ 2017-04-26T18:30:44+08:00 ] ::1 /tp3.2.3/index.php/Admin/Person/updategrade2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0010s ]
+SQL: SELECT `grade1` FROM `grade` WHERE ( gid = 12 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-26T18:31:49+08:00 ] ::1 /tp3.2.3/index.php/Admin/Person/updategrade2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0010s ]
+SQL: SELECT `grade1` FROM `grade` WHERE ( gid = 12 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-26T18:33:05+08:00 ] ::1 /tp3.2.3/index.php/Admin/Person/updategrade2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0010s ]
+SQL: SELECT `grade1` FROM `grade` WHERE ( gid = 12 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-26T18:34:09+08:00 ] ::1 /tp3.2.3/index.php/Admin/Person/updategrade2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0010s ]
+SQL: SELECT `grade1` FROM `grade` WHERE ( gid = 12 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-26T18:36:40+08:00 ] ::1 /tp3.2.3/index.php/Admin/Person/updategrade2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0010s ]
+SQL: SELECT `grade1` FROM `grade` WHERE ( gid = 12 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-26T18:37:24+08:00 ] ::1 /tp3.2.3/index.php/Admin/Person/updategrade2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0010s ]
+SQL: SELECT `grade1` FROM `grade` WHERE ( gid = 12 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-26T18:39:23+08:00 ] ::1 /tp3.2.3/index.php/Admin/Person/updategrade2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0010s ]
+SQL: SELECT `grade1` FROM `grade` WHERE ( gid = 12 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-04-26T18:45:23+08:00 ] ::1 /tp3.2.3/index.php/Admin/Person/updategrade2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0020s ]
+SQL: SELECT `grade1` FROM `grade` WHERE ( gid = 12 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'grade1' D:\phpStudy\WWW\tp3.2.3\Application\Admin\Controller\PersonController.class.php 第 210 行.
+
+[ 2017-04-26T19:03:26+08:00 ] ::1 /tp3.2.3/index.php/Admin/Person/updategrade2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0010s ]
+SQL: SELECT `grade1` FROM `grade` WHERE ( gid = 12 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: re D:\phpStudy\WWW\tp3.2.3\Application\Admin\Controller\PersonController.class.php 第 211 行.
+
+[ 2017-04-26T19:05:18+08:00 ] ::1 /tp3.2.3/index.php/Admin/Person/updategrade2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0010s ]
+SQL: SELECT `grade1` FROM `grade` WHERE ( gid = 12 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: re D:\phpStudy\WWW\tp3.2.3\Application\Admin\Controller\PersonController.class.php 第 211 行.
+
+[ 2017-04-26T19:06:25+08:00 ] ::1 /tp3.2.3/index.php/Admin/Person/updategrade2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0010s ]
+SQL: SELECT `grade1` FROM `grade` WHERE ( gid = 12 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `grade` SET `grade1`='3',`grade2`='10',`isgrade2`='1',`grade`='13' WHERE ( gid = 12 ) [ RunTime:0.0000s ]
+
+[ 2017-04-26T19:07:25+08:00 ] ::1 /tp3.2.3/index.php/Admin/Person/updategrade2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0010s ]
+SQL: SELECT `grade1` FROM `grade` WHERE ( gid = 8 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `grade` SET `grade1`='3',`grade2`='5',`isgrade2`='1',`grade`='8' WHERE ( gid = 8 ) [ RunTime:0.0000s ]
+
+[ 2017-04-26T19:08:13+08:00 ] ::1 /tp3.2.3/index.php/Admin/Person/updategrade2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0010s ]
+SQL: SELECT `grade1` FROM `grade` WHERE ( gid = 5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `grade` SET `grade1`='3',`grade2`='0',`isgrade2`='1',`grade`='3' WHERE ( gid = 5 ) [ RunTime:0.0000s ]
+
+[ 2017-04-26T19:08:48+08:00 ] ::1 /tp3.2.3/index.php/Admin/Person/updategrade2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0010s ]
+SQL: SELECT `grade1` FROM `grade` WHERE ( gid = 6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `grade` SET `grade1`='3',`grade2`='0',`isgrade2`='1',`grade`='3' WHERE ( gid = 6 ) [ RunTime:0.0000s ]
+
+[ 2017-04-26T19:09:46+08:00 ] ::1 /tp3.2.3/index.php/Admin/Person/updategrade2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0010s ]
+SQL: SELECT `grade1` FROM `grade` WHERE ( gid = 7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `grade` SET `grade1`='3',`grade2`='2',`isgrade2`='1',`grade`='5' WHERE ( gid = 7 ) [ RunTime:0.0000s ]
+

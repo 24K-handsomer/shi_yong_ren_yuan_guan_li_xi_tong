@@ -1,0 +1,37 @@
+[ 2018-07-17T15:47:10+08:00 ] 58.56.25.158 /index.php/Kefu/Growth/
+ERR: 非法操作:index
+
+[ 2018-07-17T15:47:13+08:00 ] 58.56.25.158 /index.php/Kefu/Growth/
+ERR: 非法操作:index
+
+[ 2018-07-17T15:47:17+08:00 ] 58.56.25.158 /index.php/Kefu/Growth/
+ERR: 非法操作:index
+
+[ 2018-07-17T16:21:47+08:00 ] 58.56.25.158 /index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 156 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ComsysController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0004s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('61','除了提高经济能力，暂无别的打算。') [ RunTime:0.0466s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('62','好好工作，多开单子。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('63','企业愿景：做全球最好的产品，为健康护航。
+企业核心价值观：团结、高效、诚信、激情。
+企业发展宗旨：让更多人健康，让更多人快乐。以人为本，于员工发展。
+乐艾情怀：品为魄，善做魂，赢天下，创未来。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('68','试用期提前7天，正式员工提前30天。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('69','50元。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('71','旷工。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('72','1%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('73','2%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('74','济南高新区三庆财富中心B2座603室。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('75','济南乐艾生物技术有限公司，总经理是张丽洁。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('113','请假1-2天需要提前1天申请，请假2天需提前两天申请。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('115','满30天，普通员工200，主管500，经理800，总监1500，总经理3000.') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('116','年假必须提前1天进行申请。') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0005s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('13','罗宇宏','1','最新制度考试','30','2094,2095,2096,2097,2098,2099,2100,2101,2102,2103,2104,2105,2106','0','30') [ RunTime:0.0003s ]
+

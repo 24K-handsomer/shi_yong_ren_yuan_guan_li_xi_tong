@@ -1,0 +1,105 @@
+[ 2017-04-20T10:56:59+08:00 ] ::1 /tp3.2.3/index.php/Admin/Paper/showpaper?id=3
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT `id`,`question`,`select`,`answer` FROM `question` WHERE ( id in () ) 
+
+[ 2017-04-20T10:57:55+08:00 ] ::1 /tp3.2.3/index.php/Admin/Paper/showpaper?id=3
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT `id`,`question`,`select`,`answer` FROM `question` WHERE ( id in () ) 
+
+[ 2017-04-20T10:57:59+08:00 ] ::1 /tp3.2.3/index.php/Admin/Paper/showpaper?id=3
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT `id`,`question`,`select`,`answer` FROM `question` WHERE ( id in () ) 
+
+[ 2017-04-20T10:58:47+08:00 ] ::1 /tp3.2.3/index.php/Admin/Paper/showpaper?id=1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT `id`,`question`,`select`,`answer` FROM `question` WHERE ( id in () ) 
+
+[ 2017-04-20T11:54:27+08:00 ] ::1 /tp3.2.3/index.php/Admin/Paper/showpaper?id=2
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT `id`,`question`,`selectnumber`,`select`,`answer` FROM `question` WHERE ( id in () ) 
+
+[ 2017-04-20T11:55:06+08:00 ] ::1 /tp3.2.3/index.php/Admin/Paper/showpaper?id=2
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT `id`,`question`,`selectnumber`,`select`,`answer` FROM `question` WHERE ( id in () ) 
+
+[ 2017-04-20T11:57:03+08:00 ] ::1 /tp3.2.3/index.php/Admin/Paper/showpaper?id=2
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT `id`,`question`,`selectnumber`,`select`,`answer` FROM `question` WHERE ( id in () ) 
+
+[ 2017-04-20T11:58:20+08:00 ] ::1 /tp3.2.3/index.php/Admin/Paper/showpaper?id=2
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT `id`,`question`,`selectnumber`,`select`,`answer` FROM `question` WHERE ( id in () ) 
+
+[ 2017-04-20T11:58:40+08:00 ] ::1 /tp3.2.3/index.php/Admin/Paper/showpaper?id=2
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT `id`,`question`,`selectnumber`,`select`,`answer` FROM `question` WHERE ( id in () ) 
+
+[ 2017-04-20T11:59:05+08:00 ] ::1 /tp3.2.3/index.php/Admin/Paper/showpaper?id=2
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT `id`,`question`,`selectnumber`,`select`,`answer` FROM `question` WHERE ( id in () ) 
+
+[ 2017-04-20T13:09:32+08:00 ] ::1 /tp3.2.3/index.php/Admin/Paper/showpaper?id=2
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT `id`,`question`,`selectnumber`,`select`,`answer` FROM `question` WHERE ( id in () ) 
+
+[ 2017-04-20T13:14:45+08:00 ] ::1 /tp3.2.3/index.php/Admin/Paper/showpaper?id=4
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT `id`,`question`,`selectnumber`,`select`,`answer` FROM `question` WHERE ( id in () ) 
+
+[ 2017-04-20T13:23:31+08:00 ] ::1 /tp3.2.3/index.php/Admin/Paper/showpaper?id=6
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT `id`,`question`,`selectnumber`,`select`,`answer` FROM `question` WHERE ( id in () ) 
+
+[ 2017-04-20T13:23:47+08:00 ] ::1 /tp3.2.3/index.php/Admin/Paper/showpaper?id=2
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT `id`,`question`,`selectnumber`,`select`,`answer` FROM `question` WHERE ( id in () ) 
+
+[ 2017-04-20T13:25:37+08:00 ] ::1 /tp3.2.3/index.php/Admin/Paper/showpaper?id=6
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT `id`,`question`,`selectnumber`,`select`,`answer` FROM `question` WHERE ( id in () ) 
+
+[ 2017-04-20T14:26:13+08:00 ] ::1 /tp3.2.3/index.php/Admin/Paper/id=10
+ERR: 非法操作:id=10
+
+[ 2017-04-20T14:30:38+08:00 ] ::1 /tp3.2.3/index.php/Admin/Paper/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `paper` [ RunTime:0.0020s ]
+SQL: UPDATE `paper` SET `status`='0' WHERE ( pid='3' ) [ RunTime:0.0000s ]
+
+[ 2017-04-20T14:30:44+08:00 ] ::1 /tp3.2.3/index.php/Admin/Paper/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `paper` [ RunTime:0.0010s ]
+SQL: UPDATE `paper` SET `status`='1' WHERE ( pid='3' ) [ RunTime:0.0000s ]
+
+[ 2017-04-20T14:33:00+08:00 ] ::1 /tp3.2.3/index.php/Admin/Paper/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `paper` [ RunTime:0.0010s ]
+SQL: UPDATE `paper` SET `status`='0' WHERE ( pid='1' ) [ RunTime:0.0010s ]
+
+[ 2017-04-20T14:33:14+08:00 ] ::1 /tp3.2.3/index.php/Admin/Paper/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `paper` [ RunTime:0.0010s ]
+SQL: UPDATE `paper` SET `status`='1' WHERE ( pid='1' ) [ RunTime:0.0000s ]
+
+[ 2017-04-20T14:39:00+08:00 ] ::1 /tp3.2.3/index.php/Admin/Test/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0020s ]
+SQL: UPDATE `question` SET `status`='0' WHERE ( id='13' ) [ RunTime:0.0000s ]
+
+[ 2017-04-20T14:41:25+08:00 ] ::1 /tp3.2.3/index.php/Admin/Test/status
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `question` [ RunTime:0.0010s ]
+SQL: UPDATE `question` SET `status`='1' WHERE ( id='13' ) [ RunTime:0.0000s ]
+

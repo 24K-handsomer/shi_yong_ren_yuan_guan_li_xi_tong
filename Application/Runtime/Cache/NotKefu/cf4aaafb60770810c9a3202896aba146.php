@@ -1,0 +1,300 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head>
+	<title><?php echo ($paper["pname"]); ?></title>
+	<link rel="stylesheet" type="text/css" href="/Public/Kefu/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/Public/Kefu/css/base.css">
+	<link rel="stylesheet" type="text/css" href="/Public/Kefu/css/paperstart.css">
+</head>
+<body>
+	<div id="title">
+		<div><?php echo ($paper["pname"]); ?></div>
+		<div>
+			<span>考试时间剩余时间：</span>
+			<span id="remainTime"></span>
+		</div>
+	</div>
+	<div id="timu">
+		<div>一、选择题</div>
+		<ul id="xuanze">
+			<?php $i=0; ?>
+			<?php if(is_array($list1)): foreach($list1 as $key=>$v1): ?><li>
+					<div>
+						<span><?php echo ++$i; ?>、</span><?php echo ($v1["question"]); ?>
+					</div>
+					<div>
+						<?php
+ $select = explode('|',$v1['select']); for($j=0;$j<count($select);$j++){ $k=$j+1; echo "<input type='radio' xu='$i' name='$v1[id]' value='$k'>".$select[$j]."<br/>"; } ?>
+						<input type="hidden" xu="<?php echo $i; ?>" name="<?php echo ($v1["id"]); ?>" value="<?php echo ($v1["answer"]); ?>">
+					</div>
+
+				</li><?php endforeach; endif; ?>
+		</ul>
+
+		<div>二、判断题</div>
+		<ul id="panduan">
+			<?php $p=0; ?>
+			<?php if(is_array($list2)): foreach($list2 as $key=>$v2): ?><li>
+					<div>
+						<span><?php echo ++$p; ?>、</span><?php echo ($v2["question"]); ?>
+					</div>
+					<div>
+							<input type="radio" xu="<?php echo $p; ?>" name="<?php echo ($v2["id"]); ?>" value="1">对
+							<span>&nbsp;&nbsp;</span>
+							<input type="radio" xu="<?php echo $p; ?>" name="<?php echo ($v2["id"]); ?>" value="0">错
+						<input type="hidden" xu="<?php echo $p; ?>" name="<?php echo ($v2["id"]); ?>" value="<?php echo ($v2["answer"]); ?>">
+					</div>
+
+				</li><?php endforeach; endif; ?>
+		</ul>
+
+		<div>三、多择题</div>
+		<ul id="duoxuan">
+			<?php $d=0; ?>
+			<?php if(is_array($list5)): foreach($list5 as $key=>$v5): ?><li>
+					<div>
+						<span><?php echo ++$d; ?>、</span><?php echo ($v5["question"]); ?>
+					</div>
+					<div>
+						<?php
+ $select = explode('|',$v5['select']); for ($j = 0; $j < count($select); $j++) { $k = $j + 1; echo "<input type='checkbox' class='checkbox".$d."' name='$v5[id]' value='$k'>".$select[$j]."<br/>"; } ?>
+						<input type="hidden" class="answer-a" name="<?php echo ($v5["id"]); ?>" value="">
+						<input type="hidden" class="answer-b" xu="<?php echo $d; ?>" name="<?php echo ($v5["id"]); ?>" value="<?php echo ($v5["answer"]); ?>">
+					</div>
+
+				</li><?php endforeach; endif; ?>
+		</ul>
+
+
+		<div>四、简答题</div>
+		<ul id="jianda">
+			<?php $t=0; ?>
+			<?php if(is_array($list3)): foreach($list3 as $key=>$v3): ?><li>
+					<div>
+						<span><?php echo ++$t; ?>、</span><?php echo ($v3["question"]); ?>
+					</div>
+					<div>
+						<textarea name="<?php echo ($v3["id"]); ?>" xu="<?php echo $t; ?>"></textarea>
+					</div>
+				</li><?php endforeach; endif; ?>
+		</ul>
+
+	</div>
+	<div id="btn">
+		<button onclick="endExam()">提交</button>
+	</div>
+</body>
+<script type="text/javascript" src="/Public/Kefu/js/jquery-2.0.2.min.js"></script>
+<script type="text/javascript">
+$(function() {
+	isexam(1);
+    //var _minute = parseInt("${exampaper.paperTime }");
+    var _minute = parseInt(60);
+    var _expiresHours = _minute * 60 * 1000;
+    if(!hasSetCookie()){
+        addCookie("${examinee.examineeId1}", _expiresHours, _expiresHours);
+    } 
+    settime($("#remainTime"));
+
+    //多选找出选中选项
+    $("#duoxuan li div input[type='checkbox']").change(function(){
+    	var dli = $("#duoxuan li").length;
+	    for (var i = 0; i < dli; i++) {
+	    	var select = ".checkbox"+(i+1);
+    		var str = "";
+    		var selen = $(select);
+    		for (var j = 0; j < selen.length; j++) {
+    			if (selen.eq(j).prop("checked")) {
+    				str += selen.eq(j).val() + "|";
+    			}
+    		}
+    		str = str.substring(0,str.length-1);
+    		selen.parent().children(".answer-a").val(str);
+	    }
+    });
+});
+
+function isexam(value){
+	var v = value;
+	$.ajax({
+		url:"/index.php/Home/Index/isexam",
+		data:{zhi:v},
+		type:"POST",
+		dataType:"JSON",
+		success:function(data){
+			var z = data["z"];
+			if(z == 1){
+				console.log("一切OK，静等结果");
+			}
+			else if(z == 0) {
+				console.log("请告知管理员，考试成绩未输入数据库");
+			}
+			else{
+				console.log("数据未传入后台服务器，出现bug！");
+			}
+		}
+	});
+}
+
+function hasSetCookie(){
+    var strCookie = document.cookie;
+    var arrCookie = strCookie.split("; ");
+    for (var i = 0; i < arrCookie.length; i++) {
+        var arr = arrCookie[i].split("=");
+        if (arr[0] == "${examinee.examineeId1}") {
+            return true;
+        }
+    };
+    return false;
+}
+//开始倒计时
+function settime(remainTime) {
+    var _time = getCookieValue("871d31bacfd4451484c5f70f8860c2a9");
+    var _countdown = parseInt(getCookieValue("${examinee.examineeId1}")) / 1000;
+     
+    if (_countdown <= 0) {
+        alert("考试时间到！");
+        endExam();
+    } else {
+        var _second = _countdown % 60;
+        var _minute = parseInt(_countdown / 60) % 60;
+        var _hour = parseInt(parseInt(_countdown / 60) / 60);
+
+        if (_hour < 10)
+            _hour = "0" + _hour.toString();
+        if (_second < 10)
+            _second = "0" + _second.toString();
+        if (_minute < 10)
+            _minute = "0" + _minute.toString();
+
+        remainTime.html(_hour + ":" + _minute + ":" + _second);
+        _countdown--;
+        editCookie("${examinee.examineeId1}", _countdown * 1000, _countdown * 1000);
+    }
+    //每1000毫秒执行一次
+    setTimeout(function() {
+        settime(remainTime);
+    }, 1000);
+};
+
+//时添加cookie
+function addCookie(name, value, expiresHours) {
+    var cookieString = name + "=" + escape(value); //escape() 函数可对字符串进行编码，这样就可以在所有的计算机上读取该字符串。
+    //判断是否设置过期时间,0代表关闭浏览器时失效
+    if (expiresHours > 0) {
+        var date = new Date();
+        date.setTime(date.getTime() + expiresHours * 1000);
+        cookieString = cookieString + ";expires=" + date.toUTCString();
+    }
+    document.cookie = cookieString;
+}
+
+//修改cookie的值
+function editCookie(name, value, expiresHours) {
+    var cookieString = name + "=" + escape(value);
+    if (expiresHours > 0) {
+        var date = new Date();
+        date.setTime(date.getTime() + expiresHours * 1000); //单位是毫秒
+        cookieString = cookieString + ";expires=" + date.toGMTString();
+    }
+    document.cookie = cookieString;
+}
+
+//根据名字获取cookie的值
+function getCookieValue(name) {
+    var strCookie = document.cookie;
+    var arrCookie = strCookie.split("; ");
+    for (var i = 0; i < arrCookie.length; i++) {
+        var arr = arrCookie[i].split("=");
+        if (arr[0] == name) {
+            return unescape(arr[1]);
+            break;
+        } else {
+            continue;
+        };
+    };
+}
+
+//结束考试
+function endExam(){
+	isexam(0);
+	var grade = 0;
+
+	var xzshu = 0; //选择题做对的数目
+	var xli = $("#xuanze li").length;
+	for (var i = 0; i < xli; i++) {
+		var j = "input[xu='"+(i+1)+"']:checked";
+		var a = $("#xuanze li").eq(i).children().children(j).val();
+		var answer = $("#xuanze li").eq(i).children().children("input[type='hidden']").val()
+		if(a == answer) {
+			xzshu++;
+			grade = grade + 2;
+		}
+	}
+	alert("单选题正确："+xzshu);
+
+	var pdshu = 0; //判断题做对的数目
+	var pli = $("#panduan li").length;
+	for (var i = 0; i < pli; i++) {
+		var j = "input[xu='"+(i+1)+"']:checked";
+		var a = $("#panduan li").eq(i).children().children(j).val();
+		var answer = $("#panduan li").eq(i).children().children("input[type='hidden']").val()
+		if(a == answer) {
+			pdshu++;
+			grade = grade + 2;
+		}
+	}
+	alert("判断题正确："+pdshu);
+
+	var dxshu = 0; //多选题做对的数目
+	var dli = $("#duoxuan li").length;
+	for (var i = 0; i < dli; i++) {
+		var a = $("#duoxuan li").eq(i).children().children(".answer-a").val();
+		var answer = $("#duoxuan li").eq(i).children().children(".answer-b").val()
+		if(a == answer) {
+			dxshu++;
+			grade = grade + 2;
+		}
+	}
+	alert("多选题正确："+dxshu);
+
+	var obj = {};
+	obj["filetype"] = <?php echo ($paper["filetype"]); ?>;
+	obj["pname"] = "<?php echo ($paper["pname"]); ?>";
+	obj["grade"] = grade; 
+
+	var jli = $("#jianda li");
+	for (var i = 0; i < jli.length; i++) {
+		var n = jli.eq(i).children().children("textarea[xu='"+(i+1)+"']").attr("name");
+		var v = jli.eq(i).children().children("textarea[xu='"+(i+1)+"']").val();
+		var name = "name"+i;
+		var val = "val"+i;
+		obj[name] = n;
+		obj[val] = v;
+	}
+	console.log(obj);
+	alert("选择、判断和多选得分："+grade);
+
+	$.ajax({
+		url:"/index.php/NotKefu/Comsys/addgrade",
+		data:obj,
+		type:"POST",
+		dataType:"JSON",
+		success:function(data){
+			var z = data["z"];
+			if(z == 1){
+				alert("一切OK，静等结果");
+			}
+			else if(z == 0) {
+				alert("请告知管理员，考试成绩未输入数据库");
+			}
+			else{
+				alert("数据未传入后台服务器，出现bug！");
+			}
+			window.location.href="/index.php/NotKefu/Growth/gradelist";
+		}
+	});
+	
+}
+</script>
+</html>

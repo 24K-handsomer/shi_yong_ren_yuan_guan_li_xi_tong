@@ -1,0 +1,42 @@
+[ 2017-11-06T10:51:07+08:00 ] 58.56.25.158 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0103s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('118','闭合性粉刺，痤疮两大类') [ RunTime:0.0451s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('119','三度四级
+1. 轻度（一级）：以粉刺为主，少量丘疹脓疱，总皮损小于30个；
+2. 中度（二级）：有粉刺，中等数量的丘疹和脓疱，总皮损在30-50个；
+3. 中度（三级）：大量丘疹和脓疱，偶见大的炎症性皮损，分布广泛，总皮损数在51-100个之间，结节少于3个；
+4. 重度（四级）：结节性、囊肿性和或性痤疮，伴有疼痛并形成囊肿，总皮损多于100个，结节或囊肿多于3个。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('120','委托方，济南乐艾生物技术有限公司
+被委托方，天津美之路化妆品有限公司
+20mg/片*10片') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('121','我理解为主要分三步走的，
+一，疏松毛孔，排出已有毒素，
+二，唤醒自身肌肤，辅助修复自身排毒管道毛孔
+三，修复受伤肌肤，建立强大防御机制，增强角质层') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('122','闭合性粉刺，青春痘的一种，也就是还在皮肤里还没有“探出头”的粉刺。它主要是由死掉的细菌和身体分泌物组成。多发于面部，为细小的皮下脂栓，表现为米粒大小的半球形白色小包，质硬，无自觉症状。如果是红色的说明发炎了，要尽早治疗，否则会留下永久性斑痕') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('123','1，1600元
+2，2680元
+3，1600元
+4，4700元
+5，2400元
+6，4300元
+7，5500元
+8，2000元
+9，3400元
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('124','成分，黑醋栗籽油，黑醋栗花青素，番茄红素，锌，锯棕榈提取物。
+方法，1天3次，1次1片，饭后半小时
+禁忌，哺乳期妇女，严重低血压，心脏病，动过大型手术，或有大型系统性疾病。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('125','1，举例，推举质量好的病人为例子，劝他先试用。
+2，突出产品的优势，如，在美国已经17年历史了，美国医院皮肤科85%的医生都会推荐患者使用，已经非常认可和成熟，进驻国内5年里治愈了成千上万的患者，放心购买和使用，本产品纯绿色植物提取，经美国医学团队多年研发，病获得专利和绿色认证。安全快速有效，') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('126','公司是以诚信为本为广大长痘患者送福音的，我应该努力做好，为更多患者送去我们的产品，为公司和自己获取更大利益') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('127','白头型闭合粉刺，
+红色为丘疹或红头闭合粉刺。
+暗红色为结节型痤疮') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0005s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('13','刘岩','2','痘痘组新员工基础知识考核','0','1010,1011,1012,1013,1014,1015,1016,1017,1018,1019','0','0') [ RunTime:0.0002s ]
+

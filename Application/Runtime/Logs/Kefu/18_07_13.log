@@ -1,0 +1,29 @@
+[ 2018-07-13T16:12:28+08:00 ] 58.56.25.158 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 156 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0806s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('126','从公司给我的资料来看公司做的这几款祛痘类产品的功效功能都比较不错，而且产品成分内也没有不好的成分在内，针对的人群和症状也比较广泛，是比较不错的产品。在工作中的话，我觉得要根据客户的的情况，把公司的产品优势讲出来，让客户首先对咱们产品放心之后再购买我们的产品。') [ RunTime:0.0499s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('146','如果推荐完产品，客户对我们产品比较认可，也比较有经济实力购买的话，我会再强调下我们产品价格并不贵，而且产品带来的效果也非常好，如果有客户案例可以发一些案例来佐证，让他信任产品信任我们。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('148','1、囊肿型 2、脓包型') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('222','1、丘疹型 2、脓包型 3、结节型 4、囊肿型 5、聚合型') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('223','闭合性粉刺是痘痘的一种，就是在皮肤内还没探出头的一种粉刺，是由死掉的细菌和身体分泌物组成，多发于面部，为细小皮下脂栓，表现为米粒大小半球形白色小包，质硬，无自觉症状。
+痘痘又称为痤疮、暗疮、粉刺、青春痘、痘痘、中医古代称为面疮、酒刺，是皮肤病中常见病、多发病。是毛囊皮脂腺单位中的一种慢性炎症性皮肤病，多发于青少年，临床表现为好发于面部的丘疹、脓包和结节等多形性皮损为特点，它不仅影响人的美观，对人的情绪和心理健康以及行为方式都会产生一定影响，对青少年的心理和社交的影响大于癫痫和哮喘。
+') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('224','粉刺分为白头粉刺和黑头粉刺，痘痘是分为囊肿型、结节型、聚合型等青春痘；粉刺的生成是由于面部清洗不干净、熬夜或者冷热交替导致的，痘痘是由于内分泌失调，激素分泌过多等症状导致的；大部分人都会得粉刺，是比较正常的，但是痘痘是粉刺没有及时处理病情加重变成的；粉刺是由角质和皮脂组成的，痘痘是由死掉的细菌和身体分泌物组成的。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('225','1、毛囊角化异常 2、面部痤疮杆菌增多 3、皮脂分泌过多') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('226','很多青少年和家长不注意青春痘，认为痘痘自己能好，还有大部分人认为只要注意饮食作息痘痘自己就会没有，其实只有12%的人可以自愈，88%的人痘痘会反复发作，毛孔堵塞是痘痘形成的一枚定时炸弹，稍不注意，粉刺就会变成为痘痘。很多人就是因为不知道如何治疗，延误了最佳治疗时机，面部的大面积炎性症状破坏的皮肤表面细胞，留下了很多痘坑痘印。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('227','班赛、水杨酸果酸、抗生素、糖脂类激素。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('229','1、不添加防腐剂，敏感肌肤可以使用。2、速冻技术，产品活性高，客户用起来效果更好。3、神奇闪释，遇水即溶。4、双铝包装，营养不易流失。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('231','成分：芍药提取物、光果甘草根提取物、甘草提取物、银耳提取物、黄岑提取物、水解胶原。
+使用方法：将产品从包装取出后放置手心，滴5-8滴纯净，均匀敷于面部。
+禁忌：孕妇禁用。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('232','祛痘活力片12盒：1600元。 祛痘活力片24盒：2980元。修护活力片9盒：2300元。 修护活力片36盒：4700元。
+') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0005s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('13','罗宇宏','2','2018.5痘痘国内组新员工考试试题','0','2082,2083,2084,2085,2086,2087,2088,2089,2090,2091,2092,2093','0','0') [ RunTime:0.0053s ]
+

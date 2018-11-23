@@ -1,0 +1,30 @@
+[ 2018-05-10T10:19:32+08:00 ] 58.56.25.158 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 147 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0605s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('118','1、丘疹型痘痘  2、脓包型痘痘  3、结节型痘痘  4、囊肿型痘痘5、闭合性粉刺') [ RunTime:0.0509s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('119','轻度 1级：粉刺为主，少量丘疹和脓包型痘痘
+中度 2级：除粉刺外，中等量的丘疹和脓包型痘痘  
+       3级：除粉刺外，大量丘疹和脓包型痘痘
+重度 4级：结节/囊肿型痘痘或聚合性痘痘
+') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('120','1、构成不同：粉刺由油脂和角质组成；痘痘由死掉的细菌和身体分泌物组成
+2、发生频率不同：粉刺发生频率高；痘痘发生频率低
+3、发生的病因不同：粉刺是由皮肤清洁不彻底，熬夜，遗传等因素造成；痘痘是内分泌失调，油脂分泌过多等导致的慢性炎症
+4、症状表现不同：粉刺有白头和黑头，痘痘有丘疹、结节、囊肿型等') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('122','闭合性粉刺是痘痘的一种，在皮肤里还没有探出头的粉刺。主要表现在面部，为细小的皮下脂栓，表现为米粒大小的半球形白色小包，质硬。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('146','价格是统一制定的保证消费者利益，而且产品功效是值得信赖的，您可以先试一下效果，市场上一些便宜的祛痘产品用了根本没什么效果那才是真正的浪费钱，而且我们这个也不是很贵，效果您也是可以放心使用的。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('147','公司是一种团结有爱，轻松愉快，认真工作的氛围。利用好上班时间积极工作， 多学多问，话术技巧总结，制定目标任务努力向前。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('148','①囊肿型痘痘 ②脓包型痘痘') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('151','①1100  ②1800  ③4500  ④1600  ⑤2600') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('152','委托方：济南乐艾生物技术有限公司  被委托方：天津美之路化妆品有限公司   净含量：20mg/片*10片') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('153','修复敏感肌肤，主要成分EGF寡肽-1，多酚提苏活力修护片从数百种纯天然植物中萃取出各种渗透性超强的活性精华，牛奶氨基酸类、水解珍珠等提取物，富含多种营养精华促进肌肤新陈代谢，增强皮肤细胞活力，有利于皮肤细胞的修复再生，对敏感肌肤以及痘坑痘印具有很好的修复作用，既能有效抑制生成黑色素生成过程中多种酶（如抑制络氨酸酶）的活性，又能抑制多巴色素互变和DHICA氧化酶的活性，祛痘同时更能消除红黑痘印，修复敏感肌肤。
+') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0166s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('13','刘成园','2','痘痘国内组新员工考核','0','1979,1980,1981,1982,1983,1984,1985,1986,1987,1988','0','0') [ RunTime:0.0079s ]
+

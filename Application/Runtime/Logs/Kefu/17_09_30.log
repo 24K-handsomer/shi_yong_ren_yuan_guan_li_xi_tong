@@ -1,0 +1,462 @@
+[ 2017-09-30T06:47:24+08:00 ] 101.226.66.187 /index.php/Kefu/Proknowledge/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-09-30T06:47:36+08:00 ] 101.226.33.219 /index.php/Kefu/Proknowledge/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-09-30T06:47:49+08:00 ] 61.151.226.189 /index.php/Kefu/Comsys/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-09-30T06:48:01+08:00 ] 180.163.1.46 /index.php/Kefu/Comsys/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-09-30T07:16:02+08:00 ] 180.163.1.46 /index.php/Kefu/Speechcase/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 4 and `group` =  ) LIMIT 1  
+
+[ 2017-09-30T07:19:32+08:00 ] 101.226.33.206 /index.php/Kefu/Speechcase/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 4 and `group` =  ) LIMIT 1  
+
+[ 2017-09-30T08:08:23+08:00 ] 101.226.33.206 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-30T11:12:45+08:00 ] 58.59.25.134 /index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ComsysController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0004s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('61','首先要认真熟悉自己的产品，认真对待，克服压力，努力完成自己业绩，有可能的话想一直留在公司，一步步往上努力发展') [ RunTime:0.0068s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('62','认真遵守公司的规章制度，以身作则，和公司共同发展，时时牢记公司的企业文化，团结 高效真诚 激情，团队之间要团结，提高自己的效率，做人真诚可信，工作时间要激情，不能做与工作无关的事情，付出多少努力就有多少回报') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('63','企业的愿景是做最好的产品，为健康护航
+企业的核心价值观 ：团结 高效  真诚  激情
+企业的发展宗旨是让更多的人健康，让更多的人快乐，以人为本，与员工共发展
+情怀是品为魄，善作魂，赢天下，创未来') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('64','用印申请单') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('65','加班通知单    加班调休或加班工资') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('73','2%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('75','济南乐艾生物科技有限公司   张总') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('112','公出单') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('113','2天   3天') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('114','200') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('115','30天  200  300    600  800   2000') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('116','30天') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('117','10%') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0003s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('14','刘亚琪','1','试题一','40','422,423,424,425,426,427,428,429,430,431,432,433,434','0','40') [ RunTime:0.0002s ]
+
+[ 2017-09-30T11:18:19+08:00 ] 58.59.25.134 /index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ComsysController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0004s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('61','岗位是客服销售，首先增强自己的话术和销售方面的能力，不断跟着主管和领导学习知识。争取明年将产品的业绩做到300万，称为团队的核心销售里面的一环。然后提高自己的管理水平，向更高的方向迈进。当然赚钱是来咱们公司的目的，希望在这好好干上五年能买套房子，建立一个家庭，树立下一个五年计划。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('62','1.提高对产品的了解，只有对产品了解深刻才能更好的为客户介绍产品
+2.提高自己的销售水平和话术水平，提高自己的业绩，产品销售的足够好，公司才足够强大
+3.每天充满激情的工作，多客户诚信，高效率的完成公司的任务。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('63','1.公司愿景：做全球最好的产品，为健康护航
+2.公司价值观：高效，团结，诚信，激情
+3.公司宗旨：让更多的人健康，让更多的人快乐，以人为本，与员工同发展
+4.公司愿景：品为魄，善做魂，赢天下，创未来。
+咱们公司的企业文化就是：以人为本，团结激情。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('64','《用印申请单》') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('65','《加班通知单》 周六   周日') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('73','1%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('75','乐艾生物科技有限公司     张总') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('112','《公出单》') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('113','2
+3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('114','50') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('115','7
+200
+300
+600
+800
+2000') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('116','30') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('117','10%') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('14','吴则旺','1','试题一','42','435,436,437,438,439,440,441,442,443,444,445,446,447','0','42') [ RunTime:0.0002s ]
+
+[ 2017-09-30T11:48:45+08:00 ] 223.104.186.96 /index.php/Kefu/Speechcase/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 4 and `group` =  ) LIMIT 1  
+
+[ 2017-09-30T14:39:44+08:00 ] 58.59.25.134 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0005s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('100','小儿疝气的原因：1.肠道菌群失衡导致出现胀气，便秘等症状
+                          2.新生儿出于发育期，腹壁薄弱，脐环还未封闭。
+                          3.腹内压过高。
+小儿疝气的症状：疝气是由于婴幼儿尚未发育完毕，身体内的器官通过身体的薄弱部位转移到另一部位，一般在腹股沟出会出现肿块状突起，解除腹内高压后同过手法可以重新回纳到腹腔内，脐疝一般会在肚脐处有突起小儿平躺后通过手法可以复位。一般还会出现腹痛，坠涨，便秘等情况。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('101','1.影响婴儿消化系统
+  婴儿正处于身体的发育期，疝气会影响婴儿消化系统的发育，会出现腹痛，坠涨，便秘等情况。
+2.影响婴儿免疫系统
+   由于婴儿消化系统受到影响，导致婴儿无法消化吸收食物提供的营养，影响发育，体质变差，免疫力下降后还会受到其他病症             的干扰
+3.影响婴儿泌尿生殖系统的发育
+     由于疝气部位一般和婴儿的泌尿生殖系统相邻，疝块会不短压迫泌尿生殖系统，影响婴儿泌尿系统，严重者还会伤害到婴儿的生殖系统。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('102','  1.各种益生菌黄金配比
+     舒善菌是通过鼠李糖乳杆菌和罗伊氏乳杆菌一起其他益生菌通过黄金配比的复合益生菌，鼠李糖乳杆菌有着非常好的肠道黏着能力，可以促进腹壁细胞的生长发育，进而起到增厚腹壁，增强腹壁弹性的作用。罗伊氏乳杆菌具有调节肠道菌群，排空腹压，缓解疝气的作用。两者通过黄金配比能够起到更好的效果。
+2.增强腹壁的自愈能力
+    鼠李糖乳杆菌有着非常好的肠道黏着能力，可以促进腹壁细胞的生长发育，进而起到增厚腹壁，增强腹壁弹性的作用。罗伊氏乳杆菌具有调节肠道菌群，排空腹压，缓解疝气的作用。
+3.mrs培养益生菌活性更高
+    通过mrs培养的益生菌活性更加高，无菌密封包装，褐色遮光瓶，避免了光热等因素的影响，有效保证了益生菌的活性。
+4.天然植物成分
+    含有天然的高活性植物成分，促进婴儿腹壁的法语和生长，无任何化学添加，激素，转基因成分，不含谷蛋白，乳糖，豆类等过敏源物质') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('103','1.通过罗伊氏乳杆菌改善肠道菌群，促进婴儿血液循环，减缓婴儿便秘，坠涨等症状
+2.鼠李糖乳杆菌促进腹壁组织细胞的生长发育使腹壁增加厚度，增强弹性。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('104','鼠李糖乳杆菌和罗伊氏乳杆菌') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('105','1.0-5岁婴幼儿，有肠道菌群失衡，腹壁薄弱，腹内压高的情况。
+2.嵌顿和鞘膜积液不可以使用产品，嵌顿应立即就医否则可能出现生命危险。
+3.需要问清楚患者的各种状况（心，肺），婴幼儿属于生长发育期，体质较弱容易受到伤害，需要问清楚实际情况，根据实际情况进行，否则容易发生中毒现象，应该慎之又慎。
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('106','舒善菌中鼠李糖乳杆菌和罗伊氏乳杆菌是主要成分，罗伊氏乳杆菌是世界上研究最充分的益生菌，尤其是针对婴儿，经过科学实验证明其可以有效调节肠道菌群，缓解疝气症状。鼠李糖乳杆菌是研究背景最深厚的益生菌，可以有效改善肠道菌群平衡，有很高的肠道黏着性，可以促进腹壁组织细胞的生长发育，增厚腹壁，增强弹性。无任何化学添加，激素，转基因物质，不含谷蛋白，乳糖，豆类等过敏源物质。通过了80多次实验验证，7000多例临床试验。15年来经过了无数检验，已经是美国近15万宝宝拜托了疝气。我们有美国对本公司的授权证明。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('107','1.通过罗伊氏乳杆菌改善肠道菌群，促进婴儿血液循环可以有效减轻儿童腹胀，坠痛，便秘等症状
+
+2.鼠李糖乳杆菌促进腹壁组织细胞的生长发育使腹壁增加厚度，增强弹性，宝宝正在处于人生成长发育的第二个重要阶段，细胞再生繁殖能力极强，也是辅助修复的最佳时期。
+我们的产品已经帮助美国数15宝宝脱离了疝气，是美国妈妈治疗疝气的首选产品。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('108','咱们这个产品是美国进口产品，所以价格略高，但是价格高意味着质量也能够得到保证，如果那种特别低廉的产品我相信您也不会给孩子使用，毕竟婴儿现在处于生长发育期，任何一些对孩子不好的都可能影响孩子的一生，而且咱们的中间过程也会有一系列成本费用，是没有办法减免的。您可以先买一些产品用着，如果以后有活动了我在联系您，您看可以吗？') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('109','咱们这个产品必须是保税区收到货款才可以安排给咱们发货，如果收不到货款的话，那边是没有办法发货的，所以怎们必须先交货再交产品。我们都是正规公司，您在各种官方渠道也能够差得到我们的企业和资质。绝对不会出现钱到货不到这种情况，而且我们还要在中国大力推广产品，不可能拿企业信誉开玩笑的。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('110','您可以先少拿一些产品使用一下，我们的产品效果确实是非常好的，有非常多的客户在第一次购买之后进行了重复购买。而且现在婴幼儿越早使用治疗的速度越快，因为现在属于婴幼儿的发育期嘛！如果您考虑时间太久的话可能会延误孩子的病情，希望您慎重考虑吧！您随时可以联系我。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('111','家长：你好，我想问一下咱这个产品真的能至于疝气吗？
+我：您孩子大概多大了
+家长：10个月
+我：疝气在哪个部位
+家长：在小鸡鸡左侧
+我：发现时间大概多长？
+家长：大概1个月了
+我：您这个属于腹股沟疝气，由于咱们孩子现在还小，所以通过咱们这个产品和家长的精心呵护是可以完全自愈的。因为现在婴幼儿正处在成长的关键时刻，婴儿细胞再生和繁殖能力非常强，通过咱们这个产品降低腹压，调节婴儿肠道菌群，促进婴儿腹壁细胞的再生，增厚腹壁，增强弹性，完全可以自愈。') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('14','吴则旺','2','舒善菌基本知识测试','0','448,449,450,451,452,453,454,455,456,457,458,459','0','0') [ RunTime:0.0002s ]
+
+[ 2017-09-30T14:40:21+08:00 ] 58.59.25.134 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0005s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('100','小儿疝气不仅与腹内压升高还有腹壁薄弱有关，还与肠道菌群失衡有关。肠道菌群失衡导致腹壁薄弱，腹压飙升。腹壁薄弱，鞘状突、脐环闭合不及时，也有可能会产生小儿疝气
+小儿疝气主要变现为腹股沟疝气：在腹股沟处能看到或者摸到肿块，发病初期，婴幼儿平躺时肿块消失，随着腹内压升高，肿物会延伸到阴囊或者阴唇部位。脐疝：主要是肚脐上有凸起，平躺时肿块消失。婴幼儿疝气还伴随着一些腹痛，胀气，咳嗽、便秘，过度哭闹等症状。如果肿物不能回纳腹腔，嵌顿时间久，可能会引起肠坏死等并发症，应及时就医') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('101','小儿疝气首先影响消化系统，消化系统受到影响，会导致婴幼儿产生腹痛等现象，可能会引起胀气等症状。消化系统受到影响会导致婴幼儿吸收不好，营养不良，体质变弱，导致免疫力下降。因为与泌尿系统相邻，会影响生殖系统的正常发育，严重的需要手术切除坏死部位，影响婴幼儿的生长发育。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('102','舒善菌是各种高活性益生菌按照黄金比例复合而成，对消除小儿疝气有显著的影响；助力提升宝宝的自愈力，增强腹壁的厚度和弹力；采用MRS培养基确保益生菌的高活性；舒善菌中还含有天然有机植物成分，不添加任何化学制剂、激素等，确保安全性') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('103','舒善菌主要是通过缓解肠道菌群环境，改善消化系统，减少胀气、腹痛等症状，加速排空，降低腹内压。促进细胞分裂，增强腹壁的厚度和腹壁的弹力，提高婴幼儿的腹壁自愈能力，从而达到消除小儿疝气的效果') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('104','主要成是鼠李糖乳杆菌、罗伊氏乳杆菌等高活性益生菌，按照黄金比例配置而成，采用先进的技术将世界研究最充分的益生菌按照黄金比例配置，对于小儿疝气有显著的效果，缓解肠道菌群环境，改善消化系统，减少胀气、腹痛等症状，加速排空，降低腹内压。舒善菌中的鼠李糖乳杆菌具有较强的粘着率，能促进细胞分裂，增强腹壁的厚度和弹力，提高婴幼儿的腹壁自愈能力，从而达到消除小儿疝气的效果') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('105','0-5周岁与肠道菌群失衡、腹内压升高、腹壁薄弱有关的患有小儿疝气的婴幼儿
+用滴管吸取0.4ml的舒善菌，可直接口服，或者和母乳、牛奶、水食物等混合服用
+每天一剂 0.4ml  与水 牛奶等混合，温度不要超过37摄氏度
+鞘膜积液、嵌顿等不能服用，有病史（心脏、肝等）
+正在服用抗生素的婴幼儿不能同时服用，可先服用抗生素，间隔两个小时在服用舒善菌') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('106','舒善菌是美国顶尖小儿益生菌Upspring机构的生产，是迪司贝儿品牌下的复合性益生菌，舒善菌的安全性和有效性，已通过80多项临床试验验证，7000多随机试验者验证，舒善菌经过了美国农业部（USDA）的有机认证，成分安全性完全可以放心。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('107','作为家长，这样的顾虑是可以理解的，毕竟是是给孩子服用的不能马虎，舒善菌已经上市15年，已经只好10多万患有小儿疝气的宝宝，美国宝妈的反馈是最好的证明') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('108','因为是美国直邮，价格已经是很便宜了，宝宝服用用的东西不能大意，便宜的也不敢轻易给宝宝服用') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('109','我们都是款到发货的，留一下地址名字和电话，付款后立马发货。因为是美国直邮，需
+要海关严格检验合格后，没有经过二次转接，保证正品和效果
+
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('110','可以的，但是宝宝得疝气可不能拖太久，时间长了容易发生嵌顿，可能会发生肠梗阻、肠坏死等严重并发症，疝气尽早修复越好') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('111','你好，我们是小儿疝气研发机构，请问有什么可以帮到你的吗？
+你好，我的孩子得了疝气
+请问宝宝现在的年龄多大？3岁
+疝囊在什么部位？腹股沟部位
+鼓出的包块有多大？（枣，桂圆，核桃，鸡蛋,）核桃大小吧
+平躺的时候是否能自行回纳 ？可以
+能宝宝食欲怎么样？食欲不太好
+ 根据描述孩子患得是腹股沟疝气，目前宝宝的情况，需要尽快修复，因为小儿疝气已经严重影响到宝宝的消化系统，腹内压不降低，会影响到宝宝腹壁的自愈。
+应该怎么办呢，需要手术吗？
+因为咱们家宝宝年龄较小，抵抗力太弱，不建议手术，我们这边有很多宝宝和你们家孩子的情况相似，他们都使用美国原装进口的小儿疝气益生菌舒善菌进行调理修复。
+这个是正品吗？是美国原装正品，有防伪码可以检验真伪
+安全吗？
+这个你可以放心，舒善菌入境时，需要经过海关清关检验，如果不合格，也不会被允许入境的。
+效果怎么样？舒善菌已经上市15年，已经只好10多万患有小儿疝气的宝宝，美国宝妈的反馈是最好的证明
+价格是多少？
+800/盒 1500/2盒
+价格有点高，能便宜一点吗？因为是美国直邮，价格已经是很便宜了，宝宝服用用的东西不能大意，便宜的也不敢轻易给宝宝服用
+怎么服用呢？用滴管吸取0.4ml的舒善菌，可直接口服，或者和母乳、牛奶、水食物等混合服用
+每天一剂 0.4ml  与水 牛奶等混合，温度不要超过37摄氏度
+可以货到付款吗？') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('14','刘亚琪','2','舒善菌基本知识测试','0','460,461,462,463,464,465,466,467,468,469,470,471','0','0') [ RunTime:0.0002s ]
+
+[ 2017-09-30T15:40:19+08:00 ] 58.59.25.134 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0004s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('85','') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('86','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('87','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('88','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('89','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('90','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('91','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('92','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('93','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('94','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('95','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('96','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('97','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('98','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('99','') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('14','吴则旺','2','腹壁营养素基本知识测试','0','472,473,474,475,476,477,478,479,480,481,482,483,484,485,486','0','0') [ RunTime:0.0002s ]
+
+[ 2017-09-30T15:41:13+08:00 ] 58.59.25.134 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0004s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('85','') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('86','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('87','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('88','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('89','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('90','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('91','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('92','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('93','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('94','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('95','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('96','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('97','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('98','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('99','') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('14','吴则旺','2','腹壁营养素基本知识测试','0','487,488,489,490,491,492,493,494,495,496,497,498,499,500,501','0','0') [ RunTime:0.0002s ]
+
+[ 2017-09-30T15:42:20+08:00 ] 58.59.25.134 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0005s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('85','') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('86','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('87','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('88','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('89','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('90','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('91','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('92','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('93','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('94','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('95','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('96','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('97','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('98','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('99','') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('14','吴则旺','2','腹壁营养素基本知识测试','0','502,503,504,505,506,507,508,509,510,511,512,513,514,515,516','0','0') [ RunTime:0.0001s ]
+
+[ 2017-09-30T15:49:50+08:00 ] 58.59.25.134 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0005s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('85','') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('86','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('87','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('88','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('89','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('90','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('91','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('92','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('93','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('94','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('95','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('96','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('97','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('98','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('99','') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('14','刘亚琪','2','腹壁营养素基本知识测试','0','517,518,519,520,521,522,523,524,525,526,527,528,529,530,531','0','0') [ RunTime:0.0002s ]
+
+[ 2017-09-30T15:51:42+08:00 ] 58.59.25.134 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0004s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('85','') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('86','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('87','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('88','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('89','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('90','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('91','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('92','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('93','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('94','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('95','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('96','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('97','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('98','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('99','') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0003s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('14','刘亚琪','2','腹壁营养素基本知识测试','0','532,533,534,535,536,537,538,539,540,541,542,543,544,545,546','0','0') [ RunTime:0.0002s ]
+
+[ 2017-09-30T15:56:41+08:00 ] 58.59.25.134 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0005s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('85','') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('86','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('87','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('88','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('89','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('90','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('91','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('92','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('93','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('94','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('95','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('96','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('97','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('98','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('99','') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('14','刘亚琪','2','腹壁营养素基本知识测试','0','547,548,549,550,551,552,553,554,555,556,557,558,559,560,561','0','0') [ RunTime:0.0002s ]
+
+[ 2017-09-30T16:00:03+08:00 ] 58.59.25.134 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0004s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('85','') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('86','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('87','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('88','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('89','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('90','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('91','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('92','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('93','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('94','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('95','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('96','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('97','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('98','') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('99','') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0003s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('14','刘亚琪','2','腹壁营养素基本知识测试','0','562,563,564,565,566,567,568,569,570,571,572,573,574,575,576','0','0') [ RunTime:0.0002s ]
+
+[ 2017-09-30T16:49:01+08:00 ] 58.59.25.134 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0005s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('85','腹股沟疝，脐疝，切口疝，白线疝，手术复发疝等
+症状：腹股沟处有肿块状突起，接除腹内高压后，可以通过手法复位。脐疝肚脐有突起状肿块，平躺后可通过手法收纳入腹腔。肿块处较硬，不分会出现红肿等症状，疝气患者一般还伴有便秘，腹胀，坠痛，多梦的症状。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('86','1.疝气裤，疝气带
+      疝气裤和疝气带只能将疝气疝囊肿块压回到腹腔内，不能降低腹压，不能在根本上解决问题
+2.手术治疗
+     手术治疗疝气切口大概7——8厘米，创伤大，花费高，且本来就薄弱的腹壁再次受到伤害不利于患者的恢复，复发率极高，达到36%
+3.腹腔镜手术
+  腹腔镜手术创口小出血量少，但是腹腔镜手术对操作要求非常高，花费巨大，创口2-3个，在腹内高压不减轻的情况下极易复发。
+4.腹壁营养素
+   腹壁营养素是纯植物制剂没有手术的副作用，通过营养素降低腹压，增加对腹壁的营养供给，促进其自愈能力不断提高，可以冲根本上解决疝气。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('87','小儿疝气通常会在出生后数日，数年，数月发生。儿童大多会在妈妈换尿布，出浴，站立时发现。患儿一般会出现便秘，腹胀，啼哭不止，吐奶等状况。
+  应该及时治疗，及时使用各类辅助展品帮助宝宝修复，因为宝宝正在出浴发育生长的第二个阶段，细胞再生繁殖能力非常强大，这个时候是治疗最好的时候。还要从生活上帮助宝宝摆脱疝气：
+1.多吃一些益气的食物，如山药
+2.多吃一些富含纤维素的食物，如刀豆，番茄，茄子
+3.不吃生冷海鲜刺激类的食物，尽量避免使用雪糕，辣椒火锅，冰冻制品，海鲜等对宝宝肠胃不利的食物
+') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('88','1。降低腹压收缩疝囊
+    腹壁营养素进入到血液后会迅速行气活血，疏通血液，缓解腹痛坠涨的状况
+2.复位疝囊 愈合疝口
+    腹壁营养素会迅速发挥作用，是疝囊逐渐回复到原来的位置，并且防止器官错乱，疝口逐渐愈合，消除腹胀疼痛等状况
+3.修复腹壁 增强供给
+     营养素会增强对腹壁组织细胞的修复，促进其活性和再生能力增强，增加血液营养供给。
+4.提高自愈能力防止反复
+   营养素中的高活性物质拥有极强的增强腹壁自愈能力的能力，不短修补腹部组织细胞，增强活性达到不再反复的目的') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('89','柑橘子，山胡椒，荔枝核，延索胡，泽泻，乌腾等种子提取的小分子多肽') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('90','1.美国进口疗效显著
+   腹壁营养素纯美国进口产品，对疝气的治疗效果非常显著
+2.活性增强
+    腹壁营养素采用低温萃取技术，通过提取种子中的小分子多肽能有有效治疗疝气
+3.纯天然制作
+   腹壁营养素是通过种子来提取活性物质，属于纯植物制剂，无任何副作用
+4.国际认证
+   腹壁营养素已经远销英国，日本，美国等多个国家，还获得了美国认证。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('91','1.人对手术的承受能力不同，老人做手术对元气的消耗很大，而且还很有可能出现其他并发症。
+2.做完手术需要子女护理，消耗了子女的工作时间，对子女有影响
+3.不能从根本上去除疝气的影响，有极高的复发可能性。
+4.价格高，首先要手术，住院，后期的修养加在一块费用特别高，老人还受罪。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('92','青壮年人士和老年人。
+注意1.每日饭前服用，每次两粒，每日三次
+       2.高温发热状态下不能使用营养素') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('93','我们是咨询顾问，我们这个东西肯定是有许可授权的，而且我们是国外发货通过保税区再发到您的手中，在过海关时有清关环节，没有正规的手续和授权我们也不可能把产品运到中国。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('94','由于我们的公司有保密性协议，我们无法透露其他的患者，当然这也是对患者隐私的保密。使我们公司对患者负责的体现，我们尊重患者隐私，没有办法给您提供这方面的信息。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('95','目前的话美国方面只授权了我们公司产品的出售，一般的药店里是没有的，济南这边也只有一家药店有售。因为产品放到药店出售价格会增长很多，包括房租的价格也要放在你们身上，中间还要经过我们公司和药店的差价，所以公司决定将差价回馈到我们的客户身上，所以基本上是买不到的。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('96','我们不是微商，我们的公司是有正规的营业执照和资质，包括你在各种官方渠道包括天眼查都可以查到我们的公司，以及其信息。我们还需要扩大市场不可能拿着企业信誉开玩笑。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('97','我建议您还是尽快考虑，疝气这个病越拖越厉害，而且一旦发生嵌顿时间长了就有可能发生肠梗阻，小肠坏死，到时候就不得不手术，而且手术话费要不这个还要巨大，还要忍受身心痛苦，自己受罪。不如先拿一些咱们这的产品，进行辅助治疗，效果复合您的要求您在多拿一些也是可以的。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('98','我们的产品是绝对没有问题的，而且重复购买的人特别多，如果出现这种情况，您可以在任何平台对我们进行曝光。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('99','顾客：您好，这个药对疝气真的有效果吗？
+我：是的，咱们的产品经过了16年的验证，一个产品如果没有效果是不可能生存下来的，而且咱们这重复购买特别多，疗效是非常好的
+顾客：你们这要吃多长时间啊？挺贵的
+我：咱们这个产品一般吃一瓶就可以见效，大部分患者2-6瓶可以完全杜绝疝气，当然也要根绝病情的严重程度。您患病几年了？
+顾客：3年了，一直找药物治疗也没治好，考虑要去做手术了。
+我：您现在年龄多大？疝气在哪个位置呢？
+顾客：今年34了，在大腿右侧
+我：您现在还比较年轻肯定处于事业的上升期，相信您事情也挺多挺忙的，您如果做手术首先一个是您本人受罪。而且即使手术也不可能保证您一定能好，而且您这么忙如果躺上一个半个月肯定对您不好。在一个手术只是将腹壁拉拢缝合，本来就很薄的腹壁再次受到伤害极易复发，手术复发率大概达到36%，而营养素是从根本上促进腹壁自愈再生能力的提高，增强腹壁组织细胞的活性，激活其分裂发育能力，可以从根本上解决疝气。
+') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('14','吴则旺','2','腹壁营养素基本知识测试','0','577,578,579,580,581,582,583,584,585,586,587,588,589,590,591','0','0') [ RunTime:0.0002s ]
+
+[ 2017-09-30T16:56:31+08:00 ] 58.59.25.134 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0005s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('85','疝气的主要分类有脐疝、腹股沟直疝、切口疝、手术复发疝、白线疝、股疝等。引起临床上较常见的是腹股沟疝，在腹股沟区可以看到或摸到肿块，平卧后可恢复。引起肿块出现的诱因是腹压增加，主要以婴幼儿居多如哭泣、咳嗽、排便、排尿等。较年长的小孩可令其站立，腹部用力也可诱发肿块在腹股沟区出现，有些则会到达阴囊或阴唇。肿块系由腹腔内的器官脱出到疝气袋所形成，脱出的器官以小肠居多，女性则以卵巢脱出较多。除了可以看到或触到肿块之外，有些患者会有便秘、食欲不振、等现象，有些则可能表现易哭、不安等。') [ RunTime:0.0003s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('86','以疝气带、疝气裤为辅助，主要是通过物理挤压受堵部位，腹壁细胞不能的修复，因此疝气不能从根本上消除疝气；传统疝气手术，手术之后有一个6-8厘米的切口，是将受损周围细胞进行强行拉扯，容易留疤，而且因为腹壁没有被修复，容易反复。
+疝补片修复术通过腹腔镜来完成疝气补片，无法改善腹壁弹性，在腹压增高的情况下容易出现反复。
+腹壁营养素能迅速的修复腹壁网膜细胞，增强腹壁自愈力，提高腹壁的厚度和弹性，从而消除疝气') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('87','小儿疝气主要是腹股沟疝气：在腹股沟处可以看到或者摸到肿块，婴幼儿平躺时肿块消失，随着腹内压升高，返回腹腔。脐疝：在肚脐上会出现凸起肿块，平躺时消失。平时家长所注意观察，用手按压或者平躺时，肿物可返回腹腔是可复性疝气，如果不能回纳，前顿时间久，要及时就医。平时尽量避免婴幼儿哭闹、剧烈运动，咳嗽、喷嚏、便秘等使腹内压升高的因素，注意吃一些容易消化、富含纤维素的食物等') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('88','腹壁营养素迅速进入人体血液循环，软化疝囊，快速降低过高的腹压。使疝块快速收缩复位。
+疝块回收入腹腔后，会在腹壁营养素的调理运作下返回原来所在位置，愈合疝口。
+并在腹壁营养素不断强化下，增强腹壁厚度和韧度，使疝口永久性闭合。
+疝气形成的主要原因是腹壁膜过于薄弱，腹壁营养素过修复腹壁网膜细胞自愈力，修复腹壁网膜细胞，使薄弱的腹壁组织不断增厚，弹性加强，彻底祛除疝气不反复。
+增强腹壁自愈力  防止反复
+ ') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('89','主要成分有山楂、荔枝核、茴香、山胡椒、柑橘子、延胡索、泽泻、香附子、马尾藻等，采用美国先进的七重酶解技术，将这些原料中的高分子物质萃取出来，以快速激活腹壁细胞的自我维护功能，激活腹壁自愈力，增强腹壁弹性，实现消除疝气不反复。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('90','美国原装进口，国际认证，美国FDA认证，国际强大的消除疝气种子配方，消除疝气精准有效；都是精选世界著名的高活性种子，低温萃取恢复腹壁弹性，缩小疝块。腹壁营养素原料全部采用纯天然有机种子为原材，没有任何化学添加；腹壁营养素采用国际先进的智能酸碱缓控释技术，能顺利躲过胃酸侵蚀，修复受损腹壁的网膜细胞，从源头上改善疝气') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('91','疝气手术是通过将缺损周围组织强行拉拢、缝补来改善疝气，1个大切口约6-8厘米，住院7-10天，容易留疤，而且因为腹壁没有被修复，容易反复，腹壁营养素通过促进腹壁细胞自我维护功能来激活腹壁自愈力，增强腹壁弹性，是可以源头消除疝气的，而且巧妙避开了手术的副作用，完全可以试试。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('92','主要针对与腹壁薄弱、腹壁弹性降低有关的疝气患者，每日3餐前空腹各服用一次，每次2粒。
+发热情况下是禁止服用的') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('93','腹壁营养素是纯植物制剂，在瓶身上也有显示，是不添加任何化学和激素物质的。美国对这一方面要求特别严禁，说不含就是不含，每个产品都是经过严格检验的，每一件都有防伪编码，可以辨认真伪的，完全可以放心。
+ ') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('94','顾客的信息是隐私不方便透漏的，你可以看一下朋友圈里面患者反馈，腹壁营养素已经上市16年了，是美国医生强烈推荐使用的产品，已经挤掉60%的疝气手术了，完全可以放心使用，是因为腹壁营养素应用了最先进的七重酶解技术萃取植物中的高活性物质，快速促进腹壁组织细胞再生，见效很快') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('95','我们是腹壁营养素在中国的授权代理，因为腹壁营养素15年才引进中国，所以国内目前只有济南的一壶天连锁药店有售，其他地区还没进入药店毕竟进药店是需要一系列费用的，我们不希望把这些费用平摊在消费者身上。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('96','我们是腹壁营养素在中国的授权代理，壁营养素是纯植物制剂，在瓶身上也有显示，是不添加任何化学和激素物质的，是美国直邮，经过海关严格审核的，完全可放心') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('97','好的，提醒一下疝气是人体的定时炸弹，不及时修复的话可能会导致前顿时间久，出现肠梗堵、肠坏死等并发症，还是及时处理的好，考虑好了随时可以联系') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('98','腹壁营养素是美国原装进口，上市已经16年了，消除疝气效果非常好，必然也不会挤掉60%的疝气手术，腹壁营养素已经使98%的疝气患者消除疝气') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('99','你好，请问有什么可以帮助的吗？
+我长了个大疝气包
+年龄是多少？在什么部位？在腹股沟那个位置
+巩医生：多长时间了？
+疝囊有多大？鸡蛋大小吧
+平时疝囊部位有什么不适症状吗？酸胀不适
+你这是腹沟股疝气的症状，从你的情况来看，自愈的可能性不大，建议你用美国腹壁营养素来调理一下。
+是正品吗？我们是美国官方授权代理，每一瓶都有防伪码，可以在官网查询真伪，确保正品。
+你们这效果怎么样？腹壁营养素') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('14','刘亚琪','2','腹壁营养素基本知识测试','0','592,593,594,595,596,597,598,599,600,601,602,603,604,605,606','0','0') [ RunTime:0.0002s ]
+

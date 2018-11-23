@@ -1,0 +1,33 @@
+[ 2017-12-23T15:42:41+08:00 ] 58.56.25.158 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 88 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0118s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('118','丘疹，脓包，结节，囊肿') [ RunTime:0.0327s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('119','分为三级
+低级：粉刺恶化为丘疹型痤疮，数量在30个以下的
+中级：表现为丘疹和脓包，数量在30~100个之间的
+重级：聚合型痤疮，结节和囊肿在3个以上，总数量在100个以上的') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('120','委托方是山东乐艾生物技术有限公司 
+被委托方是天津美之路化妆品有限公司
+20mg/片。一盒10片。总共200mg') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('121','产品中的寡肽-1有细胞修护功能') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('122','闭合性粉刺是毛囊皮脂腺上的一种慢性炎症皮肤病') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('123','1、1600元   2、2980元  3、1600元  4、4700元   5、2600元  6、4300元  7、6000元  8、') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('124','黑醋栗
+一天两次，每次2片，早晚饭后30分钟使用
+经期停用，孕妇禁用，12岁以下小孩禁止使用') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('125','1、给其他患者使用后的效果照片让他相信不只他一个人在用，而其他人用了，效果都是很好的
+2、给他看证书等，让他相信我们的产品不是一个杂牌，而是由国家承认的
+3、让他先买一个疗程试试效果') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('126','相信自己公司的产品，全力给客户推荐
+如果身边有朋友也有这方面的需求的话，给朋友推荐') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('127','1、丘疹
+2、结节') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0005s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('13','翟国辉','2','痘痘组新员工基础知识考核','0','1386,1387,1388,1389,1390,1391,1392,1393,1394,1395','0','0') [ RunTime:0.0002s ]
+

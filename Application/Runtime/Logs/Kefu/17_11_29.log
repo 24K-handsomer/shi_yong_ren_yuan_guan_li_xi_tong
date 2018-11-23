@@ -1,0 +1,20 @@
+[ 2017-11-29T15:37:38+08:00 ] 58.56.25.158 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0133s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('118','闭合性粉刺     痤疮') [ RunTime:0.0251s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('119','四级     轻度   丘疹个数 少于30个   中度   痘痘个数在31~50个 重度   痘痘个数在50 个以上') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('120','委托方：山东乐艾生物技术有限公司
+净含量：120 粒每瓶') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('121','痘印是在皮肤表面形成的色素沉着  多酚提苏活力片 里边含有的银耳 光果甘草  芍药  的提取物 修复型强 深入皮肤内部并保持高活性，抑制黑色素形成的多种酶  如  咯氨酸酶') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('122','在皮肤表面还没有冒出头的  是有死掉的细菌和身体分泌物组成，挤出来是一条白色的线     角化型脂栓   是青春痘的一种   是角质层过厚引起的') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('123','1.1800 元2.40003.1600  4.6400  5.1400 ') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('124','银棕榈提取物  使用方法：内服  早中晚 饭后半小时 禁忌；12 岁以下    孕妇   血压低 心脏病 等动过大手术的人    ') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('125','这边很多跟你一样的患者  都是通过这个产品皮肤得到了恢复    开始也是跟你一样     你只有用了才能看到效果 如果你不敢迈出第一步，那么谁也帮不了你   健康和漂亮的脸也是要自己去争取的   ') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('126','安酷颜和DH是美国进口的，已经上市18年，是深受消费者好评的祛痘产品   多芬提苏活力片是公司自己产的   内服加外用效果更好。我会跟顾客很自信的介绍公司的产品 我是在帮助顾客恢复健康') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('127','丘疹型痘痘       脓包型痘痘') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0005s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('13','张士凤','2','痘痘组新员工基础知识考核','0','1226,1227,1228,1229,1230,1231,1232,1233,1234,1235','0','0') [ RunTime:0.0002s ]
+

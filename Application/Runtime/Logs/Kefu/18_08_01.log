@@ -1,0 +1,24 @@
+[ 2018-08-01T10:54:59+08:00 ] 58.56.25.158 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 162 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0003s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('126','认可咱公司的产品，认真工作，每天保持好的心态，尽快的投入到工作中，按时完成公司交的工作，只有坚持了才会有希望，') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('146','跟客户说出咱产品的效果和优势，客户不是考虑价格，而是不相信人，先和客户拉近关系，过熟人关，她信任你了价格就不是问题了') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('148','囊肿型痘痘，脓包型痘痘') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('222','1.丘疹型痘痘，2.脓包型痘痘，3.结节型痘痘，4.囊肿型痘痘，5.聚合型痘痘') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('223','1.闭合性粉刺是痘痘的一种，也就是在皮肤里还没有探出头的粉刺，它主要是有死掉的细菌和身体的分泌物组成的，多发于面部，细小的皮下脂栓，表现米粒大小半球形白色小包。  2.痘痘俗称粉刺。青春痘，暗疮，丘疹，中医古代称面疮，酒刺，是皮肤科常发病，多发病，是皮囊腺单位一种慢性皮肤病，主要发于青少年，临床表现面部的粉刺，丘疹，囊肿，结节，对人的情绪和心里健康产生一定的影响，对青少年的心里和社交影响超过了哮喘和癫痫。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('224','1.构成不同，粉刺由油脂和角质组成，痘痘主要是死掉的细菌和身体的分泌物组成的，粉刺不去注意，病情加重会变成痘痘。2，产生频率不同粉刺发病率很高，一般人都会长粉刺，属于正常现象，痘痘发病率不是高，只有体内内分泌失调或者心情不好，不重视粉刺，痘痘就会慢慢的形成了。3发病原因不同痘痘内分泌失调，雄性激素过多和油脂分泌不畅引起的慢性炎症，粉刺是皮肤清洁不彻底，遗传因素，熬夜。冷热交替，使用避孕药等因素，4变现症状不同粉刺主要变现为白头粉刺和黑头粉刺，痘痘主要变现为红肿，囊肿，结节青春痘') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('225','痘痘是内分泌过多，雄性激素过多和油脂不畅引起的慢性炎症') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('226','很多人会说不要理，痘痘自己会好，其实12%的会自愈，88%的会反复发作，毛孔堵塞是为重度痤疮埋下了一个定时炸弹，粉刺不重视，发展下一步就是痘痘，很多人由于认知不清耽误了祛除时机，由于治疗不及时，炎症反应破坏了组织细胞导致面部出现大量的痘印和痘坑，甚至有的凸出皮肤的瘢痕。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('227','1.维a酸内，2果酸水杨酸类，3过氧化苯甲酰，4.抗生素。5，糖皮质激素') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('229','1，迅速疏通毛孔，增强皮肤免疫，消炎杀菌净化毛囊，修复人体皮肤排毒的管道的腺细胞') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('231','产品成分：光草甘草，甘草，黄苓，银耳，芍药，水解胶原。使用方法：充分清洗面部，将产品从铝板中取出至于手心，使用纯净水5-8滴，均匀涂于脸部。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('232','1,，·12盒1500.2,24盒2880.3,9盒1400.4 ，36盒 4500') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('13','徐艳艳','2','2018.5痘痘国内组新员工考试试题','0','2159,2160,2161,2162,2163,2164,2165,2166,2167,2168,2169,2170','0','0') [ RunTime:0.0001s ]
+

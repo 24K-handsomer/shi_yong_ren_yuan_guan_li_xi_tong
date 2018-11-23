@@ -1,0 +1,7 @@
+[ 2018-05-07T10:57:54+08:00 ] 58.56.25.158 /index.php/Admin/Peomanager/addgroup
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+SQL: SHOW COLUMNS FROM `group` [ RunTime:0.0006s ]
+SQL: INSERT INTO `group` (`group_name`) VALUES ('新项目部') [ RunTime:0.0793s ]
+

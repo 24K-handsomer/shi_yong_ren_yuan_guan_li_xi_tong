@@ -1,0 +1,25 @@
+[ 2018-05-29T14:40:00+08:00 ] 58.56.25.158 /index.php/NotKefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 149 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/NotKefu/Controller/ComsysController.class.php 第 122 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0174s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('61','首先打算选择自己喜欢的职业（文案策划），然后在这个岗位锻炼几年，在此期间，希望可以学到一些使自己进步的东西，无论是知识还是技术以及为人处世，都能使自己得到一定的提高，然后希望在这个岗位得到晋升。') [ RunTime:0.1077s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('62','需要充分发挥自己的力量为公司创造价值，还要热爱自己的公司，热爱自己的工作。和公司一起成长，一起进步。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('63','公司具有良好的市场发展前景，虽然创立时间不是很久远，但在短短几年内就取得了迅速的进步，公司具有独到的情怀，那就是：品为魄，善做魂，赢天下，创未来。此外公司的核心价值观反应出了全体员工的精神特质，团结，高效，诚信，激情，这正是艾乐员工的精神体现。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('68','7天    30天 ') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('69','50元') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('71','旷工') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('72','1%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('73','2%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('74','济南历下区三庆，世纪财富中心B2603') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('75','乐艾生物技术有限公司，总经理为张丽洁') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('113','请假1天需提前一天申请，请2天以上需提前3天申请。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('115','30天，  100   300   800   1300    1500') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('116','7天') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0005s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('17','吴志平','1','最新制度考试','36','2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,2025,2026,2027','0','36') [ RunTime:0.0002s ]
+

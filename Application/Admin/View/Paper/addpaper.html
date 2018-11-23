@@ -1,0 +1,126 @@
+<extend name="Public/base"/>
+<block name="style-top">
+	<link rel="stylesheet" type="text/css" href="__LAYUI__/css/layui.css">
+</block>
+<block name="style">
+	<link rel="stylesheet" type="text/css" href="__CSS__/addtest.css">
+	<style type="text/css">
+		#table-top{
+			text-align: center;
+		}
+	</style>
+</block>
+<block name="nav">
+	<span>添加试卷</span>
+</block>
+<block name="body">
+	<div id="row">添加试卷</div>
+	<form action="__CONTROLLER__/upload" method="post">
+	<div id="table-top">
+		<span>试卷所属：</span>
+		<select name="fileid" id="fileid">
+            <foreach name="filetype" item="v" >
+            	<if condition="$v.fileid != 5">
+					<option value ="{$v.fileid}">{$v.filename}</option>
+            	</if>
+            </foreach>
+        </select>
+	</div>
+	<div id="table-top">
+		<span>&nbsp;试&nbsp;卷&nbsp;名：</span>
+		<input type="text" placeholder="例如:公司制度培训测试2017-4-8" name="pname" >
+	</div>
+	<div id="table-top">
+		<span>&nbsp;选&nbsp;择&nbsp;题：</span>
+		<span>
+			<i id="type1" ps="1" class="layui-icon" style="font-size: 18px; color: #3a4d5a;">&#xe61f;</i>
+		</span>
+		<input style="display: none;" type="text" name="type1" class="type1">
+	</div>
+	<div id="table-top">
+		<span>&nbsp;判&nbsp;断&nbsp;题：</span>
+		<span>
+			<i id="type2" ps="2" class="layui-icon" style="font-size: 18px; color: #3a4d5a;">&#xe61f;</i>
+		</span>
+		<input style="display: none;" type="text" name="type2" class="type2" >
+	</div>
+	<div id="table-top">
+		<span>&nbsp;多&nbsp;选&nbsp;题：</span>
+		<span>
+			<i id="type5" ps="5" class="layui-icon" style="font-size: 18px; color: #3a4d5a;">&#xe61f;</i>
+		</span>
+		<input style="display: none;" type="text" name="type5" class="type5" >
+	</div>
+	<div id="table-top">
+		<span>&nbsp;简&nbsp;答&nbsp;题：</span>
+		<span>
+			<i id="type3" ps="3" class="layui-icon" style="font-size: 18px; color: #3a4d5a;">&#xe61f;</i>
+		</span>
+		<input style="display: none;" type="text" name="type3" class="type3" >
+	</div>
+	<div id="table-top">
+		<input type="submit" name="" value="提交">
+	</div>
+	</form>
+</block>
+<block name="script">
+<script type="text/javascript">
+$(function(){
+	$(".layui-icon").click(function() {
+		var ps = $(this).attr("ps");
+		var fileid = $("#fileid").val();
+		show(fileid,ps);
+	});
+
+	$("#fileid").change(function() {
+		$(".type1").val("");
+		$(".type1").css("display","none");
+		$(".type2").val("");
+		$(".type2").css("display","none");
+		$(".type3").val("");
+		$(".type3").css("display","none");
+		$(".type5").val("");
+		$(".type5").css("display","none");
+	});
+});
+</script>
+<script type="text/javascript" src="__LAYUI__/layui.js"></script>
+<script type="text/javascript">
+	function show(fileid,ps) {
+		layui.use('layer', function(){
+	    var layer = layui.layer;
+	    var index = layer.open({
+		    type: 2,
+		    title: '请勾选',
+		    shadeClose: true,
+		    shade: 0.4,
+		    area: '400px',
+		    content: '__CONTROLLER__/select?filetype='+fileid+'&type='+ps, //iframe的url
+		    btn: '确认',yes: function (index, layero) {
+		    	var frame = layer.getChildFrame('body', index);
+		    	var checkbox=frame.find(".checkboxid");
+		    	var str = "";
+		    	for (var i = 0; i < checkbox.length; i++) {
+		    		if (checkbox.eq(i).prop("checked")) {
+		    			str += checkbox.eq(i).val()+",";
+		    		}
+		    	}
+		    	
+		    	str = str.substring(0,str.length-1);
+
+		    	var type = ".type"+ps;
+		    	if(str.length == 0){
+		    		$(type).css("display","none");
+		    	}
+		    	else{
+		    		$(type).css("display","inline-block");
+		    		$(type).val(str);
+		    	}
+		    	layer.close(index);
+		    }
+		});
+	});
+	}
+</script>
+</block>
+</extend>

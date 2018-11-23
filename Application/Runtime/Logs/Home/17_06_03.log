@@ -1,0 +1,21 @@
+[ 2017-06-03T14:15:05+08:00 ] 47.89.17.127 /index.php//shop/gcq/productg/
+ERR: 无法加载控制器:Shop
+
+[ 2017-06-03T14:15:09+08:00 ] 47.89.17.127 /index.php//shop/gcq/productg/feed/
+ERR: 无法加载控制器:Shop
+
+[ 2017-06-03T14:15:13+08:00 ] 47.89.17.127 /index.php//shop/qd/qd/
+ERR: 无法加载控制器:Shop
+
+[ 2017-06-03T14:15:18+08:00 ] 47.89.17.127 /index.php//shop/qd/qd/feed/
+ERR: 无法加载控制器:Shop
+
+[ 2017-06-03T14:15:22+08:00 ] 47.89.17.127 /index.php//shop/sq/shs/
+ERR: 无法加载控制器:Shop
+
+[ 2017-06-03T14:15:30+08:00 ] 47.89.17.127 /index.php//shop/sq/shs/feed/
+ERR: 无法加载控制器:Shop
+
+[ 2017-06-03T14:15:37+08:00 ] 47.89.17.127 /index.php/author/admin/feed/
+ERR: 无法加载控制器:Author
+

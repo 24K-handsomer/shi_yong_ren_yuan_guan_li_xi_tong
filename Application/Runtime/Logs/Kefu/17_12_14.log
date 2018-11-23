@@ -1,0 +1,25 @@
+[ 2017-12-14T17:28:48+08:00 ] 58.59.0.246 /index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT `isexam` FROM `user` WHERE ( uid = 86 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ComsysController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0003s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('61','1：正确认识自己的优缺点，查缺补漏，才能更好的完善自己.2:具有善良包容的性格，同事之间友好相处，深知一个优秀的团队，一个部门离不开融洽的团队，一个人的成功更离不开大家的帮助。3：永不言弃做事认真，工作中做到热心，细心，恒心。4：养成良好的生活习惯，直邮身体健康了，才能迎接更大的挑战') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('62','团结同事，认真服务每一位客户，理解客户，关心客户，不用消极回避，勇于面对。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('63','1：公司愿景：做全球最好的产品，让更多人健康。2：公司价值观：团结，高效，诚信，激情。3：公司宗旨：适合的产品给适合的人，让更多的人健康，让更多的人快乐，以人为本，与员工共发展。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('68','试用期员工需提前7天提出辞职申请，已转正员工需要提前30天提出书面申请，经上级主管同意转入人事部并报公司总经理同意后方可办理辞职手续。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('69','公司实行指纹打卡的考勤制度，托人打卡或替人打卡者，一经发现给予双方各扣50元的罚款。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('71','凡迟到，早退30分钟以上，视为旷工，按旷工管理处罚条例处置。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('72','迟到，早退在10分钟以内者，每人次罚款月度工资的1%，在当月工资中扣除。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('73','凡迟到，早退在10-30分钟以内，每人次罚款月度工资的2%，在当月工资中扣除。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('74','济南市高新区三庆世纪财富A3座3楼，315室') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('75','济南乐艾生物技术有限公司，公司总经理为：张丽洁。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('113','普通员工请假1-2天，需要提前2天申请，请假2天以上，需要提前3天申请。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('115','员工凡入职满___30___天，都享有转介绍新员工的权利；转介绍的新员工（客服岗位除外）入职一个月的奖励：普通员工___200___、主管__300____、经理级__600____、总监级(副总经理级) _____800_、总经理级人员__2000____') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('116','年假必须提前__30____天进行申请') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('11','秦洪秀','1','最新制度考试','40','1373,1374,1375,1376,1377,1378,1379,1380,1381,1382,1383,1384,1385','0','40') [ RunTime:0.0001s ]
+

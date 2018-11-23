@@ -1,0 +1,128 @@
+<extend name="Public/base"/>
+<block name="style-top">
+	<link rel="stylesheet" type="text/css" href="__LAYUI__/css/layui.css">
+</block>
+<block name="style">
+	<link rel="stylesheet" type="text/css" href="__CSS__/filelist.css" media="all">
+	<!-- 客服人员列表css引用 资料列表 css -->  
+</block>
+<block name="nav">
+	<span>添加新人</span>
+</block>
+<block name="body">
+	<div>添加新人</div>
+	<form action="__CONTROLLER__/addpeople" method="post">
+		<div id="tarow">
+			<span>姓名：</span>
+			<span><input type="text" name="uname"></span>
+		</div>
+		<div id="tarow">
+			<span>密码：</span>
+			<span><input type="text" name="pwd"></span>
+		</div>
+		<div id="tarow">
+			<span>所属部门小组：</span>
+			<select name="group">
+	            <foreach name="grouplist" item="v" >
+	                <option value ="{$v.group_id}">{$v.group_name}</option>
+	            </foreach>
+	        </select>
+			<span>&nbsp;&nbsp;&nbsp;</span>
+			<span>添加新部门</span>
+			<span>
+				<i onclick="show()" id="type1" ps="1" class="layui-icon" style="font-size: 18px; color: #3a4d5a;">&#xe61f;</i>
+			</span>
+		</div>
+		<div id="tarow">
+			<span>人员身份：</span>
+			<input type="radio" name="role" value="1">管理人员
+			<span>&nbsp;&nbsp;</span>
+			<input type="radio" name="role" value="2">实习客服
+			<span>&nbsp;&nbsp;</span>
+			<input type="radio" name="role" value="3">非客服实习人员
+		</div>
+		<div id="tarow">
+			<input type="submit" name="" value="注册">
+		</div>
+	</form>
+	
+	<table border="1" cellpadding="0" cellspacing="0">
+		<caption>管理人员列表</caption>
+		<tr>
+			<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+			<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+			<td>姓名</td>
+			<td>密码</td>
+			<td>部组名</td>
+			<td>创建时间</td>
+			<td>操作</td>
+		</tr>
+
+		<?php $i=($p-1)*$limit+1; $j=0; ?>
+		<foreach name="list" item="v3">
+		<tr>
+			<td>
+				<input type="checkbox" name="checkboxid" xu="<?php echo ++$j; ?>" ps="{$v3.uid}">
+			</td>
+			<td><?php echo $i++; ?></td>
+			<td>
+				{$v3.uname}
+			</td>
+			<td>
+				{$v3.pwd}
+			</td>
+			<td>
+				<foreach name="grouplist" item="vg">
+					<if condition="$vg.group_id == $v3['group']">
+						{$vg.group_name}
+					</if>
+				</foreach>
+			</td>
+			<td>{$v3.crtime}</td>
+			<td>
+				
+			</td>
+		</tr>
+		</foreach>
+		
+	</table>
+	<div id="page">{$show}</div>
+</block>
+<block name="script">
+<script type="text/javascript" src="__LAYUI__/layui.js"></script>
+<script type="text/javascript">
+function show() {
+	layui.use('layer', function(){
+	    var layer = layui.layer;
+	    layer.prompt({title: '添加新部门小组', formType: 0}, function(pass, index){
+	    	addgroup(pass);
+		    layer.close(index);
+		});
+	});
+}
+function addgroup(pass) {
+	$.ajax({
+		url:"__CONTROLLER__/addgroup",
+		data:{name:pass},
+		type:"POST",
+		dataType:"JSON",
+		success:function (data) {
+			var z=data['z'];
+			switch (z) {
+				case 0:
+					alert("添加失败！");
+					break;
+				case 1:
+					var str = "<option selected='selected' value='"+data['id']+"'>"+data['name']+"</option>"
+					$("select[name='group'] option:last-child").after(str);
+					break;
+				default:
+					alert("抱歉，后台未接收到传出去的值");
+					break;
+			}
+		}
+	});
+}
+</script>
+</block>
+</extend>

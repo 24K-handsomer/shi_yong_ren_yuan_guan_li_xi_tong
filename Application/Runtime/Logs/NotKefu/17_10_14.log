@@ -1,0 +1,27 @@
+[ 2017-10-14T11:49:52+08:00 ] 58.56.25.158 /index.php/NotKefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/NotKefu/Controller/ComsysController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0116s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('61','1-2年：做好本职工作，配合其他部门完成项目的进行。
+3-4年：继续提高自己的专业技能，并学习其他关于销售和推广的知识。
+5年：希望自己可以带项目，发展自己的团队。') [ RunTime:0.0135s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('62','我认为需要我在做好本职工作的前提下，继续提高自己的专业技能，为公司寻求更利于发展的途径。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('63','企业愿景：做全球最好的产品，为健康护航。
+核心价值观：团结、高效、诚信、激情
+发展宗旨：让更多的人健康，让更多的人快乐，以人为本，与员工发展。
+情怀：品为魄 善做魂 赢天下 创未来') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('64','《印章使用授权委托书》') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('65','《加班通知单》 调休 发放加班工资') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('73','2%') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('75','乐艾生物技术有限公司  张丽洁') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('112','《公出单》') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('113','2天 3天') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('114','200元') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('115','7天 200元 300元 600元 800元 2000元') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('116','一个月') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('117','10%') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0005s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('16','魏芳蓉','1','试题一','22','662,663,664,665,666,667,668,669,670,671,672,673,674','0','22') [ RunTime:0.0003s ]
+

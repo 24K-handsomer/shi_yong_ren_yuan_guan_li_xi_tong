@@ -1,0 +1,151 @@
+[ 2017-09-16T09:54:03+08:00 ] 101.226.89.120 /index.php/kefu/proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-16T09:54:15+08:00 ] 101.226.66.180 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-16T09:59:43+08:00 ] 140.207.185.109 /index.php/kefu/proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-16T09:59:53+08:00 ] 58.59.25.134 /index.php/Kefu/Proknowledge/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ProknowledgeController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0005s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('100','原因;腹内压高，腹壁薄弱，肠道菌群失衡。  症状：摸到或者看到肿块，哭闹或者站立等情况下突出。食欲不振，哭闹，吐奶。阴囊疝气，行动不便。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('101','影响消化系统 
+影响泌尿生殖系统
+免疫力抵抗力低下
+影响幼儿发育，不及时修复，出现嵌顿，肠梗阻，肠坏死，会给患儿带来巨大的痛苦。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('102','1.黄金配比
+2.采用MRS技术，保持菌群活性
+3.提高自愈力
+4.经过美国农业部有机认证，无添加，无激素，天然成分，避免过敏原，安全放心。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('103','通过快速降低腹内压，修复腹壁，增强腹壁厚度与弹性，调理肠道菌群，改善消化系统，缓解疝气，胀气等症状。提高自愈力，帮助小儿缓解疝气。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('104','舒善菌主要由舒善菌粉末和舒善菌滴液2部分组成。
+舒善菌粉末主要成分是鼠李糖乳杆菌，罗伊氏乳杆菌等多种菌群。
+舒善菌滴液成分是天然有机椰油。
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('105','舒善菌适用于0-5岁有疝气的婴幼儿。肠道菌群失衡，腹内压高，腹壁薄弱。
+注意事项：1.发烧疫苗当天不可用。
+2.与抗生素服用时，需要隔开2个小时。
+3.有病史，心脏，肝等。神经器官，组织发育不全者慎用。
+4.有嵌顿鞘膜积液禁用
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('106','1.这个可以放心使用，因为舒善菌的成分是国际认证高活性益生菌，新生儿都可以用，无激素添加剂成分，使用天然有机成分，使用MRS技术保持菌群活性，美国原装进口，保证质量和效果，安全放心。
+2.美国农业部有机认证，授权书。经过15年市场检验，1000多次临床验证，在美国各大药店，医院都有售。
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('107','您的顾虑我非常理解。产品的效果不是我说出来的，你可以看我的朋友圈很多宝妈患儿家长的反馈。
+舒善菌已经成功治愈美国10万多个疝气患儿，美国宝妈的反馈也足以说明它的效果。
+医者有医德，没有效果的东西我也不会让孩子用，如果我没有把握，我也不会给你说那么多，耽误孩子的病情。目前孩子可回纳，保守修复是最好的方案，你相信我，我就不会让你失望，后期你收到货，我会具体指导使用，让孩子快点好起来。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('108','价格目前是最优惠的，都是国外直邮，价格不是关键，关键是效果，便宜的咱也不敢给孩子吃，吃了没效果，不仅费钱，费时间，主要是孩子受罪，拖得久了引发嵌顿，只能手术，全麻风险和手术复发这种情况咱也不想看到。我知道你考虑的不只是钱，关键是效果，舒善菌是美国原装进口，效果和质量安全你可以完全放心，修复好了也不会复发。
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('109','你的顾虑我可以理解，产品是保税区直邮，海关清关，确认款到，才可以发货。不经二次转接，保证产品质量和效果。其余患儿家长也都是这样打款的，我们是有医品医德的，这个可以放心。（可以给顾客发其余顾客的打款图，收到货的对话截图等，增加信任度）') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('110','（下危机）你考虑都一天，孩子的病情就拖一天，多受一天罪。拖久了嵌顿就只能手术了，你也知道医生都不建议那么小的孩子手术，全麻风险，手术后为防止孩子哭闹，需要把孩子绑起来，观察24小时。孩子身心也会受不了的。复发率极高，也会让孩子受二次罪，严重影响生育能力，影响一生。不管怎么样，你在哪给孩子修复，都希望作为家长不要拖延病情，及早修复，保守调理。') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('111','家长：您好
+专家：你好，是给本人还是家人咨询疝气问题。
+家长：是我家宝宝。
+专家：患儿性别，年龄，发现多长时间了
+家长：2岁3个月，男孩，上个星期给孩子换尿布的时候发现的。
+专家：疝囊多大，像枣，核桃还是鸡蛋大小？在什么位置
+家长：核桃大，在腹股沟部位
+专家：患儿有无腹痛，坠胀等不适感？平躺可以回纳吗？
+家长：总是哭闹，平躺可以回纳
+专家：嗯，孩子这个情况是明显的腹股沟疝气的症状，从你描述的症状来看，目前可回纳，自愈性大。小儿疝气主要是腹壁薄弱，腹内压高，肠道菌群引起的，腹内压高不降，会阻碍自愈，影响发育，要及时修复。
+家长：那请问主任该怎么修复？
+专家：2岁的孩子自愈力非常强，但是目前肠道菌群失衡，腹内压高不降，阻碍自愈，给患儿服用舒善菌调理肠道失衡的菌群，降低腹内压，修复腹壁，提高自愈力，保守修复就可以。
+家长：那能康复吗，效果好吗？
+专家：经过国美农业部有机认证，15年市场检验1000多次临床验证，治愈10万多名患儿。舒善菌调理肠道失衡的菌群减轻胀气、加速排空，降低腹内压，提高自愈力，2岁孩子目前好修复，情况还不是特别严重，所以抓住最好的修复期，修复好了，不复发不反弹，避免拖延引起的嵌顿手术带来的痛苦。
+家长：在哪里可以买到
+专家：你留下详细地址信息，直接给你办理发货，国外直邮，保税区发货，保证产品质量和效果。
+家长：如果孩子用了没效果怎么办？
+专家：医者有医德，没效果不适合孩子的我也不会推荐给你，更不会让孩子用。（发反馈图）这个患儿比你家孩子情况严重，一个周期都修复的非常好。
+家长：价格？
+专家：一个周期是1500 
+家长：那我就相信你，拿一个周期试试吧。希望不会让我失望
+专家：你相信我，我也不会让你失望，更不会让孩子受罪。给我发一下你的姓名地址电话，付款安排发货。发货第一时间给你单号，可以随时查询物流信息。收到货第一时间给我联系，我会具体指导使用，跟踪情况，让孩子快点好起来。
+家长：好的，已经转了，请查收
+专家：好的，海关清关，需要身份认证，发一下你的身份证号。
+家长：好的。3701...........X
+专家：好的，马上给你办理发货，晚点给你发单号。不要让孩子吃不好消化的食物，避免哭闹，剧烈活动。收到货联系我，希望孩子早日好起来。
+家长：好的，谢谢秦主任。') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0003s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('14','邱瑶','2','舒善菌基本知识测试','0','348,349,350,351,352,353,354,355,356,357,358,359','0','0') [ RunTime:0.0002s ]
+
+[ 2017-09-16T09:59:58+08:00 ] 61.151.226.202 /index.php/Kefu/Proknowledge/index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `file` WHERE ( filetype = 2 and `group` =  ) LIMIT 1  
+
+[ 2017-09-16T10:45:03+08:00 ] 58.59.25.134 /index.php/Kefu/Comsys/addgrade
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001424s ]
+NOTIC: [8] Use of undefined constant POST - assumed 'POST' /home/wwwroot/tp3.2.3/Application/Kefu/Controller/ComsysController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `jianda` [ RunTime:0.0005s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('61','1.前3个月超额完成业绩，转正。像销冠一样要求自己，和同事共同进步学习。
+2.3个月后竞聘主管的岗位，更新总结的话术，完善组内培训，带新人的方式。为公司不断输送人才。
+3.1-2年的规划：达成团队业绩，做最强的团队。不断学习，让自己进步。同时让组内人员不断进步，拿到可观的工资，保证员工的稳定性，完善员工专业技能。创造业绩新高。
+4.3-5年规划：了解公司所有品牌以及知识，创新，了解竞争对手，市场行情。做好的产品，晋升更高的岗位，实现自我价值，使公司利益最大化。让员工快乐，幸福，激情，梦想。学无止境，不断丰富自我。') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('62','遵守公司的制度，有一致的价值观，与公司共发展
+完善自我，有良好的心态，团结互助，共创佳绩。
+勤奋学习不断进步，创新，提高自我能力，为公司创造利益最大化
+
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('63','企业愿景：做全球最好的产品，为健康护航
+价值观：团结、高效、诚信、激情。
+宗旨：让更多的人健康，让更多的人快乐。以人为本，与员工共发展。
+情怀:品为魄，善做魂，赢天下，创未来
+') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('64','印章使用登记表') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('65','加班通知单    加班费 或者  调休 ') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('73','2%') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('75','济南乐艾生物技术有限公司   张丽洁') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('112','公出单') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('113','2    3') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('114','200') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('115','7          200  300  600  800  2000') [ RunTime:0.0002s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('116','提前30.') [ RunTime:0.0001s ]
+SQL: INSERT INTO `jianda` (`qid`,`qanswer`) VALUES ('117','10%') [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0004s ]
+SQL: INSERT INTO `grade` (`group`,`uname`,`filetype`,`pname`,`grade1`,`grade2`,`isgrade2`,`grade`) VALUES ('14','邱瑶','1','试题一','44','360,361,362,363,364,365,366,367,368,369,370,371,372','0','44') [ RunTime:0.0002s ]
+
+[ 2017-09-16T16:18:57+08:00 ] 106.120.160.109 /index.php/Kefu/Proknowledge/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-09-16T16:18:57+08:00 ] 182.118.20.143 /index.php/Kefu/Proknowledge/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-09-16T16:18:58+08:00 ] 171.13.14.146 /index.php/Kefu/Proknowledge/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-09-16T16:19:13+08:00 ] 220.181.132.198 /index.php/Kefu/Proknowledge/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-09-16T16:19:13+08:00 ] 182.118.20.158 /index.php/Kefu/Proknowledge/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-09-16T16:19:16+08:00 ] 182.118.20.143 /index.php/Kefu/Proknowledge/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-09-16T16:19:16+08:00 ] 182.118.20.143 /index.php/Kefu/Proknowledge/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-09-16T16:19:19+08:00 ] 182.118.20.150 /index.php/Kefu/Proknowledge/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
+[ 2017-09-16T16:19:19+08:00 ] 182.118.20.150 /index.php/Kefu/Proknowledge/paperlist
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `paper` WHERE ( pid in () ) LIMIT 1  
+
